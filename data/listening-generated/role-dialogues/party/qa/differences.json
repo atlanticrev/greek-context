@@ -1,0 +1,12 @@
+[
+  {
+    "type": "replace",
+    "reference": "συμπαθητικοσ",
+    "asr": "συμβαθητικοσ"
+  },
+  {
+    "type": "replace",
+    "reference": "ψηλη",
+    "asr": "ψιλη"
+  }
+]

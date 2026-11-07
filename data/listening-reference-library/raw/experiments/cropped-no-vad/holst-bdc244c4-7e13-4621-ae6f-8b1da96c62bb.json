@@ -1,0 +1,164 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,260"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2260
+			},
+			"text": " Τζατζίκι"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,260",
+				"to": "00:00:05,920"
+			},
+			"offsets": {
+				"from": 2260,
+				"to": 5920
+			},
+			"text": " Τζάμι"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,920",
+				"to": "00:00:09,160"
+			},
+			"offsets": {
+				"from": 5920,
+				"to": 9160
+			},
+			"text": " Τσάι"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,160",
+				"to": "00:00:13,040"
+			},
+			"offsets": {
+				"from": 9160,
+				"to": 13040
+			},
+			"text": " Τζαμί"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,040",
+				"to": "00:00:17,080"
+			},
+			"offsets": {
+				"from": 13040,
+				"to": 17080
+			},
+			"text": " Τζίλι"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,080",
+				"to": "00:00:20,600"
+			},
+			"offsets": {
+				"from": 17080,
+				"to": 20600
+			},
+			"text": " Τζίπ"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,600",
+				"to": "00:00:24,300"
+			},
+			"offsets": {
+				"from": 20600,
+				"to": 24300
+			},
+			"text": " Τσάντα"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,300",
+				"to": "00:00:27,780"
+			},
+			"offsets": {
+				"from": 24300,
+				"to": 27780
+			},
+			"text": " Τσέπι"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,000",
+				"to": "00:00:32,960"
+			},
+			"offsets": {
+				"from": 30000,
+				"to": 32960
+			},
+			"text": " γελ"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,960",
+				"to": "00:00:36,880"
+			},
+			"offsets": {
+				"from": 32960,
+				"to": 36880
+			},
+			"text": " κάλτσα"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,880",
+				"to": "00:00:40,640"
+			},
+			"offsets": {
+				"from": 36880,
+				"to": 40640
+			},
+			"text": " τσοριάς"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:40,640",
+				"to": "00:00:43,840"
+			},
+			"offsets": {
+				"from": 40640,
+				"to": 43840
+			},
+			"text": " δζάκι"
+		}
+	]
+}

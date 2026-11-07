@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "title": "Γεια σας! — знакомство в классе",
+  "source_reference_id": "holst-b7cfaaa7-617c-46ca-a9b1-121a6dc76475",
+  "source_transcript": "data/listening-reference-library/transcripts/holst-b7cfaaa7-617c-46ca-a9b1-121a6dc76475.txt",
+  "source_sha256": "3563f95d7c478c7546d395a7dc9ac8a4c2d60afad2c0e6b1d10fcb5efdb023ba",
+  "source_images": [
+    "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/b81d6e37-5bd7-4ee9-96b1-06731856d8c4.png"
+  ],
+  "omitted_headings": [
+    "Μάθημα 2",
+    "Γεια σας!"
+  ],
+  "role_assignment_status": "roles checked against the printed source; casting uses two LFM presets",
+  "casting_note": "Учебная читка двумя голосами LFM. Для каждой роли закреплён один пресет. В классе больше двух персонажей; роли сохранены и распределены между двумя чтецами. Совместные ответы пар читает один чтец.",
+  "roles": {
+    "mauro": {
+      "label": "Μάουρο",
+      "voice": "male-greek"
+    },
+    "anne": {
+      "label": "Άνε",
+      "voice": "female-greek"
+    },
+    "flavian": {
+      "label": "Φλαβιάν",
+      "voice": "male-greek"
+    },
+    "thomas_christine": {
+      "label": "Τόμας και Κριστίν",
+      "voice": "male-greek"
+    },
+    "lisa_maria": {
+      "label": "Λίζα και Μαρία",
+      "voice": "female-greek"
+    },
+    "teacher": {
+      "label": "Κύριος Πέτρος",
+      "voice": "male-greek"
+    }
+  },
+  "turns": [
+    {
+      "role": "mauro",
+      "text": "Γεια σας! Εδώ είναι η τάξη Α1.",
+      "scene": 1
+    },
+    {
+      "role": "anne",
+      "text": "Ναι, έλα! Πώς σε λένε;",
+      "scene": 1
+    },
+    {
+      "role": "mauro",
+      "text": "Με λένε Μάουρο.",
+      "scene": 1
+    },
+    {
+      "role": "anne",
+      "text": "Χαίρω πολύ, Μάριο.",
+      "scene": 1
+    },
+    {
+      "role": "mauro",
+      "text": "Όχι Μάριο, είμαι ο Μάουρο.",
+      "scene": 1
+    },
+    {
+      "role": "anne",
+      "text": "Χαίρω πολύ, είμαι η Άνε.",
+      "scene": 1
+    },
+    {
+      "role": "mauro",
+      "text": "Από πού είσαι;",
+      "scene": 1
+    },
+    {
+      "role": "anne",
+      "text": "Από την Ισπανία. Από εδώ ο Φλαβιάν.",
+      "scene": 1
+    },
+    {
+      "role": "mauro",
+      "text": "Γεια σου, Φλαβιάν.",
+      "scene": 1
+    },
+    {
+      "role": "flavian",
+      "text": "Γεια! Καλώς ήρθες στην τάξη Α1.",
+      "scene": 1
+    },
+    {
+      "role": "mauro",
+      "text": "Ευχαριστώ. Εσάς πώς σας λένε;",
+      "scene": 1
+    },
+    {
+      "role": "thomas_christine",
+      "text": "Γεια. Εμείς είμαστε ο Τόμας και η Κριστίν.",
+      "scene": 1
+    },
+    {
+      "role": "mauro",
+      "text": "Χαίρω πολύ. Εμένα με λένε Μάουρο. Εσάς;",
+      "scene": 1
+    },
+    {
+      "role": "lisa_maria",
+      "text": "Γεια σου. Εμείς είμαστε η Λίζα και η Μαρία.",
+      "scene": 1
+    },
+    {
+      "role": "mauro",
+      "text": "Από πού είστε;",
+      "scene": 1
+    },
+    {
+      "role": "lisa_maria",
+      "text": "Από τη Γερμανία. Εσύ;",
+      "scene": 1
+    },
+    {
+      "role": "mauro",
+      "text": "Τέλεια. Εγώ είμαι από την Ιταλία.",
+      "scene": 1
+    },
+    {
+      "role": "teacher",
+      "text": "Γεια σου Μάουρο. Είμαι ο καθηγητής σας, ο Πέτρος Κοσμίδης.",
+      "scene": 1
+    },
+    {
+      "role": "mauro",
+      "text": "Γεια σας κύριε Πέτρο Κοσμίδη.",
+      "scene": 1
+    },
+    {
+      "role": "teacher",
+      "text": "Χαίρετε! Καλώς ήρθατε παιδιά!",
+      "scene": 1
+    }
+  ]
+}

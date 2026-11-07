@@ -1,0 +1,131 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2000
+			},
+			"text": " τυρί"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,000",
+				"to": "00:00:06,000"
+			},
+			"offsets": {
+				"from": 2000,
+				"to": 6000
+			},
+			"text": " θράσος"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,000",
+				"to": "00:00:10,000"
+			},
+			"offsets": {
+				"from": 6000,
+				"to": 10000
+			},
+			"text": " θόλος"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,000",
+				"to": "00:00:14,000"
+			},
+			"offsets": {
+				"from": 10000,
+				"to": 14000
+			},
+			"text": " δάσος"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,000",
+				"to": "00:00:18,000"
+			},
+			"offsets": {
+				"from": 14000,
+				"to": 18000
+			},
+			"text": " τιμή"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,000",
+				"to": "00:00:22,000"
+			},
+			"offsets": {
+				"from": 18000,
+				"to": 22000
+			},
+			"text": " δόλος"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,000",
+				"to": "00:00:26,000"
+			},
+			"offsets": {
+				"from": 22000,
+				"to": 26000
+			},
+			"text": " τόνος"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,000",
+				"to": "00:00:29,000"
+			},
+			"offsets": {
+				"from": 26000,
+				"to": 29000
+			},
+			"text": " δρόμος"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,000",
+				"to": "00:00:43,280"
+			},
+			"offsets": {
+				"from": 30000,
+				"to": 43280
+			},
+			"text": " θυμός, δήμος, τίγρη, θήκη"
+		}
+	]
+}

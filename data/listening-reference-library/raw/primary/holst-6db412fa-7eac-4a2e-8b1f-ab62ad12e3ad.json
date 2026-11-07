@@ -1,0 +1,269 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "large",
+    "multilingual": true,
+    "vocab": 51866,
+    "audio": {
+      "ctx": 1500,
+      "state": 1280,
+      "head": 20,
+      "layer": 32
+    },
+    "text": {
+      "ctx": 448,
+      "state": 1280,
+      "head": 20,
+      "layer": 32
+    },
+    "mels": 128,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+    "language": "el",
+    "translate": false
+  },
+  "result": {
+    "language": "el"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:03,980"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 3980
+      },
+      "text": " Μάθημα 1. Άσκηση 12.",
+      "tokens": [
+        {
+          "text": "[_BEG_]",
+          "timestamps": {
+            "from": "00:00:00,000",
+            "to": "00:00:00,000"
+          },
+          "offsets": {
+            "from": 0,
+            "to": 0
+          },
+          "id": 50365,
+          "p": 0.947856,
+          "t_dtw": -1
+        },
+        {
+          "text": " Μ",
+          "timestamps": {
+            "from": "00:00:00,070",
+            "to": "00:00:00,160"
+          },
+          "offsets": {
+            "from": 70,
+            "to": 160
+          },
+          "id": 24834,
+          "p": 0.989329,
+          "t_dtw": -1
+        },
+        {
+          "text": "ά",
+          "timestamps": {
+            "from": "00:00:00,160",
+            "to": "00:00:00,300"
+          },
+          "offsets": {
+            "from": 160,
+            "to": 300
+          },
+          "id": 3849,
+          "p": 0.992015,
+          "t_dtw": -1
+        },
+        {
+          "text": "θη",
+          "timestamps": {
+            "from": "00:00:00,380",
+            "to": "00:00:00,650"
+          },
+          "offsets": {
+            "from": 380,
+            "to": 650
+          },
+          "id": 40939,
+          "p": 0.995674,
+          "t_dtw": -1
+        },
+        {
+          "text": "μα",
+          "timestamps": {
+            "from": "00:00:00,650",
+            "to": "00:00:00,980"
+          },
+          "offsets": {
+            "from": 650,
+            "to": 980
+          },
+          "id": 11656,
+          "p": 0.999985,
+          "t_dtw": -1
+        },
+        {
+          "text": " 1",
+          "timestamps": {
+            "from": "00:00:00,980",
+            "to": "00:00:01,240"
+          },
+          "offsets": {
+            "from": 980,
+            "to": 1240
+          },
+          "id": 502,
+          "p": 0.989364,
+          "t_dtw": -1
+        },
+        {
+          "text": ".",
+          "timestamps": {
+            "from": "00:00:01,240",
+            "to": "00:00:01,300"
+          },
+          "offsets": {
+            "from": 1240,
+            "to": 1300
+          },
+          "id": 13,
+          "p": 0.619265,
+          "t_dtw": -1
+        },
+        {
+          "text": " �",
+          "timestamps": {
+            "from": "00:00:01,510",
+            "to": "00:00:01,620"
+          },
+          "offsets": {
+            "from": 1510,
+            "to": 1620
+          },
+          "id": 1158,
+          "p": 0.892363,
+          "t_dtw": -1
+        },
+        {
+          "text": "�",
+          "timestamps": {
+            "from": "00:00:01,620",
+            "to": "00:00:01,710"
+          },
+          "offsets": {
+            "from": 1620,
+            "to": 1710
+          },
+          "id": 228,
+          "p": 0.999971,
+          "t_dtw": -1
+        },
+        {
+          "text": "σ",
+          "timestamps": {
+            "from": "00:00:01,900",
+            "to": "00:00:01,900"
+          },
+          "offsets": {
+            "from": 1900,
+            "to": 1900
+          },
+          "id": 3786,
+          "p": 0.999939,
+          "t_dtw": -1
+        },
+        {
+          "text": "κ",
+          "timestamps": {
+            "from": "00:00:02,000",
+            "to": "00:00:02,090"
+          },
+          "offsets": {
+            "from": 2000,
+            "to": 2090
+          },
+          "id": 4915,
+          "p": 0.997478,
+          "t_dtw": -1
+        },
+        {
+          "text": "η",
+          "timestamps": {
+            "from": "00:00:02,090",
+            "to": "00:00:02,220"
+          },
+          "offsets": {
+            "from": 2090,
+            "to": 2220
+          },
+          "id": 3835,
+          "p": 0.999973,
+          "t_dtw": -1
+        },
+        {
+          "text": "ση",
+          "timestamps": {
+            "from": "00:00:02,290",
+            "to": "00:00:02,630"
+          },
+          "offsets": {
+            "from": 2290,
+            "to": 2630
+          },
+          "id": 17688,
+          "p": 0.999363,
+          "t_dtw": -1
+        },
+        {
+          "text": " 12",
+          "timestamps": {
+            "from": "00:00:02,840",
+            "to": "00:00:03,210"
+          },
+          "offsets": {
+            "from": 2840,
+            "to": 3210
+          },
+          "id": 2272,
+          "p": 0.99943,
+          "t_dtw": -1
+        },
+        {
+          "text": ".",
+          "timestamps": {
+            "from": "00:00:03,300",
+            "to": "00:00:03,300"
+          },
+          "offsets": {
+            "from": 3300,
+            "to": 3300
+          },
+          "id": 13,
+          "p": 0.870527,
+          "t_dtw": -1
+        },
+        {
+          "text": "[_TT_165]",
+          "timestamps": {
+            "from": "00:00:03,300",
+            "to": "00:00:03,300"
+          },
+          "offsets": {
+            "from": 3300,
+            "to": 3300
+          },
+          "id": 50530,
+          "p": 0.363026,
+          "t_dtw": -1
+        }
+      ]
+    }
+  ]
+}

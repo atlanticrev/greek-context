@@ -1,0 +1,119 @@
+{
+  "model": "lfm3-audio:2b-q8_0",
+  "coverage": "all dialogue and dialogue_collection records currently present in generation-references.jsonl",
+  "source_records": 9,
+  "turns": 144,
+  "duration_seconds": 434.331,
+  "all_integrity_checks_passed": true,
+  "full_human_listening_review": false,
+  "items": [
+    {
+      "slug": "petros-emine",
+      "title": "Πέτρος και Εμινέ — знакомство, работа и жильё",
+      "roles": 2,
+      "turns": 13,
+      "seconds": 33.212,
+      "asr_word_distance": 0,
+      "reference_words": 52,
+      "mp3": "petros-emine/dialogue.mp3",
+      "text": "petros-emine/dialogue.md",
+      "roles_sharing_voices": false
+    },
+    {
+      "slug": "li-family",
+      "title": "Αυτή είναι η οικογένειά μου — семья Ли",
+      "roles": 2,
+      "turns": 11,
+      "seconds": 34.314,
+      "asr_word_distance": 8,
+      "reference_words": 63,
+      "mp3": "li-family/dialogue.mp3",
+      "text": "li-family/dialogue.md",
+      "roles_sharing_voices": false
+    },
+    {
+      "slug": "anne-flavian",
+      "title": "Γεια! — знакомство вне класса",
+      "roles": 2,
+      "turns": 13,
+      "seconds": 39.035,
+      "asr_word_distance": 2,
+      "reference_words": 67,
+      "mp3": "anne-flavian/dialogue.mp3",
+      "text": "anne-flavian/dialogue.md",
+      "roles_sharing_voices": false
+    },
+    {
+      "slug": "party",
+      "title": "Ποιος είναι αυτός; — разговор на вечеринке",
+      "roles": 2,
+      "turns": 15,
+      "seconds": 59.056,
+      "asr_word_distance": 2,
+      "reference_words": 102,
+      "mp3": "party/dialogue.mp3",
+      "text": "party/dialogue.md",
+      "roles_sharing_voices": false
+    },
+    {
+      "slug": "street-directions",
+      "title": "Συγγνώμη, δεν καταλαβαίνω — разговор на улице",
+      "roles": 3,
+      "turns": 12,
+      "seconds": 38.689,
+      "asr_word_distance": 0,
+      "reference_words": 51,
+      "mp3": "street-directions/dialogue.mp3",
+      "text": "street-directions/dialogue.md",
+      "roles_sharing_voices": true
+    },
+    {
+      "slug": "classroom",
+      "title": "Γεια σας! — знакомство в классе",
+      "roles": 6,
+      "turns": 20,
+      "seconds": 62.309,
+      "asr_word_distance": 13,
+      "reference_words": 108,
+      "mp3": "classroom/dialogue.mp3",
+      "text": "classroom/dialogue.md",
+      "roles_sharing_voices": true
+    },
+    {
+      "slug": "nikos-family",
+      "title": "Η οικογένειά μου — знакомство с семьёй",
+      "roles": 8,
+      "turns": 26,
+      "seconds": 68.101,
+      "asr_word_distance": 3,
+      "reference_words": 113,
+      "mp3": "nikos-family/dialogue.mp3",
+      "text": "nikos-family/dialogue.md",
+      "roles_sharing_voices": true
+    },
+    {
+      "slug": "polite-introductions",
+      "title": "Знакомство и вежливое обращение — упражнение 4.34",
+      "roles": 6,
+      "turns": 14,
+      "seconds": 44.667,
+      "asr_word_distance": 3,
+      "reference_words": 72,
+      "mp3": "polite-introductions/dialogue.mp3",
+      "text": "polite-introductions/dialogue.md",
+      "roles_sharing_voices": true
+    },
+    {
+      "slug": "four-greetings",
+      "title": "Четыре диалога: знакомство и приветствия",
+      "roles": 14,
+      "turns": 20,
+      "seconds": 54.948,
+      "asr_word_distance": 5,
+      "reference_words": 91,
+      "mp3": "four-greetings/dialogue.mp3",
+      "text": "four-greetings/dialogue.md",
+      "roles_sharing_voices": true
+    }
+  ]
+}

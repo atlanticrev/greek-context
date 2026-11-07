@@ -1,0 +1,96 @@
+{
+  "compared_practice_texts": [
+    {
+      "id": "dinner-and-chores-001",
+      "file_stem": "dialogue-dinner-and-chores",
+      "format": "dialogue",
+      "topic_ids": [
+        "topic.habits",
+        "topic.familiar_surroundings"
+      ],
+      "path": "data/listening-generated/practice/2026-11-05-appearance-and-dinner/dinner-and-chores/draft.json"
+    },
+    {
+      "id": "find-the-teacher-001",
+      "file_stem": "dialogue-find-the-teacher",
+      "format": "dialogue",
+      "topic_ids": [
+        "topic.appearance",
+        "topic.familiar_surroundings"
+      ],
+      "path": "data/listening-generated/practice/2026-11-05-appearance-and-dinner/find-the-teacher/draft.json"
+    },
+    {
+      "id": "coffee-and-family-001",
+      "file_stem": "dialogue-about-coffee",
+      "format": "dialogue",
+      "topic_ids": [
+        "topic.habits",
+        "topic.people_around_me",
+        "topic.language_learning"
+      ],
+      "path": "data/listening-generated/practice/2026-11-05-first-variants/dialogue-coffee/draft.json"
+    },
+    {
+      "id": "family-and-greek-001",
+      "file_stem": "monologue-about-family",
+      "format": "monologue",
+      "topic_ids": [
+        "topic.habits",
+        "topic.people_around_me",
+        "topic.language_learning",
+        "topic.origin_residence"
+      ],
+      "path": "data/listening-generated/practice/2026-11-05-first-variants/monologue-family/draft.json"
+    }
+  ],
+  "pairwise_comparisons": [
+    {
+      "left": "dialogue-dinner-and-chores",
+      "right": "dialogue-find-the-teacher",
+      "exact_duplicate": false,
+      "longest_exact_run_words": 2,
+      "sequence_similarity_ratio": 0.1148
+    },
+    {
+      "left": "dialogue-dinner-and-chores",
+      "right": "dialogue-about-coffee",
+      "exact_duplicate": false,
+      "longest_exact_run_words": 2,
+      "sequence_similarity_ratio": 0.1143
+    },
+    {
+      "left": "dialogue-dinner-and-chores",
+      "right": "monologue-about-family",
+      "exact_duplicate": false,
+      "longest_exact_run_words": 3,
+      "sequence_similarity_ratio": 0.096
+    },
+    {
+      "left": "dialogue-find-the-teacher",
+      "right": "dialogue-about-coffee",
+      "exact_duplicate": false,
+      "longest_exact_run_words": 2,
+      "sequence_similarity_ratio": 0.0571
+    },
+    {
+      "left": "dialogue-find-the-teacher",
+      "right": "monologue-about-family",
+      "exact_duplicate": false,
+      "longest_exact_run_words": 2,
+      "sequence_similarity_ratio": 0.144
+    },
+    {
+      "left": "dialogue-about-coffee",
+      "right": "monologue-about-family",
+      "exact_duplicate": false,
+      "longest_exact_run_words": 3,
+      "sequence_similarity_ratio": 0.2378
+    }
+  ],
+  "editorial_diversity_review": {
+    "dialogue-find-the-teacher": "Identify one person from visual clues, correct a mistaken guess; no family or coffee conversation.",
+    "dialogue-dinner-and-chores": "Resolve different food preferences and share household work; no introductions, appearance or family biography."
+  },
+  "limits": "Sequence scores are heuristic. Meaningful situational differences were checked editorially by Codex."
+}

@@ -1,0 +1,131 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,700"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2700
+			},
+			"text": " ντομάτα"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,700",
+				"to": "00:00:05,900"
+			},
+			"offsets": {
+				"from": 2700,
+				"to": 5900
+			},
+			"text": " δαντά"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,900",
+				"to": "00:00:09,700"
+			},
+			"offsets": {
+				"from": 5900,
+				"to": 9700
+			},
+			"text": " δάκρυ"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,700",
+				"to": "00:00:13,700"
+			},
+			"offsets": {
+				"from": 9700,
+				"to": 13700
+			},
+			"text": " δίνο"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,700",
+				"to": "00:00:16,520"
+			},
+			"offsets": {
+				"from": 13700,
+				"to": 16520
+			},
+			"text": " δώρο"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,520",
+				"to": "00:00:20,220"
+			},
+			"offsets": {
+				"from": 16520,
+				"to": 20220
+			},
+			"text": " δημοκρατία"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,220",
+				"to": "00:00:23,700"
+			},
+			"offsets": {
+				"from": 20220,
+				"to": 23700
+			},
+			"text": " δέμα"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,700",
+				"to": "00:00:27,300"
+			},
+			"offsets": {
+				"from": 23700,
+				"to": 27300
+			},
+			"text": " δεκολτέ"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,000",
+				"to": "00:00:32,000"
+			},
+			"offsets": {
+				"from": 30000,
+				"to": 32000
+			},
+			"text": " ΔΙΖΕΛ"
+		}
+	]
+}

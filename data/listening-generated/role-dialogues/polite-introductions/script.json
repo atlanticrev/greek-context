@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "title": "Знакомство и вежливое обращение — упражнение 4.34",
+  "source_reference_id": "holst-8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5",
+  "source_transcript": "data/listening-reference-library/transcripts/holst-8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5.txt",
+  "source_sha256": "1662d92989748e51ed31396f0f3ab2165b66aa0417f1665f01df09a9f4c20ff0",
+  "source_images": [
+    "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/1e537b18-839c-4477-837a-c74c51d5eb5d.png"
+  ],
+  "omitted_headings": [
+    "Τέσσερα τριάντα τέσσερα."
+  ],
+  "role_assignment_status": "roles checked against the printed source; casting uses two LFM presets",
+  "casting_note": "Учебная читка двумя голосами LFM. Для каждой роли закреплён один пресет. Несколько мини-сцен и больше двух персонажей. Μαράλ читает мужской чтец для различимости с учительницей; Νικόλα и Φιλίπ используют один мужской пресет.",
+  "roles": {
+    "danai": {
+      "label": "Δανάη — δασκάλα",
+      "voice": "female-greek"
+    },
+    "maral": {
+      "label": "Μαράλ",
+      "voice": "male-greek"
+    },
+    "thomas": {
+      "label": "Τόμας",
+      "voice": "male-greek"
+    },
+    "nikola": {
+      "label": "Νικόλα",
+      "voice": "male-greek"
+    },
+    "cecile": {
+      "label": "Σεσίλ",
+      "voice": "female-greek"
+    },
+    "philippe": {
+      "label": "Φιλίπ",
+      "voice": "male-greek"
+    }
+  },
+  "turns": [
+    {
+      "role": "danai",
+      "text": "Καλώς ήρθατε. Με λένε Δανάη Λούρη.",
+      "scene": 1
+    },
+    {
+      "role": "danai",
+      "text": "Γεια σου Μαράλ. Τι κάνεις;",
+      "scene": 2
+    },
+    {
+      "role": "maral",
+      "text": "Πολύ καλά Δανάη. Ευχαριστώ.",
+      "scene": 2
+    },
+    {
+      "role": "danai",
+      "text": "Πώς σας λένε;",
+      "scene": 3
+    },
+    {
+      "role": "thomas",
+      "text": "Με λένε Τόμας Μόρτον.",
+      "scene": 3
+    },
+    {
+      "role": "danai",
+      "text": "Από πού είστε κύριε Μόρτον;",
+      "scene": 3
+    },
+    {
+      "role": "thomas",
+      "text": "Είμαι από την Αγγλία. Και όχι κύριε Μόρτον, Τόμας παρακαλώ.",
+      "scene": 3
+    },
+    {
+      "role": "danai",
+      "text": "Εντάξει. Καλώς ήρθες Τόμας.",
+      "scene": 3
+    },
+    {
+      "role": "nikola",
+      "text": "Πώς σε λένε;",
+      "scene": 4
+    },
+    {
+      "role": "cecile",
+      "text": "Με λένε Σεσίλ Λαφόν. Και σένα;",
+      "scene": 4
+    },
+    {
+      "role": "nikola",
+      "text": "Εμένα με λένε Νικόλα.",
+      "scene": 4
+    },
+    {
+      "role": "cecile",
+      "text": "Νικόλα, από εδώ ο άντρας μου, ο Φιλίπ.",
+      "scene": 4
+    },
+    {
+      "role": "philippe",
+      "text": "Χαίρομαι πολύ, Νικόλα. Από πού είσαι;",
+      "scene": 4
+    },
+    {
+      "role": "nikola",
+      "text": "Είμαι από την Αλβανία.",
+      "scene": 4
+    }
+  ]
+}

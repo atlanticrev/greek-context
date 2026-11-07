@@ -1,0 +1,922 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T20:36:59.322Z",
+  "boardId": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+  "sourceSummary": {
+    "totalObjects": 4092,
+    "totalDocuments": 0,
+    "byType": {
+      "frame": 17,
+      "image": 109,
+      "file": 34,
+      "simple-text": 279,
+      "drawing": 3629,
+      "group": 2,
+      "shape": 21,
+      "link": 1
+    },
+    "frames": 17,
+    "textObjects": 310,
+    "assetCandidates": 18
+  },
+  "status": "ready_for_calibration",
+  "proficiencyEstimate": {
+    "label": "A0 — начало A1",
+    "kind": "conservative_board_based_estimate",
+    "note": "Это оценка диапазона материалов, а не результат языкового теста."
+  },
+  "rules": {
+    "boardPresenceDoesNotMeanMastery": true,
+    "confirmedRequiresAssessment": true,
+    "noEvidenceDoesNotMeanUnknown": true
+  },
+  "skills": [
+    {
+      "skillId": "topic.greek_mythology",
+      "label": "Геракл и древнегреческий миф",
+      "category": "conversation_topic",
+      "status": "introduced",
+      "confidence": 0.86,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "3a6710f8-86c6-4498-ac46-153e058b8ea0",
+            "frameId": "688ba027-db7f-4d96-a6cf-a8c009182251"
+          },
+          "evidenceType": "reading_exposure",
+          "observation": "На доске есть учебный текст о Геракле; это свидетельство чтения, а не свободного пересказа."
+        }
+      ]
+    },
+    {
+      "skillId": "topic.home_location",
+      "label": "Дом и расположение в городе",
+      "category": "conversation_topic",
+      "status": "introduced",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "0f3a81d5-139b-48dd-a177-db75ddb13a6d",
+            "frameId": "688ba027-db7f-4d96-a6cf-a8c009182251"
+          },
+          "evidenceType": "reading_exposure",
+          "observation": "Тема представлена длинным текстом о пяти домах, без отдельного разговорного задания."
+        }
+      ]
+    },
+    {
+      "skillId": "topic.introductions",
+      "label": "Знакомство: имя, кто ты, профессия и происхождение",
+      "category": "conversation_topic",
+      "status": "practiced",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/0d6b9907-5b47-46ff-a0bb-47a1b34b709e.png",
+            "frameId": "5e5a08d6-0062-4548-bb8f-0b940588d6be"
+          },
+          "evidenceType": "completed_exercise",
+          "observation": "Несколько учебных и домашних блоков практикуют представление людей, имена и вопросы о личности."
+        }
+      ]
+    },
+    {
+      "skillId": "topic.wellbeing",
+      "label": "Короткий разговор о том, как дела",
+      "category": "conversation_topic",
+      "status": "practiced",
+      "confidence": 0.84,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "c795bf43-deb1-471b-921b-8d1c0f144365",
+            "frameId": "1bb58a3b-79cb-4dd8-92af-0e7ab6d5a6a9"
+          },
+          "evidenceType": "guided_class_practice",
+          "observation": "Есть вопросы и широкий набор коротких ответов о самочувствии."
+        }
+      ]
+    },
+    {
+      "skillId": "topic.party",
+      "label": "Планы на вечеринку и приглашения",
+      "category": "conversation_topic",
+      "status": "introduced",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "02eaaa6e-e259-465a-952e-5cdd1c764288",
+            "frameId": "5876f07d-623c-441f-a2bb-f43f9c1562eb"
+          },
+          "evidenceType": "reading_exposure",
+          "observation": "Тема встречается в учебном письме, но активное обсуждение планов не подтверждено."
+        }
+      ]
+    },
+    {
+      "skillId": "topic.weather",
+      "label": "Погода",
+      "category": "conversation_topic",
+      "status": "introduced",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "83e32c85-0953-4233-9dfe-09b1c5b010cf",
+            "frameId": "5876f07d-623c-441f-a2bb-f43f9c1562eb"
+          },
+          "evidenceType": "reading_exposure",
+          "observation": "Есть длинный прогноз погоды, но нет свидетельства свободного диалога на эту тему."
+        }
+      ]
+    },
+    {
+      "skillId": "topic.origin_residence",
+      "label": "Происхождение и место жительства",
+      "category": "conversation_topic",
+      "status": "introduced",
+      "confidence": 0.94,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "1b3c90d4-7327-4583-b83d-7e23d7e83701",
+            "frameId": "2a9fc11a-88b2-4ce1-b329-e3087805d0e2"
+          },
+          "evidenceType": "homework_assignment",
+          "observation": "В домашнем блоке Максима от 09.08 перечислены люди и города с подсказками είναι/μένει; заполненных учеником предложений в блоке пока нет."
+        }
+      ]
+    },
+    {
+      "skillId": "topic.familiar_surroundings",
+      "label": "Простые знакомые предметы и места вокруг себя",
+      "category": "conversation_topic",
+      "status": "practiced",
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "37ccd1dd-99e9-4c6d-82db-d666db1756c2",
+            "frameId": "858ea89d-9cf6-47c5-8a03-23528d561d6e"
+          },
+          "evidenceType": "completed_homework",
+          "observation": "В вопросах используются свой автомобиль, школа, офис и ресторан; подходит для коротких реплик «что это»."
+        }
+      ]
+    },
+    {
+      "skillId": "topic.people_around_me",
+      "label": "Семья, знакомые и люди вокруг",
+      "category": "conversation_topic",
+      "status": "practiced",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "37ccd1dd-99e9-4c6d-82db-d666db1756c2",
+            "frameId": "858ea89d-9cf6-47c5-8a03-23528d561d6e"
+          },
+          "evidenceType": "completed_homework",
+          "observation": "Домашняя работа строится вокруг распознавания преподавателя, матери, брата, дочери и известных людей."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.direct_object_pronouns",
+      "label": "Безударные дополнения με, σε, τον, την/τη, το, μας, σας, τους, τις, τα",
+      "category": "grammar",
+      "status": "practiced",
+      "confidence": 0.84,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/44d300a5-5edf-474c-8000-08d677d4718a.png",
+            "frameId": "5e5a08d6-0062-4548-bb8f-0b940588d6be"
+          },
+          "evidenceType": "completed_exercise",
+          "observation": "Последний домашний блок содержит диалоги «Πώς ... λένε;» с выбором объектных местоимений; во фрейме 336 ученических штрихов."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.future_tense_reading_only",
+      "label": "Будущее с θα: встречалось только в учебных текстах",
+      "category": "grammar",
+      "status": "introduced",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "83e32c85-0953-4233-9dfe-09b1c5b010cf",
+            "frameId": "5876f07d-623c-441f-a2bb-f43f9c1562eb"
+          },
+          "evidenceType": "reading_exposure",
+          "observation": "Прогноз погоды многократно использует θα, но на доске нет отдельного упражнения на активное построение будущего времени."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.interrogative_poios",
+      "label": "Вопросительные ποιος, ποια, ποιο по роду",
+      "category": "grammar",
+      "status": "practiced",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "37ccd1dd-99e9-4c6d-82db-d666db1756c2",
+            "frameId": "858ea89d-9cf6-47c5-8a03-23528d561d6e"
+          },
+          "evidenceType": "completed_homework",
+          "observation": "Домашнее задание требует составить десять вопросов к ответам про людей и предметы; поверх шаблона сохранено 207 ученических штрихов."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.vocative",
+      "label": "Звательный падеж имён и обращений",
+      "category": "grammar",
+      "status": "introduced",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "7559d17c-58e3-4771-92af-68f5b05537af",
+            "assetPath": "assets/files/3a556b9f-c3ff-453a-8903-b7269707c437.png",
+            "frameId": "a41ab7b4-3ba8-4fa0-8869-c738f6a91459"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "Урок объясняет формы μπαμπά, Βασίλη, φίλε, κύριε, Αλέξανδρε и другие модели звательного падежа; лист на самостоятельное образование форм остаётся незаполненным."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.final_n_retention",
+      "label": "Конечная -ν в τον/την перед гласными и согласными κ, π, τ, ξ, ψ и сочетаниями",
+      "category": "grammar",
+      "status": "introduced",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "557982d8-d106-4fef-b38f-0b6424c6535c",
+            "assetPath": "assets/files/a3ce7eb8-a369-40fb-a7cb-0783dd66c0e0.png",
+            "frameId": "a41ab7b4-3ba8-4fa0-8869-c738f6a91459"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "В уроке и памятке к домашнему заданию дано правило сохранения конечной -ν и упражнение на το(ν)/τη(ν)/το; ответы к упражнению не заполнены."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.subject_pronouns",
+      "label": "Личные местоимения εγώ, εσύ, αυτός/αυτή/αυτό, εμείς, εσείς, αυτοί/αυτές/αυτά",
+      "category": "grammar",
+      "status": "practiced",
+      "confidence": 0.86,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/7e1d13d5-3a06-44c0-aa2a-e102f35d3f99.png",
+            "frameId": "04aa908e-3fcb-4697-a717-044ba33aface"
+          },
+          "evidenceType": "completed_exercise",
+          "observation": "В домашней работе есть упражнение на выбор личного местоимения в предложениях с είμαι."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.eimai_present",
+      "label": "Настоящее время είμαι: είμαι, είσαι, είναι, είμαστε, είστε/είσαστε",
+      "category": "grammar",
+      "status": "practiced",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/9cbacc90-b1ce-4f1a-871d-3cb07ed14844.png",
+            "frameId": "04aa908e-3fcb-4697-a717-044ba33aface"
+          },
+          "evidenceType": "completed_exercise",
+          "observation": "Домашний блок Максима содержит таблицу и несколько упражнений на выбор и дополнение форм είμαι; во фрейме 282 рукописных штриха."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.meno_present",
+      "label": "Настоящее время μένω: μένω, μένεις, μένει, μένουμε, μένετε, μένουν(ε)",
+      "category": "grammar",
+      "status": "introduced",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/4159a0dc-7ae3-42af-9edd-82a611ba0cbd.png",
+            "frameId": "a41ab7b4-3ba8-4fa0-8869-c738f6a91459"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "В уроке 08/08 дана полная таблица настоящего времени μένω для всех лиц; выполненного упражнения на спряжение в новых материалах нет."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.ordinals_1_4",
+      "label": "Порядковые числительные πρώτος, δεύτερος, τρίτος, τέταρτος",
+      "category": "grammar",
+      "status": "introduced",
+      "confidence": 0.91,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "ca5a6af8-e2bc-4eed-8156-af45c97f391c",
+            "frameId": "688ba027-db7f-4d96-a6cf-a8c009182251"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "На доске сопоставлены первые четыре буквы алфавита и порядковые числительные 1–4."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.past_tense_reading_only",
+      "label": "Прошедшее время: встречалось только в учебных текстах",
+      "category": "grammar",
+      "status": "introduced",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "3a6710f8-86c6-4498-ac46-153e058b8ea0",
+            "frameId": "688ba027-db7f-4d96-a6cf-a8c009182251"
+          },
+          "evidenceType": "reading_exposure",
+          "observation": "Текст «Ο Ηρακλής» содержит формы ήταν, είπε, έπιασε, μεγάλωσε, έγινε; отдельного упражнения на самостоятельное образование этих форм нет."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.noun_gender_articles",
+      "label": "Род и базовые артикли существительных: ο, η, το",
+      "category": "grammar",
+      "status": "practiced",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/f2eef6db-d339-4cbb-8522-56c5307c7040.png",
+            "frameId": "04aa908e-3fcb-4697-a717-044ba33aface"
+          },
+          "evidenceType": "completed_exercise",
+          "observation": "В домашнем фрейме есть распределение слов по колонкам ο/η/το и задания на окончания существительных."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.strong_object_pronouns",
+      "label": "Сильные формы εμένα, εσένα, αυτόν/αυτήν/αυτό, εμάς, εσάς, αυτούς/αυτές/αυτά",
+      "category": "grammar",
+      "status": "introduced",
+      "confidence": 0.96,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "ec89a294-0c05-4204-ae42-ced406e0ae5c",
+            "frameId": "5876f07d-623c-441f-a2bb-f43f9c1562eb"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "На доске дана полная таблица сильных форм рядом с безударными клитиками."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.se_article_contractions",
+      "label": "Слияние σε с артиклем: στον, στην, στο",
+      "category": "grammar",
+      "status": "introduced",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "d7353c91-9a78-4307-9de7-da46911de1cd",
+            "frameId": "a41ab7b4-3ba8-4fa0-8869-c738f6a91459"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "На доске прямо записано μένω σε+τον=στον, σε+την=στην, σε+το=στο и приведены примеры с городами."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.masculine_name_accusative",
+      "label": "Форма мужского имени после τον: отпадение конечного -ς",
+      "category": "grammar",
+      "status": "introduced",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "4fec754b-d9b8-42e6-a65a-4932bd12e9ce",
+            "frameId": "5876f07d-623c-441f-a2bb-f43f9c1562eb"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "В блоке вопросов об имени показаны формы Πώς τον λένε и примеры мужских имён в объектной форме."
+        }
+      ]
+    },
+    {
+      "skillId": "grammar.place_name_cases",
+      "label": "Формы географических названий после από/σε и в родительном падеже",
+      "category": "grammar",
+      "status": "introduced",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "6bcefc1e-37dd-4e88-adc4-c526edebe22e",
+            "assetPath": "assets/files/0aac8c2d-149d-4c7e-9939-6d0071fc602d.png",
+            "frameId": "a41ab7b4-3ba8-4fa0-8869-c738f6a91459"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "Сопоставлены η Λεμεσός/η Πάφος/η Κύπρος, формы Λεμεσό/Πάφο/Κύπρο и родительные Λεμεσού/Πάφου/Κύπρου, а также модели από и στον/στην/στο."
+        }
+      ]
+    },
+    {
+      "skillId": "function.answer_how_are_you",
+      "label": "Коротко ответить о самочувствии",
+      "category": "language_function",
+      "status": "practiced",
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "a3197c9d-5c79-487b-9bdf-ad59cc83d1b3",
+            "frameId": "1bb58a3b-79cb-4dd8-92af-0e7ab6d5a6a9"
+          },
+          "evidenceType": "guided_class_practice",
+          "observation": "Отработан набор ответов: καλά, πολύ καλά, μια χαρά, όλα καλά, έτσι κι έτσι, χάλια и другие."
+        }
+      ]
+    },
+    {
+      "skillId": "function.polite_address",
+      "label": "Обращения κύριε и κυρία",
+      "category": "language_function",
+      "status": "introduced",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "f2325a73-1240-4784-8b60-41092a4b99f2",
+            "frameId": "5876f07d-623c-441f-a2bb-f43f9c1562eb"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "В уроке отдельно записаны вежливые обращения к мужчине и женщине."
+        }
+      ]
+    },
+    {
+      "skillId": "function.introduce_another_person",
+      "label": "Представить другого человека и отреагировать на знакомство",
+      "category": "language_function",
+      "status": "introduced",
+      "confidence": 0.91,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/c6d1cc8a-356d-444f-bd74-0225c5020fcd.png",
+            "frameId": "a41ab7b4-3ba8-4fa0-8869-c738f6a91459"
+          },
+          "evidenceType": "dialogue_material",
+          "observation": "В диалоге используются Από 'δώ η φίλη μου…, Χαίρω πολύ и Κι εγώ, επίσης для представления человека и реакции на знакомство; самостоятельного ответа не видно."
+        }
+      ]
+    },
+    {
+      "skillId": "function.state_identity_origin",
+      "label": "Представиться и сказать, кто ты или откуда ты",
+      "category": "language_function",
+      "status": "practiced",
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/df79f624-87de-4b5a-b669-e53ef3355a29.png",
+            "frameId": "04aa908e-3fcb-4697-a717-044ba33aface"
+          },
+          "evidenceType": "completed_exercise",
+          "observation": "Упражнение на είμαι строит фразы про имя, профессию и страну происхождения в единственном и множественном числе."
+        }
+      ]
+    },
+    {
+      "skillId": "function.state_origin_residence",
+      "label": "Сказать, откуда ты и где живёшь: είμαι από… / μένω στον, στην, στο…",
+      "category": "language_function",
+      "status": "introduced",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/02aced2a-6011-44c0-b443-b0f761b56349.png",
+            "frameId": "a41ab7b4-3ba8-4fa0-8869-c738f6a91459"
+          },
+          "evidenceType": "guided_example",
+          "observation": "Учебный лист показывает готовые модели Η Μαίρη είναι από την Πάτρα и Ο Δημήτρης μένει στον Πειραιά; остальные строки для ответа пока пусты."
+        }
+      ]
+    },
+    {
+      "skillId": "function.ask_how_are_you",
+      "label": "Спросить «как дела / как ты»: Τι κάνεις; Πώς είσαι;",
+      "category": "language_function",
+      "status": "practiced",
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "c795bf43-deb1-471b-921b-8d1c0f144365",
+            "frameId": "1bb58a3b-79cb-4dd8-92af-0e7ab6d5a6a9"
+          },
+          "evidenceType": "guided_class_practice",
+          "observation": "Во втором уроке собраны неформальные и вежливые вопросы о самочувствии; в учебном фрейме есть ученические рисунки и пометки."
+        }
+      ]
+    },
+    {
+      "skillId": "function.identify_person_or_object",
+      "label": "Спросить и ответить, кто это или что это",
+      "category": "language_function",
+      "status": "practiced",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "37ccd1dd-99e9-4c6d-82db-d666db1756c2",
+            "frameId": "858ea89d-9cf6-47c5-8a03-23528d561d6e"
+          },
+          "evidenceType": "completed_homework",
+          "observation": "В отдельной домашней работе составляются вопросы к ответам «Это мой преподаватель/автомобиль/мать/ресторан/школа…»."
+        }
+      ]
+    },
+    {
+      "skillId": "function.ask_and_tell_name",
+      "label": "Спросить и сказать имя: Πώς σε/τον/την/σας λένε; Με λένε…",
+      "category": "language_function",
+      "status": "practiced",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/44d300a5-5edf-474c-8000-08d677d4718a.png",
+            "frameId": "5e5a08d6-0062-4548-bb8f-0b940588d6be"
+          },
+          "evidenceType": "completed_exercise",
+          "observation": "Домашнее задание включает несколько диалогов о своём и чужом имени с единственным и множественным числом."
+        }
+      ]
+    },
+    {
+      "skillId": "function.ask_residence",
+      "label": "Спросить, где человек живёт: Πού μένεις/μένετε;",
+      "category": "language_function",
+      "status": "introduced",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "26985de8-f2f1-4ee8-b262-a94d9fe2aa42",
+            "frameId": "a41ab7b4-3ba8-4fa0-8869-c738f6a91459"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "На доске отдельно даны формы вопроса πού μένεις/μένετε с глаголом μένω."
+        }
+      ]
+    },
+    {
+      "skillId": "function.ask_origin",
+      "label": "Спросить, откуда человек: Από πού είσαι/είστε;",
+      "category": "language_function",
+      "status": "introduced",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "8ad2791f-7213-4d43-bb7b-b80224f695d8",
+            "frameId": "a41ab7b4-3ba8-4fa0-8869-c738f6a91459"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "В уроке 08/08 отдельно записаны неформальный и вежливый варианты вопроса από πού είσαι/είστε."
+        }
+      ]
+    },
+    {
+      "skillId": "pronunciation.sound_discrimination",
+      "label": "Базовое различение близких греческих согласных на слух",
+      "category": "pronunciation",
+      "status": "practiced",
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/183dba3d-1da9-4be5-a387-5ee3363a80d3.png",
+            "frameId": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c"
+          },
+          "evidenceType": "listening_exercise",
+          "observation": "В домашнем блоке есть задания на выбор π/φ/θ, κ/γ/χ/γκ и τ/τζ по услышанному слову."
+        }
+      ]
+    },
+    {
+      "skillId": "pronunciation.alphabet_and_case",
+      "label": "Греческий алфавит: строчные и заглавные буквы",
+      "category": "pronunciation",
+      "status": "practiced",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/3b5d0e9f-4f64-4786-9680-25bb72b0379b.png",
+            "frameId": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c"
+          },
+          "evidenceType": "completed_exercise",
+          "observation": "В домашнем блоке Максима есть упражнения на запись заглавных букв; поверх материалов сохранено более 400 рукописных штрихов."
+        }
+      ]
+    },
+    {
+      "skillId": "pronunciation.greek_punctuation",
+      "label": "Греческий вопросительный знак ; и базовая пунктуация",
+      "category": "pronunciation",
+      "status": "introduced",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "4afe63f0-0985-478b-82c3-9682a02faca9",
+            "frameId": "1bb58a3b-79cb-4dd8-92af-0e7ab6d5a6a9"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "В уроке явно сопоставлены греческий знак ; и вопросительный знак, отдельно показана άνω τελεία."
+        }
+      ]
+    },
+    {
+      "skillId": "pronunciation.diaeresis",
+      "label": "Раздельное чтение гласных с διαλυτικά: ϊ, ϋ",
+      "category": "pronunciation",
+      "status": "introduced",
+      "confidence": 0.96,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "5e76e991-4a24-4fbb-a5f8-81be306660cd",
+            "frameId": "688ba027-db7f-4d96-a6cf-a8c009182251"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "На доске выделено правило чтения Ϊ/Ϋ с диэрезисом."
+        }
+      ]
+    },
+    {
+      "skillId": "pronunciation.theta_delta_xi_psi",
+      "label": "Различение и чтение Θ/Δ и Ξ/Ψ",
+      "category": "pronunciation",
+      "status": "practiced",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "0c54839e-77bb-4c33-9c36-ac6d2e36b15b",
+            "frameId": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c"
+          },
+          "evidenceType": "completed_homework",
+          "observation": "В домашнем фрейме явно вынесены Θθ/Δδ, списки слов и тренировочные строки также охватывают Ξξ/Ψψ; ответы нанесены рисунками."
+        }
+      ]
+    },
+    {
+      "skillId": "pronunciation.av_ev",
+      "label": "Чтение αυ и ευ как av/af и ev/ef",
+      "category": "pronunciation",
+      "status": "introduced",
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "c3b7ccd8-4d11-46d5-9f54-8be97ff07b50",
+            "frameId": "688ba027-db7f-4d96-a6cf-a8c009182251"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "На доске есть отдельные правила αυ и ευ перед звонкими и глухими звуками с примерами."
+        }
+      ]
+    },
+    {
+      "skillId": "pronunciation.consonant_combinations",
+      "label": "Чтение γγ, γκ, γχ, μπ, ντ, τζ, τσ",
+      "category": "pronunciation",
+      "status": "introduced",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "eaa23559-811f-4971-ad44-b91f5bd867ee",
+            "frameId": "688ba027-db7f-4d96-a6cf-a8c009182251"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "Первый учебный фрейм последовательно объясняет основные сочетания согласных и даёт списки примеров."
+        }
+      ]
+    },
+    {
+      "skillId": "pronunciation.word_stress",
+      "label": "Чтение и постановка знака ударения",
+      "category": "pronunciation",
+      "status": "practiced",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/3ec863b2-c4a0-492b-bb0c-332181931b77.png",
+            "frameId": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c"
+          },
+          "evidenceType": "completed_exercise",
+          "observation": "Домашнее задание содержит отдельное упражнение «слушаю слова и ставлю ударение» с рукописными ответами в том же фрейме."
+        }
+      ]
+    },
+    {
+      "skillId": "pronunciation.vowel_combinations",
+      "label": "Чтение сочетаний αι, ει, οι, υι, ου",
+      "category": "pronunciation",
+      "status": "introduced",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "1a0673bd-a70b-4e90-aed0-a3cdbb28f839",
+            "frameId": "688ba027-db7f-4d96-a6cf-a8c009182251"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "В уроке приведены правила и примеры чтения αι, ει, οι, υι и ου, включая варианты с ударением."
+        }
+      ]
+    },
+    {
+      "skillId": "vocabulary.professions",
+      "label": "Базовые профессии и роли: ученик, преподаватель, художник, певец, футболист, садовник",
+      "category": "vocabulary",
+      "status": "practiced",
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "2a8ff7bf-31c7-48be-bc75-07da3ef18fc4",
+            "frameId": "1bb58a3b-79cb-4dd8-92af-0e7ab6d5a6a9"
+          },
+          "evidenceType": "classification_exercise",
+          "observation": "Профессии и роли показаны вместе с упражнениями на род и артикль, затем формы είμαι используются для представления человека."
+        }
+      ]
+    },
+    {
+      "skillId": "vocabulary.party_planning",
+      "label": "Вечеринка, приглашения, друзья, еда и покупки",
+      "category": "vocabulary",
+      "status": "introduced",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "02eaaa6e-e259-465a-952e-5cdd1c764288",
+            "frameId": "5876f07d-623c-441f-a2bb-f43f9c1562eb"
+          },
+          "evidenceType": "reading_exposure",
+          "observation": "Учебное письмо «Οργάνωση πάρτι» содержит лексику организации вечеринки-сюрприза, приглашений и покупок."
+        }
+      ]
+    },
+    {
+      "skillId": "vocabulary.cyprus_places",
+      "label": "Географические названия Кипра: Κύπρος, Λευκωσία, Λεμεσός, Πάφος, Λάρνακα, Παραλίμνι, Πρωταράς",
+      "category": "vocabulary",
+      "status": "introduced",
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "5680489e-4d47-4935-b421-32d11171e7a3",
+            "frameId": "a41ab7b4-3ba8-4fa0-8869-c738f6a91459"
+          },
+          "evidenceType": "lesson_material",
+          "observation": "Урок и новое домашнее задание используют названия Кипра и нескольких кипрских городов для конструкций происхождения и места жительства."
+        }
+      ]
+    },
+    {
+      "skillId": "vocabulary.housing_location",
+      "label": "Жильё и расположение: центр, море, парк, рядом, напротив",
+      "category": "vocabulary",
+      "status": "introduced",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "0f3a81d5-139b-48dd-a177-db75ddb13a6d",
+            "frameId": "688ba027-db7f-4d96-a6cf-a8c009182251"
+          },
+          "evidenceType": "reading_exposure",
+          "observation": "Текст «Τα σπίτια μου» описывает дома, квартиру и расположение относительно центра, моря, станции и парка."
+        }
+      ]
+    },
+    {
+      "skillId": "vocabulary.familiar_places_objects",
+      "label": "Знакомые места и предметы: школа, офис, ресторан, автомобиль, книга",
+      "category": "vocabulary",
+      "status": "practiced",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "37ccd1dd-99e9-4c6d-82db-d666db1756c2",
+            "frameId": "858ea89d-9cf6-47c5-8a03-23528d561d6e"
+          },
+          "evidenceType": "completed_homework",
+          "observation": "Эти слова входят в самостоятельную серию вопросов «кто/что это»."
+        }
+      ]
+    },
+    {
+      "skillId": "vocabulary.people_family",
+      "label": "Люди и семья: мать, отец, брат, дочь, сын, преподаватель",
+      "category": "vocabulary",
+      "status": "practiced",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "37ccd1dd-99e9-4c6d-82db-d666db1756c2",
+            "frameId": "858ea89d-9cf6-47c5-8a03-23528d561d6e"
+          },
+          "evidenceType": "completed_homework",
+          "observation": "Лексика семьи и знакомых используется в серии домашних вопросов и ответов."
+        }
+      ]
+    },
+    {
+      "skillId": "vocabulary.weather_days_clothes",
+      "label": "Погода, дни недели и одежда",
+      "category": "vocabulary",
+      "status": "introduced",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "83e32c85-0953-4233-9dfe-09b1c5b010cf",
+            "frameId": "5876f07d-623c-441f-a2bb-f43f9c1562eb"
+          },
+          "evidenceType": "reading_exposure",
+          "observation": "Тематический текст-прогноз охватывает дни недели, жару, холод, облака, дождь и подходящую одежду."
+        }
+      ]
+    },
+    {
+      "skillId": "vocabulary.wellbeing",
+      "label": "Самочувствие и короткие ответы: καλά, μια χαρά, έτσι κι έτσι, χάλια…",
+      "category": "vocabulary",
+      "status": "practiced",
+      "confidence": 0.84,
+      "evidence": [
+        {
+          "source": {
+            "objectId": "c46998d5-8424-42bc-aa4e-6c9c047a73f8",
+            "frameId": "1bb58a3b-79cb-4dd8-92af-0e7ab6d5a6a9"
+          },
+          "evidenceType": "guided_class_practice",
+          "observation": "На доске собран и помечен набор из нескольких положительных, нейтральных и отрицательных ответов на вопрос о делах."
+        }
+      ]
+    },
+    {
+      "skillId": "vocabulary.countries_origin",
+      "label": "Страны и происхождение: Ελλάδα, Αγγλία, Γερμανία и др.",
+      "category": "vocabulary",
+      "status": "practiced",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "source": {
+            "assetPath": "assets/files/df79f624-87de-4b5a-b669-e53ef3355a29.png",
+            "frameId": "04aa908e-3fcb-4697-a717-044ba33aface"
+          },
+          "evidenceType": "completed_exercise",
+          "observation": "Домашнее упражнение на είμαι включает несколько стран и конструкции «быть из…»."
+        }
+      ]
+    }
+  ]
+}

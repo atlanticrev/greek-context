@@ -1,0 +1,431 @@
+{
+  "created_at": "2026-11-05T11:43:48.701931+00:00",
+  "model": "lfm3-audio:2b-q8_0",
+  "model_digest": "d0ae0cb67fb98b065f04e5f3460ac3b3101fd3b346ece09e28232d2ccda13958",
+  "local_endpoint": "http://127.0.0.1:11435",
+  "profile": {
+    "name": "careful-reading-two-voices-v1",
+    "tempo": 0.9,
+    "pause_seconds": 0.6,
+    "scene_pause_seconds": 1.4,
+    "exterior_speech_padding_ms": 100,
+    "edge_fade_ms": 5,
+    "bounded_turn_rms_target": 0.1,
+    "loudnorm": "I=-18:TP=-1.5:LRA=11"
+  },
+  "script_sha256": "3b0b7363b2df1ff2d992a555606fa23d3c9ce3725eba72f6007df81e4c16be47",
+  "source_sha256": "f40d7ad577715d5f361cae9b59bf6866fcf829878a7491808e11f552ad743b2f",
+  "source_reference_id": "holst-5b0c9685-bb86-4a83-b640-d416e8b7a9d2",
+  "roles": {
+    "maria": {
+      "label": "Κυρία Μαρία",
+      "voice": "female-greek"
+    },
+    "markos": {
+      "label": "Μάρκος",
+      "voice": "male-greek"
+    },
+    "marina": {
+      "label": "Μαρίνα",
+      "voice": "female-greek"
+    },
+    "eleni": {
+      "label": "Ελένη",
+      "voice": "female-greek"
+    },
+    "sofia": {
+      "label": "Σοφία",
+      "voice": "female-greek"
+    },
+    "manolis": {
+      "label": "Μανώλης",
+      "voice": "female-greek"
+    },
+    "giorgos": {
+      "label": "Κύριος Γιώργος",
+      "voice": "male-greek"
+    },
+    "sotiris": {
+      "label": "Σωτήρης Παπαδόπουλος",
+      "voice": "male-greek"
+    },
+    "interlocutor": {
+      "label": "Собеседник Сотириса",
+      "voice": "female-greek"
+    },
+    "lambros": {
+      "label": "Λάμπρος",
+      "voice": "male-greek"
+    },
+    "alexis": {
+      "label": "Αλέξης",
+      "voice": "female-greek"
+    },
+    "alexandra": {
+      "label": "Αλεξάνδρα",
+      "voice": "female-greek"
+    },
+    "martha": {
+      "label": "Μάρθα",
+      "voice": "female-greek"
+    },
+    "alexis_alexandra": {
+      "label": "Αλέξης και Αλεξάνδρα",
+      "voice": "female-greek"
+    }
+  },
+  "role_assignment_status": "editorial casting from transcript; final-scene speaker attribution is inferred and not independently verified",
+  "turns": [
+    {
+      "cache_key": "590672210a5229aa78bd79a95e7fb3f719670aa9a188f39e509583f2738f875c",
+      "sha256": "0158876bb4c0d02d09d6541cf2ebe2644819de6d8ff9ffc40e32a837bf2331b9",
+      "voice": "female-greek",
+      "text": "Καλημέρα παιδιά. Είμαι η κυρία Μαρία. Πώς σας λένε;",
+      "native_duration_seconds": 3.52,
+      "generation_seconds": 0.791,
+      "turn": 1,
+      "role": "maria",
+      "scene": 1,
+      "file": "parts/001.wav",
+      "assembly_gain": 1.2113,
+      "pre_tempo_start_seconds": 0.0,
+      "pre_tempo_end_seconds": 3.4826
+    },
+    {
+      "cache_key": "85022b0af678665f1d4fd54e1e50b0b194c99f6470bbd6684866786414b88ae4",
+      "sha256": "a350b3de3324fd3d55abe1fdb55013fb44e695cebaa3fb8ed5ad63fa78165fa9",
+      "voice": "male-greek",
+      "text": "Είμαι ο Μάρκος.",
+      "native_duration_seconds": 0.88,
+      "generation_seconds": 0.234,
+      "turn": 2,
+      "role": "markos",
+      "scene": 1,
+      "file": "parts/002.wav",
+      "assembly_gain": 1.11426,
+      "pre_tempo_start_seconds": 4.0826,
+      "pre_tempo_end_seconds": 4.9145
+    },
+    {
+      "cache_key": "f3204ffc1e53c3db4bbfad3457dbe17ca47a5ff6783c36e4ee9725e56b4e8046",
+      "sha256": "f551b7f450631c664f24215a7b41bf113a8be0a64be6c5d57ca08d4b520dc9ed",
+      "voice": "female-greek",
+      "text": "Εγώ είμαι η Μαρίνα.",
+      "native_duration_seconds": 1.28,
+      "generation_seconds": 0.31,
+      "turn": 3,
+      "role": "marina",
+      "scene": 1,
+      "file": "parts/003.wav",
+      "assembly_gain": 1.14696,
+      "pre_tempo_start_seconds": 5.5145,
+      "pre_tempo_end_seconds": 6.7774
+    },
+    {
+      "cache_key": "ec0575de5ca46498340dab9d65f36840a3b8818c7a23f69e7ea0e77965a2a62f",
+      "sha256": "da6031f2a4fee92d0723790f4723f60de9d7b02b621fc4722044949218b0cba2",
+      "voice": "female-greek",
+      "text": "Με λένε Ελένη.",
+      "native_duration_seconds": 1.28,
+      "generation_seconds": 0.311,
+      "turn": 4,
+      "role": "eleni",
+      "scene": 1,
+      "file": "parts/004.wav",
+      "assembly_gain": 0.90504,
+      "pre_tempo_start_seconds": 7.3774,
+      "pre_tempo_end_seconds": 8.6574
+    },
+    {
+      "cache_key": "6f66975d8960548cfb32a41b8c5ee5a248a662082ec128acf2e55c0b841cd110",
+      "sha256": "8977b2b0d49e511f213b671a2d62c98b42e4bff25e2cc8d41819c802af12f3ce",
+      "voice": "female-greek",
+      "text": "Κι εγώ είμαι η Σοφία.",
+      "native_duration_seconds": 1.12,
+      "generation_seconds": 0.278,
+      "turn": 5,
+      "role": "sofia",
+      "scene": 1,
+      "file": "parts/005.wav",
+      "assembly_gain": 1.13764,
+      "pre_tempo_start_seconds": 9.2574,
+      "pre_tempo_end_seconds": 10.3774
+    },
+    {
+      "cache_key": "a4c6f715a5e6962fd2a178422bd7a62e55de1e1fc068378034471da8dd09c57c",
+      "sha256": "74bb915ca81e396513a1991c42aef582eafc845b863d5b5d836be2846c507344",
+      "voice": "female-greek",
+      "text": "Καλησπέρα κύριε Γιώργο. Τι κάνετε;",
+      "native_duration_seconds": 2.72,
+      "generation_seconds": 0.589,
+      "turn": 6,
+      "role": "manolis",
+      "scene": 2,
+      "file": "parts/006.wav",
+      "assembly_gain": 1.37184,
+      "pre_tempo_start_seconds": 11.7774,
+      "pre_tempo_end_seconds": 14.462
+    },
+    {
+      "cache_key": "50726d1d7cbbaabc799a40f073b4a07a7634e387c1eda9533ccdadc457ee3a8d",
+      "sha256": "4befbc98e16be29ffce0d38f82f23c0968b4daf3c7fa31a281d8431406bb78ba",
+      "voice": "male-greek",
+      "text": "Γεια σου Μανώλη. Είμαι πολύ καλά. Εσύ;",
+      "native_duration_seconds": 3.2,
+      "generation_seconds": 0.68,
+      "turn": 7,
+      "role": "giorgos",
+      "scene": 2,
+      "file": "parts/007.wav",
+      "assembly_gain": 1.17405,
+      "pre_tempo_start_seconds": 15.062,
+      "pre_tempo_end_seconds": 18.262
+    },
+    {
+      "cache_key": "9e1bc1b7ed30d138066ccf169ba67fb1e0ec11cd538e9d6ec66977b633992738",
+      "sha256": "0e47c9bc2f4f7bc061ada8cf3406018fabc278ec29a117dbf472162557fe0a1a",
+      "voice": "female-greek",
+      "text": "Έτσι και έτσι.",
+      "native_duration_seconds": 0.96,
+      "generation_seconds": 0.249,
+      "turn": 8,
+      "role": "manolis",
+      "scene": 2,
+      "file": "parts/008.wav",
+      "assembly_gain": 1.61934,
+      "pre_tempo_start_seconds": 18.862,
+      "pre_tempo_end_seconds": 19.7818
+    },
+    {
+      "cache_key": "8af88e8bad7de4c41e5a1844f71f4da32972f42422941e69b707989c9fdfce0a",
+      "sha256": "9c7d8623b7ca02cb35bb1a64c2aa599d4ba00e5b67160b2a75fcc42b5287c45f",
+      "voice": "male-greek",
+      "text": "Καλημέρα σας. Είμαι ο Σωτήρης Παπαδόπουλος.",
+      "native_duration_seconds": 3.04,
+      "generation_seconds": 0.652,
+      "turn": 9,
+      "role": "sotiris",
+      "scene": 3,
+      "file": "parts/009.wav",
+      "assembly_gain": 1.266,
+      "pre_tempo_start_seconds": 21.1818,
+      "pre_tempo_end_seconds": 24.2218
+    },
+    {
+      "cache_key": "e716669e55b81dcd51644075f51b5594f1fc0e5b281032102c20d2a96c393aa3",
+      "sha256": "5c87b936454b563549a34ebc22988f4f6fa1d080b3f97e2304cdde900d37478a",
+      "voice": "female-greek",
+      "text": "Α, γεια σας κύριε Παπαδόπουλε. Πώς είστε;",
+      "native_duration_seconds": 2.88,
+      "generation_seconds": 0.621,
+      "turn": 10,
+      "role": "interlocutor",
+      "scene": 3,
+      "file": "parts/010.wav",
+      "assembly_gain": 1.33159,
+      "pre_tempo_start_seconds": 24.8218,
+      "pre_tempo_end_seconds": 27.6567
+    },
+    {
+      "cache_key": "89ab3e0ec5a29f281597de9adc0a75030a95f1da51d3f53670a2c29515490a8c",
+      "sha256": "a74bda246b7273dfed29ccaf9fca814d14d90fdaa397328908cf3362b88a6c68",
+      "voice": "male-greek",
+      "text": "Πολύ καλά. Ευχαριστώ.",
+      "native_duration_seconds": 1.76,
+      "generation_seconds": 0.4,
+      "turn": 11,
+      "role": "sotiris",
+      "scene": 3,
+      "file": "parts/011.wav",
+      "assembly_gain": 1.04818,
+      "pre_tempo_start_seconds": 28.2568,
+      "pre_tempo_end_seconds": 30.0167
+    },
+    {
+      "cache_key": "4a9dc4ace743cbb96440385a401393d0f4801fd7696de3e455e88438354240ee",
+      "sha256": "3d45f05aa096ffc0226017836e7ccb4697bda61fe3a7cead9399d20f7ada8180",
+      "voice": "male-greek",
+      "text": "Γεια σου Αλέξη.",
+      "native_duration_seconds": 0.96,
+      "generation_seconds": 0.252,
+      "turn": 12,
+      "role": "lambros",
+      "scene": 4,
+      "file": "parts/012.wav",
+      "assembly_gain": 1.12185,
+      "pre_tempo_start_seconds": 31.4168,
+      "pre_tempo_end_seconds": 32.3768
+    },
+    {
+      "cache_key": "716cfcdfaa587a096345806ae626c64f2b05143d2293eeb149c92336fde1ace0",
+      "sha256": "c307b27b833a91efd70cc13f38f46317e94793b17cb8139840ee321a83864195",
+      "voice": "female-greek",
+      "text": "Α, γεια σου Λάμπρο. Τι κάνεις;",
+      "native_duration_seconds": 2.4,
+      "generation_seconds": 0.529,
+      "turn": 13,
+      "role": "alexis",
+      "scene": 4,
+      "file": "parts/013.wav",
+      "assembly_gain": 1.30454,
+      "pre_tempo_start_seconds": 32.9768,
+      "pre_tempo_end_seconds": 35.3768
+    },
+    {
+      "cache_key": "4b9af0e48d368b3c97e1c13ae8aba29cb570b0b86a040904604f28d3cb7b9171",
+      "sha256": "a6f745afb8d6e7aaa9085bfe7a5fa7f2bd0513e5f746f91c83914bd0de961ca5",
+      "voice": "male-greek",
+      "text": "Πολύ καλά, εσύ",
+      "native_duration_seconds": 1.44,
+      "generation_seconds": 0.343,
+      "turn": 14,
+      "role": "lambros",
+      "scene": 4,
+      "file": "parts/014.wav",
+      "assembly_gain": 1.27235,
+      "pre_tempo_start_seconds": 35.9768,
+      "pre_tempo_end_seconds": 37.3869
+    },
+    {
+      "cache_key": "8ff296d80f62dff8c659bb94697d6e724c6075dabf5e5d99db5c8975b945deeb",
+      "sha256": "5ac0e02f543895e8b8105759285565e2b3e1911804d17ae0a0c898097af7e480",
+      "voice": "female-greek",
+      "text": "Μια χαρά Από εδώ Η φίλη μου, η Αλεξάνδρα",
+      "native_duration_seconds": 3.2,
+      "generation_seconds": 0.681,
+      "turn": 15,
+      "role": "alexis",
+      "scene": 4,
+      "file": "parts/015.wav",
+      "assembly_gain": 1.40893,
+      "pre_tempo_start_seconds": 37.9869,
+      "pre_tempo_end_seconds": 41.1869
+    },
+    {
+      "cache_key": "547db8e738c43a17f2738f2adebc2b18b01c6e5734c9c0a6acdaed6fbb4e60ad",
+      "sha256": "4e7d069658e1e944d40851f585c4d96b020631e929d35fb1d1434fddba39d15d",
+      "voice": "male-greek",
+      "text": "Χαίρω πολύ Αλεξάνδρα",
+      "native_duration_seconds": 1.28,
+      "generation_seconds": 0.312,
+      "turn": 16,
+      "role": "lambros",
+      "scene": 4,
+      "file": "parts/016.wav",
+      "assembly_gain": 0.98632,
+      "pre_tempo_start_seconds": 41.7869,
+      "pre_tempo_end_seconds": 43.0669
+    },
+    {
+      "cache_key": "8b4e1acbfa91996ca30b86e8d9c6ffc79c79b7d40e77059dfefc84d2199ee643",
+      "sha256": "9a6ba396806d72291f5bffb83da0d85b099975503fe5b60defb537d29f452787",
+      "voice": "female-greek",
+      "text": "Κι εγώ επίσης",
+      "native_duration_seconds": 0.96,
+      "generation_seconds": 0.229,
+      "turn": 17,
+      "role": "alexandra",
+      "scene": 4,
+      "file": "parts/017.wav",
+      "assembly_gain": 1.32477,
+      "pre_tempo_start_seconds": 43.6669,
+      "pre_tempo_end_seconds": 44.6269
+    },
+    {
+      "cache_key": "0baf4482e8e28499fbad8dbe43bc39af06fb973d419340465025dadc64b66a10",
+      "sha256": "261ad131d4c8e671548d4ac604b5662784e7f7495938bf9c77676e2f0ceddd68",
+      "voice": "male-greek",
+      "text": "Από εδώ η Μάρθα",
+      "native_duration_seconds": 0.96,
+      "generation_seconds": 0.25,
+      "turn": 18,
+      "role": "lambros",
+      "scene": 4,
+      "file": "parts/018.wav",
+      "assembly_gain": 1.16969,
+      "pre_tempo_start_seconds": 45.2269,
+      "pre_tempo_end_seconds": 46.1869
+    },
+    {
+      "cache_key": "d5ba6a15cdfe25ffad14d3c287cb50e7dc956142e8edae5f6b40742761233e30",
+      "sha256": "b096c8eb308335a94f25be30bba339f917fe69f2fcddb86da0ee56d256278592",
+      "voice": "female-greek",
+      "text": "Γεια σας, χάρηκα",
+      "native_duration_seconds": 1.44,
+      "generation_seconds": 0.341,
+      "turn": 19,
+      "role": "martha",
+      "scene": 4,
+      "file": "parts/019.wav",
+      "assembly_gain": 1.71968,
+      "pre_tempo_start_seconds": 46.7869,
+      "pre_tempo_end_seconds": 48.2269
+    },
+    {
+      "cache_key": "efa811938115aa71208c4c7aa497b3899537154c51f71d9d814986a8cdb36264",
+      "sha256": "72a8653ccc5828bebbfdb32b0461868017763c614208115342e9339cf351bfaf",
+      "voice": "female-greek",
+      "text": "Κι εμείς",
+      "native_duration_seconds": 0.64,
+      "generation_seconds": 0.169,
+      "turn": 20,
+      "role": "alexis_alexandra",
+      "scene": 4,
+      "file": "parts/020.wav",
+      "assembly_gain": 1.14198,
+      "pre_tempo_start_seconds": 48.8269,
+      "pre_tempo_end_seconds": 49.4669
+    }
+  ],
+  "result": {
+    "mp3": "dialogue.mp3",
+    "wav": "dialogue.wav",
+    "mp3_sha256": "668b1f68914ef1d02dde0b556f2f240dd34a2f1b7befd1a236546867285862c8",
+    "wav_sha256": "8294a3dad48d277601a3d5074ec0767ec2cfc357b859db71a8f22603fab2ad10",
+    "duration_seconds": 54.948,
+    "sample_rate": 24000,
+    "peak": 0.841766357421875,
+    "all_turns_present": true
+  },
+  "quality": {
+    "method": "local whisper.cpp large-v3 ASR proxy, not human listening",
+    "command": [
+      "/opt/homebrew/bin/whisper-cli",
+      "-m",
+      "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+      "-f",
+      "/Users/max_tarasyuk/Downloads/projects/greek-context/data/listening-generated/role-dialogues/four-greetings/qa/input-16k.wav",
+      "-l",
+      "el",
+      "-t",
+      "8",
+      "-bs",
+      "5",
+      "-bo",
+      "5",
+      "-mc",
+      "0",
+      "-sns",
+      "-otxt",
+      "-oj",
+      "-of",
+      "/Users/max_tarasyuk/Downloads/projects/greek-context/data/listening-generated/role-dialogues/four-greetings/qa/whisper"
+    ],
+    "asr_input_wav_sha256": "e451b4da69f26bc755b65170cbfacdc8b2b4f083d8ae54579dcbe8607a96cd4c",
+    "reference_words": 91,
+    "recognized_words": 91,
+    "word_distance": 5,
+    "wer": 0.0549,
+    "normalization": "alphabetic words; ignore case, punctuation and diacritics",
+    "full_human_listening_review": false,
+    "checked_audio_wav_sha256": "8294a3dad48d277601a3d5074ec0767ec2cfc357b859db71a8f22603fab2ad10"
+  },
+  "reference_type": "generated_role_reading",
+  "integrity_checks": {
+    "source_text_exact_after_heading_removal_and_whitespace_normalization": true,
+    "fixed_voice_per_role": true,
+    "all_part_and_output_hashes_verified": true,
+    "all_scripted_turns_present": true,
+    "both_greek_voice_presets_used": true
+  }
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Merge complete, locally captured Quizlet sets into the private Greek/Russian dictionary.
+"""Merge complete, locally captured Quizlet sets into the shared Greek/Russian dictionary.
 
 This command reads saved JSON only. Capture the rendered cards separately through
 the user's authorized browser; it does not fetch Quizlet or automate verification.
@@ -115,7 +115,7 @@ def validate(dictionary, directory):
     for identifier, source in sources.items():
         snapshot = (directory / source["snapshot_path"]).resolve()
         if not snapshot.is_relative_to(directory.resolve()):
-            raise ValueError("Snapshots must stay inside the private vocabulary directory")
+            raise ValueError("Snapshots must stay inside the vocabulary directory")
         metadata, captured = capture(snapshot, source)
         if metadata["id"] != identifier:
             raise ValueError("Snapshot and dictionary source IDs differ")
@@ -188,7 +188,7 @@ def merge(dictionary, snapshots, directory, corrections=()):
         try:
             metadata["snapshot_path"] = str(snapshot.resolve().relative_to(directory.resolve()))
         except ValueError as error:
-            raise ValueError("Put captures under the private vocabulary directory before importing") from error
+            raise ValueError("Put captures under the vocabulary directory before importing") from error
         unique = set()
         for row in rows:
             canonical = {field: normalized(row[field]) for field in ("greek", "russian")}

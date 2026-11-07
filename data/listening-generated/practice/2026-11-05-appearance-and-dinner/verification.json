@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "slug": "find-the-teacher",
+      "file_stem": "dialogue-find-the-teacher",
+      "words": 61,
+      "seconds": 33.52,
+      "asr_word_distance": 1,
+      "all_hashes_and_fixed_roles_verified": true
+    },
+    {
+      "slug": "dinner-and-chores",
+      "file_stem": "dialogue-dinner-and-chores",
+      "words": 61,
+      "seconds": 39.607,
+      "asr_word_distance": 0,
+      "all_hashes_and_fixed_roles_verified": true
+    }
+  ],
+  "novelty_and_diversity_review": "diversity-review.json",
+  "full_human_listening_review": false
+}

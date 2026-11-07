@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "model": "lfm3-audio:2b-q8_0",
+  "policy": "Preserve source words and characters; exactly two Greek voice presets. Fixed voice per role; multiple roles may share a preset.",
+  "items": [
+    {
+      "slug": "petros-emine",
+      "source_reference_id": "holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff",
+      "title": "Πέτρος και Εμινέ — знакомство, работа и жильё",
+      "script": "petros-emine/script.json",
+      "roles": 2,
+      "turns": 13
+    },
+    {
+      "slug": "li-family",
+      "source_reference_id": "holst-32af7bb1-268d-4346-b25d-99c589e51c2e",
+      "title": "Αυτή είναι η οικογένειά μου — семья Ли",
+      "script": "li-family/script.json",
+      "roles": 2,
+      "turns": 11
+    },
+    {
+      "slug": "anne-flavian",
+      "source_reference_id": "holst-7b06a46b-f9aa-4b02-8099-c787088d75fb",
+      "title": "Γεια! — знакомство вне класса",
+      "script": "anne-flavian/script.json",
+      "roles": 2,
+      "turns": 13
+    },
+    {
+      "slug": "party",
+      "source_reference_id": "holst-8c005594-30b0-4c49-a00e-4d7d1b7d6c5d",
+      "title": "Ποιος είναι αυτός; — разговор на вечеринке",
+      "script": "party/script.json",
+      "roles": 2,
+      "turns": 15
+    },
+    {
+      "slug": "street-directions",
+      "source_reference_id": "holst-938bdbd6-b036-4c4f-89b7-a92e6875c417",
+      "title": "Συγγνώμη, δεν καταλαβαίνω — разговор на улице",
+      "script": "street-directions/script.json",
+      "roles": 3,
+      "turns": 12
+    },
+    {
+      "slug": "classroom",
+      "source_reference_id": "holst-b7cfaaa7-617c-46ca-a9b1-121a6dc76475",
+      "title": "Γεια σας! — знакомство в классе",
+      "script": "classroom/script.json",
+      "roles": 6,
+      "turns": 20
+    },
+    {
+      "slug": "nikos-family",
+      "source_reference_id": "holst-1520d811-1319-4ec0-b2e0-f112d696b47a",
+      "title": "Η οικογένειά μου — знакомство с семьёй",
+      "script": "nikos-family/script.json",
+      "roles": 8,
+      "turns": 26
+    },
+    {
+      "slug": "polite-introductions",
+      "source_reference_id": "holst-8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5",
+      "title": "Знакомство и вежливое обращение — упражнение 4.34",
+      "script": "polite-introductions/script.json",
+      "roles": 6,
+      "turns": 14
+    },
+    {
+      "slug": "four-greetings",
+      "source_reference_id": "holst-5b0c9685-bb86-4a83-b640-d416e8b7a9d2",
+      "title": "Четыре диалога: знакомство и приветствия",
+      "script": "four-greetings/script.json",
+      "roles": 14,
+      "turns": 20
+    }
+  ]
+}

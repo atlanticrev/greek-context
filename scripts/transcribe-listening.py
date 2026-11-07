@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a private, resumable listening-reference library using local whisper.cpp."""
+"""Build the shared, resumable listening-reference library using local whisper.cpp."""
 
 from __future__ import annotations
 
@@ -296,7 +296,7 @@ def publish(items, library):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--board-id", default=default_board(),
-                        help="Board ID; defaults to private data/local-board.json")
+                        help="Board ID; defaults to shared data/local-board.json")
     parser.add_argument("--library", type=Path, default=ROOT / "data/listening-reference-library")
     parser.add_argument("--model", type=Path)
     parser.add_argument("--model-name", default="large-v3")
@@ -310,7 +310,7 @@ def main():
     parser.add_argument("--publish-only", action="store_true")
     args = parser.parse_args()
     if not args.board_id:
-        parser.error("Pass --board-id or configure private data/local-board.json")
+        parser.error("Pass --board-id or configure shared data/local-board.json")
     library = args.library.resolve()
     library.mkdir(parents=True, exist_ok=True)
     items = inventory(args.board_id, library)

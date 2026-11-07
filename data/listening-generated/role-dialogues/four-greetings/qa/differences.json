@@ -1,0 +1,22 @@
+[
+  {
+    "type": "replace",
+    "reference": "ειμαι",
+    "asr": "ειναι"
+  },
+  {
+    "type": "replace",
+    "reference": "η φιλη",
+    "asr": "οι φιλοι"
+  },
+  {
+    "type": "replace",
+    "reference": "χαιρω",
+    "asr": "χαιρο"
+  },
+  {
+    "type": "replace",
+    "reference": "κι",
+    "asr": "και"
+  }
+]

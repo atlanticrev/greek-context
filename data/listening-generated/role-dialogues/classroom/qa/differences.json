@@ -1,0 +1,57 @@
+[
+  {
+    "type": "replace",
+    "reference": "α",
+    "asr": "αοεν"
+  },
+  {
+    "type": "replace",
+    "reference": "ελα",
+    "asr": "ελια"
+  },
+  {
+    "type": "replace",
+    "reference": "χαιρω",
+    "asr": "χαιρο"
+  },
+  {
+    "type": "replace",
+    "reference": "ειμαι ο",
+    "asr": "ημνο"
+  },
+  {
+    "type": "replace",
+    "reference": "χαιρω",
+    "asr": "χαιρο"
+  },
+  {
+    "type": "replace",
+    "reference": "η ανε",
+    "asr": "ιαννε"
+  },
+  {
+    "type": "delete",
+    "reference": "ο",
+    "asr": ""
+  },
+  {
+    "type": "replace",
+    "reference": "α",
+    "asr": "αοεν"
+  },
+  {
+    "type": "replace",
+    "reference": "χαιρω",
+    "asr": "χαιρο"
+  },
+  {
+    "type": "replace",
+    "reference": "μαουρο",
+    "asr": "μαωρο"
+  },
+  {
+    "type": "replace",
+    "reference": "μαουρο",
+    "asr": "μαωρο"
+  }
+]

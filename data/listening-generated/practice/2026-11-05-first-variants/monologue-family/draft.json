@@ -1,0 +1,115 @@
+{
+  "schema_version": 2,
+  "artifact_type": "generated_practice",
+  "text_origin": "newly_authored",
+  "context_path": "data/listening-generated/practice/2026-11-05-first-variants/context/context.json",
+  "inflection_reviews": [
+    {
+      "surface": "έχουμε",
+      "lemma": "έχω",
+      "reason": "1-е лицо мн. числа настоящего времени глагола типа A."
+    },
+    {
+      "surface": "βοηθάει",
+      "lemma": "βοηθάω",
+      "reason": "3-е лицо ед. числа настоящего времени типа B1 (-άω)."
+    },
+    {
+      "surface": "γιο",
+      "lemma": "γιος",
+      "reason": "Винительный падеж ед. числа после έχουμε έναν; опирается на пройденные винительный падеж и неопределённый артикль."
+    },
+    {
+      "surface": "δασκάλα",
+      "lemma": "δάσκαλος",
+      "reason": "Женская форма названия знакомой профессии преподавателя; согласована с рассказчицей Ελένη."
+    },
+    {
+      "surface": "διαβάζει",
+      "lemma": "διαβάζω",
+      "reason": "3-е лицо ед. числа настоящего времени, глагол типа A."
+    },
+    {
+      "surface": "μαθαίνει",
+      "lemma": "μαθαίνω",
+      "reason": "3-е лицо ед. числа настоящего времени, глагол типа A."
+    },
+    {
+      "surface": "φτιάχνει",
+      "lemma": "φτιάχνω",
+      "reason": "3-е лицо ед. числа настоящего времени; исходная словарная карточка φτιάχνω/ετοιμάζω καφέ."
+    }
+  ],
+  "editorial_review": {
+    "greek_checked": true,
+    "within_studied_grammar": true,
+    "new_situation_checked": true,
+    "notes": "Редакторская проверка Codex: простое настоящее время, согласование и управление; бытовая ситуация и факты вымышлены. Используется ранее представленный материал, владение ученика не утверждается."
+  },
+  "id": "family-and-greek-001",
+  "title": "Семья, работа и греческий дома — новый монолог",
+  "format": "monologue",
+  "topic_ids": [
+    "topic.habits",
+    "topic.people_around_me",
+    "topic.language_learning",
+    "topic.origin_residence"
+  ],
+  "grammar_ids": [
+    "grammar.eimai_present",
+    "grammar.meno_present",
+    "grammar.present_type_a",
+    "grammar.present_type_b1",
+    "grammar.possessive_pronouns",
+    "grammar.indefinite_article_cases",
+    "grammar.se_article_contractions",
+    "grammar.adjective_agreement",
+    "grammar.accusative_nouns"
+  ],
+  "source_reference_ids": [
+    "holst-ef30fbb1-accf-4bea-bc96-797439778801",
+    "holst-1520d811-1319-4ec0-b2e0-f112d696b47a"
+  ],
+  "target_vocabulary": [
+    "διδάσκω",
+    "μαθαίνω",
+    "διαβάζω",
+    "γράφω",
+    "μιλάω",
+    "μαγειρεύω",
+    "φτιάχνω/ετοιμάζω καφέ",
+    "βοηθάω",
+    "ο γιος",
+    "η κόρη",
+    "η μητέρα"
+  ],
+  "novelty_changes": [
+    "Новая героиня — преподавательница греческого; муж работает инженером.",
+    "Дети учат язык по-разному: сын читает и пишет, дочь только начинает.",
+    "Новый бытовой эпизод: героиня готовит, муж делает кофе, бабушка помогает семье. Это рассказ одной героини, а не диалог представления родственников."
+  ],
+  "roles": {
+    "narrator": {
+      "label": "Ελένη",
+      "voice": "female-greek"
+    }
+  },
+  "turns": [
+    {
+      "role": "narrator",
+      "text": "Με λένε Ελένη. Είμαι από την Ελλάδα και μένω στην Αθήνα. Είμαι δασκάλα και διδάσκω ελληνικά. Ο άντρας μου είναι μηχανικός.",
+      "scene": 1
+    },
+    {
+      "role": "narrator",
+      "text": "Έχουμε έναν γιο και μία κόρη. Ο γιος μας διαβάζει και γράφει ελληνικά. Η κόρη μας μαθαίνει τώρα. Στο σπίτι μιλάμε ελληνικά.",
+      "scene": 1
+    },
+    {
+      "role": "narrator",
+      "text": "Εγώ μαγειρεύω και ο άντρας μου φτιάχνει καφέ. Η μητέρα μου μένει εδώ. Είναι πολύ καλή και βοηθάει την οικογένειά μας.",
+      "scene": 1
+    }
+  ],
+  "file_stem": "monologue-about-family"
+}

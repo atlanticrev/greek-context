@@ -1,6 +1,6 @@
 # Portable local practice workflow
 
-Run from the repository root. Personal learning data is not included in a clone. Populate it through the board-sync and Quizlet skills before creating practice:
+Run from the repository root. A clone includes the current shared vocabulary, learner evidence and reviewed source library. Pull the latest base before creating practice; use the board-sync and Quizlet skills to add new material:
 
 - `data/boards/*/output/learner-profile.json`: the helper selects the latest `generatedAt`.
 - `data/vocabulary/greek-russian.json`: studied words/phrases and provenance; consult each source's evidence level.
@@ -22,7 +22,7 @@ Pass `--ffmpeg /path/to/ffmpeg`, `--whisper-cli /path/to/whisper-cli` and `--asr
 
 ## Prepare and author
 
-Choose a fresh descriptive private batch directory:
+Choose a fresh descriptive batch directory:
 
 ```sh
 python3 scripts/greek-listening-practice.py context \
@@ -31,7 +31,7 @@ python3 scripts/greek-listening-practice.py context \
 
 Read the generated `context.md`; `context.json` contains the profile, full dictionary, references, known forms and input hashes. Rebuild it if its source files change.
 
-Write a genuinely new `draft.json` in the batch's piece directory. This is the schema, not a private-example dependency:
+Write a genuinely new `draft.json` in the batch's piece directory using this schema:
 
 | Field | Required value/meaning |
 | --- | --- |
@@ -86,4 +86,4 @@ Rendering revalidates, writes `practice.txt` and `script.json`, calls the shared
 
 Read `qa/whisper.txt`, manifest and logs. Investigate substantive mismatches without endless retries for a metric. Names and homophones may differ in ASR spelling. Do not imply a human/native-speaker listening check unless it happened.
 
-The batch README explains vocabulary, sources, changed situation and checks. Deliver each audio with the full Greek role-labeled transcript directly below it, plus matching text links. New practice lives in `data/listening-generated/practice/`; historical source rereadings remain under `data/listening-generated/role-dialogues/` and are never relabeled as new exercises.
+The batch README explains vocabulary, sources, changed situation and checks. Deliver each audio with the full Greek role-labeled transcript directly below it, plus matching text links. New practice lives in `data/listening-generated/practice/`; historical source rereadings remain under `data/listening-generated/role-dialogues/` and are never relabeled as new exercises. Share the reviewed drafts, context snapshots, texts, final MP3 files and JSON/text checks. WAV exports, per-turn audio and temporary conversions are local artifacts; historical manifests can retain their recorded paths and hashes. Keep playable Markdown links pointed at files included in the shared base.

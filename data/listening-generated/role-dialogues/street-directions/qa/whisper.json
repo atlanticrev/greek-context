@@ -1,0 +1,164 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,820"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2820
+			},
+			"text": " Γεια σας. Ξέρετε το Πάρκο Ελευθερίας."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,820",
+				"to": "00:00:05,840"
+			},
+			"offsets": {
+				"from": 2820,
+				"to": 5840
+			},
+			"text": " Συγγνώμη, δεν καταλαβαίνω."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,840",
+				"to": "00:00:08,300"
+			},
+			"offsets": {
+				"from": 5840,
+				"to": 8300
+			},
+			"text": " Α, δεν μιλάτε ελληνικά."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,300",
+				"to": "00:00:10,820"
+			},
+			"offsets": {
+				"from": 8300,
+				"to": 10820
+			},
+			"text": " Όχι ελληνικά. Ισπανικά."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,820",
+				"to": "00:00:14,780"
+			},
+			"offsets": {
+				"from": 10820,
+				"to": 14780
+			},
+			"text": " Εγώ δεν μιλάω ισπανικά καθόλου. Αγγλικά."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,780",
+				"to": "00:00:20,380"
+			},
+			"offsets": {
+				"from": 14780,
+				"to": 20380
+			},
+			"text": " Ε, λίγο. Μάρκος μιλάει ελληνικά. Μάρκος."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,380",
+				"to": "00:00:22,600"
+			},
+			"offsets": {
+				"from": 20380,
+				"to": 22600
+			},
+			"text": " Ναι, τι θέλετε."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,600",
+				"to": "00:00:24,580"
+			},
+			"offsets": {
+				"from": 22600,
+				"to": 24580
+			},
+			"text": " Το Πάρκο Ελευθερίας."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,580",
+				"to": "00:00:28,620"
+			},
+			"offsets": {
+				"from": 24580,
+				"to": 28620
+			},
+			"text": " Ναι, εδώ είναι. Τι ψάχνετε."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,380",
+				"to": "00:00:31,400"
+			},
+			"offsets": {
+				"from": 29380,
+				"to": 31400
+			},
+			"text": " Ψάχνω τον κινηματογράφο Στούντιο."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,400",
+				"to": "00:00:37,040"
+			},
+			"offsets": {
+				"from": 31400,
+				"to": 37040
+			},
+			"text": " Μάλιστα. Βλέπετε την Εθνική Τράπεζα. Εκεί είναι."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,040",
+				"to": "00:00:38,540"
+			},
+			"offsets": {
+				"from": 37040,
+				"to": 38540
+			},
+			"text": " Ευχαριστώ."
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+  "file": "data/vocabulary/greek-russian.json",
+  "validated_at": "2026-11-07T16:50:50.758113+00:00",
+  "valid_json": true,
+  "counts_match_rendered_ui": true,
+  "all_source_cards_represented_exactly_once": true,
+  "source_text_reconstructable_for_all_cards": true,
+  "all_entries_have_greek_and_russian": true,
+  "no_duplicate_normalized_pairs": true,
+  "preexisting_258_entries_unchanged": true,
+  "new_entries": 67,
+  "summary": {
+    "source_sets": 9,
+    "source_cards": 329,
+    "entries": 325,
+    "duplicate_cards_merged": 4,
+    "corrected_entries": 16,
+    "number_translations_added": 22,
+    "complete": true
+  },
+  "sources": [
+    {
+      "id": "905103325",
+      "title": "Ρήματα/Глаголы τύπος Α",
+      "cards": 47,
+      "complete": true,
+      "snapshot_sha256": "fc53eddec8b7bf6a20feb0cfc9884132f72b36a43a8f46d6718c960c8dea8b24"
+    },
+    {
+      "id": "904285498",
+      "title": "Ρήματα Β1",
+      "cards": 33,
+      "complete": true,
+      "snapshot_sha256": "d510b6343901c03e411e70d569c7d8fa2cc8b97fc96964380b3c999a67970ffc"
+    },
+    {
+      "id": "899920264",
+      "title": "Выражения без артикля",
+      "cards": 19,
+      "complete": true,
+      "snapshot_sha256": "60cde3d8c1aeeb13d85fbcd5781e64fc5fb4cae26d2e03b6690314b542efd805"
+    },
+    {
+      "id": "889378526",
+      "title": "επίθετα (прилагательные)",
+      "cards": 78,
+      "complete": true,
+      "snapshot_sha256": "9d275765d1859273e0cba78c9baff15a9b8861ed5422503d3cd1804b5a891fb5"
+    },
+    {
+      "id": "816123749",
+      "title": "Η οικογένεια",
+      "cards": 30,
+      "complete": true,
+      "snapshot_sha256": "5cbfb9ed74142f5f863c634149eef2b3168cdd6206580bf6044971dab34e4841"
+    },
+    {
+      "id": "803088534",
+      "title": "Αριθμητικά (απόλυτα)",
+      "cards": 22,
+      "complete": true,
+      "snapshot_sha256": "d80c481f9df512a00c1e9b42bac776d6eed2f8b1c2bb87dd96e7fa5a6d6582a4"
+    },
+    {
+      "id": "920766939",
+      "title": "εξωτερική εμφάνιση",
+      "cards": 33,
+      "complete": true,
+      "snapshot_sha256": "39b09530776ff18785d3c20e877c022750f74f223d4e230d75862586f7a82261"
+    },
+    {
+      "id": "889377441",
+      "title": "Η εθνικότητα \\ Национальность",
+      "cards": 29,
+      "complete": true,
+      "snapshot_sha256": "c6f60c27af9395469201721f15ae72385d62d30116a4c6291b90584afffa5079"
+    },
+    {
+      "id": "805813890",
+      "title": "Τα επαγγέλματα. Профессии",
+      "cards": 38,
+      "complete": true,
+      "snapshot_sha256": "5c22925d474a2dd799da927722a678025a3b441c422c47c575cc52a7f0c1284d"
+    }
+  ]
+}

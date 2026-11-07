@@ -1,0 +1,12 @@
+[
+  {
+    "type": "replace",
+    "reference": "χαιρω",
+    "asr": "χαιρο"
+  },
+  {
+    "type": "replace",
+    "reference": "καθηγητη",
+    "asr": "παιθηγητη"
+  }
+]

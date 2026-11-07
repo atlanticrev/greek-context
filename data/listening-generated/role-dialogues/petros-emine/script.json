@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "title": "Πέτρος και Εμινέ — знакомство, работа и жильё",
+  "source_reference_id": "holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff",
+  "source_transcript": "data/listening-reference-library/transcripts/holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff.txt",
+  "source_sha256": "4b4fc9bdd2efd2de1711d62b68f4b54574f7f2ab08a4bcbc20ef3c4678c2df03",
+  "omitted_headings": [
+    "Μάθημα 5. Άσκηση 27."
+  ],
+  "role_assignment_status": "editorial casting from text; not original speaker diarization",
+  "casting_note": "Два чтеца LFM. Петру назначен male-greek, Эмине female-greek. Роль и голос не меняются между репликами.",
+  "roles": {
+    "petros": {
+      "label": "Πέτρος",
+      "voice": "male-greek"
+    },
+    "emine": {
+      "label": "Εμινέ",
+      "voice": "female-greek"
+    }
+  },
+  "turns": [
+    {
+      "role": "petros",
+      "text": "Γεια σου.",
+      "scene": 1
+    },
+    {
+      "role": "emine",
+      "text": "Γεια σου. Πώς σε λένε;",
+      "scene": 1
+    },
+    {
+      "role": "petros",
+      "text": "Με λένε Πέτρο. Εσένα;",
+      "scene": 1
+    },
+    {
+      "role": "emine",
+      "text": "Εμινέ.",
+      "scene": 1
+    },
+    {
+      "role": "petros",
+      "text": "Μιλάς ελληνικά;",
+      "scene": 1
+    },
+    {
+      "role": "emine",
+      "text": "Όχι πολύ καλά.",
+      "scene": 1
+    },
+    {
+      "role": "petros",
+      "text": "Από πού είσαι;",
+      "scene": 1
+    },
+    {
+      "role": "emine",
+      "text": "Είμαι από την Τουρκία, από την Άγκυρα.",
+      "scene": 1
+    },
+    {
+      "role": "petros",
+      "text": "Και τι δουλειά κάνεις;",
+      "scene": 1
+    },
+    {
+      "role": "emine",
+      "text": "Είμαι φαρμακοποιός, αλλά τώρα δεν δουλεύω. Μαθαίνω ελληνικά. Εσύ;",
+      "scene": 1
+    },
+    {
+      "role": "petros",
+      "text": "Είμαι μηχανικός. Πού μένεις, Εμινέ;",
+      "scene": 1
+    },
+    {
+      "role": "emine",
+      "text": "Στο Καλαμάκι. Εσύ;",
+      "scene": 1
+    },
+    {
+      "role": "petros",
+      "text": "Εγώ μένω στην Πετρούπολη.",
+      "scene": 1
+    }
+  ]
+}

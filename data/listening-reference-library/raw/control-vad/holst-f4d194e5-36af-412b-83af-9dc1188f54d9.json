@@ -1,0 +1,366 @@
+{
+  "systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+  "model": {
+    "type": "large",
+    "multilingual": true,
+    "vocab": 51866,
+    "audio": {
+      "ctx": 1500,
+      "state": 1280,
+      "head": 20,
+      "layer": 32
+    },
+    "text": {
+      "ctx": 448,
+      "state": 1280,
+      "head": 20,
+      "layer": 4
+    },
+    "mels": 128,
+    "ftype": 1
+  },
+  "params": {
+    "model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3-turbo.bin",
+    "language": "el",
+    "translate": false
+  },
+  "result": {
+    "language": "el"
+  },
+  "transcription": [
+    {
+      "timestamps": {
+        "from": "00:00:00,000",
+        "to": "00:00:04,050"
+      },
+      "offsets": {
+        "from": 0,
+        "to": 4050
+      },
+      "text": " Μάθημα 1, άσκηση 10.",
+      "tokens": [
+        {
+          "text": "[_BEG_]",
+          "timestamps": {
+            "from": "00:00:00,000",
+            "to": "00:00:00,000"
+          },
+          "offsets": {
+            "from": 0,
+            "to": 0
+          },
+          "id": 50365,
+          "p": 0.932295,
+          "t_dtw": -1
+        },
+        {
+          "text": " Μ",
+          "timestamps": {
+            "from": "00:00:00,100",
+            "to": "00:00:00,160"
+          },
+          "offsets": {
+            "from": 100,
+            "to": 160
+          },
+          "id": 24834,
+          "p": 0.993669,
+          "t_dtw": -1
+        },
+        {
+          "text": "ά",
+          "timestamps": {
+            "from": "00:00:00,160",
+            "to": "00:00:00,320"
+          },
+          "offsets": {
+            "from": 160,
+            "to": 320
+          },
+          "id": 3849,
+          "p": 0.995896,
+          "t_dtw": -1
+        },
+        {
+          "text": "θη",
+          "timestamps": {
+            "from": "00:00:00,320",
+            "to": "00:00:00,650"
+          },
+          "offsets": {
+            "from": 320,
+            "to": 650
+          },
+          "id": 40939,
+          "p": 0.999285,
+          "t_dtw": -1
+        },
+        {
+          "text": "μα",
+          "timestamps": {
+            "from": "00:00:00,650",
+            "to": "00:00:00,730"
+          },
+          "offsets": {
+            "from": 650,
+            "to": 730
+          },
+          "id": 11656,
+          "p": 0.999182,
+          "t_dtw": -1
+        },
+        {
+          "text": " 1",
+          "timestamps": {
+            "from": "00:00:00,990",
+            "to": "00:00:01,240"
+          },
+          "offsets": {
+            "from": 990,
+            "to": 1240
+          },
+          "id": 502,
+          "p": 0.98792,
+          "t_dtw": -1
+        },
+        {
+          "text": ",",
+          "timestamps": {
+            "from": "00:00:01,240",
+            "to": "00:00:01,310"
+          },
+          "offsets": {
+            "from": 1240,
+            "to": 1310
+          },
+          "id": 11,
+          "p": 0.146229,
+          "t_dtw": -1
+        },
+        {
+          "text": " ά",
+          "timestamps": {
+            "from": "00:00:01,390",
+            "to": "00:00:01,630"
+          },
+          "offsets": {
+            "from": 1390,
+            "to": 1630
+          },
+          "id": 22554,
+          "p": 0.906315,
+          "t_dtw": -1
+        },
+        {
+          "text": "σ",
+          "timestamps": {
+            "from": "00:00:01,630",
+            "to": "00:00:01,700"
+          },
+          "offsets": {
+            "from": 1630,
+            "to": 1700
+          },
+          "id": 3786,
+          "p": 0.999889,
+          "t_dtw": -1
+        },
+        {
+          "text": "κ",
+          "timestamps": {
+            "from": "00:00:02,000",
+            "to": "00:00:02,040"
+          },
+          "offsets": {
+            "from": 2000,
+            "to": 2040
+          },
+          "id": 4915,
+          "p": 0.995465,
+          "t_dtw": -1
+        },
+        {
+          "text": "η",
+          "timestamps": {
+            "from": "00:00:02,040",
+            "to": "00:00:02,230"
+          },
+          "offsets": {
+            "from": 2040,
+            "to": 2230
+          },
+          "id": 3835,
+          "p": 0.999493,
+          "t_dtw": -1
+        },
+        {
+          "text": "ση",
+          "timestamps": {
+            "from": "00:00:02,300",
+            "to": "00:00:02,640"
+          },
+          "offsets": {
+            "from": 2300,
+            "to": 2640
+          },
+          "id": 17688,
+          "p": 0.998841,
+          "t_dtw": -1
+        },
+        {
+          "text": " 10",
+          "timestamps": {
+            "from": "00:00:02,640",
+            "to": "00:00:03,280"
+          },
+          "offsets": {
+            "from": 2640,
+            "to": 3280
+          },
+          "id": 1266,
+          "p": 0.999079,
+          "t_dtw": -1
+        },
+        {
+          "text": ".",
+          "timestamps": {
+            "from": "00:00:03,280",
+            "to": "00:00:03,280"
+          },
+          "offsets": {
+            "from": 3280,
+            "to": 3280
+          },
+          "id": 13,
+          "p": 0.89386,
+          "t_dtw": -1
+        },
+        {
+          "text": "[_TT_164]",
+          "timestamps": {
+            "from": "00:00:03,280",
+            "to": "00:00:03,280"
+          },
+          "offsets": {
+            "from": 3280,
+            "to": 3280
+          },
+          "id": 50529,
+          "p": 0.517761,
+          "t_dtw": -1
+        }
+      ]
+    },
+    {
+      "timestamps": {
+        "from": "00:01:21,980",
+        "to": "00:01:22,340"
+      },
+      "offsets": {
+        "from": 81980,
+        "to": 82340
+      },
+      "text": " Άννη.",
+      "tokens": [
+        {
+          "text": "[_BEG_]",
+          "timestamps": {
+            "from": "00:00:30,000",
+            "to": "00:00:30,000"
+          },
+          "offsets": {
+            "from": 30000,
+            "to": 30000
+          },
+          "id": 50365,
+          "p": 0.957289,
+          "t_dtw": -1
+        },
+        {
+          "text": " �",
+          "timestamps": {
+            "from": "00:00:30,030",
+            "to": "00:00:30,030"
+          },
+          "offsets": {
+            "from": 30030,
+            "to": 30030
+          },
+          "id": 1158,
+          "p": 0.319045,
+          "t_dtw": -1
+        },
+        {
+          "text": "�",
+          "timestamps": {
+            "from": "00:00:30,060",
+            "to": "00:00:30,060"
+          },
+          "offsets": {
+            "from": 30060,
+            "to": 30060
+          },
+          "id": 228,
+          "p": 0.988989,
+          "t_dtw": -1
+        },
+        {
+          "text": "ν",
+          "timestamps": {
+            "from": "00:00:30,100",
+            "to": "00:00:30,120"
+          },
+          "offsets": {
+            "from": 30100,
+            "to": 30120
+          },
+          "id": 2254,
+          "p": 0.995708,
+          "t_dtw": -1
+        },
+        {
+          "text": "νη",
+          "timestamps": {
+            "from": "00:00:30,120",
+            "to": "00:00:30,250"
+          },
+          "offsets": {
+            "from": 30120,
+            "to": 30250
+          },
+          "id": 32927,
+          "p": 0.37623,
+          "t_dtw": -1
+        },
+        {
+          "text": ".",
+          "timestamps": {
+            "from": "00:00:30,250",
+            "to": "00:00:30,320"
+          },
+          "offsets": {
+            "from": 30250,
+            "to": 30320
+          },
+          "id": 13,
+          "p": 0.461262,
+          "t_dtw": -1
+        },
+        {
+          "text": "[_TT_18]",
+          "timestamps": {
+            "from": "00:00:30,360",
+            "to": "00:00:30,360"
+          },
+          "offsets": {
+            "from": 30360,
+            "to": 30360
+          },
+          "id": 50383,
+          "p": 0.322765,
+          "t_dtw": -1
+        }
+      ]
+    }
+  ]
+}

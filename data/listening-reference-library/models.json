@@ -1,0 +1,23 @@
+{
+  "downloaded_at": "2026-11-05T10:02:09Z",
+  "source": "https://github.com/ggml-org/whisper.cpp/blob/master/models/README.md",
+  "models": [
+    {
+      "name": "large-v3",
+      "path": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+      "sha1": "ad82bf6a9043ceed055076d0fd39f5f186ff8062"
+    },
+    {
+      "name": "large-v3-turbo",
+      "path": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3-turbo.bin",
+      "sha1": "4af2b29d7ec73d781377bfd1758ca957a807e941"
+    }
+  ],
+  "engine": "whisper.cpp",
+  "engine_version": "1.8.4",
+  "vad": {
+    "name": "silero-v6.2.0",
+    "source": "https://huggingface.co/ggml-org/whisper-vad",
+    "sha256": "2aa269b785eeb53a82983a20501ddf7c1d9c48e33ab63a41391ac6c9f7fb6987"
+  }
+}

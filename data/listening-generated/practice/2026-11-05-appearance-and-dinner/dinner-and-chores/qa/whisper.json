@@ -1,0 +1,164 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,380"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2380
+			},
+			"text": " Πεινάω. Τι μαγειρεύεις?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,380",
+				"to": "00:00:05,800"
+			},
+			"offsets": {
+				"from": 2380,
+				"to": 5800
+			},
+			"text": " Κρέας. Εσύ τρως κρέας."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,800",
+				"to": "00:00:09,600"
+			},
+			"offsets": {
+				"from": 5800,
+				"to": 9600
+			},
+			"text": " Όχι, δεν τρώω κρέας. Προτιμάω ψάρι."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,600",
+				"to": "00:00:13,060"
+			},
+			"offsets": {
+				"from": 9600,
+				"to": 13060
+			},
+			"text": " Εντάξει. Παραγγέλνουμε ψάρι."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,060",
+				"to": "00:00:16,260"
+			},
+			"offsets": {
+				"from": 13060,
+				"to": 16260
+			},
+			"text": " Ναι. Το εστιατόριο είναι ανοιχτό."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,260",
+				"to": "00:00:20,500"
+			},
+			"offsets": {
+				"from": 16260,
+				"to": 20500
+			},
+			"text": " Ναι, είναι ανοιχτό. Το ψάρι είναι πολύ νόστιμο."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,500",
+				"to": "00:00:22,740"
+			},
+			"offsets": {
+				"from": 20500,
+				"to": 22740
+			},
+			"text": " Ωραία. Εσύ τι τρως?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,740",
+				"to": "00:00:25,260"
+			},
+			"offsets": {
+				"from": 22740,
+				"to": 25260
+			},
+			"text": " Εγώ τρώω κρέας και ψωμί."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,260",
+				"to": "00:00:27,340"
+			},
+			"offsets": {
+				"from": 25260,
+				"to": 27340
+			},
+			"text": " Ποιος πλένει τα πιάτα?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,140",
+				"to": "00:00:31,020"
+			},
+			"offsets": {
+				"from": 28140,
+				"to": 31020
+			},
+			"text": " Εσύ, εγώ μαγειρεύω και παραγγέλνω."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,020",
+				"to": "00:00:36,720"
+			},
+			"offsets": {
+				"from": 31020,
+				"to": 36720
+			},
+			"text": " Εντάξει, πλένω τα πιάτα. Δεν μαγειρεύω πολύ καλά."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:36,720",
+				"to": "00:00:39,480"
+			},
+			"offsets": {
+				"from": 36720,
+				"to": 39480
+			},
+			"text": " Αλλά πλένεις πολύ καλά τα πιάτα."
+		}
+	]
+}

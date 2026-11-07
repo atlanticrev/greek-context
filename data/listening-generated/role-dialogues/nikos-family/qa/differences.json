@@ -1,0 +1,17 @@
+[
+  {
+    "type": "replace",
+    "reference": "χαιρω",
+    "asr": "χαιρο"
+  },
+  {
+    "type": "replace",
+    "reference": "χαιρω",
+    "asr": "χαιρο"
+  },
+  {
+    "type": "replace",
+    "reference": "λαουρα",
+    "asr": "λαωρα"
+  }
+]

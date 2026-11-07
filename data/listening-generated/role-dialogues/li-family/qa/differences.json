@@ -1,0 +1,32 @@
+[
+  {
+    "type": "replace",
+    "reference": "λι",
+    "asr": "λη"
+  },
+  {
+    "type": "replace",
+    "reference": "ααα",
+    "asr": "α α"
+  },
+  {
+    "type": "replace",
+    "reference": "χουανγκ",
+    "asr": "χουαγκ"
+  },
+  {
+    "type": "replace",
+    "reference": "γκονγκ",
+    "asr": "γκογκ"
+  },
+  {
+    "type": "replace",
+    "reference": "ειναι",
+    "asr": "ειμαι"
+  },
+  {
+    "type": "replace",
+    "reference": "η λιεν",
+    "asr": "ηλιεν"
+  }
+]

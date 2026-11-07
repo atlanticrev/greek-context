@@ -1,0 +1,175 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,280"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4280
+			},
+			"text": " Γεια σου."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,280",
+				"to": "00:00:06,740"
+			},
+			"offsets": {
+				"from": 4280,
+				"to": 6740
+			},
+			"text": " Γεια σου. Πώς σε λένε?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,740",
+				"to": "00:00:09,400"
+			},
+			"offsets": {
+				"from": 6740,
+				"to": 9400
+			},
+			"text": " Με λένε Πέτρο. Εσένα?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,400",
+				"to": "00:00:10,900"
+			},
+			"offsets": {
+				"from": 9400,
+				"to": 10900
+			},
+			"text": " Εμινέ."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,900",
+				"to": "00:00:13,060"
+			},
+			"offsets": {
+				"from": 10900,
+				"to": 13060
+			},
+			"text": " Μιλάς ελληνικά?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,060",
+				"to": "00:00:14,880"
+			},
+			"offsets": {
+				"from": 13060,
+				"to": 14880
+			},
+			"text": " Όχι πολύ καλά."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,880",
+				"to": "00:00:16,820"
+			},
+			"offsets": {
+				"from": 14880,
+				"to": 16820
+			},
+			"text": " Από πού είσαι?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,820",
+				"to": "00:00:19,920"
+			},
+			"offsets": {
+				"from": 16820,
+				"to": 19920
+			},
+			"text": " Είμαι από την Τουρκία, από την Άγκυρα."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,920",
+				"to": "00:00:21,980"
+			},
+			"offsets": {
+				"from": 19920,
+				"to": 21980
+			},
+			"text": " Και τι δουλειά κάνεις?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,980",
+				"to": "00:00:27,700"
+			},
+			"offsets": {
+				"from": 21980,
+				"to": 27700
+			},
+			"text": " Είμαι φαρμακοποιός, αλλά τώρα δεν δουλεύω. Μαθαίνω ελληνικά. Εσύ?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,040",
+				"to": "00:00:32,780"
+			},
+			"offsets": {
+				"from": 29040,
+				"to": 32780
+			},
+			"text": " «Είμαι μηχανικός. Πού μένεις, Εμινέα»"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,780",
+				"to": "00:00:35,800"
+			},
+			"offsets": {
+				"from": 32780,
+				"to": 35800
+			},
+			"text": " «Στο Καλαμάκι. Εσύ»"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:35,800",
+				"to": "00:00:37,560"
+			},
+			"offsets": {
+				"from": 35800,
+				"to": 37560
+			},
+			"text": " «Εγώ μένω στην Πετρούπολη»"
+		}
+	]
+}

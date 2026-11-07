@@ -1,0 +1,197 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:01,980"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 1980
+			},
+			"text": " Γεια σου. Πώς σε λένε."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,980",
+				"to": "00:00:07,040"
+			},
+			"offsets": {
+				"from": 1980,
+				"to": 7040
+			},
+			"text": " Γεια. Με λένε Άνε. Εσένα. Πώς σε λένε."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,040",
+				"to": "00:00:10,340"
+			},
+			"offsets": {
+				"from": 7040,
+				"to": 10340
+			},
+			"text": " Είμαι ο Φλαβιάν. Χαίρο πολύ."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,340",
+				"to": "00:00:11,560"
+			},
+			"offsets": {
+				"from": 10340,
+				"to": 11560
+			},
+			"text": " Κι εγώ."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:11,560",
+				"to": "00:00:13,480"
+			},
+			"offsets": {
+				"from": 11560,
+				"to": 13480
+			},
+			"text": " Από πού είσαι, Άνε."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,480",
+				"to": "00:00:17,960"
+			},
+			"offsets": {
+				"from": 13480,
+				"to": 17960
+			},
+			"text": " Είμαι από την Ισπανία. Από τη Μαδρίτη. Εσύ."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,960",
+				"to": "00:00:21,100"
+			},
+			"offsets": {
+				"from": 17960,
+				"to": 21100
+			},
+			"text": " Εγώ είμαι από τη Γαλλία. Από το Παρίσι."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,100",
+				"to": "00:00:25,060"
+			},
+			"offsets": {
+				"from": 21100,
+				"to": 25060
+			},
+			"text": " Ωραία. Τα λέμε στο μάθημα. Ε."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:25,060",
+				"to": "00:00:28,300"
+			},
+			"offsets": {
+				"from": 25060,
+				"to": 28300
+			},
+			"text": " Ναι. Πώς λένε τον παιθηγητή."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,300",
+				"to": "00:00:29,820"
+			},
+			"offsets": {
+				"from": 28300,
+				"to": 29820
+			},
+			"text": " Πώς τον λένε."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,000",
+				"to": "00:00:30,900"
+			},
+			"offsets": {
+				"from": 30000,
+				"to": 30900
+			},
+			"text": " δεν ξέρω."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,900",
+				"to": "00:00:33,920"
+			},
+			"offsets": {
+				"from": 30900,
+				"to": 33920
+			},
+			"text": " Εντάξει. Τα λέμε λοιπόν"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:33,920",
+				"to": "00:00:35,100"
+			},
+			"offsets": {
+				"from": 33920,
+				"to": 35100
+			},
+			"text": " χάρηκα πολύ."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:35,100",
+				"to": "00:00:37,540"
+			},
+			"offsets": {
+				"from": 35100,
+				"to": 37540
+			},
+			"text": " Κι εγώ, αντίο."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,540",
+				"to": "00:00:38,860"
+			},
+			"offsets": {
+				"from": 37540,
+				"to": 38860
+			},
+			"text": " Γεια χαρά."
+		}
+	]
+}

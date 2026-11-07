@@ -1,0 +1,67 @@
+{
+  "contract_checks": [
+    {
+      "check": "valid-two-voice-dialogue",
+      "passed": true
+    },
+    {
+      "check": "valid-one-voice-monologue",
+      "passed": true
+    },
+    {
+      "check": "reject-one-voice-dialogue",
+      "passed": true
+    },
+    {
+      "check": "reject-two-voice-monologue",
+      "passed": true
+    },
+    {
+      "check": "reject-three-character-dialogue",
+      "passed": true
+    },
+    {
+      "check": "reject-unreviewed-new-word",
+      "passed": true
+    },
+    {
+      "check": "reject-unpracticed-grammar",
+      "passed": true
+    },
+    {
+      "check": "reject-re-recording-as-new-text",
+      "passed": true
+    },
+    {
+      "check": "reject-duplicate-previous-practice",
+      "passed": true
+    }
+  ],
+  "end_to_end": [
+    {
+      "piece": "dialogue-coffee",
+      "format": "dialogue",
+      "voices": [
+        "female-greek",
+        "male-greek"
+      ],
+      "words": 79,
+      "seconds": 47.88,
+      "asr_word_distance": 0,
+      "all_hashes_and_fixed_roles_verified": true
+    },
+    {
+      "piece": "monologue-family",
+      "format": "monologue",
+      "voices": [
+        "female-greek"
+      ],
+      "words": 64,
+      "seconds": 27.809,
+      "asr_word_distance": 0,
+      "all_hashes_and_fixed_roles_verified": true
+    }
+  ],
+  "skill_validation": "quick_validate.py passed",
+  "human_listening_review": false
+}

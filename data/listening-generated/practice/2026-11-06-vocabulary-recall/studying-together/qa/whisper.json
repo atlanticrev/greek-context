@@ -1,0 +1,186 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,860"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 860
+			},
+			"text": " Τι διαβάζεις?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,860",
+				"to": "00:00:02,000"
+			},
+			"offsets": {
+				"from": 860,
+				"to": 2000
+			},
+			"text": " Το βιβλίο μου."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,000",
+				"to": "00:00:05,580"
+			},
+			"offsets": {
+				"from": 2000,
+				"to": 5580
+			},
+			"text": " Μαθαίνω ελληνικά, αλλά δεν καταλαβαίνω καλά."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,580",
+				"to": "00:00:07,480"
+			},
+			"offsets": {
+				"from": 5580,
+				"to": 7480
+			},
+			"text": " Εγώ μεταφράζω και γράφω."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,480",
+				"to": "00:00:08,880"
+			},
+			"offsets": {
+				"from": 7480,
+				"to": 8880
+			},
+			"text": " Εσύ γράφεις?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,880",
+				"to": "00:00:12,280"
+			},
+			"offsets": {
+				"from": 8880,
+				"to": 12280
+			},
+			"text": " Ναι, αλλά ξεχνάω το τετράδιό μου στο σπίτι."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:12,280",
+				"to": "00:00:14,080"
+			},
+			"offsets": {
+				"from": 12280,
+				"to": 14080
+			},
+			"text": " Και πώς μαθαίνεις ελληνικά?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,080",
+				"to": "00:00:16,440"
+			},
+			"offsets": {
+				"from": 14080,
+				"to": 16440
+			},
+			"text": " Διαβάζω και μιλάω με τον καθηγητή μου."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:16,440",
+				"to": "00:00:18,140"
+			},
+			"offsets": {
+				"from": 16440,
+				"to": 18140
+			},
+			"text": " Ο καθηγητής σε βοηθάει."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,140",
+				"to": "00:00:21,300"
+			},
+			"offsets": {
+				"from": 18140,
+				"to": 21300
+			},
+			"text": " Ναι, εγώ ρωτάω και ο καθηγητής απαντάει."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,300",
+				"to": "00:00:22,860"
+			},
+			"offsets": {
+				"from": 21300,
+				"to": 22860
+			},
+			"text": " Και εσύ με βοηθάς."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,860",
+				"to": "00:00:26,160"
+			},
+			"offsets": {
+				"from": 22860,
+				"to": 26160
+			},
+			"text": " Ναι, εσύ ρωτάς, εγώ απαντάω."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,500",
+				"to": "00:00:30,140"
+			},
+			"offsets": {
+				"from": 26500,
+				"to": 30140
+			},
+			"text": " Ωραία. Εγώ διαβάζω, εσύ μεταφράζεις."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,140",
+				"to": "00:00:31,960"
+			},
+			"offsets": {
+				"from": 30140,
+				"to": 31960
+			},
+			"text": " Και γράφουμε στο τετράδιό σου."
+		}
+	]
+}

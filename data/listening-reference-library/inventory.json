@@ -1,0 +1,1211 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-07T16:50:56.240451+00:00",
+  "items": [
+    {
+      "id": "holst-1086c58c-75c7-4459-96a0-5db2312055a4",
+      "audio_sha256": "de352f3efe53dd41e33e6dd341a36dd4abe0b30c6eaf08046f6f1f617a26bf75",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/1086c58c-75c7-4459-96a0-5db2312055a4.mp3",
+          "archive_name": "1086c58c-75c7-4459-96a0-5db2312055a4.mp3",
+          "occurrences": [
+            {
+              "object_id": "ef589074-c5dc-4d6a-a3fc-fd2131cf0b9a",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "02.mp3"
+            },
+            {
+              "object_id": "1086c58c-75c7-4459-96a0-5db2312055a4",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "02.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/1086c58c-75c7-4459-96a0-5db2312055a4.mp3",
+      "duration_seconds": 62.879925,
+      "audio_bytes": 2516241,
+      "original_titles": [
+        "02.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ]
+    },
+    {
+      "id": "holst-1520d811-1319-4ec0-b2e0-f112d696b47a",
+      "audio_sha256": "4ab92284bf79cd0e2108a9adac1ac90ecb0fb99f87e57488d77fd5f065c9ec71",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/1520d811-1319-4ec0-b2e0-f112d696b47a.mp3",
+          "archive_name": "1520d811-1319-4ec0-b2e0-f112d696b47a.mp3",
+          "occurrences": [
+            {
+              "object_id": "1520d811-1319-4ec0-b2e0-f112d696b47a",
+              "frame_id": "3988ce94-8268-403c-84f8-ba744d242347",
+              "frame_label": "31/10",
+              "display_name": "15.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/1520d811-1319-4ec0-b2e0-f112d696b47a.mp3",
+      "duration_seconds": 60.607275,
+      "audio_bytes": 2425335,
+      "original_titles": [
+        "15.mp3"
+      ],
+      "frame_labels": [
+        "31/10"
+      ]
+    },
+    {
+      "id": "holst-15b66fc8-b6cb-438f-9b00-ef884d379a19",
+      "audio_sha256": "3f76c9126fc30eaf8b5b3c9580837120b9dd2237fb014f51da6702f90cb26891",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/15b66fc8-b6cb-438f-9b00-ef884d379a19.mp3",
+          "archive_name": "15b66fc8-b6cb-438f-9b00-ef884d379a19.mp3",
+          "occurrences": [
+            {
+              "object_id": "15b66fc8-b6cb-438f-9b00-ef884d379a19",
+              "frame_id": "470596c3-5eda-4540-aba5-67d39a73fee4",
+              "frame_label": "23/09",
+              "display_name": "034 - 3.24.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/15b66fc8-b6cb-438f-9b00-ef884d379a19.mp3",
+      "duration_seconds": 27.62225,
+      "audio_bytes": 662934,
+      "original_titles": [
+        "034 - 3.24.mp3"
+      ],
+      "frame_labels": [
+        "23/09"
+      ]
+    },
+    {
+      "id": "holst-3156781d-051e-46ab-b628-1c2581ef96a3",
+      "audio_sha256": "ff76fab341535b6d29dab9c0953e7270f5c339cf44ea6c45458e97dacc9fd985",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/3156781d-051e-46ab-b628-1c2581ef96a3.mp3",
+          "archive_name": "3156781d-051e-46ab-b628-1c2581ef96a3.mp3",
+          "occurrences": [
+            {
+              "object_id": "f7b52b6c-fb7c-445f-93a3-b2b2a7a2f500",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "01.mp3"
+            },
+            {
+              "object_id": "3156781d-051e-46ab-b628-1c2581ef96a3",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "01.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/3156781d-051e-46ab-b628-1c2581ef96a3.mp3",
+      "duration_seconds": 53.110125,
+      "audio_bytes": 2125449,
+      "original_titles": [
+        "01.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ]
+    },
+    {
+      "id": "holst-32af7bb1-268d-4346-b25d-99c589e51c2e",
+      "audio_sha256": "ef1e3ca2588505873d8878001d3101d3a81e89ebddca51dc8f2c35be0e64ef67",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/32af7bb1-268d-4346-b25d-99c589e51c2e.mp3",
+          "archive_name": "32af7bb1-268d-4346-b25d-99c589e51c2e.mp3",
+          "occurrences": [
+            {
+              "object_id": "a8c637da-b67e-45ae-b671-6f6f46b751a0",
+              "frame_id": "cc2da683-68f6-4025-beda-8af3fb9ffdaa",
+              "frame_label": "Д/З Максим",
+              "display_name": "Track 21.mp3"
+            },
+            {
+              "object_id": "41c34d72-bbe4-46f3-8e1b-db3c991fcb8f",
+              "frame_id": "cbed2f85-8f26-4851-b061-99e7de1ddefb",
+              "frame_label": "19/09",
+              "display_name": "Track 21.mp3"
+            },
+            {
+              "object_id": "32af7bb1-268d-4346-b25d-99c589e51c2e",
+              "frame_id": "270a72d0-357d-4f33-a68d-0fbea10e610d",
+              "frame_label": "Д/З Елена",
+              "display_name": "Track 21.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/32af7bb1-268d-4346-b25d-99c589e51c2e.mp3",
+      "duration_seconds": 39.967313,
+      "audio_bytes": 639510,
+      "original_titles": [
+        "Track 21.mp3"
+      ],
+      "frame_labels": [
+        "19/09",
+        "Д/З Елена",
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-386904e2-36ae-4865-9d45-33da502fd967",
+      "audio_sha256": "5857d0126977a9c2c607d366821108cc5f62ca707bb068db7fb9bcc3f7669995",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/386904e2-36ae-4865-9d45-33da502fd967.mp3",
+          "archive_name": "386904e2-36ae-4865-9d45-33da502fd967.mp3",
+          "occurrences": [
+            {
+              "object_id": "e2823f9d-f77c-4852-8b7e-793cad4cdb16",
+              "frame_id": "04aa908e-3fcb-4697-a717-044ba33aface",
+              "frame_label": "Д/З Максим",
+              "display_name": "37 Track 37.mp3"
+            },
+            {
+              "object_id": "386904e2-36ae-4865-9d45-33da502fd967",
+              "frame_id": "ccc24fcf-c641-4288-9558-1ffd16c150bc",
+              "frame_label": "Д/З Елена",
+              "display_name": "37 Track 37.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/386904e2-36ae-4865-9d45-33da502fd967.mp3",
+      "duration_seconds": 32.9414,
+      "audio_bytes": 1323032,
+      "original_titles": [
+        "37 Track 37.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-3a3fffe0-a3d7-45e8-9790-3751610ce84a",
+      "audio_sha256": "76488a32212c4fda14b276d976f43bcad8bb85b3b31abe6fd2aa3523118f9c3d",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/3a3fffe0-a3d7-45e8-9790-3751610ce84a.mp3",
+          "archive_name": "3a3fffe0-a3d7-45e8-9790-3751610ce84a.mp3",
+          "occurrences": [
+            {
+              "object_id": "57706efd-0186-4324-b949-41dd2c262f10",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "06.mp3"
+            },
+            {
+              "object_id": "3a3fffe0-a3d7-45e8-9790-3751610ce84a",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "06.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/3a3fffe0-a3d7-45e8-9790-3751610ce84a.mp3",
+      "duration_seconds": 74.295425,
+      "audio_bytes": 2972861,
+      "original_titles": [
+        "06.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ]
+    },
+    {
+      "id": "holst-4c62ebbc-d4ef-459a-8648-e335c1319f37",
+      "audio_sha256": "4e580392facc17b31c2d81ea56dd84260098e875712912e366df55ae02809b1e",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/4c62ebbc-d4ef-459a-8648-e335c1319f37.mp3",
+          "archive_name": "4c62ebbc-d4ef-459a-8648-e335c1319f37.mp3",
+          "occurrences": [
+            {
+              "object_id": "4c62ebbc-d4ef-459a-8648-e335c1319f37",
+              "frame_id": "470596c3-5eda-4540-aba5-67d39a73fee4",
+              "frame_label": "23/09",
+              "display_name": "051 - 5.26.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/4c62ebbc-d4ef-459a-8648-e335c1319f37.mp3",
+      "duration_seconds": 45.828417,
+      "audio_bytes": 1099882,
+      "original_titles": [
+        "051 - 5.26.mp3"
+      ],
+      "frame_labels": [
+        "23/09"
+      ]
+    },
+    {
+      "id": "holst-56d20506-c627-4894-a5da-6e114f25b5ad",
+      "audio_sha256": "19e6354705e63c808369a941f84ff80c91634608f6a24f8a633d32fbeeb02108",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/56d20506-c627-4894-a5da-6e114f25b5ad.mp3",
+          "archive_name": "56d20506-c627-4894-a5da-6e114f25b5ad.mp3",
+          "occurrences": [
+            {
+              "object_id": "56d20506-c627-4894-a5da-6e114f25b5ad",
+              "frame_id": "93545c74-f570-40f2-ac9f-7cdf2d801bd6",
+              "frame_label": "07.11",
+              "display_name": "43.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/56d20506-c627-4894-a5da-6e114f25b5ad.mp3",
+      "duration_seconds": 35.0192,
+      "audio_bytes": 1402874,
+      "original_titles": [
+        "43.mp3"
+      ],
+      "frame_labels": [
+        "07.11"
+      ]
+    },
+    {
+      "id": "holst-5b0c9685-bb86-4a83-b640-d416e8b7a9d2",
+      "audio_sha256": "041833297a3ba4da91481150a6fb02fb4a5b513451e435fe40b4627791dd194a",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/5b0c9685-bb86-4a83-b640-d416e8b7a9d2.mp3",
+          "archive_name": "5b0c9685-bb86-4a83-b640-d416e8b7a9d2.mp3",
+          "occurrences": [
+            {
+              "object_id": "5b0c9685-bb86-4a83-b640-d416e8b7a9d2",
+              "frame_id": "a41ab7b4-3ba8-4fa0-8869-c738f6a91459",
+              "frame_label": "08/08",
+              "display_name": "71 Track 71.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/5b0c9685-bb86-4a83-b640-d416e8b7a9d2.mp3",
+      "duration_seconds": 155.246,
+      "audio_bytes": 6215216,
+      "original_titles": [
+        "71 Track 71.mp3"
+      ],
+      "frame_labels": [
+        "08/08"
+      ]
+    },
+    {
+      "id": "holst-65e88206-950c-447b-9159-280d54229bf1",
+      "audio_sha256": "08682e370c27a0dd78acbab68c33d5edbd07ae1be080e6dd27c53edc85683701",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/65e88206-950c-447b-9159-280d54229bf1.mp3",
+          "archive_name": "65e88206-950c-447b-9159-280d54229bf1.mp3",
+          "occurrences": [
+            {
+              "object_id": "babddf12-dd1b-44b6-ad12-e3fd0a2e4790",
+              "frame_id": "9b9cf119-6dff-444c-b237-8a6e6ae71431",
+              "frame_label": "Д/З Елена",
+              "display_name": "29 - Unknown - Track 29.mp3"
+            },
+            {
+              "object_id": "65e88206-950c-447b-9159-280d54229bf1",
+              "frame_id": "a978c361-2974-46f2-a400-d64a2fc69c10",
+              "frame_label": "Д/З Максим",
+              "display_name": "29 - Unknown - Track 29.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/65e88206-950c-447b-9159-280d54229bf1.mp3",
+      "duration_seconds": 122.026667,
+      "audio_bytes": 1955588,
+      "original_titles": [
+        "29 - Unknown - Track 29.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-6a1c43ea-cdbb-4288-88d7-4a2fbeae3d96",
+      "audio_sha256": "a473cf154e52da8cba9255297ebf54d828ae9d809f2f7f3a8f369eead505d688",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/6a1c43ea-cdbb-4288-88d7-4a2fbeae3d96.mp3",
+          "archive_name": "6a1c43ea-cdbb-4288-88d7-4a2fbeae3d96.mp3",
+          "occurrences": [
+            {
+              "object_id": "467897ea-dc39-47c4-a1cb-8e2ca4870618",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "080 - 8.17.mp3"
+            },
+            {
+              "object_id": "6a1c43ea-cdbb-4288-88d7-4a2fbeae3d96",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "080 - 8.17.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/6a1c43ea-cdbb-4288-88d7-4a2fbeae3d96.mp3",
+      "duration_seconds": 58.635333,
+      "audio_bytes": 1407248,
+      "original_titles": [
+        "080 - 8.17.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ]
+    },
+    {
+      "id": "holst-6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad",
+      "audio_sha256": "2aa9227a541d896a15774c156e973ad9633bd15b2d6d27ad4c937b2a574bd282",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad.mp3",
+          "archive_name": "6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad.mp3",
+          "occurrences": [
+            {
+              "object_id": "7cb3e531-86d6-4556-b6cd-320c40fda8b4",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "05.mp3"
+            },
+            {
+              "object_id": "6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "05.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad.mp3",
+      "duration_seconds": 40.022775,
+      "audio_bytes": 1601955,
+      "original_titles": [
+        "05.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ]
+    },
+    {
+      "id": "holst-73fba7db-7171-45e9-bb91-6debbb4a7059",
+      "audio_sha256": "0a4e7c177891fe65a7ab693740c3e95cbf852290d57fbddc38e27b2a4e445c82",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/73fba7db-7171-45e9-bb91-6debbb4a7059.mp3",
+          "archive_name": "73fba7db-7171-45e9-bb91-6debbb4a7059.mp3",
+          "occurrences": [
+            {
+              "object_id": "cdfec2a5-01b5-40c7-ace4-62cfe0fea1f5",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "05.mp3"
+            },
+            {
+              "object_id": "73fba7db-7171-45e9-bb91-6debbb4a7059",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "05.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/73fba7db-7171-45e9-bb91-6debbb4a7059.mp3",
+      "duration_seconds": 116.6192,
+      "audio_bytes": 4666874,
+      "original_titles": [
+        "05.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ]
+    },
+    {
+      "id": "holst-7b06a46b-f9aa-4b02-8099-c787088d75fb",
+      "audio_sha256": "b8200505094fbba8cb0a577ad1bfac5bc6eefe23a54a7f2150406a1a559d7949",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7b06a46b-f9aa-4b02-8099-c787088d75fb.mp3",
+          "archive_name": "7b06a46b-f9aa-4b02-8099-c787088d75fb.mp3",
+          "occurrences": [
+            {
+              "object_id": "8f89cac9-da5d-4a44-8173-e0fbc4cb518e",
+              "frame_id": "a88ede58-6f60-4ff6-8dd3-38b1b54ab48d",
+              "frame_label": "Д/З Максим",
+              "display_name": "09.mp3"
+            },
+            {
+              "object_id": "7b06a46b-f9aa-4b02-8099-c787088d75fb",
+              "frame_id": "50ad82a2-7af1-4d91-a63e-f041df82e275",
+              "frame_label": "Д/З Елена",
+              "display_name": "09.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7b06a46b-f9aa-4b02-8099-c787088d75fb.mp3",
+      "duration_seconds": 43.83665,
+      "audio_bytes": 1754510,
+      "original_titles": [
+        "09.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-7be295b4-ebbf-4802-92e5-6a44bc232fae",
+      "audio_sha256": "27e7a579d523c9d920e686584b6b4caa41d0d4b516e4823d3b4a73f2b17aeed6",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7be295b4-ebbf-4802-92e5-6a44bc232fae.mp3",
+          "archive_name": "7be295b4-ebbf-4802-92e5-6a44bc232fae.mp3",
+          "occurrences": [
+            {
+              "object_id": "7be295b4-ebbf-4802-92e5-6a44bc232fae",
+              "frame_id": "470596c3-5eda-4540-aba5-67d39a73fee4",
+              "frame_label": "23/09",
+              "display_name": "052 - 5.27.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7be295b4-ebbf-4802-92e5-6a44bc232fae.mp3",
+      "duration_seconds": 44.498167,
+      "audio_bytes": 1067956,
+      "original_titles": [
+        "052 - 5.27.mp3"
+      ],
+      "frame_labels": [
+        "23/09"
+      ]
+    },
+    {
+      "id": "holst-7d04dbb8-1f31-4d33-b90b-eef37e359923",
+      "audio_sha256": "046c2ecd7b9a6d739b35af579882a2278cde518eb6e7ca7067701f3b5f194049",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7d04dbb8-1f31-4d33-b90b-eef37e359923.mp3",
+          "archive_name": "7d04dbb8-1f31-4d33-b90b-eef37e359923.mp3",
+          "occurrences": [
+            {
+              "object_id": "7d04dbb8-1f31-4d33-b90b-eef37e359923",
+              "frame_id": "75551609-1924-44fd-b149-cde4f6ecb634",
+              "frame_label": "Д/З Максим",
+              "display_name": "021 - 2.33.β (1).mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7d04dbb8-1f31-4d33-b90b-eef37e359923.mp3",
+      "duration_seconds": 47.471667,
+      "audio_bytes": 1139320,
+      "original_titles": [
+        "021 - 2.33.β (1).mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-8bd8f73e-9731-4261-8e53-65e86640887d",
+      "audio_sha256": "388c450e53eedef78c24894b6a886d4a585eba492a2e8b9ffe42407e6627552d",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8bd8f73e-9731-4261-8e53-65e86640887d.mp3",
+          "archive_name": "8bd8f73e-9731-4261-8e53-65e86640887d.mp3",
+          "occurrences": [
+            {
+              "object_id": "8bd8f73e-9731-4261-8e53-65e86640887d",
+              "frame_id": "93545c74-f570-40f2-ac9f-7cdf2d801bd6",
+              "frame_label": "07.11",
+              "display_name": "Track 28.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8bd8f73e-9731-4261-8e53-65e86640887d.mp3",
+      "duration_seconds": 30.56325,
+      "audio_bytes": 489045,
+      "original_titles": [
+        "Track 28.mp3"
+      ],
+      "frame_labels": [
+        "07.11"
+      ]
+    },
+    {
+      "id": "holst-8c005594-30b0-4c49-a00e-4d7d1b7d6c5d",
+      "audio_sha256": "3eb1219cc1ecc11d6996bf6ab21a3b6e69153d80acda5efff654ad08c416544c",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8c005594-30b0-4c49-a00e-4d7d1b7d6c5d.mp3",
+          "archive_name": "8c005594-30b0-4c49-a00e-4d7d1b7d6c5d.mp3",
+          "occurrences": [
+            {
+              "object_id": "8c005594-30b0-4c49-a00e-4d7d1b7d6c5d",
+              "frame_id": "d6d3c440-507b-4812-a262-718f0f9dfe6e",
+              "frame_label": "12/09",
+              "display_name": "61.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8c005594-30b0-4c49-a00e-4d7d1b7d6c5d.mp3",
+      "duration_seconds": 68.9792,
+      "audio_bytes": 2761274,
+      "original_titles": [
+        "61.mp3"
+      ],
+      "frame_labels": [
+        "12/09"
+      ]
+    },
+    {
+      "id": "holst-8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5",
+      "audio_sha256": "55cac25c68fcab51babf084c0d5ad90b45debb6b8378739a2cf59aefc3aad5c9",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5.mp3",
+          "archive_name": "8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5.mp3",
+          "occurrences": [
+            {
+              "object_id": "af1f6aca-7af8-4df8-9a83-29393bf859fc",
+              "frame_id": "a88ede58-6f60-4ff6-8dd3-38b1b54ab48d",
+              "frame_label": "Д/З Максим",
+              "display_name": "043 - 4.34.mp3"
+            },
+            {
+              "object_id": "8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5",
+              "frame_id": "50ad82a2-7af1-4d91-a63e-f041df82e275",
+              "frame_label": "Д/З Елена",
+              "display_name": "043 - 4.34.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5.mp3",
+      "duration_seconds": 49.6105,
+      "audio_bytes": 1190652,
+      "original_titles": [
+        "043 - 4.34.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-938bdbd6-b036-4c4f-89b7-a92e6875c417",
+      "audio_sha256": "0587057be07764276ff24fb9bd24a72f00ec023f39f8040eccec865cc5612cd0",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/938bdbd6-b036-4c4f-89b7-a92e6875c417.mp3",
+          "archive_name": "938bdbd6-b036-4c4f-89b7-a92e6875c417.mp3",
+          "occurrences": [
+            {
+              "object_id": "938bdbd6-b036-4c4f-89b7-a92e6875c417",
+              "frame_id": "ab98cc50-ed5d-4ee0-a734-b67d9022c556",
+              "frame_label": "Фрейм 2",
+              "display_name": "Track 27.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/938bdbd6-b036-4c4f-89b7-a92e6875c417.mp3",
+      "duration_seconds": 50.573063,
+      "audio_bytes": 809202,
+      "original_titles": [
+        "Track 27.mp3"
+      ],
+      "frame_labels": [
+        "Фрейм 2"
+      ]
+    },
+    {
+      "id": "holst-96edab53-a762-443f-ad5d-2393b68bca01",
+      "audio_sha256": "783e6577e199c5ba902f718a75c365cc70e1a45a701c23fe8db9384f5e136d46",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/96edab53-a762-443f-ad5d-2393b68bca01.mp3",
+          "archive_name": "96edab53-a762-443f-ad5d-2393b68bca01.mp3",
+          "occurrences": [
+            {
+              "object_id": "788746de-423a-46b3-b4e1-5d1e01fa4c3d",
+              "frame_id": "04aa908e-3fcb-4697-a717-044ba33aface",
+              "frame_label": "Д/З Максим",
+              "display_name": "36 Track 36.mp3"
+            },
+            {
+              "object_id": "96edab53-a762-443f-ad5d-2393b68bca01",
+              "frame_id": "ccc24fcf-c641-4288-9558-1ffd16c150bc",
+              "frame_label": "Д/З Елена",
+              "display_name": "36 Track 36.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/96edab53-a762-443f-ad5d-2393b68bca01.mp3",
+      "duration_seconds": 20.6483,
+      "audio_bytes": 831308,
+      "original_titles": [
+        "36 Track 36.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-9b804928-206e-4150-8c77-6a97feb46f4f",
+      "audio_sha256": "70ba09dc7c523d42d20da0d64faa938608b6a82590006eb71ccdc697e1620000",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/9b804928-206e-4150-8c77-6a97feb46f4f.mp3",
+          "archive_name": "9b804928-206e-4150-8c77-6a97feb46f4f.mp3",
+          "occurrences": [
+            {
+              "object_id": "9b804928-206e-4150-8c77-6a97feb46f4f",
+              "frame_id": "688ba027-db7f-4d96-a6cf-a8c009182251",
+              "frame_label": "1907",
+              "display_name": "Track 19.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/9b804928-206e-4150-8c77-6a97feb46f4f.mp3",
+      "duration_seconds": 25.678313,
+      "audio_bytes": 410886,
+      "original_titles": [
+        "Track 19.mp3"
+      ],
+      "frame_labels": [
+        "1907"
+      ]
+    },
+    {
+      "id": "holst-9c233f82-127d-4083-bfd0-fed6ce98ae7f",
+      "audio_sha256": "11033de2d9101a45e714adc57bd92237c4e2d5793bbc0ee0bd4cc33bc58149dd",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/9c233f82-127d-4083-bfd0-fed6ce98ae7f.mp3",
+          "archive_name": "9c233f82-127d-4083-bfd0-fed6ce98ae7f.mp3",
+          "occurrences": [
+            {
+              "object_id": "9c233f82-127d-4083-bfd0-fed6ce98ae7f",
+              "frame_id": "93545c74-f570-40f2-ac9f-7cdf2d801bd6",
+              "frame_label": "07.11",
+              "display_name": "17.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/9c233f82-127d-4083-bfd0-fed6ce98ae7f.mp3",
+      "duration_seconds": 65.59665,
+      "audio_bytes": 2624910,
+      "original_titles": [
+        "17.mp3"
+      ],
+      "frame_labels": [
+        "07.11"
+      ]
+    },
+    {
+      "id": "holst-9c48480a-4dd4-44a3-8def-2245b0c09665",
+      "audio_sha256": "189aae4d6cba500d9ed1f2031289a2149e7397d9ad4b50dae4385c671718ebc0",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/9c48480a-4dd4-44a3-8def-2245b0c09665.mp3",
+          "archive_name": "9c48480a-4dd4-44a3-8def-2245b0c09665.mp3",
+          "occurrences": [
+            {
+              "object_id": "8e807669-70e1-4a82-a7ca-1e30bc000dc2",
+              "frame_id": "9b9cf119-6dff-444c-b237-8a6e6ae71431",
+              "frame_label": "Д/З Елена",
+              "display_name": "084 - 13.8.mp3"
+            },
+            {
+              "object_id": "9c48480a-4dd4-44a3-8def-2245b0c09665",
+              "frame_id": "a978c361-2974-46f2-a400-d64a2fc69c10",
+              "frame_label": "Д/З Максим",
+              "display_name": "084 - 13.8.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/9c48480a-4dd4-44a3-8def-2245b0c09665.mp3",
+      "duration_seconds": 67.477583,
+      "audio_bytes": 1619462,
+      "original_titles": [
+        "084 - 13.8.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-b7cfaaa7-617c-46ca-a9b1-121a6dc76475",
+      "audio_sha256": "2a5a45bd3458a66be1f8aa6409ef017553fcb9e451b92efd87b93c12a19d8bbe",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/b7cfaaa7-617c-46ca-a9b1-121a6dc76475.mp3",
+          "archive_name": "b7cfaaa7-617c-46ca-a9b1-121a6dc76475.mp3",
+          "occurrences": [
+            {
+              "object_id": "254f47a1-871a-43c2-a05e-75e20d126929",
+              "frame_id": "a88ede58-6f60-4ff6-8dd3-38b1b54ab48d",
+              "frame_label": "Д/З Максим",
+              "display_name": "10.mp3"
+            },
+            {
+              "object_id": "b7cfaaa7-617c-46ca-a9b1-121a6dc76475",
+              "frame_id": "50ad82a2-7af1-4d91-a63e-f041df82e275",
+              "frame_label": "Д/З Елена",
+              "display_name": "10.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/b7cfaaa7-617c-46ca-a9b1-121a6dc76475.mp3",
+      "duration_seconds": 66.432575,
+      "audio_bytes": 2658347,
+      "original_titles": [
+        "10.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-bdc244c4-7e13-4621-ae6f-8b1da96c62bb",
+      "audio_sha256": "2ff3ea873b5f69113c0f46c6608565f2eef285df4aaf5cc0687791ce92488777",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/bdc244c4-7e13-4621-ae6f-8b1da96c62bb.mp3",
+          "archive_name": "bdc244c4-7e13-4621-ae6f-8b1da96c62bb.mp3",
+          "occurrences": [
+            {
+              "object_id": "0762a317-3611-4c6c-bfc9-9039f74037e1",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "07.mp3"
+            },
+            {
+              "object_id": "bdc244c4-7e13-4621-ae6f-8b1da96c62bb",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "07.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/bdc244c4-7e13-4621-ae6f-8b1da96c62bb.mp3",
+      "duration_seconds": 51.9085,
+      "audio_bytes": 2077384,
+      "original_titles": [
+        "07.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ]
+    },
+    {
+      "id": "holst-c0bc592e-b9e7-4221-b300-016f3e71dcf2",
+      "audio_sha256": "f784c52ebfa2fc93a9797fcf4bfd13f204bedb95be82414b57cfb8e2722d1fd5",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/c0bc592e-b9e7-4221-b300-016f3e71dcf2.mp3",
+          "archive_name": "c0bc592e-b9e7-4221-b300-016f3e71dcf2.mp3",
+          "occurrences": [
+            {
+              "object_id": "c0bc592e-b9e7-4221-b300-016f3e71dcf2",
+              "frame_id": "75551609-1924-44fd-b149-cde4f6ecb634",
+              "frame_label": "Д/З Максим",
+              "display_name": "020 - 2.33.α (1).mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/c0bc592e-b9e7-4221-b300-016f3e71dcf2.mp3",
+      "duration_seconds": 60.17425,
+      "audio_bytes": 1444182,
+      "original_titles": [
+        "020 - 2.33.α (1).mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff",
+      "audio_sha256": "574d443786ed820b1f753332bdaeb9e3c88702f679293bfaad01c5573e72f3a8",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/c8ea17b1-dba7-4304-aaa3-2813fe7395ff.mp3",
+          "archive_name": "c8ea17b1-dba7-4304-aaa3-2813fe7395ff.mp3",
+          "occurrences": [
+            {
+              "object_id": "c8ea17b1-dba7-4304-aaa3-2813fe7395ff",
+              "frame_id": "f83a4351-92be-415d-a4c8-03583dfdf86e",
+              "frame_label": "Д/З Максим",
+              "display_name": "54.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/c8ea17b1-dba7-4304-aaa3-2813fe7395ff.mp3",
+      "duration_seconds": 43.1072,
+      "audio_bytes": 1726394,
+      "original_titles": [
+        "54.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-d3db3b66-ad97-4ad1-9824-371a519a1dc6",
+      "audio_sha256": "1dd3c569a27b19e6a9a004ff17522fe7966729e4fbf47e824828b8cfacd5f81c",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/d3db3b66-ad97-4ad1-9824-371a519a1dc6.mp3",
+          "archive_name": "d3db3b66-ad97-4ad1-9824-371a519a1dc6.mp3",
+          "occurrences": [
+            {
+              "object_id": "d3db3b66-ad97-4ad1-9824-371a519a1dc6",
+              "frame_id": "470596c3-5eda-4540-aba5-67d39a73fee4",
+              "frame_label": "23/09",
+              "display_name": "053 - 5.29.α.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/d3db3b66-ad97-4ad1-9824-371a519a1dc6.mp3",
+      "duration_seconds": 93.35225,
+      "audio_bytes": 2240454,
+      "original_titles": [
+        "053 - 5.29.α.mp3"
+      ],
+      "frame_labels": [
+        "23/09"
+      ]
+    },
+    {
+      "id": "holst-d65d8822-82e3-48c3-8feb-e50d343e0039",
+      "audio_sha256": "74a1d379e698cb01b9696fa871702968f4ae6334b71dc01964fd3673f042130e",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/d65d8822-82e3-48c3-8feb-e50d343e0039.mp3",
+          "archive_name": "d65d8822-82e3-48c3-8feb-e50d343e0039.mp3",
+          "occurrences": [
+            {
+              "object_id": "d65d8822-82e3-48c3-8feb-e50d343e0039",
+              "frame_id": "75551609-1924-44fd-b149-cde4f6ecb634",
+              "frame_label": "Д/З Максим",
+              "display_name": "022 - 2.34 (1).mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/d65d8822-82e3-48c3-8feb-e50d343e0039.mp3",
+      "duration_seconds": 69.173,
+      "audio_bytes": 1660152,
+      "original_titles": [
+        "022 - 2.34 (1).mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-daa69bc8-ce3a-467d-b985-d574f17b5926",
+      "audio_sha256": "f6b178a6fd62539608c81f8fe16990c1cbb8b1837a3815e414627c3bcfcd191d",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/daa69bc8-ce3a-467d-b985-d574f17b5926.mp3",
+          "archive_name": "daa69bc8-ce3a-467d-b985-d574f17b5926.mp3",
+          "occurrences": [
+            {
+              "object_id": "3c233e77-850e-4467-bcab-b78ddd309688",
+              "frame_id": "04aa908e-3fcb-4697-a717-044ba33aface",
+              "frame_label": "Д/З Максим",
+              "display_name": "33 Track 33.mp3"
+            },
+            {
+              "object_id": "daa69bc8-ce3a-467d-b985-d574f17b5926",
+              "frame_id": "ccc24fcf-c641-4288-9558-1ffd16c150bc",
+              "frame_label": "Д/З Елена",
+              "display_name": "33 Track 33.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/daa69bc8-ce3a-467d-b985-d574f17b5926.mp3",
+      "duration_seconds": 17.2553,
+      "audio_bytes": 695588,
+      "original_titles": [
+        "33 Track 33.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-eb4e7425-81de-4492-8194-6fba91e09d12",
+      "audio_sha256": "f65b0a759001641a11ccd71ab4404875e13d4741ae46406a921fcf5524e8c6ed",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/eb4e7425-81de-4492-8194-6fba91e09d12.mp3",
+          "archive_name": "eb4e7425-81de-4492-8194-6fba91e09d12.mp3",
+          "occurrences": [
+            {
+              "object_id": "54e7e997-c67b-4a8e-b27c-4b6618aec2df",
+              "frame_id": "04aa908e-3fcb-4697-a717-044ba33aface",
+              "frame_label": "Д/З Максим",
+              "display_name": "34 Track 34.mp3"
+            },
+            {
+              "object_id": "eb4e7425-81de-4492-8194-6fba91e09d12",
+              "frame_id": "ccc24fcf-c641-4288-9558-1ffd16c150bc",
+              "frame_label": "Д/З Елена",
+              "display_name": "34 Track 34.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/eb4e7425-81de-4492-8194-6fba91e09d12.mp3",
+      "duration_seconds": 32.4716,
+      "audio_bytes": 1304240,
+      "original_titles": [
+        "34 Track 34.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-ef1e439e-69c0-4725-a61f-1910082f79f6",
+      "audio_sha256": "6f0cd8ecb82b0bdbe06f3a0fd8993f91b6a9eb58d318522f66fb142a0d848acd",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/ef1e439e-69c0-4725-a61f-1910082f79f6.mp3",
+          "archive_name": "ef1e439e-69c0-4725-a61f-1910082f79f6.mp3",
+          "occurrences": [
+            {
+              "object_id": "98593acd-23c9-4cd5-bdab-7d3ba572ec04",
+              "frame_id": "a88ede58-6f60-4ff6-8dd3-38b1b54ab48d",
+              "frame_label": "Д/З Максим",
+              "display_name": "042 - 4.33.mp3"
+            },
+            {
+              "object_id": "ef1e439e-69c0-4725-a61f-1910082f79f6",
+              "frame_id": "50ad82a2-7af1-4d91-a63e-f041df82e275",
+              "frame_label": "Д/З Елена",
+              "display_name": "042 - 4.33.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/ef1e439e-69c0-4725-a61f-1910082f79f6.mp3",
+      "duration_seconds": 62.36525,
+      "audio_bytes": 1496766,
+      "original_titles": [
+        "042 - 4.33.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ]
+    },
+    {
+      "id": "holst-ef30fbb1-accf-4bea-bc96-797439778801",
+      "audio_sha256": "d0dd83b9bf49853bfc35426a3ebb1491cf543d869c981a7809123f6cf5e4b748",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-04T18:01:31.850Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/ef30fbb1-accf-4bea-bc96-797439778801.mp3",
+          "archive_name": "ef30fbb1-accf-4bea-bc96-797439778801.mp3",
+          "occurrences": [
+            {
+              "object_id": "ef30fbb1-accf-4bea-bc96-797439778801",
+              "frame_id": "c755989a-02b8-4871-9c06-80da642ee604",
+              "frame_label": "19.08",
+              "display_name": "30.mp3"
+            }
+          ]
+        },
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/00ba3822-0f03-4d2c-82ae-79b265531413.mp3",
+          "archive_name": "00ba3822-0f03-4d2c-82ae-79b265531413.mp3",
+          "occurrences": [
+            {
+              "object_id": "ef30fbb1-accf-4bea-bc96-797439778801",
+              "frame_id": "c755989a-02b8-4871-9c06-80da642ee604",
+              "frame_label": "19.08",
+              "display_name": "30.mp3"
+            },
+            {
+              "object_id": "00ba3822-0f03-4d2c-82ae-79b265531413",
+              "frame_id": "93545c74-f570-40f2-ac9f-7cdf2d801bd6",
+              "frame_label": "07.11",
+              "display_name": "30.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/00ba3822-0f03-4d2c-82ae-79b265531413.mp3",
+      "duration_seconds": 38.1632,
+      "audio_bytes": 1528634,
+      "original_titles": [
+        "30.mp3"
+      ],
+      "frame_labels": [
+        "07.11",
+        "19.08"
+      ]
+    },
+    {
+      "id": "holst-f4d194e5-36af-412b-83af-9dc1188f54d9",
+      "audio_sha256": "85ea5ec38d621d40212814a5dfb1173a504b0d0dd0b37b1b7c77017216c97e36",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/f4d194e5-36af-412b-83af-9dc1188f54d9.mp3",
+          "archive_name": "f4d194e5-36af-412b-83af-9dc1188f54d9.mp3",
+          "occurrences": [
+            {
+              "object_id": "a55af44e-8b93-4bd0-9efc-4a8aed51173a",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "03.mp3"
+            },
+            {
+              "object_id": "f4d194e5-36af-412b-83af-9dc1188f54d9",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "03.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/f4d194e5-36af-412b-83af-9dc1188f54d9.mp3",
+      "duration_seconds": 87.69625,
+      "audio_bytes": 3508894,
+      "original_titles": [
+        "03.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ]
+    }
+  ]
+}

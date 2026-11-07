@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "errors": [],
+  "draft_sha256": "4bc4b4464e37176a412a3814fc4ceb8fe045712fa631a12623bc80162073b112",
+  "context_sha256": "fcce85e5198edfa242f7353a4bc79f71f24ff961abab2ebc6402e88b3520a703",
+  "word_count": 79,
+  "lexical_audit": {
+    "known_form_occurrences": 77,
+    "reviewed_inflection_occurrences": 2,
+    "unresolved_forms": [],
+    "inflection_relations_are_editorially_reviewed_not_automatically_proven": true
+  },
+  "novelty_closest": [
+    {
+      "reference": "data/listening-generated/practice/2026-11-05-first-variants/monologue-family/draft.json",
+      "aligned_fraction": 0.2152,
+      "longest_exact_run_words": 3
+    },
+    {
+      "reference": "holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff",
+      "aligned_fraction": 0.1392,
+      "longest_exact_run_words": 4
+    },
+    {
+      "reference": "holst-1520d811-1319-4ec0-b2e0-f112d696b47a",
+      "aligned_fraction": 0.1266,
+      "longest_exact_run_words": 3
+    },
+    {
+      "reference": "holst-d65d8822-82e3-48c3-8feb-e50d343e0039",
+      "aligned_fraction": 0.1266,
+      "longest_exact_run_words": 2
+    },
+    {
+      "reference": "holst-32af7bb1-268d-4346-b25d-99c589e51c2e",
+      "aligned_fraction": 0.1139,
+      "longest_exact_run_words": 2
+    }
+  ],
+  "editorial_review": {
+    "greek_checked": true,
+    "within_studied_grammar": true,
+    "new_situation_checked": true,
+    "notes": "Редакторская проверка Codex: простое настоящее время, согласование и управление; бытовая ситуация и факты вымышлены. Используется ранее представленный материал, владение ученика не утверждается."
+  },
+  "limits": "Similarity and word-form checks are heuristics; Greek grammar and meaning require the recorded Codex editorial review."
+}

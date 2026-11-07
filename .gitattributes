@@ -1,0 +1,2 @@
+# Preserve raw subtitle output, including the blank separator after its final cue.
+data/listening-reference-library/raw/**/*.srt -whitespace

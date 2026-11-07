@@ -1,0 +1,186 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:03,020"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 3020
+			},
+			"text": " Καλώς ήρθατε. Με λένε Δανάη Λούρη."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,020",
+				"to": "00:00:07,240"
+			},
+			"offsets": {
+				"from": 3020,
+				"to": 7240
+			},
+			"text": " Γεια σου, Μαράλ. Τι κάνεις?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,240",
+				"to": "00:00:10,580"
+			},
+			"offsets": {
+				"from": 7240,
+				"to": 10580
+			},
+			"text": " Κολλή καλά, Δανάη. Ευχαριστώ."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,580",
+				"to": "00:00:13,140"
+			},
+			"offsets": {
+				"from": 10580,
+				"to": 13140
+			},
+			"text": " Πώς σας λένε?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,140",
+				"to": "00:00:15,880"
+			},
+			"offsets": {
+				"from": 13140,
+				"to": 15880
+			},
+			"text": " Με λένε Τόμας Μόρτον."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,880",
+				"to": "00:00:18,240"
+			},
+			"offsets": {
+				"from": 15880,
+				"to": 18240
+			},
+			"text": " Από πού είστε, κύριε Μόρτον?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,240",
+				"to": "00:00:23,420"
+			},
+			"offsets": {
+				"from": 18240,
+				"to": 23420
+			},
+			"text": " Είμαι από την Αγγλία. Και όχι κύριε Μόρτον. Τόμας, παρακαλώ."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,420",
+				"to": "00:00:26,740"
+			},
+			"offsets": {
+				"from": 23420,
+				"to": 26740
+			},
+			"text": " Εντάξει. Καλώς ήρθες, Τόμας."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,740",
+				"to": "00:00:29,100"
+			},
+			"offsets": {
+				"from": 26740,
+				"to": 29100
+			},
+			"text": " Πώς σε λένε?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:29,880",
+				"to": "00:00:33,380"
+			},
+			"offsets": {
+				"from": 29880,
+				"to": 33380
+			},
+			"text": " «Με λένεσαι εσύ, Λαφόν. Και σένα»."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:33,380",
+				"to": "00:00:35,760"
+			},
+			"offsets": {
+				"from": 33380,
+				"to": 35760
+			},
+			"text": " «Εμένα με λένε Νικόλα»."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:35,760",
+				"to": "00:00:39,520"
+			},
+			"offsets": {
+				"from": 35760,
+				"to": 39520
+			},
+			"text": " «Νικόλα. Από εδώ ο άντρας μου, ο Φιλίπ»."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:39,520",
+				"to": "00:00:43,260"
+			},
+			"offsets": {
+				"from": 39520,
+				"to": 43260
+			},
+			"text": " «Χαίρομαι πολύ, Νικόλα. Από πού είσαι»."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:43,260",
+				"to": "00:00:44,960"
+			},
+			"offsets": {
+				"from": 43260,
+				"to": 44960
+			},
+			"text": " «Είμαι από την Αλβανία»."
+		}
+	]
+}

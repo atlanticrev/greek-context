@@ -1,0 +1,2862 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-07T16:50:56.284788+00:00",
+  "count": 36,
+  "total_duration_seconds": 2061.854023,
+  "items": [
+    {
+      "id": "holst-1086c58c-75c7-4459-96a0-5db2312055a4",
+      "audio_sha256": "de352f3efe53dd41e33e6dd341a36dd4abe0b30c6eaf08046f6f1f617a26bf75",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/1086c58c-75c7-4459-96a0-5db2312055a4.mp3",
+          "archive_name": "1086c58c-75c7-4459-96a0-5db2312055a4.mp3",
+          "occurrences": [
+            {
+              "object_id": "ef589074-c5dc-4d6a-a3fc-fd2131cf0b9a",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "02.mp3"
+            },
+            {
+              "object_id": "1086c58c-75c7-4459-96a0-5db2312055a4",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "02.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/1086c58c-75c7-4459-96a0-5db2312055a4.mp3",
+      "duration_seconds": 62.879925,
+      "audio_bytes": 2516241,
+      "original_titles": [
+        "02.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ],
+      "title": "Фонетика: π / φ / θ — упражнение 1.9",
+      "language": "el",
+      "text": "Μάθημα 1. Άσκηση 9.\nΦίδι, πόνος, φόνος, θόλος, φόβος, θέλω, φίλος, πηλός, θέρος, φύλλο, θυμάρι, πιθάρι, πόρτα, φόρα, θίασος.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-1086c58c-75c7-4459-96a0-5db2312055a4.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Фонетика: π / φ / θ — упражнение 1.9",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "de352f3efe53dd41e33e6dd341a36dd4abe0b30c6eaf08046f6f1f617a26bf75",
+        "primary_json_sha256": "2300e52c28f24cd3da7aedfb68f6f6f0e11e68c774e23e5f9d3507e048f7dcf4",
+        "reviewed_at": "2026-11-05T10:18:19.651974+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 1. Άσκηση 9.\nΦίδι, πόνος, φόνος, θόλος, φόβος, θέλω, φίλος, πηλός, θέρος, φύλλο, θυμάρι, πιθάρι, πόρτα, φόρα, θίασος.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/183dba3d-1da9-4be5-a387-5ee3363a80d3.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9474,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-1086c58c-75c7-4459-96a0-5db2312055a4.json",
+        "control_text": "Μάθημα 1. Άσκηση 9.\nΦίδι, πόνος, φόνος, θόλος, φόβος, θέλω, φίλος, πηλός, θέρος, φίλο, θυμάρι, πιθάρι, πόρτα, φόρα, θίασος."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-1086c58c-75c7-4459-96a0-5db2312055a4.json"
+    },
+    {
+      "id": "holst-1520d811-1319-4ec0-b2e0-f112d696b47a",
+      "audio_sha256": "4ab92284bf79cd0e2108a9adac1ac90ecb0fb99f87e57488d77fd5f065c9ec71",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/1520d811-1319-4ec0-b2e0-f112d696b47a.mp3",
+          "archive_name": "1520d811-1319-4ec0-b2e0-f112d696b47a.mp3",
+          "occurrences": [
+            {
+              "object_id": "1520d811-1319-4ec0-b2e0-f112d696b47a",
+              "frame_id": "3988ce94-8268-403c-84f8-ba744d242347",
+              "frame_label": "31/10",
+              "display_name": "15.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/1520d811-1319-4ec0-b2e0-f112d696b47a.mp3",
+      "duration_seconds": 60.607275,
+      "audio_bytes": 2425335,
+      "original_titles": [
+        "15.mp3"
+      ],
+      "frame_labels": [
+        "31/10"
+      ],
+      "title": "Η οικογένειά μου — знакомство с семьёй",
+      "language": "el",
+      "text": "Μάθημα 4. Η οικογένειά μου.\nΚαλησπέρα!\nΚαλησπέρα! Καλώς ήρθατε. Τι κάνετε;\nΜια χαρά.\nΠαιδιά, από εδώ η μητέρα μου, η Σοφία.\nΧαίρω πολύ.\nΚι εγώ.\nΚι από εδώ ο πατέρας μου, ο Γιάννης.\nΓεια σας.\nΧαίρω πολύ.\nΠαιδιά, γεια σας.\nΑ, να και ο μικρός μου αδελφός, ο Βαγγέλης.\nΓεια.\nΜαμά, πού είναι η Κατερίνα;\nΔεν είναι εδώ. Είναι ακόμα στη δουλειά.\nΑ, ναι, σωστά.\nΠοια είναι η Κατερίνα;\nΗ μεγάλη μου αδελφή.\nΠαιδιά, το φαγητό είναι έτοιμο.\nΑ, το κουδούνι. Ανοίγω εγώ. Παύλο, Λουκία.\nΛάουρα, ποιος είναι αυτός;\nΑυτός είναι ο ξάδερφός του. Είναι συμφοιτητής μας στη νομική.\nΚαι εκείνη εκεί;\nΕίναι η κοπέλα του.\nΠαιδιά, καλώς ήρθατε.\nΓεια σας.\nΠάνω στην ώρα, σε λίγο τρώμε. Ελάτε.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-1520d811-1319-4ec0-b2e0-f112d696b47a.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Η οικογένειά μου — знакомство с семьёй",
+        "content_type": "dialogue",
+        "reference_ready": true,
+        "audio_sha256": "4ab92284bf79cd0e2108a9adac1ac90ecb0fb99f87e57488d77fd5f065c9ec71",
+        "primary_json_sha256": "c7e7478c54cbdf6ed336320a0181330a9a6ce3568a2fd17f1d3156ef19ef6d02",
+        "reviewed_at": "2026-11-05T10:18:19.653210+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 4. Η οικογένειά μου.\nΚαλησπέρα!\nΚαλησπέρα! Καλώς ήρθατε. Τι κάνετε;\nΜια χαρά.\nΠαιδιά, από εδώ η μητέρα μου, η Σοφία.\nΧαίρω πολύ.\nΚι εγώ.\nΚι από εδώ ο πατέρας μου, ο Γιάννης.\nΓεια σας.\nΧαίρω πολύ.\nΠαιδιά, γεια σας.\nΑ, να και ο μικρός μου αδελφός, ο Βαγγέλης.\nΓεια.\nΜαμά, πού είναι η Κατερίνα;\nΔεν είναι εδώ. Είναι ακόμα στη δουλειά.\nΑ, ναι, σωστά.\nΠοια είναι η Κατερίνα;\nΗ μεγάλη μου αδελφή.\nΠαιδιά, το φαγητό είναι έτοιμο.\nΑ, το κουδούνι. Ανοίγω εγώ. Παύλο, Λουκία.\nΛάουρα, ποιος είναι αυτός;\nΑυτός είναι ο ξάδερφός του. Είναι συμφοιτητής μας στη νομική.\nΚαι εκείνη εκεί;\nΕίναι η κοπέλα του.\nΠαιδιά, καλώς ήρθατε.\nΓεια σας.\nΠάνω στην ώρα, σε λίγο τρώμε. Ελάτε.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "В аудиораспознавании приветствие «Καλησπέρα», в печатном источнике «Καλημέρα»; в тексте сохранён вариант ASR, различие не скрыто."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/e1b57965-0f99-424c-9ea4-1fda246691ad.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [],
+      "content_type": "dialogue",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9915,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-1520d811-1319-4ec0-b2e0-f112d696b47a.json",
+        "control_text": "Μάθημα 4. Η οικογένειά μου.\nΚαλησπέρα!\nΚαλησπέρα! Καλώς ήρθατε. Τι κάνετε?\nΜια χαρά.\nΠαιδιά, από εδώ η μητέρα μου, η Σοφία.\nΧαίρο πολύ.\nΚι εγώ.\nΚι από εδώ ο πατέρας μου, ο Γιάννης.\nΓεια σας.\nΧαίρο πολύ.\nΠαιδιά, γεια σας.\nΑ, να και ο μικρός μου αδελφός, ο Βαγγέλης.\nΓεια.\nΜάμα, πού είναι η Κατερίνα?\nΔεν είναι εδώ. Είναι ακόμα στη δουλειά.\nΑ, ναι, σωστά.\nΠοια είναι η Κατερίνα?\nΗ μεγάλη μου αδελφή.\nΠαιδιά, το φαγητό είναι έτοιμο.\nΑ, το κουδούνι. Ανοίγω εγώ. Παύλο, Λουκία.\nΛάουρα, ποιος είναι αυτός?\nΑυτός είναι ο ξέδερφός του.\nΕίναι συμφοιτητής μας στη Νομική.\nΚαι εκείνη εκεί?\nΕίναι η κοπέλα του.\nΠαιδιά, καλώς ήρθατε.\nΓεια σας.\nΠάνω στην ώρα, σε λίγο τρώμε. Ελάτε."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-1520d811-1319-4ec0-b2e0-f112d696b47a.json"
+    },
+    {
+      "id": "holst-15b66fc8-b6cb-438f-9b00-ef884d379a19",
+      "audio_sha256": "3f76c9126fc30eaf8b5b3c9580837120b9dd2237fb014f51da6702f90cb26891",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/15b66fc8-b6cb-438f-9b00-ef884d379a19.mp3",
+          "archive_name": "15b66fc8-b6cb-438f-9b00-ef884d379a19.mp3",
+          "occurrences": [
+            {
+              "object_id": "15b66fc8-b6cb-438f-9b00-ef884d379a19",
+              "frame_id": "470596c3-5eda-4540-aba5-67d39a73fee4",
+              "frame_label": "23/09",
+              "display_name": "034 - 3.24.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/15b66fc8-b6cb-438f-9b00-ef884d379a19.mp3",
+      "duration_seconds": 27.62225,
+      "audio_bytes": 662934,
+      "original_titles": [
+        "034 - 3.24.mp3"
+      ],
+      "frame_labels": [
+        "23/09"
+      ],
+      "title": "Числа до 20 — упражнение 3.24",
+      "language": "el",
+      "text": "3.24.\n1. επτά\n2. έντεκα\n3. δεκαοκτώ\n4. δεκατρία\n5. δεκαεννέα\n6. οκτώ\n7. είκοσι\n8. έξι",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-15b66fc8-b6cb-438f-9b00-ef884d379a19.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "text_reviewed",
+        "title": "Числа до 20 — упражнение 3.24",
+        "content_type": "numbers",
+        "reference_ready": true,
+        "audio_sha256": "3f76c9126fc30eaf8b5b3c9580837120b9dd2237fb014f51da6702f90cb26891",
+        "primary_json_sha256": "11572e99434ef3503b08ab8b6cf8e44cb55a684595e90a5bcf4fdfc834b3c36a",
+        "reviewed_at": "2026-11-05T10:18:19.653571+00:00",
+        "audio_listened_in_full": false,
+        "text": "3.24.\n1. επτά\n2. έντεκα\n3. δεκαοκτώ\n4. δεκατρία\n5. δεκαεννέα\n6. οκτώ\n7. είκοσι\n8. έξι",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется."
+        ],
+        "source_images": [],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 1,
+          "tokens": [
+            {
+              "text": " Τ",
+              "p": 0.0615487,
+              "timestamps": {
+                "from": "00:00:00,120",
+                "to": "00:00:00,120"
+              }
+            }
+          ]
+        }
+      ],
+      "content_type": "numbers",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 1.0,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-15b66fc8-b6cb-438f-9b00-ef884d379a19.json",
+        "control_text": "Τρία, εικοσιτέσσερα, ένα, επτά, δύο, έντεκα, τρία, δεκαοκτώ, τέσσερα, δεκατρία, πέντε, δεκαεννέα, έξι, οκτώ, επτά, είκοσι, οκτώ, έξι."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-15b66fc8-b6cb-438f-9b00-ef884d379a19.json"
+    },
+    {
+      "id": "holst-3156781d-051e-46ab-b628-1c2581ef96a3",
+      "audio_sha256": "ff76fab341535b6d29dab9c0953e7270f5c339cf44ea6c45458e97dacc9fd985",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/3156781d-051e-46ab-b628-1c2581ef96a3.mp3",
+          "archive_name": "3156781d-051e-46ab-b628-1c2581ef96a3.mp3",
+          "occurrences": [
+            {
+              "object_id": "f7b52b6c-fb7c-445f-93a3-b2b2a7a2f500",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "01.mp3"
+            },
+            {
+              "object_id": "3156781d-051e-46ab-b628-1c2581ef96a3",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "01.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/3156781d-051e-46ab-b628-1c2581ef96a3.mp3",
+      "duration_seconds": 53.110125,
+      "audio_bytes": 2125449,
+      "original_titles": [
+        "01.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ],
+      "title": "Фонетика: τ / δ / θ — упражнение 1.8",
+      "language": "el",
+      "text": "Μάθημα 1. Άσκηση 8.\nΤυρί, θράσος, θόλος, δάσος, τιμή, δόλος, τόνος, δρόμος, θυμός, δήμος, τίγρη, θήκη.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-3156781d-051e-46ab-b628-1c2581ef96a3.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Фонетика: τ / δ / θ — упражнение 1.8",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "ff76fab341535b6d29dab9c0953e7270f5c339cf44ea6c45458e97dacc9fd985",
+        "primary_json_sha256": "4fb628aa7a0ad57d6168325ae91bd13e4b720bb090aba6ca0f82008f4e9cb5ff",
+        "reviewed_at": "2026-11-05T10:18:19.653766+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 1. Άσκηση 8.\nΤυρί, θράσος, θόλος, δάσος, τιμή, δόλος, τόνος, δρόμος, θυμός, δήμος, τίγρη, θήκη.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом.",
+          "В основном проходе были пропуски. Текст восстановлен повторным распознаванием фрагмента, сравнением проходов и, где указан, учебным источником. Исходные SRT основного прохода могут не содержать восстановленные места."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/33930f90-91bf-47c7-a1ef-1cf4c8586da8.png"
+        ],
+        "supplementary_asr_paths": [
+          "data/listening-reference-library/raw/experiments/cropped-no-vad/holst-3156781d-051e-46ab-b628-1c2581ef96a3.json"
+        ]
+      },
+      "automatic_checks": [
+        {
+          "type": "possible_omitted_speech",
+          "uncovered_vad_seconds": 13.38
+        },
+        {
+          "type": "cross_decode_difference",
+          "similarity": 0.4
+        }
+      ],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.4,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-3156781d-051e-46ab-b628-1c2581ef96a3.json",
+        "control_text": "Μάθημα 1. Άσκηση 8.\nΤυρί, θράσος, θόλος, δάσος, τιμή, δόλος, τόνος, δρόμος, θυμός, δήμος, τίγρη, θήκη."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-3156781d-051e-46ab-b628-1c2581ef96a3.json"
+    },
+    {
+      "id": "holst-32af7bb1-268d-4346-b25d-99c589e51c2e",
+      "audio_sha256": "ef1e3ca2588505873d8878001d3101d3a81e89ebddca51dc8f2c35be0e64ef67",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/32af7bb1-268d-4346-b25d-99c589e51c2e.mp3",
+          "archive_name": "32af7bb1-268d-4346-b25d-99c589e51c2e.mp3",
+          "occurrences": [
+            {
+              "object_id": "a8c637da-b67e-45ae-b671-6f6f46b751a0",
+              "frame_id": "cc2da683-68f6-4025-beda-8af3fb9ffdaa",
+              "frame_label": "Д/З Максим",
+              "display_name": "Track 21.mp3"
+            },
+            {
+              "object_id": "41c34d72-bbe4-46f3-8e1b-db3c991fcb8f",
+              "frame_id": "cbed2f85-8f26-4851-b061-99e7de1ddefb",
+              "frame_label": "19/09",
+              "display_name": "Track 21.mp3"
+            },
+            {
+              "object_id": "32af7bb1-268d-4346-b25d-99c589e51c2e",
+              "frame_id": "270a72d0-357d-4f33-a68d-0fbea10e610d",
+              "frame_label": "Д/З Елена",
+              "display_name": "Track 21.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/32af7bb1-268d-4346-b25d-99c589e51c2e.mp3",
+      "duration_seconds": 39.967313,
+      "audio_bytes": 639510,
+      "original_titles": [
+        "Track 21.mp3"
+      ],
+      "frame_labels": [
+        "19/09",
+        "Д/З Елена",
+        "Д/З Максим"
+      ],
+      "title": "Αυτή είναι η οικογένειά μου — семья Ли",
+      "language": "el",
+      "text": "Καλησπέρα, Λι. Τι είναι αυτό; Φωτογραφία;\nΝαι, από την Κίνα. Η οικογένειά μου.\nΑαα! Ποιος είναι αυτός;\nΟ πατέρας μου. Τον λένε Χουάνγκ.\nΑυτή ποια είναι; Η μητέρα σου;\nΝαι.\nΠώς τη λένε;\nΤη λένε Γκονγκ. Και εδώ είναι ο αδερφός μου, ο Τσου.\nΕίναι παντρεμένος;\nΝαι. Αυτή είναι η γυναίκα του, η Λιέν, και αυτός ο γιος τους, ο Ξιάο.\nΠολύ ωραία!",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-32af7bb1-268d-4346-b25d-99c589e51c2e.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Αυτή είναι η οικογένειά μου — семья Ли",
+        "content_type": "dialogue",
+        "reference_ready": true,
+        "audio_sha256": "ef1e3ca2588505873d8878001d3101d3a81e89ebddca51dc8f2c35be0e64ef67",
+        "primary_json_sha256": "664e34b6160b41b3a86cb2563bccc1681f94c2a515a5f1fe9bf3936b97c0647f",
+        "reviewed_at": "2026-11-05T10:18:19.654207+00:00",
+        "audio_listened_in_full": false,
+        "text": "Καλησπέρα, Λι. Τι είναι αυτό; Φωτογραφία;\nΝαι, από την Κίνα. Η οικογένειά μου.\nΑαα! Ποιος είναι αυτός;\nΟ πατέρας μου. Τον λένε Χουάνγκ.\nΑυτή ποια είναι; Η μητέρα σου;\nΝαι.\nΠώς τη λένε;\nΤη λένε Γκονγκ. Και εδώ είναι ο αδερφός μου, ο Τσου.\nΕίναι παντρεμένος;\nΝαι. Αυτή είναι η γυναίκα του, η Λιέν, και αυτός ο γιος τους, ο Ξιάο.\nΠολύ ωραία!",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/58a05e06-17d7-43c7-ba96-11e93de0e463.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 3,
+          "tokens": [
+            {
+              "text": ",",
+              "p": 0.342091,
+              "timestamps": {
+                "from": "00:00:01,260",
+                "to": "00:00:01,400"
+              }
+            },
+            {
+              "text": "η",
+              "p": 0.108463,
+              "timestamps": {
+                "from": "00:00:01,530",
+                "to": "00:00:01,690"
+              }
+            },
+            {
+              "text": "α",
+              "p": 0.347042,
+              "timestamps": {
+                "from": "00:00:07,900",
+                "to": "00:00:08,020"
+              }
+            }
+          ]
+        }
+      ],
+      "content_type": "dialogue",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.96,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-32af7bb1-268d-4346-b25d-99c589e51c2e.json",
+        "control_text": "Καλησπέρα Λη, τι είναι αυτό, φωτογραφία\nΝαι, από την Κίνα, η οικογένειά μου\nΑ, ποιος είναι αυτός\nΟ πατέρας μου, τον λένε Χουάνγ\nΑυτή ποια είναι, η μητέρα σου\nΝαι\nΠώς τη λένε\nΤη λένε Γκόγκ, και εδώ είναι ο αδερφός μου ο Τσού\nΕίναι παντρεμένος\nΝαι, αυτή είναι η γυναίκα του, η Λιέν, και αυτός ο γιος τους, ο Ξιάου\nΠολύ ωραία."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-32af7bb1-268d-4346-b25d-99c589e51c2e.json"
+    },
+    {
+      "id": "holst-386904e2-36ae-4865-9d45-33da502fd967",
+      "audio_sha256": "5857d0126977a9c2c607d366821108cc5f62ca707bb068db7fb9bcc3f7669995",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/386904e2-36ae-4865-9d45-33da502fd967.mp3",
+          "archive_name": "386904e2-36ae-4865-9d45-33da502fd967.mp3",
+          "occurrences": [
+            {
+              "object_id": "e2823f9d-f77c-4852-8b7e-793cad4cdb16",
+              "frame_id": "04aa908e-3fcb-4697-a717-044ba33aface",
+              "frame_label": "Д/З Максим",
+              "display_name": "37 Track 37.mp3"
+            },
+            {
+              "object_id": "386904e2-36ae-4865-9d45-33da502fd967",
+              "frame_id": "ccc24fcf-c641-4288-9558-1ffd16c150bc",
+              "frame_label": "Д/З Елена",
+              "display_name": "37 Track 37.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/386904e2-36ae-4865-9d45-33da502fd967.mp3",
+      "duration_seconds": 32.9414,
+      "audio_bytes": 1323032,
+      "original_titles": [
+        "37 Track 37.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ],
+      "title": "Названия стран и городов: τ / θ",
+      "language": "el",
+      "text": "Τυνησία, Τουρκία, Αιθιοπία, Τίρανα, Τεχεράνη, Λετονία, Εσθονία, Κροατία, Λιθουανία, Βατικανό.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-386904e2-36ae-4865-9d45-33da502fd967.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Названия стран и городов: τ / θ",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "5857d0126977a9c2c607d366821108cc5f62ca707bb068db7fb9bcc3f7669995",
+        "primary_json_sha256": "5b258b423439e91cb066ea76ca8c2df3918de51c039fa21671ac615ca9c8f468",
+        "reviewed_at": "2026-11-05T10:18:19.654472+00:00",
+        "audio_listened_in_full": false,
+        "text": "Τυνησία, Τουρκία, Αιθιοπία, Τίρανα, Τεχεράνη, Λετονία, Εσθονία, Κροατία, Λιθουανία, Βατικανό.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8f8dec7c-e9ee-4a06-94af-e22705f4b33e.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 1.0,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-386904e2-36ae-4865-9d45-33da502fd967.json",
+        "control_text": "Την Ισία, Τουρκία, Αιθιοπία, Τύρανα, Τεχεράνη, Λετωνία, Εσθονία, Κροατία, Λιθουανία, Βατικανό."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-386904e2-36ae-4865-9d45-33da502fd967.json"
+    },
+    {
+      "id": "holst-3a3fffe0-a3d7-45e8-9790-3751610ce84a",
+      "audio_sha256": "76488a32212c4fda14b276d976f43bcad8bb85b3b31abe6fd2aa3523118f9c3d",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/3a3fffe0-a3d7-45e8-9790-3751610ce84a.mp3",
+          "archive_name": "3a3fffe0-a3d7-45e8-9790-3751610ce84a.mp3",
+          "occurrences": [
+            {
+              "object_id": "57706efd-0186-4324-b949-41dd2c262f10",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "06.mp3"
+            },
+            {
+              "object_id": "3a3fffe0-a3d7-45e8-9790-3751610ce84a",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "06.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/3a3fffe0-a3d7-45e8-9790-3751610ce84a.mp3",
+      "duration_seconds": 74.295425,
+      "audio_bytes": 2972861,
+      "original_titles": [
+        "06.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ],
+      "title": "Фонетика: κ / γ / χ / γκ — упражнение 1.13",
+      "language": "el",
+      "text": "Μάθημα 1. Άσκηση 13.\nΧαρά, κερί, γκάφα, γάτα, γραμματική, χέρι, κόπος, γκολφ, γέρος, γάλα, γκρεμός, κάτι, γάντι, γεωγραφία, Γλυφάδα, γκαράζ.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-3a3fffe0-a3d7-45e8-9790-3751610ce84a.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Фонетика: κ / γ / χ / γκ — упражнение 1.13",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "76488a32212c4fda14b276d976f43bcad8bb85b3b31abe6fd2aa3523118f9c3d",
+        "primary_json_sha256": "75ae382914066c2ffa452d682a09080b3cad29d49ae8f062c5e5bc5740ec9a78",
+        "reviewed_at": "2026-11-05T10:18:19.654763+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 1. Άσκηση 13.\nΧαρά, κερί, γκάφα, γάτα, γραμματική, χέρι, κόπος, γκολφ, γέρος, γάλα, γκρεμός, κάτι, γάντι, γεωγραφία, Γλυφάδα, γκαράζ.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/3f78f5a2-f1de-44cb-b5e7-c90339a27c87.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 1.0,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-3a3fffe0-a3d7-45e8-9790-3751610ce84a.json",
+        "control_text": "Μάθημα 1. Άσκηση 13.\nΧαρά, κερί, γκάφα, γάτα, γραμματική, χέρι, κόπος, γκόλφ, γέρος, γάλα, γκρεμός, κάτι, γάντι, γεωγραφία, γλυφάδα, γκαράζ."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-3a3fffe0-a3d7-45e8-9790-3751610ce84a.json"
+    },
+    {
+      "id": "holst-4c62ebbc-d4ef-459a-8648-e335c1319f37",
+      "audio_sha256": "4e580392facc17b31c2d81ea56dd84260098e875712912e366df55ae02809b1e",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/4c62ebbc-d4ef-459a-8648-e335c1319f37.mp3",
+          "archive_name": "4c62ebbc-d4ef-459a-8648-e335c1319f37.mp3",
+          "occurrences": [
+            {
+              "object_id": "4c62ebbc-d4ef-459a-8648-e335c1319f37",
+              "frame_id": "470596c3-5eda-4540-aba5-67d39a73fee4",
+              "frame_label": "23/09",
+              "display_name": "051 - 5.26.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/4c62ebbc-d4ef-459a-8648-e335c1319f37.mp3",
+      "duration_seconds": 45.828417,
+      "audio_bytes": 1099882,
+      "original_titles": [
+        "051 - 5.26.mp3"
+      ],
+      "frame_labels": [
+        "23/09"
+      ],
+      "title": "Двузначные числа — упражнение 5.26",
+      "language": "el",
+      "text": "5.26.\n1. 49\n2. 62\n3. 34\n4. 97\n5. 53\n6. 57\n7. 88\n8. 91\n9. 45\n10. 79",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-4c62ebbc-d4ef-459a-8648-e335c1319f37.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Двузначные числа — упражнение 5.26",
+        "content_type": "numbers",
+        "reference_ready": true,
+        "audio_sha256": "4e580392facc17b31c2d81ea56dd84260098e875712912e366df55ae02809b1e",
+        "primary_json_sha256": "663cecc5bcbe5c7a3589affab225acd00133a41482357b7c92a3a66ae788afcb",
+        "reviewed_at": "2026-11-05T10:18:19.654949+00:00",
+        "audio_listened_in_full": false,
+        "text": "5.26.\n1. 49\n2. 62\n3. 34\n4. 97\n5. 53\n6. 57\n7. 88\n8. 91\n9. 45\n10. 79",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Значения чисел записаны цифрами; точный устный вариант отдельных числительных здесь не фиксируется."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7500ffcb-cb51-4297-a601-f3ff70c37e51.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "cross_decode_difference",
+          "similarity": 0.5833
+        }
+      ],
+      "content_type": "numbers",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.5833,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-4c62ebbc-d4ef-459a-8648-e335c1319f37.json",
+        "control_text": "5. 26. 1. 49. 2. 62. 3. 34. 4. 97. 5. 53. 6. 57.\nΕπτά\nΟγδόντα οκτώ\nΟκτώ\nΕνενήντα ένα\nΕννέα\nΣαράντα πέντε\nΔέκα\nΕβδομήντα εννέα"
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-4c62ebbc-d4ef-459a-8648-e335c1319f37.json"
+    },
+    {
+      "id": "holst-56d20506-c627-4894-a5da-6e114f25b5ad",
+      "audio_sha256": "19e6354705e63c808369a941f84ff80c91634608f6a24f8a633d32fbeeb02108",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/56d20506-c627-4894-a5da-6e114f25b5ad.mp3",
+          "archive_name": "56d20506-c627-4894-a5da-6e114f25b5ad.mp3",
+          "occurrences": [
+            {
+              "object_id": "56d20506-c627-4894-a5da-6e114f25b5ad",
+              "frame_id": "93545c74-f570-40f2-ac9f-7cdf2d801bd6",
+              "frame_label": "07.11",
+              "display_name": "43.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/56d20506-c627-4894-a5da-6e114f25b5ad.mp3",
+      "duration_seconds": 35.0192,
+      "audio_bytes": 1402874,
+      "original_titles": [
+        "43.mp3"
+      ],
+      "frame_labels": [
+        "07.11"
+      ],
+      "title": "Ева: происхождение, жизнь в Греции и профессии супругов",
+      "language": "el",
+      "text": "Μάθημα 4. Είναι νοσοκόμα. Άσκηση 13.\nΗ Εύα είναι από την Πολωνία. Τώρα μένει στην Ελλάδα, στη Θεσσαλονίκη. Είναι νοσοκόμα, αλλά τώρα δεν δουλεύει. Μαθαίνει ελληνικά στο Σχολείο Ελληνικής Γλώσσας. Ο άντρας της είναι από την Τσεχία, μένει στην Πράγα και είναι φαρμακοποιός.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-56d20506-c627-4894-a5da-6e114f25b5ad.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Ева: происхождение, жизнь в Греции и профессии супругов",
+        "content_type": "monologue",
+        "reference_ready": true,
+        "audio_sha256": "19e6354705e63c808369a941f84ff80c91634608f6a24f8a633d32fbeeb02108",
+        "primary_json_sha256": "79f0d23b77d3349f1d1929c2d07e3f19435f8ceebde260ae28d05fc361b01e2a",
+        "reviewed_at": "2026-11-07T16:50:54.742323+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 4. Είναι νοσοκόμα. Άσκηση 13.\nΗ Εύα είναι από την Πολωνία. Τώρα μένει στην Ελλάδα, στη Θεσσαλονίκη. Είναι νοσοκόμα, αλλά τώρα δεν δουλεύει. Μαθαίνει ελληνικά στο Σχολείο Ελληνικής Γλώσσας. Ο άντρας της είναι από την Τσεχία, μένει στην Πράγα και είναι φαρμακοποιός.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo и соответствующим печатным материалом Holst. Полная проверка по слуху не заявляется.",
+          "Материал присутствует как учебный источник; он не подтверждает владение языком учеником.",
+          "Основной и контрольный проходы совпали по словам; пунктуация и оформление названия школы сверены с изображением упражнения 13."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/adf7d2e8-24a0-450b-a9c3-13c74ac097f5.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [],
+      "content_type": "monologue",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 1.0,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-56d20506-c627-4894-a5da-6e114f25b5ad.json",
+        "control_text": "Μάθημα 4\nΕίναι νοσοκόμα\nΆσκηση 13\nΗ Εύα είναι από την Πολωνία\nΤώρα μένει στην Ελλάδα\nΣτη Θεσσαλονίκη\nΕίναι νοσοκόμα\nΑλλά τώρα δεν δουλεύει\nΜαθαίνει ελληνικά στο σχολείο ελληνικής γλώσσας\nΟ άντρας της είναι από την Τσεχία\nΜένει στην Πράγα\nΚαι είναι φαρμακοποιός"
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-56d20506-c627-4894-a5da-6e114f25b5ad.json"
+    },
+    {
+      "id": "holst-5b0c9685-bb86-4a83-b640-d416e8b7a9d2",
+      "audio_sha256": "041833297a3ba4da91481150a6fb02fb4a5b513451e435fe40b4627791dd194a",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/5b0c9685-bb86-4a83-b640-d416e8b7a9d2.mp3",
+          "archive_name": "5b0c9685-bb86-4a83-b640-d416e8b7a9d2.mp3",
+          "occurrences": [
+            {
+              "object_id": "5b0c9685-bb86-4a83-b640-d416e8b7a9d2",
+              "frame_id": "a41ab7b4-3ba8-4fa0-8869-c738f6a91459",
+              "frame_label": "08/08",
+              "display_name": "71 Track 71.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/5b0c9685-bb86-4a83-b640-d416e8b7a9d2.mp3",
+      "duration_seconds": 155.246,
+      "audio_bytes": 6215216,
+      "original_titles": [
+        "71 Track 71.mp3"
+      ],
+      "frame_labels": [
+        "08/08"
+      ],
+      "title": "Четыре диалога: знакомство и приветствия",
+      "language": "el",
+      "text": "Διάλογος 1. Καλημέρα παιδιά. Είμαι η κυρία Μαρία. Πώς σας λένε;\nΕίμαι ο Μάρκος. Εγώ είμαι η Μαρίνα. Με λένε Ελένη. Κι εγώ είμαι η Σοφία.\nΔιάλογος 2. Καλησπέρα κύριε Γιώργο. Τι κάνετε;\nΓεια σου Μανώλη. Είμαι πολύ καλά. Εσύ;\nΈτσι και έτσι.\nΔιάλογος 3.\nΚαλημέρα σας. Είμαι ο Σωτήρης Παπαδόπουλος.\nΑ, γεια σας κύριε Παπαδόπουλε. Πώς είστε;\nΠολύ καλά. Ευχαριστώ.\nΔιάλογος 4.\nΓεια σου Αλέξη.\nΑ, γεια σου Λάμπρο. Τι κάνεις;\nΠολύ καλά, εσύ\nΜια χαρά\nΑπό εδώ\nΗ φίλη μου, η Αλεξάνδρα\nΧαίρω πολύ Αλεξάνδρα\nΚι εγώ επίσης\nΑπό εδώ η Μάρθα\nΓεια σας, χάρηκα\nΚι εμείς",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-5b0c9685-bb86-4a83-b640-d416e8b7a9d2.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "text_reviewed",
+        "title": "Четыре диалога: знакомство и приветствия",
+        "content_type": "dialogue_collection",
+        "reference_ready": true,
+        "audio_sha256": "041833297a3ba4da91481150a6fb02fb4a5b513451e435fe40b4627791dd194a",
+        "primary_json_sha256": "a59d91d9036c64bd51a2414d695eea51e76054487f2b369ec625f265ee4b37f7",
+        "reviewed_at": "2026-11-05T10:18:19.655664+00:00",
+        "audio_listened_in_full": false,
+        "text": "Διάλογος 1. Καλημέρα παιδιά. Είμαι η κυρία Μαρία. Πώς σας λένε;\nΕίμαι ο Μάρκος. Εγώ είμαι η Μαρίνα. Με λένε Ελένη. Κι εγώ είμαι η Σοφία.\n\n\nΔιάλογος 2. Καλησπέρα κύριε Γιώργο. Τι κάνετε;\nΓεια σου Μανώλη. Είμαι πολύ καλά. Εσύ;\nΈτσι και έτσι.\n\n\nΔιάλογος 3.\nΚαλημέρα σας. Είμαι ο Σωτήρης Παπαδόπουλος.\nΑ, γεια σας κύριε Παπαδόπουλε. Πώς είστε;\nΠολύ καλά. Ευχαριστώ.\n\n\nΔιάλογος 4.\nΓεια σου Αλέξη.\nΑ, γεια σου Λάμπρο. Τι κάνεις;\nΠολύ καλά, εσύ\nΜια χαρά\nΑπό εδώ\nΗ φίλη μου, η Αλεξάνδρα\nΧαίρω πολύ Αλεξάνδρα\nΚι εγώ επίσης\nΑπό εδώ η Μάρθα\nΓεια σας, χάρηκα\nΚι εμείς",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется."
+        ],
+        "source_images": [],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 1,
+          "tokens": [
+            {
+              "text": ",",
+              "p": 0.311306,
+              "timestamps": {
+                "from": "00:00:57,740",
+                "to": "00:00:57,970"
+              }
+            }
+          ]
+        }
+      ],
+      "content_type": "dialogue_collection",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9899,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-5b0c9685-bb86-4a83-b640-d416e8b7a9d2.json",
+        "control_text": "Διάλογος 1. Καλημέρα, παιδιά. Είμαι η κυρία Μαρία. Πώς σας λένε?\nΕίμαι ο Μάρκος.\nΕγώ είμαι η Μαρίνα.\nΜε λένε Ελένη.\nΚι εγώ είμαι η Σοφία.\nΔιάλογος 2.\nΚαλησπέρα, κύριε Γιώργο. Τι κάνετε?\nΓεια σου, Μανώλη. Είμαι πολύ καλά. Εσύ?\nΈτσι κι έτσι.\nΔιάλογος 3\nΚαλημέρα σας. Είμαι ο Σωτήρης Παπαδόπουλος.\nΑ, γεια σας κύριε Παπαδόπουλε. Πώς είστε?\nΠολύ καλά. Ευχαριστώ.\nΔιάλογος 4\nΓεια σου Αλέξη.\nΑ, γεια σου Λάμπρο. Τι κάνεις?\nΠολύ καλά, εσύ\nΜια χαρά\nΑπό εδώ, η φίλη μου, η Αλεξάνδρα\nΧαίρο πολύ Αλεξάνδρα\nΚι εγώ επίσης\nΑπό εδώ, η Μάρθα\nΓεια σας, χάρηκα\nΚι εμείς"
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-5b0c9685-bb86-4a83-b640-d416e8b7a9d2.json"
+    },
+    {
+      "id": "holst-65e88206-950c-447b-9159-280d54229bf1",
+      "audio_sha256": "08682e370c27a0dd78acbab68c33d5edbd07ae1be080e6dd27c53edc85683701",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/65e88206-950c-447b-9159-280d54229bf1.mp3",
+          "archive_name": "65e88206-950c-447b-9159-280d54229bf1.mp3",
+          "occurrences": [
+            {
+              "object_id": "babddf12-dd1b-44b6-ad12-e3fd0a2e4790",
+              "frame_id": "9b9cf119-6dff-444c-b237-8a6e6ae71431",
+              "frame_label": "Д/З Елена",
+              "display_name": "29 - Unknown - Track 29.mp3"
+            },
+            {
+              "object_id": "65e88206-950c-447b-9159-280d54229bf1",
+              "frame_id": "a978c361-2974-46f2-a400-d64a2fc69c10",
+              "frame_label": "Д/З Максим",
+              "display_name": "29 - Unknown - Track 29.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/65e88206-950c-447b-9159-280d54229bf1.mp3",
+      "duration_seconds": 122.026667,
+      "audio_bytes": 1955588,
+      "original_titles": [
+        "29 - Unknown - Track 29.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ],
+      "title": "Десять описаний людей — упражнение 9.20",
+      "language": "el",
+      "text": "Μάθημα 9. Άσκηση 20.\n1. Είναι άντρας. Είναι ψηλός, έχει κοντά καστανά μαλλιά και φοράει τζιν και μπλε μπλούζα.\n2. Είναι γυναίκα. Έχει καστανά μαλλιά και μάτια και φοράει ροζ μπλούζα και καπέλο.\n3. Είναι γυναίκα. Έχει κόκκινα μαλλιά, φοράει άσπρο φανελάκι και έχει τατουάζ.\n4. Είναι άντρας. Φοράει γαλάζιο μπλουζάκι. Έχει μουσί και είναι φαλακρός.\n5. Είναι γυναίκα. Φοράει γκρι πουλόβερ με ζιβάγκο και μπλε σακάκι. Έχει άσπρα κοντά μαλλιά. Είναι ηλικιωμένη.\n6. Είναι άντρας. Είναι μελαχρινός και φοράει καφέ μπλουζάκι.\n7. Είναι γυναίκα. Έχει ξανθά μαλλιά και είναι λίγο παχιά.\n8. Είναι γυναίκα. Είναι ξανθιά με γαλανά μάτια και φοράει μπουφάν με γούνινη κουκούλα.\n9. Είναι άντρας. Φοράει γκρι πουλόβερ. Φοράει γυαλιά, έχει γένια και είναι φαλακρός.\n10. Είναι άντρας. Είναι ξανθός. Είναι πολύ λεπτός και φοράει ένα πράσινο μπλουζάκι.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-65e88206-950c-447b-9159-280d54229bf1.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "text_reviewed",
+        "title": "Десять описаний людей — упражнение 9.20",
+        "content_type": "descriptions",
+        "reference_ready": true,
+        "audio_sha256": "08682e370c27a0dd78acbab68c33d5edbd07ae1be080e6dd27c53edc85683701",
+        "primary_json_sha256": "b22361f37aa8c691da5e4bd6275cf80784c0c05e6cacc4e2b9eaa45db3a7900b",
+        "reviewed_at": "2026-11-05T10:18:19.656471+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 9. Άσκηση 20.\n1. Είναι άντρας. Είναι ψηλός, έχει κοντά καστανά μαλλιά και φοράει τζιν και μπλε μπλούζα.\n2. Είναι γυναίκα. Έχει καστανά μαλλιά και μάτια και φοράει ροζ μπλούζα και καπέλο.\n3. Είναι γυναίκα. Έχει κόκκινα μαλλιά, φοράει άσπρο φανελάκι και έχει τατουάζ.\n4. Είναι άντρας. Φοράει γαλάζιο μπλουζάκι. Έχει μουσί και είναι φαλακρός.\n5. Είναι γυναίκα. Φοράει γκρι πουλόβερ με ζιβάγκο και μπλε σακάκι. Έχει άσπρα κοντά μαλλιά. Είναι ηλικιωμένη.\n6. Είναι άντρας. Είναι μελαχρινός και φοράει καφέ μπλουζάκι.\n7. Είναι γυναίκα. Έχει ξανθά μαλλιά και είναι λίγο παχιά.\n8. Είναι γυναίκα. Είναι ξανθιά με γαλανά μάτια και φοράει μπουφάν με γούνινη κουκούλα.\n9. Είναι άντρας. Φοράει γκρι πουλόβερ. Φοράει γυαλιά, έχει γένια και είναι φαλακρός.\n10. Είναι άντρας. Είναι ξανθός. Είναι πολύ λεπτός και φοράει ένα πράσινο μπλουζάκι.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "В основном проходе были пропуски. Текст восстановлен повторным распознаванием фрагмента, сравнением проходов и, где указан, учебным источником. Исходные SRT основного прохода могут не содержать восстановленные места."
+        ],
+        "source_images": [],
+        "supplementary_asr_paths": [
+          "data/listening-reference-library/raw/experiments/cropped-no-vad/holst-65e88206-950c-447b-9159-280d54229bf1.json"
+        ]
+      },
+      "automatic_checks": [
+        {
+          "type": "possible_omitted_speech",
+          "uncovered_vad_seconds": 25.39
+        }
+      ],
+      "content_type": "descriptions",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9691,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-65e88206-950c-447b-9159-280d54229bf1.json",
+        "control_text": "Μάθημα 9. Άσκηση 20.\nΦοράει άσπρο φανελάκι και έχει τατουάζ.\n4. Είναι άντρας.\nΦοράει γαλάζιο μπλουζάκι.\nΈχει μουσί και είναι φαλακρός.\n5. Είναι γυναίκα.\nΦοράει γκρύπου λόβερ με ζιβάγκο και μπλε σακάκι.\nΈχει άσπρα κοντά μαλλιά.\nΕίναι ηλικιωμένη.\n6. Είναι άντρας. Είναι μελαχρινός και φοράει καφέ μπλουζάκι.\n7. Είναι γυναίκα. Έχει ξανθά μαλλιά και είναι λίγο παχιά.\n8. Είναι γυναίκα. Είναι ξανθιά με γαλανά μάτια και φοράει μπουφάν με γούνινη κουκούλα.\nΕννιά, είναι άντρας, φοράει γκρι πουλόβερ, φοράει γυαλιά, έχει γένια και είναι φαλακρός.\nΔέκα, είναι άντρας, είναι ξανθός, είναι πολύ λεπτός και φοράει ένα πράσινο μπλουζάκι."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-65e88206-950c-447b-9159-280d54229bf1.json"
+    },
+    {
+      "id": "holst-6a1c43ea-cdbb-4288-88d7-4a2fbeae3d96",
+      "audio_sha256": "a473cf154e52da8cba9255297ebf54d828ae9d809f2f7f3a8f369eead505d688",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/6a1c43ea-cdbb-4288-88d7-4a2fbeae3d96.mp3",
+          "archive_name": "6a1c43ea-cdbb-4288-88d7-4a2fbeae3d96.mp3",
+          "occurrences": [
+            {
+              "object_id": "467897ea-dc39-47c4-a1cb-8e2ca4870618",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "080 - 8.17.mp3"
+            },
+            {
+              "object_id": "6a1c43ea-cdbb-4288-88d7-4a2fbeae3d96",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "080 - 8.17.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/6a1c43ea-cdbb-4288-88d7-4a2fbeae3d96.mp3",
+      "duration_seconds": 58.635333,
+      "audio_bytes": 1407248,
+      "original_titles": [
+        "080 - 8.17.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ],
+      "title": "Произношение αυ / ευ — упражнение 8.17",
+      "language": "el",
+      "text": "8.17.\n1. λατρεύω\n2. ελεύθερη\n3. δουλεύω\n4. ερωτευμένος\n5. αυτοκίνητο\n6. απόγευμα\n7. διαζευγμένος\n8. ευρώ\n9. δεύτερος\n10. αύριο\n11. αυτός\n12. μαγειρεύω\n13. ευχαριστώ",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-6a1c43ea-cdbb-4288-88d7-4a2fbeae3d96.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "text_reviewed",
+        "title": "Произношение αυ / ευ — упражнение 8.17",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "a473cf154e52da8cba9255297ebf54d828ae9d809f2f7f3a8f369eead505d688",
+        "primary_json_sha256": "52b25105f264713e61ce8c625b9a6e5afd191ed631934d17bc89a25465d518a9",
+        "reviewed_at": "2026-11-05T10:18:19.656891+00:00",
+        "audio_listened_in_full": false,
+        "text": "8.17.\n1. λατρεύω\n2. ελεύθερη\n3. δουλεύω\n4. ερωτευμένος\n5. αυτοκίνητο\n6. απόγευμα\n7. διαζευγμένος\n8. ευρώ\n9. δεύτερος\n10. αύριο\n11. αυτός\n12. μαγειρεύω\n13. ευχαριστώ",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом."
+        ],
+        "source_images": [],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 2,
+          "tokens": [
+            {
+              "text": " Ο",
+              "p": 0.267252,
+              "timestamps": {
+                "from": "00:00:00,160",
+                "to": "00:00:00,160"
+              }
+            },
+            {
+              "text": ".",
+              "p": 0.239617,
+              "timestamps": {
+                "from": "00:00:02,780",
+                "to": "00:00:02,800"
+              }
+            }
+          ]
+        },
+        {
+          "type": "cross_decode_difference",
+          "similarity": 0.5
+        }
+      ],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.5,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-6a1c43ea-cdbb-4288-88d7-4a2fbeae3d96.json",
+        "control_text": "8. 17. 1. Λατρεύω. 2. Ελεύθερη. 3. Δουλεύω. 4. Ερωτευμένος. 5. Αυτοκίνητο. 6. Απόγευμα. 7. Διαζευμένος.\nΟκτώ. Ευρώ.\nΕννέα. Δεύτερος.\nΔέκα. Αύριο.\nΈντεκα. Αυτός.\nΔώδεκα. Μαγειρεύω.\nΔεκατρία. Ευχαριστώ."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-6a1c43ea-cdbb-4288-88d7-4a2fbeae3d96.json"
+    },
+    {
+      "id": "holst-6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad",
+      "audio_sha256": "2aa9227a541d896a15774c156e973ad9633bd15b2d6d27ad4c937b2a574bd282",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad.mp3",
+          "archive_name": "6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad.mp3",
+          "occurrences": [
+            {
+              "object_id": "7cb3e531-86d6-4556-b6cd-320c40fda8b4",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "05.mp3"
+            },
+            {
+              "object_id": "6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "05.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad.mp3",
+      "duration_seconds": 40.022775,
+      "audio_bytes": 1601955,
+      "original_titles": [
+        "05.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ],
+      "title": "Фонетика: ντ / δ — упражнение 1.12",
+      "language": "el",
+      "text": "Μάθημα 1. Άσκηση 12.\nΝτομάτα, νταντά, δάκρυ, δίνω, δώρο, δημοκρατία, δέμα, ντεκολτέ, ντίζελ.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Фонетика: ντ / δ — упражнение 1.12",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "2aa9227a541d896a15774c156e973ad9633bd15b2d6d27ad4c937b2a574bd282",
+        "primary_json_sha256": "0736eac7dddb75b531e528acd17ec7474efc7a4064a0abf325b62608fdb582b8",
+        "reviewed_at": "2026-11-05T10:18:19.657064+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 1. Άσκηση 12.\nΝτομάτα, νταντά, δάκρυ, δίνω, δώρο, δημοκρατία, δέμα, ντεκολτέ, ντίζελ.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом.",
+          "В основном проходе были пропуски. Текст восстановлен повторным распознаванием фрагмента, сравнением проходов и, где указан, учебным источником. Исходные SRT основного прохода могут не содержать восстановленные места."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/1f3a3448-74c4-4e7e-b4c4-830afadb3bd4.png"
+        ],
+        "supplementary_asr_paths": [
+          "data/listening-reference-library/raw/experiments/cropped-no-vad/holst-6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad.json"
+        ]
+      },
+      "automatic_checks": [
+        {
+          "type": "possible_omitted_speech",
+          "uncovered_vad_seconds": 11.4
+        },
+        {
+          "type": "cross_decode_difference",
+          "similarity": 0.4706
+        }
+      ],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.4706,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad.json",
+        "control_text": "Μάθημα 1.\nΆσκηση 12.\nΝτομάτα.\nΝταντά.\nΔάκρυ.\nΔίνο.\nΔώρο.\nΔημοκρατία.\nΔέμα.\nΝτεκολτέ.\nΝτίζελ."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-6db412fa-7eac-4a2e-8b1f-ab62ad12e3ad.json"
+    },
+    {
+      "id": "holst-73fba7db-7171-45e9-bb91-6debbb4a7059",
+      "audio_sha256": "0a4e7c177891fe65a7ab693740c3e95cbf852290d57fbddc38e27b2a4e445c82",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/73fba7db-7171-45e9-bb91-6debbb4a7059.mp3",
+          "archive_name": "73fba7db-7171-45e9-bb91-6debbb4a7059.mp3",
+          "occurrences": [
+            {
+              "object_id": "cdfec2a5-01b5-40c7-ace4-62cfe0fea1f5",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "05.mp3"
+            },
+            {
+              "object_id": "73fba7db-7171-45e9-bb91-6debbb4a7059",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "05.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/73fba7db-7171-45e9-bb91-6debbb4a7059.mp3",
+      "duration_seconds": 116.6192,
+      "audio_bytes": 4666874,
+      "original_titles": [
+        "05.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ],
+      "title": "Ударение: вводное занятие, упражнение 11",
+      "language": "el",
+      "text": "Εισαγωγικό μάθημα. Άσκηση 11.\nΑθήνα, καφές, σουβλάκι, αλφάβητο, Γερμανία, τι, κινητό, λογική, όνομα, δεν, μουσική, τρένο, θέατρο, σινεμά, σοκολάτα, μαμά, παρακαλώ, σε, μάθημα, καλημέρα, φιλμ.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-73fba7db-7171-45e9-bb91-6debbb4a7059.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Ударение: вводное занятие, упражнение 11",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "0a4e7c177891fe65a7ab693740c3e95cbf852290d57fbddc38e27b2a4e445c82",
+        "primary_json_sha256": "21a5142d8481f590279f0ce84f45c88f2e6c6af8fde530b0365f8e8e33e89899",
+        "reviewed_at": "2026-11-05T10:18:19.657235+00:00",
+        "audio_listened_in_full": false,
+        "text": "Εισαγωγικό μάθημα. Άσκηση 11.\nΑθήνα, καφές, σουβλάκι, αλφάβητο, Γερμανία, τι, κινητό, λογική, όνομα, δεν, μουσική, τρένο, θέατρο, σινεμά, σοκολάτα, μαμά, παρακαλώ, σε, μάθημα, καλημέρα, φιλμ.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом.",
+          "В основном проходе были пропуски. Текст восстановлен повторным распознаванием фрагмента, сравнением проходов и, где указан, учебным источником. Исходные SRT основного прохода могут не содержать восстановленные места.",
+          "Начало списка восстановлено по полному контрольному проходу без VAD и сверено со списком упражнения; галлюцинации о субтитрах исключены."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8a9efcf2-b909-4f41-9ca5-72f235e0cc3c.png"
+        ],
+        "supplementary_asr_paths": [
+          "data/listening-reference-library/raw/experiments/cropped-no-vad/holst-73fba7db-7171-45e9-bb91-6debbb4a7059.json"
+        ]
+      },
+      "automatic_checks": [
+        {
+          "type": "possible_omitted_speech",
+          "uncovered_vad_seconds": 21.85
+        }
+      ],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 1.0,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-73fba7db-7171-45e9-bb91-6debbb4a7059.json",
+        "control_text": "Εισαγωγικό μάθημα.\nΆσκηση 11.\nΦίλμ"
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-73fba7db-7171-45e9-bb91-6debbb4a7059.json"
+    },
+    {
+      "id": "holst-7b06a46b-f9aa-4b02-8099-c787088d75fb",
+      "audio_sha256": "b8200505094fbba8cb0a577ad1bfac5bc6eefe23a54a7f2150406a1a559d7949",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7b06a46b-f9aa-4b02-8099-c787088d75fb.mp3",
+          "archive_name": "7b06a46b-f9aa-4b02-8099-c787088d75fb.mp3",
+          "occurrences": [
+            {
+              "object_id": "8f89cac9-da5d-4a44-8173-e0fbc4cb518e",
+              "frame_id": "a88ede58-6f60-4ff6-8dd3-38b1b54ab48d",
+              "frame_label": "Д/З Максим",
+              "display_name": "09.mp3"
+            },
+            {
+              "object_id": "7b06a46b-f9aa-4b02-8099-c787088d75fb",
+              "frame_id": "50ad82a2-7af1-4d91-a63e-f041df82e275",
+              "frame_label": "Д/З Елена",
+              "display_name": "09.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7b06a46b-f9aa-4b02-8099-c787088d75fb.mp3",
+      "duration_seconds": 43.83665,
+      "audio_bytes": 1754510,
+      "original_titles": [
+        "09.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ],
+      "title": "Γεια! — знакомство вне класса",
+      "language": "el",
+      "text": "Μάθημα 2\nΓεια!\nΓεια σου! Πώς σε λένε;\nΓεια! Με λένε Άνε. Εσένα, πώς σε λένε;\nΕίμαι ο Φλαβιάν. Χαίρω πολύ!\nΚι εγώ!\nΑπό πού είσαι, Άνε;\nΕίμαι από την Ισπανία. Από τη Μαδρίτη. Εσύ;\nΕγώ είμαι από τη Γαλλία. Από το Παρίσι.\nΩραία! Τα λέμε στο μάθημα, ε!\nΝαι! Πώς λένε τον καθηγητή;\nΠώς τον λένε... δεν ξέρω.\nΕντάξει, τα λέμε λοιπόν\nΧάρηκα πολύ\nΚι εγώ, αντίο\nΓεια χαρά",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-7b06a46b-f9aa-4b02-8099-c787088d75fb.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Γεια! — знакомство вне класса",
+        "content_type": "dialogue",
+        "reference_ready": true,
+        "audio_sha256": "b8200505094fbba8cb0a577ad1bfac5bc6eefe23a54a7f2150406a1a559d7949",
+        "primary_json_sha256": "02ab1ef8d0bfb71818f4057bfad6fd4d7b3843643b45c155aaf87356c90e8806",
+        "reviewed_at": "2026-11-05T10:18:19.657697+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 2\nΓεια!\nΓεια σου! Πώς σε λένε;\nΓεια! Με λένε Άνε. Εσένα, πώς σε λένε;\nΕίμαι ο Φλαβιάν. Χαίρω πολύ!\nΚι εγώ!\nΑπό πού είσαι, Άνε;\nΕίμαι από την Ισπανία. Από τη Μαδρίτη. Εσύ;\nΕγώ είμαι από τη Γαλλία. Από το Παρίσι.\nΩραία! Τα λέμε στο μάθημα, ε!\nΝαι! Πώς λένε τον καθηγητή;\nΠώς τον λένε... δεν ξέρω.\nΕντάξει, τα λέμε λοιπόν\nΧάρηκα πολύ\nΚι εγώ, αντίο\nΓεια χαρά",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/91d2ee12-18aa-4743-84ed-5530b7ddc25b.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [],
+      "content_type": "dialogue",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9714,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-7b06a46b-f9aa-4b02-8099-c787088d75fb.json",
+        "control_text": "Μάθημα 2\nΓεια!\nΓεια σου, πώς σε λένε?\nΓεια, με λένε Άνε. Εσένα, πώς σε λένε?\nΕίμαι ο Φλαβιάν, χαίρο πολύ.\nΚι εγώ.\nΑπό πού είσαι, Άνε?\nΕίμαι απ' την Ισπανία, από τη Μαδρίτη, εσύ?\nΕγώ είμαι από τη Γαλλία, από το Παρίσι.\nΩραία! Τα λέμε στο μάθημα, ε?\nΝαι. Πώς λένε τον καθηγητή?\nΠώς τον λένε, δεν ξέρω.\nΕντάξει, τα λέμε λοιπόν\nΧάρηκα πολύ\nΚι εγώ, αντίο\nΓια χαρά"
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-7b06a46b-f9aa-4b02-8099-c787088d75fb.json"
+    },
+    {
+      "id": "holst-7be295b4-ebbf-4802-92e5-6a44bc232fae",
+      "audio_sha256": "27e7a579d523c9d920e686584b6b4caa41d0d4b516e4823d3b4a73f2b17aeed6",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7be295b4-ebbf-4802-92e5-6a44bc232fae.mp3",
+          "archive_name": "7be295b4-ebbf-4802-92e5-6a44bc232fae.mp3",
+          "occurrences": [
+            {
+              "object_id": "7be295b4-ebbf-4802-92e5-6a44bc232fae",
+              "frame_id": "470596c3-5eda-4540-aba5-67d39a73fee4",
+              "frame_label": "23/09",
+              "display_name": "052 - 5.27.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7be295b4-ebbf-4802-92e5-6a44bc232fae.mp3",
+      "duration_seconds": 44.498167,
+      "audio_bytes": 1067956,
+      "original_titles": [
+        "052 - 5.27.mp3"
+      ],
+      "frame_labels": [
+        "23/09"
+      ],
+      "title": "Двузначные числа — упражнение 5.27",
+      "language": "el",
+      "text": "5.27.\n1. τριάντα εννέα\n2. εβδομήντα τρία\n3. τριάντα τέσσερα\n4. ενενήντα επτά\n5. εβδομήντα οκτώ\n6. είκοσι πέντε\n7. εξήντα έξι\n8. ογδόντα δύο\n9. σαράντα ένα\n10. πενήντα πέντε",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-7be295b4-ebbf-4802-92e5-6a44bc232fae.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Двузначные числа — упражнение 5.27",
+        "content_type": "numbers",
+        "reference_ready": true,
+        "audio_sha256": "27e7a579d523c9d920e686584b6b4caa41d0d4b516e4823d3b4a73f2b17aeed6",
+        "primary_json_sha256": "85e96186ea13a12117edc525d1293c36510f1dc6deb6b9999eb888cc71ae9a02",
+        "reviewed_at": "2026-11-05T10:18:19.658115+00:00",
+        "audio_listened_in_full": false,
+        "text": "5.27.\n1. τριάντα εννέα\n2. εβδομήντα τρία\n3. τριάντα τέσσερα\n4. ενενήντα επτά\n5. εβδομήντα οκτώ\n6. είκοσι πέντε\n7. εξήντα έξι\n8. ογδόντα δύο\n9. σαράντα ένα\n10. πενήντα πέντε",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7500ffcb-cb51-4297-a601-f3ff70c37e51.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 2,
+          "tokens": [
+            {
+              "text": " Π",
+              "p": 0.0951589,
+              "timestamps": {
+                "from": "00:00:00,100",
+                "to": "00:00:00,100"
+              }
+            },
+            {
+              "text": " Ε",
+              "p": 0.0430985,
+              "timestamps": {
+                "from": "00:00:28,290",
+                "to": "00:00:28,380"
+              }
+            }
+          ]
+        },
+        {
+          "type": "cross_decode_difference",
+          "similarity": 0.1818
+        }
+      ],
+      "content_type": "numbers",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.1818,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-7be295b4-ebbf-4802-92e5-6a44bc232fae.json",
+        "control_text": "5, 27. 1, 39. 2, 73. 3, 34. 4, 97. 5, 78. 6, 25. 7, 66. 8, 82. 9.\nΣαράντα ένα.\nΔέκα.\nΠενήντα πέντε."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-7be295b4-ebbf-4802-92e5-6a44bc232fae.json"
+    },
+    {
+      "id": "holst-7d04dbb8-1f31-4d33-b90b-eef37e359923",
+      "audio_sha256": "046c2ecd7b9a6d739b35af579882a2278cde518eb6e7ca7067701f3b5f194049",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7d04dbb8-1f31-4d33-b90b-eef37e359923.mp3",
+          "archive_name": "7d04dbb8-1f31-4d33-b90b-eef37e359923.mp3",
+          "occurrences": [
+            {
+              "object_id": "7d04dbb8-1f31-4d33-b90b-eef37e359923",
+              "frame_id": "75551609-1924-44fd-b149-cde4f6ecb634",
+              "frame_label": "Д/З Максим",
+              "display_name": "021 - 2.33.β (1).mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/7d04dbb8-1f31-4d33-b90b-eef37e359923.mp3",
+      "duration_seconds": 47.471667,
+      "audio_bytes": 1139320,
+      "original_titles": [
+        "021 - 2.33.β (1).mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим"
+      ],
+      "title": "Дополнительное ударение: словосочетания 2.33β",
+      "language": "el",
+      "text": "2.33β.\n1. το όνομά μου\n2. το ξενοδοχείο σου\n3. το κορίτσι του\n4. το πρόγραμμά της\n5. το σχολείο μου\n6. το επώνυμό σου\n7. η γραμματέας του\n8. ο μαθητής της\n9. το μουσείο του\n10. η μαθήτριά μου",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-7d04dbb8-1f31-4d33-b90b-eef37e359923.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Дополнительное ударение: словосочетания 2.33β",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "046c2ecd7b9a6d739b35af579882a2278cde518eb6e7ca7067701f3b5f194049",
+        "primary_json_sha256": "8839327bc99935471b0c3e3842f4deaceda5e748bb6b5bdb4008fd16fe84640b",
+        "reviewed_at": "2026-11-05T10:18:19.658449+00:00",
+        "audio_listened_in_full": false,
+        "text": "2.33β.\n1. το όνομά μου\n2. το ξενοδοχείο σου\n3. το κορίτσι του\n4. το πρόγραμμά της\n5. το σχολείο μου\n6. το επώνυμό σου\n7. η γραμματέας του\n8. ο μαθητής της\n9. το μουσείο του\n10. η μαθήτριά μου",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/daf91c3b-ff77-47d7-8c10-72ccc112ae33.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 2,
+          "tokens": [
+            {
+              "text": "-",
+              "p": 0.217966,
+              "timestamps": {
+                "from": "00:00:00,740",
+                "to": "00:00:00,800"
+              }
+            },
+            {
+              "text": " Ο",
+              "p": 0.323895,
+              "timestamps": {
+                "from": "00:00:27,490",
+                "to": "00:00:27,630"
+              }
+            }
+          ]
+        },
+        {
+          "type": "cross_decode_difference",
+          "similarity": 0.7586
+        }
+      ],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.7586,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-7d04dbb8-1f31-4d33-b90b-eef37e359923.json",
+        "control_text": "Δύο, τριάντα τρία βήτα.\nΈνα, το όνομά μου.\nΔύο, το ξενοδοχείο σου.\nΤρία, το κορίτσι του.\nΤέσσερα, το πρόγραμμά της.\nΠέντε, το σχολείο μου.\nΈξι, το επώνυμό σου.\nΕπτά, η γραμματέας του.\nΟκτώ. Ο μαθητής της.\nΕννέα. Το μουσείο του.\nΔέκα. Η μαθήτριά μου."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-7d04dbb8-1f31-4d33-b90b-eef37e359923.json"
+    },
+    {
+      "id": "holst-8bd8f73e-9731-4261-8e53-65e86640887d",
+      "audio_sha256": "388c450e53eedef78c24894b6a886d4a585eba492a2e8b9ffe42407e6627552d",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8bd8f73e-9731-4261-8e53-65e86640887d.mp3",
+          "archive_name": "8bd8f73e-9731-4261-8e53-65e86640887d.mp3",
+          "occurrences": [
+            {
+              "object_id": "8bd8f73e-9731-4261-8e53-65e86640887d",
+              "frame_id": "93545c74-f570-40f2-ac9f-7cdf2d801bd6",
+              "frame_label": "07.11",
+              "display_name": "Track 28.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8bd8f73e-9731-4261-8e53-65e86640887d.mp3",
+      "duration_seconds": 30.56325,
+      "audio_bytes": 489045,
+      "original_titles": [
+        "Track 28.mp3"
+      ],
+      "frame_labels": [
+        "07.11"
+      ],
+      "title": "Знакомство на уроке: национальности и языки",
+      "language": "el",
+      "text": "Νίκος: Μιλάς πολύ καλά ελληνικά. Από πού είσαι;\nΜάρκος: Είμαι Αυστραλός, αλλά η μητέρα μου είναι Ελληνίδα. Με λένε Μάρκο. Από ’δώ είναι ο Λαφάου. Είναι Ιρακινός.\nΝίκος: Χαίρω πολύ, Λαφάου.\nΛαφάου: Κι εγώ.\nΜάρκος: Ο Λαφάου καταλαβαίνει ελληνικά, αλλά δε μιλάει τόσο καλά. Μιλάει αγγλικά, ιταλικά και αραβικά.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-8bd8f73e-9731-4261-8e53-65e86640887d.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Знакомство на уроке: национальности и языки",
+        "content_type": "dialogue",
+        "reference_ready": true,
+        "audio_sha256": "388c450e53eedef78c24894b6a886d4a585eba492a2e8b9ffe42407e6627552d",
+        "primary_json_sha256": "99e8a6a7f4fa22a06ff7c3ba286ee9091524863f1e49a4aaf27b8b1411135fb9",
+        "reviewed_at": "2026-11-07T16:50:54.742688+00:00",
+        "audio_listened_in_full": false,
+        "text": "Νίκος: Μιλάς πολύ καλά ελληνικά. Από πού είσαι;\nΜάρκος: Είμαι Αυστραλός, αλλά η μητέρα μου είναι Ελληνίδα. Με λένε Μάρκο. Από ’δώ είναι ο Λαφάου. Είναι Ιρακινός.\nΝίκος: Χαίρω πολύ, Λαφάου.\nΛαφάου: Κι εγώ.\nΜάρκος: Ο Λαφάου καταλαβαίνει ελληνικά, αλλά δε μιλάει τόσο καλά. Μιλάει αγγλικά, ιταλικά και αραβικά.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo и соответствующим печатным материалом Holst. Полная проверка по слуху не заявляется.",
+          "Материал присутствует как учебный источник; он не подтверждает владение языком учеником.",
+          "Роли, написание Λαφάου, Χαίρω, сокращения ’δώ / Κι и финальное δε сверены с печатным исходником A28. Основной ASR дал Χαίρο; исходный ASR сохранён.",
+          "В исходном учебном диалоге три говорящие роли. Это исходный референс, не новый сгенерированный диалог."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/f7c192f8-9035-4376-9ed5-72874fbd7b94.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 1,
+          "tokens": [
+            {
+              "text": " «",
+              "p": 0.268398,
+              "timestamps": {
+                "from": "00:00:00,000",
+                "to": "00:00:00,070"
+              }
+            }
+          ]
+        }
+      ],
+      "content_type": "dialogue",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9545,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-8bd8f73e-9731-4261-8e53-65e86640887d.json",
+        "control_text": "«Μιλάς πολύ καλά ελληνικά. Από πού είσαι»\n«Είμαι Αυστραλός, αλλά η μητέρα μου είναι Ελληνίδα. Με λένε Μάρκο. Από δω είναι ο Λαφάου. Είναι Ιρακινός»\n«Χαίρω πολύ Λαφάου»\n«Και εγώ»\n«Ο Λαφάου καταλαβαίνει ελληνικά, αλλά δεν μιλάει τόσο καλά. Μιλάει Αγγλικά, Ιταλικά και Αραβικά»"
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-8bd8f73e-9731-4261-8e53-65e86640887d.json"
+    },
+    {
+      "id": "holst-8c005594-30b0-4c49-a00e-4d7d1b7d6c5d",
+      "audio_sha256": "3eb1219cc1ecc11d6996bf6ab21a3b6e69153d80acda5efff654ad08c416544c",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8c005594-30b0-4c49-a00e-4d7d1b7d6c5d.mp3",
+          "archive_name": "8c005594-30b0-4c49-a00e-4d7d1b7d6c5d.mp3",
+          "occurrences": [
+            {
+              "object_id": "8c005594-30b0-4c49-a00e-4d7d1b7d6c5d",
+              "frame_id": "d6d3c440-507b-4812-a262-718f0f9dfe6e",
+              "frame_label": "12/09",
+              "display_name": "61.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8c005594-30b0-4c49-a00e-4d7d1b7d6c5d.mp3",
+      "duration_seconds": 68.9792,
+      "audio_bytes": 2761274,
+      "original_titles": [
+        "61.mp3"
+      ],
+      "frame_labels": [
+        "12/09"
+      ],
+      "title": "Ποιος είναι αυτός; — разговор на вечеринке",
+      "language": "el",
+      "text": "Μάθημα 8\nΠοιος είναι αυτός;\nΆσκηση 1\nΤι ωραίο πάρτι!\nΝαι, πράγματι!\nΈχει φανταστική μουσική και πολύ κέφι!\nΕλένη, θες κρασί ή μπύρα;\nΈνα ποτήρι κρασί, σε παρακαλώ!\nΛευκό ή κόκκινο;\nΚόκκινο!\nΈλα, στην υγειά σου!\nΣτην υγειά μας!\nΠοιος είναι αυτός εκεί;\nΠοιος;\nΑυτός δίπλα στη Μόνικα;\nΝαι. Πολύ όμορφος, ε.\nΚαλός είναι.\nΤον λένε Μπρους.\nΕίναι καθηγητής μαθηματικών.\nΕίναι Αυστραλός και είναι πολύ συμπαθητικός.\nΚαι αυτή η κοπέλα με τον Αλέκο, ποια είναι;\nΑυτή εκεί με το μαύρο φόρεμα.\nΜια καινούρια μαθήτρια στην τάξη μου.\nΕίναι Ολλανδέζα. Δεν ξέρω πώς τη λένε.\nΨηλή κοπέλα, ε.\nΚαι με μοντέρνο στυλ.\nΕίναι η κοπέλα του.\nΛες. Δεν ξέρω. Μπορεί.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-8c005594-30b0-4c49-a00e-4d7d1b7d6c5d.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Ποιος είναι αυτός; — разговор на вечеринке",
+        "content_type": "dialogue",
+        "reference_ready": true,
+        "audio_sha256": "3eb1219cc1ecc11d6996bf6ab21a3b6e69153d80acda5efff654ad08c416544c",
+        "primary_json_sha256": "15f188130a43a364043b3951d63dbbbd2425e766d37434bc10ff737fa34b6e4d",
+        "reviewed_at": "2026-11-05T10:18:19.659174+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 8\nΠοιος είναι αυτός;\nΆσκηση 1\nΤι ωραίο πάρτι!\nΝαι, πράγματι!\nΈχει φανταστική μουσική και πολύ κέφι!\nΕλένη, θες κρασί ή μπύρα;\nΈνα ποτήρι κρασί, σε παρακαλώ!\nΛευκό ή κόκκινο;\nΚόκκινο!\nΈλα, στην υγειά σου!\nΣτην υγειά μας!\nΠοιος είναι αυτός εκεί;\nΠοιος;\nΑυτός δίπλα στη Μόνικα;\nΝαι. Πολύ όμορφος, ε.\nΚαλός είναι.\nΤον λένε Μπρους.\nΕίναι καθηγητής μαθηματικών.\nΕίναι Αυστραλός και είναι πολύ συμπαθητικός.\nΚαι αυτή η κοπέλα με τον Αλέκο, ποια είναι;\nΑυτή εκεί με το μαύρο φόρεμα.\nΜια καινούρια μαθήτρια στην τάξη μου.\nΕίναι Ολλανδέζα. Δεν ξέρω πώς τη λένε.\nΨηλή κοπέλα, ε.\nΚαι με μοντέρνο στυλ.\nΕίναι η κοπέλα του.\nΛες. Δεν ξέρω. Μπορεί.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/f85b6512-a038-45b2-a29f-1df771e7ef80.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 1,
+          "tokens": [
+            {
+              "text": ".",
+              "p": 0.251439,
+              "timestamps": {
+                "from": "00:00:29,900",
+                "to": "00:00:30,040"
+              }
+            }
+          ]
+        }
+      ],
+      "content_type": "dialogue",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9502,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-8c005594-30b0-4c49-a00e-4d7d1b7d6c5d.json",
+        "control_text": "Μάθημα 8. Ποιος είναι αυτός?\nΆσκηση 1.\nΤι ωραίο πάρτι!\nΝαι, πράγματι! Έχει φανταστική μουσική και πολλή κέφη.\nΕλένη, θες κρασί ή μπήρα?\nΈνα ποτήρι κρασί, σε παρακαλώ.\nΛευκό ή κόκκινο?\nΚόκκινο.\nΈλα, στην υγειά σου.\nΣτην υγειά μας.\nΕ, ποιος είναι αυτός εκεί?\nΠοιος?\nΑυτός δίπλα στη Μόνικα?\nΝαι, πολύ όμορφος, ε.\nΚαλός είναι.\nΤον λένε Μπρούς.\nΕίναι καθηγητής μαθηματικών.\nΕίναι αυστραλός και είναι πολύ συμπαθητικός.\nΚαι αυτή η κοπέλα με τον Αλέκο ποια είναι?\nΑυτή εκεί με το μαύρο φόρεμα.\nΜια καινούργια μαθήτρια στην τάξη μου.\nΕίναι Ολλανδέζα.\nΔεν ξέρω πώς τη λένε.\nΨηλή κοπέλα, ε.\nΚαι με μοντέρνο στυλ.\nΕίναι η κοπέλα του.\nΛες.\nΔεν ξέρω. Μπορεί.\nΥπότιτλοι AUTHORWAVE"
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-8c005594-30b0-4c49-a00e-4d7d1b7d6c5d.json"
+    },
+    {
+      "id": "holst-8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5",
+      "audio_sha256": "55cac25c68fcab51babf084c0d5ad90b45debb6b8378739a2cf59aefc3aad5c9",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5.mp3",
+          "archive_name": "8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5.mp3",
+          "occurrences": [
+            {
+              "object_id": "af1f6aca-7af8-4df8-9a83-29393bf859fc",
+              "frame_id": "a88ede58-6f60-4ff6-8dd3-38b1b54ab48d",
+              "frame_label": "Д/З Максим",
+              "display_name": "043 - 4.34.mp3"
+            },
+            {
+              "object_id": "8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5",
+              "frame_id": "50ad82a2-7af1-4d91-a63e-f041df82e275",
+              "frame_label": "Д/З Елена",
+              "display_name": "043 - 4.34.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5.mp3",
+      "duration_seconds": 49.6105,
+      "audio_bytes": 1190652,
+      "original_titles": [
+        "043 - 4.34.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ],
+      "title": "Знакомство и вежливое обращение — упражнение 4.34",
+      "language": "el",
+      "text": "Τέσσερα τριάντα τέσσερα.\nΚαλώς ήρθατε. Με λένε Δανάη Λούρη.\nΓεια σου Μαράλ. Τι κάνεις;\nΠολύ καλά Δανάη. Ευχαριστώ.\nΠώς σας λένε;\nΜε λένε Τόμας Μόρτον.\nΑπό πού είστε κύριε Μόρτον;\nΕίμαι από την Αγγλία.\nΚαι όχι κύριε Μόρτον, Τόμας παρακαλώ.\nΕντάξει. Καλώς ήρθες Τόμας.\nΠώς σε λένε;\nΜε λένε Σεσίλ Λαφόν. Και σένα;\nΕμένα με λένε Νικόλα.\nΝικόλα, από εδώ ο άντρας μου, ο Φιλίπ.\nΧαίρομαι πολύ, Νικόλα. Από πού είσαι;\nΕίμαι από την Αλβανία.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Знакомство и вежливое обращение — упражнение 4.34",
+        "content_type": "dialogue_collection",
+        "reference_ready": true,
+        "audio_sha256": "55cac25c68fcab51babf084c0d5ad90b45debb6b8378739a2cf59aefc3aad5c9",
+        "primary_json_sha256": "7320f1d0d13432fc435e25d0a367c15f64710d067f713776974012f3f3cf9ccc",
+        "reviewed_at": "2026-11-05T10:18:19.659751+00:00",
+        "audio_listened_in_full": false,
+        "text": "Τέσσερα τριάντα τέσσερα.\nΚαλώς ήρθατε. Με λένε Δανάη Λούρη.\nΓεια σου Μαράλ. Τι κάνεις;\nΠολύ καλά Δανάη. Ευχαριστώ.\nΠώς σας λένε;\nΜε λένε Τόμας Μόρτον.\nΑπό πού είστε κύριε Μόρτον;\nΕίμαι από την Αγγλία.\nΚαι όχι κύριε Μόρτον, Τόμας παρακαλώ.\nΕντάξει. Καλώς ήρθες Τόμας.\nΠώς σε λένε;\nΜε λένε Σεσίλ Λαφόν. Και σένα;\nΕμένα με λένε Νικόλα.\nΝικόλα, από εδώ ο άντρας μου, ο Φιλίπ.\nΧαίρομαι πολύ, Νικόλα. Από πού είσαι;\nΕίμαι από την Αλβανία.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/1e537b18-839c-4477-837a-c74c51d5eb5d.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [],
+      "content_type": "dialogue_collection",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9733,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5.json",
+        "control_text": "Τέσσερα τριάντα τέσσερα.\nΚαλώς ήρθατε. Με λένε Δανάη Λούρη.\nΓεια σου Μαράλ. Τι κάνεις?\nΠολύ καλά, Δανάη. Ευχαριστώ.\nΠώς σας λένε?\nΜε λένε Τόμας Μόρτον.\nΑπό πού είστε, κύριε Μόρτον?\nΕίμαι από την Αγγλία.\nΚαι όχι, κύριε Μόρτον, Τόμας παρακαλώ.\nΕντάξει. Καλώς ήρθες, Τόμας.\nΠώς σε λένε?\nΜε λένε Σεσίλ Λαφόν. Και σένα?\nΕμένα με λένε Νικόλα.\nΝικόλα, από εδώ ο άντρας μου, ο Φιλίπ.\nΧαίρο πολύ, Νικόλα. Από πού είσαι?\nΕίμαι από την Αλβανία."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5.json"
+    },
+    {
+      "id": "holst-938bdbd6-b036-4c4f-89b7-a92e6875c417",
+      "audio_sha256": "0587057be07764276ff24fb9bd24a72f00ec023f39f8040eccec865cc5612cd0",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/938bdbd6-b036-4c4f-89b7-a92e6875c417.mp3",
+          "archive_name": "938bdbd6-b036-4c4f-89b7-a92e6875c417.mp3",
+          "occurrences": [
+            {
+              "object_id": "938bdbd6-b036-4c4f-89b7-a92e6875c417",
+              "frame_id": "ab98cc50-ed5d-4ee0-a734-b67d9022c556",
+              "frame_label": "Фрейм 2",
+              "display_name": "Track 27.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/938bdbd6-b036-4c4f-89b7-a92e6875c417.mp3",
+      "duration_seconds": 50.573063,
+      "audio_bytes": 809202,
+      "original_titles": [
+        "Track 27.mp3"
+      ],
+      "frame_labels": [
+        "Фрейм 2"
+      ],
+      "title": "Συγγνώμη, δεν καταλαβαίνω — разговор на улице",
+      "language": "el",
+      "text": "Γεια σας. Ξέρετε το Πάρκο Ελευθερίας.\nΣυγγνώμη, δεν καταλαβαίνω.\nΑ, δεν μιλάτε ελληνικά.\nΌχι ελληνικά. Ισπανικά.\nΕγώ δεν μιλάω ισπανικά καθόλου. Αγγλικά.\nΕ, λίγο. Μάρκος μιλάει ελληνικά. Μάρκος.\nΝαι, τι θέλετε.\nΤο Πάρκο Ελευθερίας.\nΝαι, εδώ είναι. Τι ψάχνετε.\nΨάχνω τον κινηματογράφο Στούντιο.\nΜάλιστα.\nΒλέπετε την Εθνική Τράπεζα.\nΕκεί είναι.\nΕυχαριστώ.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-938bdbd6-b036-4c4f-89b7-a92e6875c417.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Συγγνώμη, δεν καταλαβαίνω — разговор на улице",
+        "content_type": "dialogue",
+        "reference_ready": true,
+        "audio_sha256": "0587057be07764276ff24fb9bd24a72f00ec023f39f8040eccec865cc5612cd0",
+        "primary_json_sha256": "33048f3973fc34ac3f7476f737cc8f1c00268f0275a26d3601bf11f3ac102410",
+        "reviewed_at": "2026-11-05T10:18:19.660247+00:00",
+        "audio_listened_in_full": false,
+        "text": "Γεια σας. Ξέρετε το Πάρκο Ελευθερίας.\nΣυγγνώμη, δεν καταλαβαίνω.\nΑ, δεν μιλάτε ελληνικά.\nΌχι ελληνικά. Ισπανικά.\nΕγώ δεν μιλάω ισπανικά καθόλου. Αγγλικά.\nΕ, λίγο. Μάρκος μιλάει ελληνικά. Μάρκος.\nΝαι, τι θέλετε.\nΤο Πάρκο Ελευθερίας.\nΝαι, εδώ είναι. Τι ψάχνετε.\nΨάχνω τον κινηματογράφο Στούντιο.\nΜάλιστα.\nΒλέπετε την Εθνική Τράπεζα.\nΕκεί είναι.\nΕυχαριστώ.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/93fb73c8-8308-40c9-9417-3a3aa91e143d.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 1,
+          "tokens": [
+            {
+              "text": " στο",
+              "p": 0.349573,
+              "timestamps": {
+                "from": "00:00:31,760",
+                "to": "00:00:32,040"
+              }
+            }
+          ]
+        }
+      ],
+      "content_type": "dialogue",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 1.0,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-938bdbd6-b036-4c4f-89b7-a92e6875c417.json",
+        "control_text": "Γεια σας. Σέρετε το Πάρκο Ελευθερίας.\nΣυγγνώμη, δεν καταλαβαίνω.\nΑ, δεν μιλάτε ελληνικά.\nΌχι ελληνικά. Ισπανικά.\nΕγώ δεν μιλάω ισπανικά καθόλου. Αγγλικά.\nΕ, λίγο. Μάρκος μιλάει ελληνικά. Μαρκός.\nΝαι, τι θέλετε.\nΤο Πάρκο Ελευθερίας.\nΝαι, εδώ είναι. Τι ψάχνετε.\nΨάχνω τον κινηματογράφο στούντιο.\nΜάλιστα.\nΒλέπετε την Εθνική Τράπεζα.\nΕκεί είναι.\nΕυχαριστώ."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-938bdbd6-b036-4c4f-89b7-a92e6875c417.json"
+    },
+    {
+      "id": "holst-96edab53-a762-443f-ad5d-2393b68bca01",
+      "audio_sha256": "783e6577e199c5ba902f718a75c365cc70e1a45a701c23fe8db9384f5e136d46",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/96edab53-a762-443f-ad5d-2393b68bca01.mp3",
+          "archive_name": "96edab53-a762-443f-ad5d-2393b68bca01.mp3",
+          "occurrences": [
+            {
+              "object_id": "788746de-423a-46b3-b4e1-5d1e01fa4c3d",
+              "frame_id": "04aa908e-3fcb-4697-a717-044ba33aface",
+              "frame_label": "Д/З Максим",
+              "display_name": "36 Track 36.mp3"
+            },
+            {
+              "object_id": "96edab53-a762-443f-ad5d-2393b68bca01",
+              "frame_id": "ccc24fcf-c641-4288-9558-1ffd16c150bc",
+              "frame_label": "Д/З Елена",
+              "display_name": "36 Track 36.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/96edab53-a762-443f-ad5d-2393b68bca01.mp3",
+      "duration_seconds": 20.6483,
+      "audio_bytes": 831308,
+      "original_titles": [
+        "36 Track 36.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ],
+      "title": "Географические названия: звук τ",
+      "language": "el",
+      "text": "Άρτα, Τρίπολη, Ορεστιάδα, Τρίκαλα, Μετέωρα, Κρήτη, Πάτρα.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-96edab53-a762-443f-ad5d-2393b68bca01.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Географические названия: звук τ",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "783e6577e199c5ba902f718a75c365cc70e1a45a701c23fe8db9384f5e136d46",
+        "primary_json_sha256": "4a2099345743c2d9da66484f38fd64491ace839361528696bd7b06eaf034043f",
+        "reviewed_at": "2026-11-05T10:18:19.660447+00:00",
+        "audio_listened_in_full": false,
+        "text": "Άρτα, Τρίπολη, Ορεστιάδα, Τρίκαλα, Μετέωρα, Κρήτη, Πάτρα.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/8f8dec7c-e9ee-4a06-94af-e22705f4b33e.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 1.0,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-96edab53-a762-443f-ad5d-2393b68bca01.json",
+        "control_text": "Άρτα, Τρίπολη, Ορεστιάδα, Τρίκαλα, Μετέωρα, Κρήτη, Πάτρα,"
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-96edab53-a762-443f-ad5d-2393b68bca01.json"
+    },
+    {
+      "id": "holst-9b804928-206e-4150-8c77-6a97feb46f4f",
+      "audio_sha256": "70ba09dc7c523d42d20da0d64faa938608b6a82590006eb71ccdc697e1620000",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/9b804928-206e-4150-8c77-6a97feb46f4f.mp3",
+          "archive_name": "9b804928-206e-4150-8c77-6a97feb46f4f.mp3",
+          "occurrences": [
+            {
+              "object_id": "9b804928-206e-4150-8c77-6a97feb46f4f",
+              "frame_id": "688ba027-db7f-4d96-a6cf-a8c009182251",
+              "frame_label": "1907",
+              "display_name": "Track 19.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/9b804928-206e-4150-8c77-6a97feb46f4f.mp3",
+      "duration_seconds": 25.678313,
+      "audio_bytes": 410886,
+      "original_titles": [
+        "Track 19.mp3"
+      ],
+      "frame_labels": [
+        "1907"
+      ],
+      "title": "Раздельное чтение гласных: διαλυτικά",
+      "language": "el",
+      "text": "Παιδί. Παϊδάκια. Παιδάκια. Κερός. Κάιρο. Αϊνστάιν. 5 Μαΐου. Μάιος. Βόλεϊ.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-9b804928-206e-4150-8c77-6a97feb46f4f.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "text_reviewed",
+        "title": "Раздельное чтение гласных: διαλυτικά",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "70ba09dc7c523d42d20da0d64faa938608b6a82590006eb71ccdc697e1620000",
+        "primary_json_sha256": "21c35f36f19c585eb1a849821669768821ed15ec339e6551e4ab89e7916031e8",
+        "reviewed_at": "2026-11-05T10:18:19.660665+00:00",
+        "audio_listened_in_full": false,
+        "text": "Παιδί. Παϊδάκια. Παιδάκια. Κερός. Κάιρο. Αϊνστάιν. 5 Μαΐου. Μάιος. Βόλεϊ.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом."
+        ],
+        "source_images": [],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 1,
+          "tokens": [
+            {
+              "text": ".",
+              "p": 0.276429,
+              "timestamps": {
+                "from": "00:00:01,530",
+                "to": "00:00:01,550"
+              }
+            }
+          ]
+        },
+        {
+          "type": "cross_decode_difference",
+          "similarity": 0.8
+        }
+      ],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.8,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-9b804928-206e-4150-8c77-6a97feb46f4f.json",
+        "control_text": "Παιδί. Παϊδάκια. Παιδάκια. Καιρός. Κάιρο. Αϊνστάιν. Πέντε Μαΐου. Μάιος. Βόλεϊ."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-9b804928-206e-4150-8c77-6a97feb46f4f.json"
+    },
+    {
+      "id": "holst-9c233f82-127d-4083-bfd0-fed6ce98ae7f",
+      "audio_sha256": "11033de2d9101a45e714adc57bd92237c4e2d5793bbc0ee0bd4cc33bc58149dd",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/9c233f82-127d-4083-bfd0-fed6ce98ae7f.mp3",
+          "archive_name": "9c233f82-127d-4083-bfd0-fed6ce98ae7f.mp3",
+          "occurrences": [
+            {
+              "object_id": "9c233f82-127d-4083-bfd0-fed6ce98ae7f",
+              "frame_id": "93545c74-f570-40f2-ac9f-7cdf2d801bd6",
+              "frame_label": "07.11",
+              "display_name": "17.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/9c233f82-127d-4083-bfd0-fed6ce98ae7f.mp3",
+      "duration_seconds": 65.59665,
+      "audio_bytes": 2624910,
+      "original_titles": [
+        "17.mp3"
+      ],
+      "frame_labels": [
+        "07.11"
+      ],
+      "title": "Четыре представления: профессии, семья и семейное положение",
+      "language": "el",
+      "text": "Μάθημα 4. Άσκηση 15.\nΕίμαι η Ελένη Μαυράκη. Είμαι από την Κρήτη. Μένω στην Αθήνα και δουλεύω στο Παγκράτι. Είμαι γιατρός. Είμαι παντρεμένη. Έχω έναν γιο. Ο γιος μου είναι πέντε χρονών.\nΕίμαι ο Κώστας Ανδρέου. Είμαι ελεύθερος. Είμαι οδηγός ταξί. Έχω μια μικρή αδερφή. Είναι φοιτήτρια. Σπουδάζει Αρχαιολογία. Είναι είκοσι τριών χρονών.\nΕίμαι η Κλειώ Νάσιου. Είμαι αρχιτέκτονας. Δεν έχω αδέρφια. Είμαι μοναχοπαίδι. Είμαι αρραβωνιασμένη.\nΕίμαι ο Χρήστος Γιαννίδης. Είμαι πενήντα τεσσάρων χρονών. Είμαι χωρισμένος. Η κόρη μου είναι δημοσιογράφος και ο γιος μου είναι μάγειρας σε ένα εστιατόριο.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-9c233f82-127d-4083-bfd0-fed6ce98ae7f.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Четыре представления: профессии, семья и семейное положение",
+        "content_type": "short_monologues",
+        "reference_ready": true,
+        "audio_sha256": "11033de2d9101a45e714adc57bd92237c4e2d5793bbc0ee0bd4cc33bc58149dd",
+        "primary_json_sha256": "6a2bf3fa2379f83e892d37880ad199b91a70097820bf258f75890272e463b217",
+        "reviewed_at": "2026-11-07T16:50:54.742878+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 4. Άσκηση 15.\nΕίμαι η Ελένη Μαυράκη. Είμαι από την Κρήτη. Μένω στην Αθήνα και δουλεύω στο Παγκράτι. Είμαι γιατρός. Είμαι παντρεμένη. Έχω έναν γιο. Ο γιος μου είναι πέντε χρονών.\nΕίμαι ο Κώστας Ανδρέου. Είμαι ελεύθερος. Είμαι οδηγός ταξί. Έχω μια μικρή αδερφή. Είναι φοιτήτρια. Σπουδάζει Αρχαιολογία. Είναι είκοσι τριών χρονών.\nΕίμαι η Κλειώ Νάσιου. Είμαι αρχιτέκτονας. Δεν έχω αδέρφια. Είμαι μοναχοπαίδι. Είμαι αρραβωνιασμένη.\nΕίμαι ο Χρήστος Γιαννίδης. Είμαι πενήντα τεσσάρων χρονών. Είμαι χωρισμένος. Η κόρη μου είναι δημοσιογράφος και ο γιος μου είναι μάγειρας σε ένα εστιατόριο.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo и соответствующим печатным материалом Holst. Полная проверка по слуху не заявляется.",
+          "Материал присутствует как учебный источник; он не подтверждает владение языком учеником.",
+          "По печатному исходнику исправлены ASR-формы Παγκράτι, Κλειώ Νάσιου, μοναχοπαίδι и αρραβωνιασμένη; числительные оформлены словами. Исходный ASR сохранён.",
+          "Контрольный проход пропустил весь абзац Клейо; основной проход этот абзац содержит, и его текст проверен по исходнику. Совпадение проходов не принято за полную проверку по слуху."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/e5376cf0-3ca6-4e1c-9fde-9b1184f95387.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 1,
+          "tokens": [
+            {
+              "text": "ον",
+              "p": 0.266268,
+              "timestamps": {
+                "from": "00:00:34,250",
+                "to": "00:00:34,440"
+              }
+            }
+          ]
+        }
+      ],
+      "content_type": "short_monologues",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9136,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-9c233f82-127d-4083-bfd0-fed6ce98ae7f.json",
+        "control_text": "Μάθημα 4, άσκηση 15\nΕίμαι η Ελένη Μαυράκη. Είμαι από την Κρήτη. Μένω στην Αθήνα και δουλεύω στο Πανκράτη. Είμαι γιατρός. Είμαι παντρεμένη. Έχω έναν γιο. Ο γιος μου είναι 5 χρονών.\nΕίμαι ο Κώστας Ανδρέου. Είμαι ελεύθερος. Είμαι οδηγός ταξί. Έχω μια μικρή αδελφή. Είναι φοιτήτρια. Σπουδάζει αρχαιολογία. Είναι 23 χρονών.\nΕίμαι ο Χρήστος Γιαννίδης. Είμαι 54 χρονών. Είμαι χωρισμένος. Η κόρη μου είναι δημοσιογράφος και ο γιος μου είναι μάγειρας σε ένα εστιατόριο."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-9c233f82-127d-4083-bfd0-fed6ce98ae7f.json"
+    },
+    {
+      "id": "holst-9c48480a-4dd4-44a3-8def-2245b0c09665",
+      "audio_sha256": "189aae4d6cba500d9ed1f2031289a2149e7397d9ad4b50dae4385c671718ebc0",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/9c48480a-4dd4-44a3-8def-2245b0c09665.mp3",
+          "archive_name": "9c48480a-4dd4-44a3-8def-2245b0c09665.mp3",
+          "occurrences": [
+            {
+              "object_id": "8e807669-70e1-4a82-a7ca-1e30bc000dc2",
+              "frame_id": "9b9cf119-6dff-444c-b237-8a6e6ae71431",
+              "frame_label": "Д/З Елена",
+              "display_name": "084 - 13.8.mp3"
+            },
+            {
+              "object_id": "9c48480a-4dd4-44a3-8def-2245b0c09665",
+              "frame_id": "a978c361-2974-46f2-a400-d64a2fc69c10",
+              "frame_label": "Д/З Максим",
+              "display_name": "084 - 13.8.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/9c48480a-4dd4-44a3-8def-2245b0c09665.mp3",
+      "duration_seconds": 67.477583,
+      "audio_bytes": 1619462,
+      "original_titles": [
+        "084 - 13.8.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ],
+      "title": "Πώς είναι; — внешность и характер, упражнение 13.8",
+      "language": "el",
+      "text": "Δεκατρία οκτώ. Πώς είναι;\nΕίναι 21 ετών. Είναι ξανθός με μπλε μάτια και ίσια μαλλιά.\nΈχει γένια και μουστάκια. Είναι αδύνατος και ψηλός.\nΕίναι ένα πολύ σοβαρό και συμπαθητικό παιδί.\nΕίναι 54 χρονών. Είναι μελαχρινή με μακριά μαλλιά και μαύρα μάτια.\nΕίναι ψηλή και λεπτή. Είναι πολύ άσχημη και κακιά.\nΕίναι μία έξυπνη και γλυκιά κοπέλα, 31 ετών.\nΈχει κόκκινα κοντά μαλλιά και πράσινα μάτια.\nΈχει ύψος 1 μέτρο και 72 εκατοστά.\nΕίναι πολύ όμορφη.\nΕίναι ένας πολύ καλός και χαρούμενος άνθρωπος, 40 χρονών.\nΕίναι πάντα γελαστός.\nΕίναι καστανός, με σγουρά μαλλιά και καστανά μάτια.\nΕίναι κοντός και χοντρός.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-9c48480a-4dd4-44a3-8def-2245b0c09665.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Πώς είναι; — внешность и характер, упражнение 13.8",
+        "content_type": "descriptions",
+        "reference_ready": true,
+        "audio_sha256": "189aae4d6cba500d9ed1f2031289a2149e7397d9ad4b50dae4385c671718ebc0",
+        "primary_json_sha256": "fe68a7b18805edad3bece8e86c6bafc29f54a3d134c1c2edb6c2a11e48d7780b",
+        "reviewed_at": "2026-11-05T10:18:19.661298+00:00",
+        "audio_listened_in_full": false,
+        "text": "Δεκατρία οκτώ. Πώς είναι;\nΕίναι 21 ετών. Είναι ξανθός με μπλε μάτια και ίσια μαλλιά.\nΈχει γένια και μουστάκια. Είναι αδύνατος και ψηλός.\nΕίναι ένα πολύ σοβαρό και συμπαθητικό παιδί.\nΕίναι 54 χρονών. Είναι μελαχρινή με μακριά μαλλιά και μαύρα μάτια.\nΕίναι ψηλή και λεπτή. Είναι πολύ άσχημη και κακιά.\nΕίναι μία έξυπνη και γλυκιά κοπέλα, 31 ετών.\nΈχει κόκκινα κοντά μαλλιά και πράσινα μάτια.\nΈχει ύψος 1 μέτρο και 72 εκατοστά.\nΕίναι πολύ όμορφη.\nΕίναι ένας πολύ καλός και χαρούμενος άνθρωπος, 40 χρονών.\nΕίναι πάντα γελαστός.\nΕίναι καστανός, με σγουρά μαλλιά και καστανά μάτια.\nΕίναι κοντός και χοντρός.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/d17b1ecf-b174-4460-9ddd-33a8e75ac0ba.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [],
+      "content_type": "descriptions",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9697,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-9c48480a-4dd4-44a3-8def-2245b0c09665.json",
+        "control_text": "13.8. Πώς είναι?\nΕίναι 21 ετών.\nΕίναι ξανθός με μπλε μάτια και ίσια μαλλιά.\nΈχει γένια και μουστάκια.\nΕίναι αδύνατος και ψηλός.\nΕίναι ένα πολύ σοβαρό και συμπαθητικό παιδί.\nΕίναι 54 χρονών.\nΕίναι μελαχρινή με μακριά μαλλιά και μαύρα μάτια.\nΕίναι ψηλή και λεπτή.\nΕίναι πολύ άσχημη και κακιά.\nΕίναι μία έξυπνη και γλυκιά κοπέλα 31 ετών.\nΈχει κόκκινα κοντά μαλλιά και πράσινα μάτια.\nΈχει ύψος 1 μέτρο και 72 εκατοστά.\nΕίναι πολύ όμορφη.\nΕίναι ένας πολύ καλός και χαρούμενος άνθρωπος 40 χρονών.\nΕίναι πάντα γελαστός.\nΕίναι καστανός με σγουρά μαλλιά και καστανά μάτια.\nΕίναι κοντός και χοντρός."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-9c48480a-4dd4-44a3-8def-2245b0c09665.json"
+    },
+    {
+      "id": "holst-b7cfaaa7-617c-46ca-a9b1-121a6dc76475",
+      "audio_sha256": "2a5a45bd3458a66be1f8aa6409ef017553fcb9e451b92efd87b93c12a19d8bbe",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/b7cfaaa7-617c-46ca-a9b1-121a6dc76475.mp3",
+          "archive_name": "b7cfaaa7-617c-46ca-a9b1-121a6dc76475.mp3",
+          "occurrences": [
+            {
+              "object_id": "254f47a1-871a-43c2-a05e-75e20d126929",
+              "frame_id": "a88ede58-6f60-4ff6-8dd3-38b1b54ab48d",
+              "frame_label": "Д/З Максим",
+              "display_name": "10.mp3"
+            },
+            {
+              "object_id": "b7cfaaa7-617c-46ca-a9b1-121a6dc76475",
+              "frame_id": "50ad82a2-7af1-4d91-a63e-f041df82e275",
+              "frame_label": "Д/З Елена",
+              "display_name": "10.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/b7cfaaa7-617c-46ca-a9b1-121a6dc76475.mp3",
+      "duration_seconds": 66.432575,
+      "audio_bytes": 2658347,
+      "original_titles": [
+        "10.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ],
+      "title": "Γεια σας! — знакомство в классе",
+      "language": "el",
+      "text": "Μάθημα 2\nΓεια σας!\nΓεια σας! Εδώ είναι η τάξη Α1.\nΝαι, έλα!\nΠώς σε λένε;\nΜε λένε Μάουρο.\nΧαίρω πολύ, Μάριο.\nΌχι Μάριο, είμαι ο Μάουρο.\nΧαίρω πολύ, είμαι η Άνε.\nΑπό πού είσαι;\nΑπό την Ισπανία.\nΑπό εδώ ο Φλαβιάν.\nΓεια σου, Φλαβιάν.\nΓεια! Καλώς ήρθες στην τάξη Α1.\nΕυχαριστώ. Εσάς πώς σας λένε;\nΓεια.\nΕμείς είμαστε ο Τόμας και η Κριστίν.\nΧαίρω πολύ. Εμένα με λένε Μάουρο. Εσάς;\nΓεια σου.\nΕμείς είμαστε η Λίζα και η Μαρία.\nΑπό πού είστε;\nΑπό τη Γερμανία.\nΕσύ;\nΤέλεια. Εγώ είμαι από την Ιταλία.\nΓεια σου Μάουρο. Είμαι ο καθηγητής σας, ο Πέτρος Κοσμίδης.\nΓεια σας κύριε Πέτρο Κοσμίδη.\nΧαίρετε! Καλώς ήρθατε παιδιά!",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-b7cfaaa7-617c-46ca-a9b1-121a6dc76475.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Γεια σας! — знакомство в классе",
+        "content_type": "dialogue",
+        "reference_ready": true,
+        "audio_sha256": "2a5a45bd3458a66be1f8aa6409ef017553fcb9e451b92efd87b93c12a19d8bbe",
+        "primary_json_sha256": "4f131bfe4050caea92b3f9dd57eeafc007b1e38137e015d104e0f023c35073ab",
+        "reviewed_at": "2026-11-05T10:18:19.662088+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 2\nΓεια σας!\nΓεια σας! Εδώ είναι η τάξη Α1.\nΝαι, έλα!\nΠώς σε λένε;\nΜε λένε Μάουρο.\nΧαίρω πολύ, Μάριο.\nΌχι Μάριο, είμαι ο Μάουρο.\nΧαίρω πολύ, είμαι η Άνε.\nΑπό πού είσαι;\nΑπό την Ισπανία.\nΑπό εδώ ο Φλαβιάν.\nΓεια σου, Φλαβιάν.\nΓεια! Καλώς ήρθες στην τάξη Α1.\nΕυχαριστώ. Εσάς πώς σας λένε;\nΓεια.\nΕμείς είμαστε ο Τόμας και η Κριστίν.\nΧαίρω πολύ. Εμένα με λένε Μάουρο. Εσάς;\nΓεια σου.\nΕμείς είμαστε η Λίζα και η Μαρία.\nΑπό πού είστε;\nΑπό τη Γερμανία.\nΕσύ;\nΤέλεια. Εγώ είμαι από την Ιταλία.\nΓεια σου Μάουρο. Είμαι ο καθηγητής σας, ο Πέτρος Κοσμίδης.\nΓεια σας κύριε Πέτρο Κοσμίδη.\nΧαίρετε! Καλώς ήρθατε παιδιά!",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/b81d6e37-5bd7-4ee9-96b1-06731856d8c4.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [],
+      "content_type": "dialogue",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9911,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-b7cfaaa7-617c-46ca-a9b1-121a6dc76475.json",
+        "control_text": "Μάθημα 2. Γεια σας!\nΓεια σας! Εδώ είναι η τάξη Α1.\nΝαι, έλα! Πώς σε λένε?\nΜε λένε Μάουρο.\nΧαίρο πολύ, Μάριο.\nΌχι, Μάριο. Είμαι ο Μάουρο.\nΧαίρο πολύ. Είμαι η Άννε.\nΑπό πού είσαι?\nΑπό την Ισπανία. Από εδώ, ο Φλαβιάν.\nΓεια σου, Φλαβιάν.\nΓεια! Καλώς ήρθες στην τάξη Α1.\nΕυχαριστώ. Εσάς πώς σας λένε?\nΓεια.\nΕμείς είμαστε ο Τόμας και η Κριστίν.\nΧαίρο πολύ. Εμένα με λένε Μάουρο. Εσάς?\nΓεια σου.\nΕμείς είμαστε η Λίζα και η Μαρία.\nΑπό πού είστε?\nΑπό τη Γερμανία.\nΕσύ?\nΤέλεια. Εγώ είμαι από την Ιταλία.\nΓεια σου Μάουρο. Είμαι ο καθηγητής σας, ο Πέτρος Κοσμίδης.\nΓεια σας κύριε Πέτρο Κοσμίδη.\nΧαίρετε! Καλώς ήρθατε παιδιά!"
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-b7cfaaa7-617c-46ca-a9b1-121a6dc76475.json"
+    },
+    {
+      "id": "holst-bdc244c4-7e13-4621-ae6f-8b1da96c62bb",
+      "audio_sha256": "2ff3ea873b5f69113c0f46c6608565f2eef285df4aaf5cc0687791ce92488777",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/bdc244c4-7e13-4621-ae6f-8b1da96c62bb.mp3",
+          "archive_name": "bdc244c4-7e13-4621-ae6f-8b1da96c62bb.mp3",
+          "occurrences": [
+            {
+              "object_id": "0762a317-3611-4c6c-bfc9-9039f74037e1",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "07.mp3"
+            },
+            {
+              "object_id": "bdc244c4-7e13-4621-ae6f-8b1da96c62bb",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "07.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/bdc244c4-7e13-4621-ae6f-8b1da96c62bb.mp3",
+      "duration_seconds": 51.9085,
+      "audio_bytes": 2077384,
+      "original_titles": [
+        "07.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ],
+      "title": "Фонетика: τσ / τζ — упражнение 1.14",
+      "language": "el",
+      "text": "Μάθημα 1. Άσκηση 14.\nΤζατζίκι, τζάμι, τσάι, τζαμί, τσίλι, τζιπ, τσάντα, τσέπη, τζελ, κάλτσα, τσολιάς, τζάκι.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-bdc244c4-7e13-4621-ae6f-8b1da96c62bb.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Фонетика: τσ / τζ — упражнение 1.14",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "2ff3ea873b5f69113c0f46c6608565f2eef285df4aaf5cc0687791ce92488777",
+        "primary_json_sha256": "9f6bd25a604b966fdd547290b5c08771757c86809b5e7c6249adaf73085b375e",
+        "reviewed_at": "2026-11-05T10:18:19.662278+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 1. Άσκηση 14.\nΤζατζίκι, τζάμι, τσάι, τζαμί, τσίλι, τζιπ, τσάντα, τσέπη, τζελ, κάλτσα, τσολιάς, τζάκι.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом.",
+          "В основном проходе были пропуски. Текст восстановлен повторным распознаванием фрагмента, сравнением проходов и, где указан, учебным источником. Исходные SRT основного прохода могут не содержать восстановленные места."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/3f78f5a2-f1de-44cb-b5e7-c90339a27c87.png"
+        ],
+        "supplementary_asr_paths": [
+          "data/listening-reference-library/raw/experiments/cropped-no-vad/holst-bdc244c4-7e13-4621-ae6f-8b1da96c62bb.json"
+        ]
+      },
+      "automatic_checks": [
+        {
+          "type": "possible_omitted_speech",
+          "uncovered_vad_seconds": 13.04
+        },
+        {
+          "type": "cross_decode_difference",
+          "similarity": 0.4
+        }
+      ],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.4,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-bdc244c4-7e13-4621-ae6f-8b1da96c62bb.json",
+        "control_text": "Μάθημα 1.\nΆσκηση 14.\nΤζαντίκι, τζάμι, τάι, τζαμί, τίλι, τζιπ, τσάντα, τέπι, τζέλ, κάλτσα, τσολιάς, τζάκι."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-bdc244c4-7e13-4621-ae6f-8b1da96c62bb.json"
+    },
+    {
+      "id": "holst-c0bc592e-b9e7-4221-b300-016f3e71dcf2",
+      "audio_sha256": "f784c52ebfa2fc93a9797fcf4bfd13f204bedb95be82414b57cfb8e2722d1fd5",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/c0bc592e-b9e7-4221-b300-016f3e71dcf2.mp3",
+          "archive_name": "c0bc592e-b9e7-4221-b300-016f3e71dcf2.mp3",
+          "occurrences": [
+            {
+              "object_id": "c0bc592e-b9e7-4221-b300-016f3e71dcf2",
+              "frame_id": "75551609-1924-44fd-b149-cde4f6ecb634",
+              "frame_label": "Д/З Максим",
+              "display_name": "020 - 2.33.α (1).mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/c0bc592e-b9e7-4221-b300-016f3e71dcf2.mp3",
+      "duration_seconds": 60.17425,
+      "audio_bytes": 1444182,
+      "original_titles": [
+        "020 - 2.33.α (1).mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим"
+      ],
+      "title": "Дополнительное ударение: пары 2.33α",
+      "language": "el",
+      "text": "2.33α.\n1. το όνομα — το όνομά μου\n2. το επώνυμο — το επώνυμό σου\n3. η εθνικότητα — η εθνικότητά του\n4. η μαθήτρια — η μαθήτριά της\n5. το απόγευμα — το απόγευμά μου\n6. το πρόγραμμα — το πρόγραμμά σου\n7. η οικογένεια — η οικογένειά του\n8. ο κάτοικος — ο κάτοικός της",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-c0bc592e-b9e7-4221-b300-016f3e71dcf2.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Дополнительное ударение: пары 2.33α",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "f784c52ebfa2fc93a9797fcf4bfd13f204bedb95be82414b57cfb8e2722d1fd5",
+        "primary_json_sha256": "d115a7e4e30f332a51323d1252fc4891ad55f2197f9a0d97f934a56f86dfd038",
+        "reviewed_at": "2026-11-05T10:18:19.662646+00:00",
+        "audio_listened_in_full": false,
+        "text": "2.33α.\n1. το όνομα — το όνομά μου\n2. το επώνυμο — το επώνυμό σου\n3. η εθνικότητα — η εθνικότητά του\n4. η μαθήτρια — η μαθήτριά της\n5. το απόγευμα — το απόγευμά μου\n6. το πρόγραμμα — το πρόγραμμά σου\n7. η οικογένεια — η οικογένειά του\n8. ο κάτοικος — ο κάτοικός της",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/daf91c3b-ff77-47d7-8c10-72ccc112ae33.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 1,
+          "tokens": [
+            {
+              "text": " Δ",
+              "p": 0.14446,
+              "timestamps": {
+                "from": "00:00:00,000",
+                "to": "00:00:00,180"
+              }
+            }
+          ]
+        },
+        {
+          "type": "cross_decode_difference",
+          "similarity": 0.8081
+        }
+      ],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.8081,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-c0bc592e-b9e7-4221-b300-016f3e71dcf2.json",
+        "control_text": "1. Το όνομα. Το όνομά μου.\n2. Το επώνυμο. Το επώνυμό σου.\n3. Η εθνικότητα. Η εθνικότητά του.\n4. Η μαθήτρια. Η μαθήτριά της.\nΠέντε, το απόγευμα, το απόγευμά μου.\nΈξι, το πρόγραμμα, το πρόγραμμά σου.\nΕπτά, η οικογένεια, η οικογένειά του.\nΟκτώ, ο κάτοικος, ο κάτοικός της."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-c0bc592e-b9e7-4221-b300-016f3e71dcf2.json"
+    },
+    {
+      "id": "holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff",
+      "audio_sha256": "574d443786ed820b1f753332bdaeb9e3c88702f679293bfaad01c5573e72f3a8",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/c8ea17b1-dba7-4304-aaa3-2813fe7395ff.mp3",
+          "archive_name": "c8ea17b1-dba7-4304-aaa3-2813fe7395ff.mp3",
+          "occurrences": [
+            {
+              "object_id": "c8ea17b1-dba7-4304-aaa3-2813fe7395ff",
+              "frame_id": "f83a4351-92be-415d-a4c8-03583dfdf86e",
+              "frame_label": "Д/З Максим",
+              "display_name": "54.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/c8ea17b1-dba7-4304-aaa3-2813fe7395ff.mp3",
+      "duration_seconds": 43.1072,
+      "audio_bytes": 1726394,
+      "original_titles": [
+        "54.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим"
+      ],
+      "title": "Πέτρος και Εμινέ — знакомство, работа и жильё",
+      "language": "el",
+      "text": "Μάθημα 5. Άσκηση 27.\nΓεια σου.\nΓεια σου. Πώς σε λένε;\nΜε λένε Πέτρο. Εσένα;\nΕμινέ.\nΜιλάς ελληνικά;\nΌχι πολύ καλά.\nΑπό πού είσαι;\nΕίμαι από την Τουρκία, από την Άγκυρα.\nΚαι τι δουλειά κάνεις;\nΕίμαι φαρμακοποιός, αλλά τώρα δεν δουλεύω. Μαθαίνω ελληνικά. Εσύ;\nΕίμαι μηχανικός. Πού μένεις, Εμινέ;\nΣτο Καλαμάκι. Εσύ;\nΕγώ μένω στην Πετρούπολη.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Πέτρος και Εμινέ — знакомство, работа и жильё",
+        "content_type": "dialogue",
+        "reference_ready": true,
+        "audio_sha256": "574d443786ed820b1f753332bdaeb9e3c88702f679293bfaad01c5573e72f3a8",
+        "primary_json_sha256": "5aa65d044a9d767377cb584f8dd326b1d1242d290f665b00f50ac825aa11cbf5",
+        "reviewed_at": "2026-11-05T10:18:19.663152+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 5. Άσκηση 27.\nΓεια σου.\nΓεια σου. Πώς σε λένε;\nΜε λένε Πέτρο. Εσένα;\nΕμινέ.\nΜιλάς ελληνικά;\nΌχι πολύ καλά.\nΑπό πού είσαι;\nΕίμαι από την Τουρκία, από την Άγκυρα.\nΚαι τι δουλειά κάνεις;\nΕίμαι φαρμακοποιός, αλλά τώρα δεν δουλεύω. Μαθαίνω ελληνικά. Εσύ;\nΕίμαι μηχανικός. Πού μένεις, Εμινέ;\nΣτο Καλαμάκι. Εσύ;\nΕγώ μένω στην Πετρούπολη.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "В основном проходе были пропуски. Текст восстановлен повторным распознаванием фрагмента, сравнением проходов и, где указан, учебным источником. Исходные SRT основного прохода могут не содержать восстановленные места."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/dddb720e-7324-4752-b7f2-e89a59cabd56.png"
+        ],
+        "supplementary_asr_paths": [
+          "data/listening-reference-library/raw/experiments/cropped-no-vad/holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff.json"
+        ]
+      },
+      "automatic_checks": [
+        {
+          "type": "possible_omitted_speech",
+          "uncovered_vad_seconds": 23.13
+        },
+        {
+          "type": "cross_decode_difference",
+          "similarity": 0.8889
+        }
+      ],
+      "content_type": "dialogue",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.8889,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff.json",
+        "control_text": "Μάθημα 5. Άσκηση 27.\nΜάκη, εσύ?\nΕγώ μένω στην Πετρούπολη."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff.json"
+    },
+    {
+      "id": "holst-d3db3b66-ad97-4ad1-9824-371a519a1dc6",
+      "audio_sha256": "1dd3c569a27b19e6a9a004ff17522fe7966729e4fbf47e824828b8cfacd5f81c",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/d3db3b66-ad97-4ad1-9824-371a519a1dc6.mp3",
+          "archive_name": "d3db3b66-ad97-4ad1-9824-371a519a1dc6.mp3",
+          "occurrences": [
+            {
+              "object_id": "d3db3b66-ad97-4ad1-9824-371a519a1dc6",
+              "frame_id": "470596c3-5eda-4540-aba5-67d39a73fee4",
+              "frame_label": "23/09",
+              "display_name": "053 - 5.29.α.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/d3db3b66-ad97-4ad1-9824-371a519a1dc6.mp3",
+      "duration_seconds": 93.35225,
+      "audio_bytes": 2240454,
+      "original_titles": [
+        "053 - 5.29.α.mp3"
+      ],
+      "frame_labels": [
+        "23/09"
+      ],
+      "title": "Номера телефонов — упражнение 5.29α",
+      "language": "el",
+      "text": "5.29α.\n1. Το σταθερό τηλέφωνό μου είναι 2-10-80-10-4-32 και το κινητό μου είναι 69-66-83-54-39.\n2. Το τηλέφωνό μου στην Αθήνα είναι 2-10-67-32-3-44.\n3. Στο νησί δεν έχω σταθερό τηλέφωνο. Έχω όμως αυτό το κινητό: 62-34-44-57-59.\n4. Λοιπόν, 2-10-81-25-5-45. Εντάξει; Αυτό είναι το τηλέφωνό σου;\n5. Ναι, ξέρω το τηλέφωνό της. Ο αριθμός είναι: 62-64-59-58-11.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-d3db3b66-ad97-4ad1-9824-371a519a1dc6.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Номера телефонов — упражнение 5.29α",
+        "content_type": "numbers",
+        "reference_ready": true,
+        "audio_sha256": "1dd3c569a27b19e6a9a004ff17522fe7966729e4fbf47e824828b8cfacd5f81c",
+        "primary_json_sha256": "b32496ce8282b3fef292098981806b71b90c361a7d98c09f8b577523219853c6",
+        "reviewed_at": "2026-11-05T10:18:19.663543+00:00",
+        "audio_listened_in_full": false,
+        "text": "5.29α.\n1. Το σταθερό τηλέφωνό μου είναι 2-10-80-10-4-32 και το κινητό μου είναι 69-66-83-54-39.\n2. Το τηλέφωνό μου στην Αθήνα είναι 2-10-67-32-3-44.\n3. Στο νησί δεν έχω σταθερό τηλέφωνο. Έχω όμως αυτό το κινητό: 62-34-44-57-59.\n4. Λοιπόν, 2-10-81-25-5-45. Εντάξει; Αυτό είναι το τηλέφωνό σου;\n5. Ναι, ξέρω το τηλέφωνό της. Ο αριθμός είναι: 62-64-59-58-11.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Печатное задание подтверждает окружающие фразы, но оставляет сами номера пустыми. Числовые значения не считаются подтверждёнными печатным источником.",
+          "Расхождение в группировке номера из пункта 4 проверено отдельным фрагментом 61,4–71,6 с. И large-v3, и large-v3-turbo при повторном распознавании дали 2-10-81-25-5-45; открытая пометка снята. Группы чисел сохранены без преобразования в слитный телефонный номер."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/32d926d0-1613-45b4-bfcf-056673604acf.png"
+        ],
+        "supplementary_asr_paths": [
+          "data/listening-reference-library/raw/experiments/phone-number-check/holst-d3db3b66-ad97-4ad1-9824-371a519a1dc6-large-v3-turbo.json",
+          "data/listening-reference-library/raw/experiments/phone-number-check/holst-d3db3b66-ad97-4ad1-9824-371a519a1dc6-large-v3.json"
+        ]
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 2,
+          "tokens": [
+            {
+              "text": "-",
+              "p": 0.349248,
+              "timestamps": {
+                "from": "00:00:00,690",
+                "to": "00:00:00,770"
+              }
+            },
+            {
+              "text": "-",
+              "p": 0.268443,
+              "timestamps": {
+                "from": "00:00:57,750",
+                "to": "00:00:57,940"
+              }
+            }
+          ]
+        }
+      ],
+      "content_type": "numbers",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9581,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-d3db3b66-ad97-4ad1-9824-371a519a1dc6.json",
+        "control_text": "5-29-Α. 1. Το σταθερό τηλέφωνο μου είναι 2-10-80-10-4-32 και το κινητό μου είναι 69-66-83-54-39.\n2. Το τηλέφωνο μου στην Αθήνα είναι 2 10 67 32 3 44\n3. Στο νησί δεν έχω σταθερό τηλέφωνο, έχω όμως αυτό το κινητό\n62, 34, 44, 57, 59.\nΤέσσερα.\nΛοιπόν, 2, 10, 81, 25, 5, 40, 5.\nΕντάξει, αυτό είναι το τηλέφωνο σου.\nΠέντε.\nΝαι, ξέρω το τηλεφωνό της.\nΟ αριθμός είναι 62-64-59-58-11."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-d3db3b66-ad97-4ad1-9824-371a519a1dc6.json"
+    },
+    {
+      "id": "holst-d65d8822-82e3-48c3-8feb-e50d343e0039",
+      "audio_sha256": "74a1d379e698cb01b9696fa871702968f4ae6334b71dc01964fd3673f042130e",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/d65d8822-82e3-48c3-8feb-e50d343e0039.mp3",
+          "archive_name": "d65d8822-82e3-48c3-8feb-e50d343e0039.mp3",
+          "occurrences": [
+            {
+              "object_id": "d65d8822-82e3-48c3-8feb-e50d343e0039",
+              "frame_id": "75551609-1924-44fd-b149-cde4f6ecb634",
+              "frame_label": "Д/З Максим",
+              "display_name": "022 - 2.34 (1).mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/d65d8822-82e3-48c3-8feb-e50d343e0039.mp3",
+      "duration_seconds": 69.173,
+      "audio_bytes": 1660152,
+      "original_titles": [
+        "022 - 2.34 (1).mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим"
+      ],
+      "title": "Дополнительное ударение в предложениях — упражнение 2.34",
+      "language": "el",
+      "text": "2.34.\n1. Ποια είναι λοιπόν η φίλη σου;\n2. Η μαθήτριά μου και η οικογένειά της είναι στην Αίγινα.\n3. Από δω ο φίλος μου, ο κύριος Ακίρα Νακάτα.\n4. Η γυναίκα του είναι η Κίκου Νακάτα και είναι Γιαπωνέζα.\n5. Καλώς ήρθατε στο σπίτι μου.\n6. Ο κύριος Ιακώβου είναι στο ξενοδοχείο του.\n7. Αυτό είναι το πρόγραμμά σου.\n8. Η κυρία Ερμιόνη δεν είναι εδώ. Είναι στο ζαχαροπλαστείο Αιάκειον.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-d65d8822-82e3-48c3-8feb-e50d343e0039.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Дополнительное ударение в предложениях — упражнение 2.34",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "74a1d379e698cb01b9696fa871702968f4ae6334b71dc01964fd3673f042130e",
+        "primary_json_sha256": "6e593d291b676901fd99ce181ea0cb8fb8f399351cfa11d76fe4c6923672dd16",
+        "reviewed_at": "2026-11-05T10:18:19.663998+00:00",
+        "audio_listened_in_full": false,
+        "text": "2.34.\n1. Ποια είναι λοιπόν η φίλη σου;\n2. Η μαθήτριά μου και η οικογένειά της είναι στην Αίγινα.\n3. Από δω ο φίλος μου, ο κύριος Ακίρα Νακάτα.\n4. Η γυναίκα του είναι η Κίκου Νακάτα και είναι Γιαπωνέζα.\n5. Καλώς ήρθατε στο σπίτι μου.\n6. Ο κύριος Ιακώβου είναι στο ξενοδοχείο του.\n7. Αυτό είναι το πρόγραμμά σου.\n8. Η κυρία Ερμιόνη δεν είναι εδώ. Είναι στο ζαχαροπλαστείο Αιάκειον.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/daf91c3b-ff77-47d7-8c10-72ccc112ae33.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 1,
+          "tokens": [
+            {
+              "text": "-",
+              "p": 0.346852,
+              "timestamps": {
+                "from": "00:00:00,600",
+                "to": "00:00:00,770"
+              }
+            }
+          ]
+        }
+      ],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9167,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-d65d8822-82e3-48c3-8feb-e50d343e0039.json",
+        "control_text": "2.34\n1. Ποια είναι λοιπόν η φίλη σου?\n2. Η μαθήτριά μου και η οικογένειά της είναι στην Αίγινα.\n3. Από εδώ ο φίλος μου, ο κύριος Ακύρα Νακάτα.\nΤέσσερα. Η γυναίκα του είναι η Κίκου Νακάτα και είναι Ιαπωνέζα.\nΠέντε. Καλώς ήρθατε στο σπίτι μου.\nΈξι. Ο κύριος Ιακώβου είναι στο ξενοδοχείο του.\nΕπτά. Αυτό είναι το πρόγραμμά σου.\n8. Η κυρία Ερμιώνη δεν είναι εδώ, είναι στο ζαχαροπλαστείο Εάκειον."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-d65d8822-82e3-48c3-8feb-e50d343e0039.json"
+    },
+    {
+      "id": "holst-daa69bc8-ce3a-467d-b985-d574f17b5926",
+      "audio_sha256": "f6b178a6fd62539608c81f8fe16990c1cbb8b1837a3815e414627c3bcfcd191d",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/daa69bc8-ce3a-467d-b985-d574f17b5926.mp3",
+          "archive_name": "daa69bc8-ce3a-467d-b985-d574f17b5926.mp3",
+          "occurrences": [
+            {
+              "object_id": "3c233e77-850e-4467-bcab-b78ddd309688",
+              "frame_id": "04aa908e-3fcb-4697-a717-044ba33aface",
+              "frame_label": "Д/З Максим",
+              "display_name": "33 Track 33.mp3"
+            },
+            {
+              "object_id": "daa69bc8-ce3a-467d-b985-d574f17b5926",
+              "frame_id": "ccc24fcf-c641-4288-9558-1ffd16c150bc",
+              "frame_label": "Д/З Елена",
+              "display_name": "33 Track 33.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/daa69bc8-ce3a-467d-b985-d574f17b5926.mp3",
+      "duration_seconds": 17.2553,
+      "audio_bytes": 695588,
+      "original_titles": [
+        "33 Track 33.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ],
+      "title": "Названия островов: звук δ",
+      "language": "el",
+      "text": "Ρόδος, Φολέγανδρος, Δονούσα, Λευκάδα, Άνδρος.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-daa69bc8-ce3a-467d-b985-d574f17b5926.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Названия островов: звук δ",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "f6b178a6fd62539608c81f8fe16990c1cbb8b1837a3815e414627c3bcfcd191d",
+        "primary_json_sha256": "f5eeaff3c2bba7130fab9101dc60a10fb510b6f526549ccecad9ca27c70dcb14",
+        "reviewed_at": "2026-11-05T10:18:19.664190+00:00",
+        "audio_listened_in_full": false,
+        "text": "Ρόδος, Φολέγανδρος, Δονούσα, Λευκάδα, Άνδρος.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/e587405b-ef0c-43e7-b180-8bc6080d3958.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 1.0,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-daa69bc8-ce3a-467d-b985-d574f17b5926.json",
+        "control_text": "ρόδος, φολέγανδρος, δονούσα, λευκάδα, άνδρος"
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-daa69bc8-ce3a-467d-b985-d574f17b5926.json"
+    },
+    {
+      "id": "holst-eb4e7425-81de-4492-8194-6fba91e09d12",
+      "audio_sha256": "f65b0a759001641a11ccd71ab4404875e13d4741ae46406a921fcf5524e8c6ed",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/eb4e7425-81de-4492-8194-6fba91e09d12.mp3",
+          "archive_name": "eb4e7425-81de-4492-8194-6fba91e09d12.mp3",
+          "occurrences": [
+            {
+              "object_id": "54e7e997-c67b-4a8e-b27c-4b6618aec2df",
+              "frame_id": "04aa908e-3fcb-4697-a717-044ba33aface",
+              "frame_label": "Д/З Максим",
+              "display_name": "34 Track 34.mp3"
+            },
+            {
+              "object_id": "eb4e7425-81de-4492-8194-6fba91e09d12",
+              "frame_id": "ccc24fcf-c641-4288-9558-1ffd16c150bc",
+              "frame_label": "Д/З Елена",
+              "display_name": "34 Track 34.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/eb4e7425-81de-4492-8194-6fba91e09d12.mp3",
+      "duration_seconds": 32.4716,
+      "audio_bytes": 1304240,
+      "original_titles": [
+        "34 Track 34.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ],
+      "title": "Греческие имена: δ / θ",
+      "language": "el",
+      "text": "Αθανασία, Δημήτρης, Θάνος, Θεμιστοκλής, Αδάμ, Διονύσης, Θόδωρος, Ανθή, Θανάσης, Λεωνίδας.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-eb4e7425-81de-4492-8194-6fba91e09d12.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Греческие имена: δ / θ",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "f65b0a759001641a11ccd71ab4404875e13d4741ae46406a921fcf5524e8c6ed",
+        "primary_json_sha256": "be70a2f39d9ebf800a00e48b3e1f588ebb7fb6b722635329ddb88f69d5d79149",
+        "reviewed_at": "2026-11-05T10:18:19.664398+00:00",
+        "audio_listened_in_full": false,
+        "text": "Αθανασία, Δημήτρης, Θάνος, Θεμιστοκλής, Αδάμ, Διονύσης, Θόδωρος, Ανθή, Θανάσης, Λεωνίδας.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/e587405b-ef0c-43e7-b180-8bc6080d3958.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 1.0,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-eb4e7425-81de-4492-8194-6fba91e09d12.json",
+        "control_text": "Αθανασία, Δημήτρης, Δάνος, Θεμιστοκλής, Αδάμ, Διονύσης, Θόδωρος, Αμφί, Θανάσης, Λεωνίδας."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-eb4e7425-81de-4492-8194-6fba91e09d12.json"
+    },
+    {
+      "id": "holst-ef1e439e-69c0-4725-a61f-1910082f79f6",
+      "audio_sha256": "6f0cd8ecb82b0bdbe06f3a0fd8993f91b6a9eb58d318522f66fb142a0d848acd",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/ef1e439e-69c0-4725-a61f-1910082f79f6.mp3",
+          "archive_name": "ef1e439e-69c0-4725-a61f-1910082f79f6.mp3",
+          "occurrences": [
+            {
+              "object_id": "98593acd-23c9-4cd5-bdab-7d3ba572ec04",
+              "frame_id": "a88ede58-6f60-4ff6-8dd3-38b1b54ab48d",
+              "frame_label": "Д/З Максим",
+              "display_name": "042 - 4.33.mp3"
+            },
+            {
+              "object_id": "ef1e439e-69c0-4725-a61f-1910082f79f6",
+              "frame_id": "50ad82a2-7af1-4d91-a63e-f041df82e275",
+              "frame_label": "Д/З Елена",
+              "display_name": "042 - 4.33.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/ef1e439e-69c0-4725-a61f-1910082f79f6.mp3",
+      "duration_seconds": 62.36525,
+      "audio_bytes": 1496766,
+      "original_titles": [
+        "042 - 4.33.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Елена",
+        "Д/З Максим"
+      ],
+      "title": "Предметы и артикли — упражнение 4.33",
+      "language": "el",
+      "text": "4.33.\nο αναπτήρας\nο μαρκαδόρος\nο πίνακας\nο χάρακας\nο υπολογιστής\nη γόμα\nη κόλλα\nη ξύστρα\nη οθόνη\nη τσέπη\nτο κέρμα\nτο κλειδί\nτο μολύβι\nτο ντοσιέ\nτο πληκτρολόγιο\nτο ποντίκι\nτο πορτοφόλι\nτο στυλό\nτο τετράδιο\nτο χαρτί\nτο χαρτομάντιλο",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-ef1e439e-69c0-4725-a61f-1910082f79f6.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "text_reviewed",
+        "title": "Предметы и артикли — упражнение 4.33",
+        "content_type": "vocabulary_list",
+        "reference_ready": true,
+        "audio_sha256": "6f0cd8ecb82b0bdbe06f3a0fd8993f91b6a9eb58d318522f66fb142a0d848acd",
+        "primary_json_sha256": "75d015a82c13c551b226a75a9201803cd6af353f32ae9556ca3dd526abf5b5f6",
+        "reviewed_at": "2026-11-05T10:18:19.664783+00:00",
+        "audio_listened_in_full": false,
+        "text": "4.33.\nο αναπτήρας\nο μαρκαδόρος\nο πίνακας\nο χάρακας\nο υπολογιστής\nη γόμα\nη κόλλα\nη ξύστρα\nη οθόνη\nη τσέπη\nτο κέρμα\nτο κλειδί\nτο μολύβι\nτο ντοσιέ\nτο πληκτρολόγιο\nτο ποντίκι\nτο πορτοφόλι\nτο στυλό\nτο τετράδιο\nτο χαρτί\nτο χαρτομάντιλο",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется."
+        ],
+        "source_images": [],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [
+        {
+          "type": "low_token_probability",
+          "count": 1,
+          "tokens": [
+            {
+              "text": " Τ",
+              "p": 0.103497,
+              "timestamps": {
+                "from": "00:00:00,100",
+                "to": "00:00:00,100"
+              }
+            }
+          ]
+        },
+        {
+          "type": "cross_decode_difference",
+          "similarity": 0.8539
+        }
+      ],
+      "content_type": "vocabulary_list",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.8539,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-ef1e439e-69c0-4725-a61f-1910082f79f6.json",
+        "control_text": "Τέσσερα τριάντα τρία.\nΟ αναπτήρας.\nΟ μαρκαδόρος.\nΟ πίνακας.\nΟ χάρακας.\nΟ υπολογιστής.\nΗ γόμα.\nΗ κόλλα.\nΗ ξίστρα.\nΗ οθόνη.\nΗ τσέπη.\nΤο κέρμα.\nΤο κλειδί.\nΤο μολύβι.\nΤο ντοσχέ.\nΤο πληκτρολόγιο.\nτο ποντίκι, το πορτοφόλι, το στιλό, το τετράδιο, το χαρτί, το χαρτομάντυλο."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-ef1e439e-69c0-4725-a61f-1910082f79f6.json"
+    },
+    {
+      "id": "holst-ef30fbb1-accf-4bea-bc96-797439778801",
+      "audio_sha256": "d0dd83b9bf49853bfc35426a3ebb1491cf543d869c981a7809123f6cf5e4b748",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-04T18:01:31.850Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/ef30fbb1-accf-4bea-bc96-797439778801.mp3",
+          "archive_name": "ef30fbb1-accf-4bea-bc96-797439778801.mp3",
+          "occurrences": [
+            {
+              "object_id": "ef30fbb1-accf-4bea-bc96-797439778801",
+              "frame_id": "c755989a-02b8-4871-9c06-80da642ee604",
+              "frame_label": "19.08",
+              "display_name": "30.mp3"
+            }
+          ]
+        },
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/00ba3822-0f03-4d2c-82ae-79b265531413.mp3",
+          "archive_name": "00ba3822-0f03-4d2c-82ae-79b265531413.mp3",
+          "occurrences": [
+            {
+              "object_id": "ef30fbb1-accf-4bea-bc96-797439778801",
+              "frame_id": "c755989a-02b8-4871-9c06-80da642ee604",
+              "frame_label": "19.08",
+              "display_name": "30.mp3"
+            },
+            {
+              "object_id": "00ba3822-0f03-4d2c-82ae-79b265531413",
+              "frame_id": "93545c74-f570-40f2-ac9f-7cdf2d801bd6",
+              "frame_label": "07.11",
+              "display_name": "30.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/00ba3822-0f03-4d2c-82ae-79b265531413.mp3",
+      "duration_seconds": 38.1632,
+      "audio_bytes": 1528634,
+      "original_titles": [
+        "30.mp3"
+      ],
+      "frame_labels": [
+        "07.11",
+        "19.08"
+      ],
+      "title": "Η Ρενάτε δουλεύει στην Ελλάδα — работа и семья",
+      "language": "el",
+      "text": "Μάθημα 3. Η Ρενάτε δουλεύει στην Ελλάδα. Άσκηση 1.\nΗ Ρενάτε Ροτ είναι από τη Γερμανία. Είναι καθηγήτρια και δουλεύει στην Ελλάδα. Μένει στην Αθήνα, στο Παγκράτι. Ο άντρας της, ο Χέλμουτ, δουλεύει στη Γερμανία, στο Μόναχο. Έχουν ένα παιδί. Το παιδί μένει με τη μητέρα του στην Αθήνα.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-ef30fbb1-accf-4bea-bc96-797439778801.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Η Ρενάτε δουλεύει στην Ελλάδα — работа и семья",
+        "content_type": "monologue",
+        "reference_ready": true,
+        "audio_sha256": "d0dd83b9bf49853bfc35426a3ebb1491cf543d869c981a7809123f6cf5e4b748",
+        "primary_json_sha256": "aff4e15abc426f1a202e374642182fe375a493fcbe8169ce2182248678a380b9",
+        "reviewed_at": "2026-11-05T10:18:19.665177+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 3. Η Ρενάτε δουλεύει στην Ελλάδα. Άσκηση 1.\nΗ Ρενάτε Ροτ είναι από τη Γερμανία. Είναι καθηγήτρια και δουλεύει στην Ελλάδα. Μένει στην Αθήνα, στο Παγκράτι. Ο άντρας της, ο Χέλμουτ, δουλεύει στη Γερμανία, στο Μόναχο. Έχουν ένα παιδί. Το παιδί μένει με τη μητέρα του στην Αθήνα.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/c67e637b-f7fd-4ee5-8671-432ff5921ec1.png"
+        ],
+        "supplementary_asr_paths": []
+      },
+      "automatic_checks": [],
+      "content_type": "monologue",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.9592,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-ef30fbb1-accf-4bea-bc96-797439778801.json",
+        "control_text": "Μάθημα 3\nΗ Ρενάτε δουλεύει στην Ελλάδα.\nΆσκηση 1\nΗ Ρενάτε Ρότ είναι από τη Γερμανία.\nΕίναι καθηγήτρια και δουλεύει στην Ελλάδα.\nΜένει στην Αθήνα, στο Πανκράτη.\nΟ άντρας της, ο Χέλμουτ, δουλεύει στη Γερμανία, στο Μόναχο.\nΈχουν ένα παιδί.\nΤο παιδί μένει με τη μητέρα του στην Αθήνα."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-ef30fbb1-accf-4bea-bc96-797439778801.json"
+    },
+    {
+      "id": "holst-f4d194e5-36af-412b-83af-9dc1188f54d9",
+      "audio_sha256": "85ea5ec38d621d40212814a5dfb1173a504b0d0dd0b37b1b7c77017216c97e36",
+      "sources": [
+        {
+          "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+          "snapshot_at": "2026-11-07T16:45:42.480Z",
+          "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/f4d194e5-36af-412b-83af-9dc1188f54d9.mp3",
+          "archive_name": "f4d194e5-36af-412b-83af-9dc1188f54d9.mp3",
+          "occurrences": [
+            {
+              "object_id": "a55af44e-8b93-4bd0-9efc-4a8aed51173a",
+              "frame_id": "8389b2b0-6cf4-4bd2-83fb-d41b2e76094c",
+              "frame_label": "Д/З Максим",
+              "display_name": "03.mp3"
+            },
+            {
+              "object_id": "f4d194e5-36af-412b-83af-9dc1188f54d9",
+              "frame_id": "2fdde8e3-50f8-4046-aefb-78244510f250",
+              "frame_label": "Елена",
+              "display_name": "03.mp3"
+            }
+          ]
+        }
+      ],
+      "audio_path": "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/f4d194e5-36af-412b-83af-9dc1188f54d9.mp3",
+      "duration_seconds": 87.69625,
+      "audio_bytes": 3508894,
+      "original_titles": [
+        "03.mp3"
+      ],
+      "frame_labels": [
+        "Д/З Максим",
+        "Елена"
+      ],
+      "title": "Ударение в словах — упражнение 1.10",
+      "language": "el",
+      "text": "Μάθημα 1. Άσκηση 10.\nΜάθημα, μαθητής, μαθήτρια, Ελένη, βιβλίο, τετράδιο, πίνακας, φως, μολύβι, πάτωμα, παράθυρο, σάκος, στυλό, Νίκος, τάξη, κιμωλία, μιλάω, γράφω, διαβάζω, Άνι.",
+      "transcript_path": "data/listening-reference-library/transcripts/holst-f4d194e5-36af-412b-83af-9dc1188f54d9.txt",
+      "reference_type": "source_audio_transcript",
+      "model": "large-v3",
+      "review": {
+        "status": "source_checked",
+        "title": "Ударение в словах — упражнение 1.10",
+        "content_type": "phonetics",
+        "reference_ready": true,
+        "audio_sha256": "85ea5ec38d621d40212814a5dfb1173a504b0d0dd0b37b1b7c77017216c97e36",
+        "primary_json_sha256": "070a04654207c677b104834f9a32529f5fbe6518bb0a3a43b8b619f30894c0ac",
+        "reviewed_at": "2026-11-05T10:18:19.665358+00:00",
+        "audio_listened_in_full": false,
+        "text": "Μάθημα 1. Άσκηση 10.\nΜάθημα, μαθητής, μαθήτρια, Ελένη, βιβλίο, τετράδιο, πίνακας, φως, μολύβι, πάτωμα, παράθυρο, σάκος, στυλό, Νίκος, τάξη, κιμωλία, μιλάω, γράφω, διαβάζω, Άνι.",
+        "notes": [
+          "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется.",
+          "Для уточнения написания использованы изображения соответствующего учебного задания; это сверка с материалом, а не независимое прослушивание всей записи.",
+          "Это фонетическое упражнение со словами или короткими фразами. Использовать как фонетический референс; не считать связным бытовым текстом.",
+          "В основном проходе были пропуски. Текст восстановлен повторным распознаванием фрагмента, сравнением проходов и, где указан, учебным источником. Исходные SRT основного прохода могут не содержать восстановленные места."
+        ],
+        "source_images": [
+          "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/3ec863b2-c4a0-492b-bb0c-332181931b77.png"
+        ],
+        "supplementary_asr_paths": [
+          "data/listening-reference-library/raw/experiments/cropped-no-vad/holst-f4d194e5-36af-412b-83af-9dc1188f54d9.json"
+        ]
+      },
+      "automatic_checks": [
+        {
+          "type": "possible_omitted_speech",
+          "uncovered_vad_seconds": 23.08
+        },
+        {
+          "type": "cross_decode_difference",
+          "similarity": 0.8
+        }
+      ],
+      "content_type": "phonetics",
+      "reference_ready": true,
+      "comparison": {
+        "method": "normalized_word_sequence_similarity",
+        "similarity": 0.8,
+        "control_path": "data/listening-reference-library/raw/control-vad/holst-f4d194e5-36af-412b-83af-9dc1188f54d9.json",
+        "control_text": "Μάθημα 1, άσκηση 10.\nΆννη."
+      },
+      "raw_primary_path": "data/listening-reference-library/raw/primary/holst-f4d194e5-36af-412b-83af-9dc1188f54d9.json"
+    }
+  ]
+}

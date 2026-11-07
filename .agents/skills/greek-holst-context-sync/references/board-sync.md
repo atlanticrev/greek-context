@@ -2,9 +2,9 @@
 
 Run commands from the repository root. Node.js 20+ and `npm install` are prerequisites. The preferred browser workflow uses an authenticated, authorized Chrome connection and Google's official Chrome DevTools tools; a new user may need to sign in once. Do not run the legacy `auth`/`sync` browser helper when the active environment requires the official tools.
 
-Read board identity from private `data/local-board.json` (format in `examples/local-board.example.json`) or the user's supplied URL. Use that identity consistently. In the examples below, set `BOARD_ID`, `BOARD_NAME` and `DOWNLOAD_DIR` to the user's actual local values; do not put those values in shared documentation.
+Read board identity from shared `data/local-board.json` (format in `examples/local-board.example.json`) or the user's supplied URL. Use that identity consistently. In the examples below, set `BOARD_ID`, `BOARD_NAME` and `DOWNLOAD_DIR` to the actual board and observed download location. Each user supplies their own authorized browser login.
 
-Before import, preserve the current `analysis/` state, normalized catalog, `output/`, asset manifest and listening-library inventory in a dated private sync-history folder. In particular retain the analyzed checkpoint and the ChatGPT baseline. Do not overwrite evidence or reset a baseline to make a diff disappear.
+Before import, preserve the current `analysis/` state, normalized catalog, `output/`, asset manifest and listening-library inventory in a dated ignored sync-history folder. In particular retain the analyzed checkpoint and the ChatGPT baseline. Do not overwrite evidence or reset a baseline to make a diff disappear.
 
 ## Download and import
 
@@ -54,4 +54,4 @@ If `analysis/chatgpt-baseline-profile.json` exists, the command also refreshes `
 npm run dev -- init-chatgpt-baseline "$BOARD_ID"
 ```
 
-Verify the final skill/status totals and all evidence references. Confirm the checkpoint covers the reviewed catalog; recomputing the queue should yield no pending content only when everything was reviewed. Deliver the current board-specific output paths. Generated context is private by default and is shared with ChatGPT only when the user intends it.
+Verify the final skill/status totals and all evidence references. Confirm the checkpoint covers the reviewed catalog; recomputing the queue should yield no pending content only when everything was reviewed. Deliver the current board-specific output paths. For a shared-base update, review and commit the normalized board, canonical analysis/output, source assets and reviewed library together; leave raw archives, sync-history and working caches excluded.

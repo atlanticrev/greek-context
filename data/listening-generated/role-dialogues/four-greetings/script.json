@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "title": "Четыре диалога: знакомство и приветствия",
+  "source_reference_id": "holst-5b0c9685-bb86-4a83-b640-d416e8b7a9d2",
+  "source_transcript": "data/listening-reference-library/transcripts/holst-5b0c9685-bb86-4a83-b640-d416e8b7a9d2.txt",
+  "source_sha256": "f40d7ad577715d5f361cae9b59bf6866fcf829878a7491808e11f552ad743b2f",
+  "source_images": [],
+  "omitted_headings": [
+    "Διάλογος 1.",
+    "Διάλογος 2.",
+    "Διάλογος 3.",
+    "Διάλογος 4."
+  ],
+  "role_assignment_status": "editorial casting from transcript; final-scene speaker attribution is inferred and not independently verified",
+  "casting_note": "Учебная читка двумя голосами LFM. Для каждой роли закреплён один пресет. Четыре диалога разделены увеличенными паузами. Для нескольких мужских персонажей выбран женский чтец, чтобы основные собеседники отличались. В четвёртом диалоге разделение реплик восстановлено по смыслу текста; печатных подписей и независимой диаризации нет.",
+  "roles": {
+    "maria": {
+      "label": "Κυρία Μαρία",
+      "voice": "female-greek"
+    },
+    "markos": {
+      "label": "Μάρκος",
+      "voice": "male-greek"
+    },
+    "marina": {
+      "label": "Μαρίνα",
+      "voice": "female-greek"
+    },
+    "eleni": {
+      "label": "Ελένη",
+      "voice": "female-greek"
+    },
+    "sofia": {
+      "label": "Σοφία",
+      "voice": "female-greek"
+    },
+    "manolis": {
+      "label": "Μανώλης",
+      "voice": "female-greek"
+    },
+    "giorgos": {
+      "label": "Κύριος Γιώργος",
+      "voice": "male-greek"
+    },
+    "sotiris": {
+      "label": "Σωτήρης Παπαδόπουλος",
+      "voice": "male-greek"
+    },
+    "interlocutor": {
+      "label": "Собеседник Сотириса",
+      "voice": "female-greek"
+    },
+    "lambros": {
+      "label": "Λάμπρος",
+      "voice": "male-greek"
+    },
+    "alexis": {
+      "label": "Αλέξης",
+      "voice": "female-greek"
+    },
+    "alexandra": {
+      "label": "Αλεξάνδρα",
+      "voice": "female-greek"
+    },
+    "martha": {
+      "label": "Μάρθα",
+      "voice": "female-greek"
+    },
+    "alexis_alexandra": {
+      "label": "Αλέξης και Αλεξάνδρα",
+      "voice": "female-greek"
+    }
+  },
+  "turns": [
+    {
+      "role": "maria",
+      "text": "Καλημέρα παιδιά. Είμαι η κυρία Μαρία. Πώς σας λένε;",
+      "scene": 1
+    },
+    {
+      "role": "markos",
+      "text": "Είμαι ο Μάρκος.",
+      "scene": 1
+    },
+    {
+      "role": "marina",
+      "text": "Εγώ είμαι η Μαρίνα.",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Με λένε Ελένη.",
+      "scene": 1
+    },
+    {
+      "role": "sofia",
+      "text": "Κι εγώ είμαι η Σοφία.",
+      "scene": 1
+    },
+    {
+      "role": "manolis",
+      "text": "Καλησπέρα κύριε Γιώργο. Τι κάνετε;",
+      "scene": 2
+    },
+    {
+      "role": "giorgos",
+      "text": "Γεια σου Μανώλη. Είμαι πολύ καλά. Εσύ;",
+      "scene": 2
+    },
+    {
+      "role": "manolis",
+      "text": "Έτσι και έτσι.",
+      "scene": 2
+    },
+    {
+      "role": "sotiris",
+      "text": "Καλημέρα σας. Είμαι ο Σωτήρης Παπαδόπουλος.",
+      "scene": 3
+    },
+    {
+      "role": "interlocutor",
+      "text": "Α, γεια σας κύριε Παπαδόπουλε. Πώς είστε;",
+      "scene": 3
+    },
+    {
+      "role": "sotiris",
+      "text": "Πολύ καλά. Ευχαριστώ.",
+      "scene": 3
+    },
+    {
+      "role": "lambros",
+      "text": "Γεια σου Αλέξη.",
+      "scene": 4
+    },
+    {
+      "role": "alexis",
+      "text": "Α, γεια σου Λάμπρο. Τι κάνεις;",
+      "scene": 4
+    },
+    {
+      "role": "lambros",
+      "text": "Πολύ καλά, εσύ",
+      "scene": 4
+    },
+    {
+      "role": "alexis",
+      "text": "Μια χαρά Από εδώ Η φίλη μου, η Αλεξάνδρα",
+      "scene": 4
+    },
+    {
+      "role": "lambros",
+      "text": "Χαίρω πολύ Αλεξάνδρα",
+      "scene": 4
+    },
+    {
+      "role": "alexandra",
+      "text": "Κι εγώ επίσης",
+      "scene": 4
+    },
+    {
+      "role": "lambros",
+      "text": "Από εδώ η Μάρθα",
+      "scene": 4
+    },
+    {
+      "role": "martha",
+      "text": "Γεια σας, χάρηκα",
+      "scene": 4
+    },
+    {
+      "role": "alexis_alexandra",
+      "text": "Κι εμείς",
+      "scene": 4
+    }
+  ]
+}

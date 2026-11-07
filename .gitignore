@@ -4,8 +4,7 @@ dist/
 .venv/
 venv/
 
-# Private board data, profiles, generated learning material and downloads
-data/
+# Downloads, access state and large duplicate archives
 output/
 *.holst
 downloads/
@@ -18,8 +17,70 @@ auth-state*.json
 *.mp4
 *.mov
 
-# Personal plans are kept locally, apart from the reusable application
-docs/language-learning/
+# The canonical learning base is shared; operational caches stay local.
+/data/*
+!/data/local-board.json
+!/data/boards/
+/data/boards/*
+!/data/boards/*/
+/data/boards/*/*
+!/data/boards/*/normalized/
+!/data/boards/*/analysis/
+!/data/boards/*/output/
+!/data/boards/*/assets/
+!/data/boards/*/assets/files/*.mp3
+!/data/boards/*/sync-history/
+/data/boards/*/sync-history/*
+!/data/boards/*/sync-history/*/
+/data/boards/*/sync-history/*/*
+!/data/boards/*/sync-history/*/rendered-new-frames/
+/data/boards/*/sync-history/*/rendered-new-frames/*
+!/data/boards/*/sync-history/*/rendered-new-frames/*.png
+
+!/data/vocabulary/
+/data/vocabulary/*
+!/data/vocabulary/greek-russian.json
+!/data/vocabulary/quizlet/
+/data/vocabulary/quizlet/*
+!/data/vocabulary/quizlet/raw/
+!/data/vocabulary/quizlet/reviews/
+!/data/vocabulary/quizlet/verification/
+!/data/vocabulary/quizlet/sources.json
+!/data/vocabulary/quizlet/validation.json
+
+!/data/listening-reference-library/
+/data/listening-reference-library/*
+!/data/listening-reference-library/*.md
+!/data/listening-reference-library/*.json
+!/data/listening-reference-library/*.jsonl
+!/data/listening-reference-library/transcripts/
+!/data/listening-reference-library/reviews/
+!/data/listening-reference-library/raw/
+/data/listening-reference-library/raw/*
+!/data/listening-reference-library/raw/primary/
+!/data/listening-reference-library/raw/control/
+!/data/listening-reference-library/raw/control-vad/
+/data/listening-reference-library/raw/*/*
+!/data/listening-reference-library/raw/*/*.json
+!/data/listening-reference-library/raw/*/*.txt
+!/data/listening-reference-library/raw/*/*.srt
+!/data/listening-reference-library/raw/experiments/
+/data/listening-reference-library/raw/experiments/*
+!/data/listening-reference-library/raw/experiments/cropped-no-vad/
+!/data/listening-reference-library/raw/experiments/phone-number-check/
+/data/listening-reference-library/raw/experiments/*/*
+!/data/listening-reference-library/raw/experiments/*/*.json
+!/data/listening-reference-library/raw/experiments/*/*.txt
+!/data/listening-reference-library/raw/experiments/*/*.srt
+
+!/data/listening-generated/
+/data/listening-generated/*
+!/data/listening-generated/practice/
+!/data/listening-generated/role-dialogues/
+/data/listening-generated/**/parts/
+/data/listening-generated/**/attempts/
+!/data/listening-generated/practice/**/*.mp3
+!/data/listening-generated/role-dialogues/**/*.mp3
 
 # Environment and local credentials
 .env

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "replace",
+    "reference": "πολυ",
+    "asr": "κολλη"
+  },
+  {
+    "type": "replace",
+    "reference": "λενε σεσιλ",
+    "asr": "λενεσαι εσυ"
+  }
+]

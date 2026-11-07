@@ -1,0 +1,50 @@
+{
+  "review_type": "Codex editorial comparison of local Whisper large-v3 transcript and authored script; no human listening review",
+  "checked_wav_sha256": "787855e5be09e0b9e3f84a218db016394770e59df43119a3ba91704aa7f62a04",
+  "draft_sha256": "14e06e8cb6ba8e228ce2dfb82e9d13fac15a137e6aa60fb7778f4c486449b735",
+  "strict_asr_quality": {
+    "method": "local whisper.cpp large-v3 ASR proxy, not human listening",
+    "command": [
+      "/opt/homebrew/bin/whisper-cli",
+      "-m",
+      "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+      "-f",
+      "/Users/max_tarasyuk/Downloads/projects/greek-context/data/listening-generated/practice/2026-11-06-vocabulary-recall/studying-together/qa/input-16k.wav",
+      "-l",
+      "el",
+      "-t",
+      "8",
+      "-bs",
+      "5",
+      "-bo",
+      "5",
+      "-mc",
+      "0",
+      "-sns",
+      "-otxt",
+      "-oj",
+      "-of",
+      "/Users/max_tarasyuk/Downloads/projects/greek-context/data/listening-generated/practice/2026-11-06-vocabulary-recall/studying-together/qa/whisper"
+    ],
+    "asr_input_wav_sha256": "a3d414fc5dd0d1cd2925b9850ca3eef5de0f19edf5884b1b3bcc604bd7299209",
+    "checked_audio_wav_sha256": "787855e5be09e0b9e3f84a218db016394770e59df43119a3ba91704aa7f62a04",
+    "reference_words": 66,
+    "recognized_words": 66,
+    "word_distance": 1,
+    "wer": 0.0152,
+    "normalization": "alphabetic words; ignore case, punctuation and diacritics",
+    "full_human_listening_review": false
+  },
+  "explicit_equivalences": [
+    "Whisper развернул разговорное Κι εσύ в Και εσύ; это сокращённая и полная формы одного союза. После учёта этого различия последовательность слов совпадает с текстом.",
+    "Одна короткая реплика перегенерирована: в первом распознавании было дополнительное και; в окончательном ASR его нет."
+  ],
+  "tokens_after_documented_equivalences": {
+    "reference_words": 66,
+    "recognized_words": 66,
+    "exact_sequence_match": true,
+    "unresolved_differences": []
+  },
+  "full_human_listening_review": false,
+  "limits": "ASR text agreement does not establish pronunciation quality or a native-speaker listening review."
+}

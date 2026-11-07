@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "title": "Αυτή είναι η οικογένειά μου — семья Ли",
+  "source_reference_id": "holst-32af7bb1-268d-4346-b25d-99c589e51c2e",
+  "source_transcript": "data/listening-reference-library/transcripts/holst-32af7bb1-268d-4346-b25d-99c589e51c2e.txt",
+  "source_sha256": "936a98d17726c2367b3c1291ed0efe041eff59ee0200d05723482279d6d56ff7",
+  "source_images": [
+    "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/58a05e06-17d7-43c7-ba96-11e93de0e463.png"
+  ],
+  "omitted_headings": [],
+  "role_assignment_status": "roles checked against the printed source; casting uses two LFM presets",
+  "casting_note": "Учебная читка двумя голосами LFM. Для каждой роли закреплён один пресет. ",
+  "roles": {
+    "panagiotis": {
+      "label": "Παναγιώτης",
+      "voice": "male-greek"
+    },
+    "li": {
+      "label": "Λι",
+      "voice": "female-greek"
+    }
+  },
+  "turns": [
+    {
+      "role": "panagiotis",
+      "text": "Καλησπέρα, Λι. Τι είναι αυτό; Φωτογραφία;",
+      "scene": 1
+    },
+    {
+      "role": "li",
+      "text": "Ναι, από την Κίνα. Η οικογένειά μου.",
+      "scene": 1
+    },
+    {
+      "role": "panagiotis",
+      "text": "Ααα! Ποιος είναι αυτός;",
+      "scene": 1
+    },
+    {
+      "role": "li",
+      "text": "Ο πατέρας μου. Τον λένε Χουάνγκ.",
+      "scene": 1
+    },
+    {
+      "role": "panagiotis",
+      "text": "Αυτή ποια είναι; Η μητέρα σου;",
+      "scene": 1
+    },
+    {
+      "role": "li",
+      "text": "Ναι.",
+      "scene": 1
+    },
+    {
+      "role": "panagiotis",
+      "text": "Πώς τη λένε;",
+      "scene": 1
+    },
+    {
+      "role": "li",
+      "text": "Τη λένε Γκονγκ. Και εδώ είναι ο αδερφός μου, ο Τσου.",
+      "scene": 1
+    },
+    {
+      "role": "panagiotis",
+      "text": "Είναι παντρεμένος;",
+      "scene": 1
+    },
+    {
+      "role": "li",
+      "text": "Ναι. Αυτή είναι η γυναίκα του, η Λιέν, και αυτός ο γιος τους, ο Ξιάο.",
+      "scene": 1
+    },
+    {
+      "role": "panagiotis",
+      "text": "Πολύ ωραία!",
+      "scene": 1
+    }
+  ]
+}

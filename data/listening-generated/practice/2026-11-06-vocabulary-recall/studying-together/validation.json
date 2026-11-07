@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "errors": [],
+  "draft_sha256": "14e06e8cb6ba8e228ce2dfb82e9d13fac15a137e6aa60fb7778f4c486449b735",
+  "context_sha256": "51a1356427ddd3729f34d3e35cf04a132e3eca61baa5e2a1459fdd0a167be49c",
+  "word_count": 66,
+  "lexical_audit": {
+    "known_form_occurrences": 55,
+    "reviewed_inflection_occurrences": 11,
+    "unresolved_forms": [],
+    "inflection_relations_are_editorially_reviewed_not_automatically_proven": true
+  },
+  "novelty_closest": [
+    {
+      "reference": "data/listening-generated/practice/2026-11-05-first-variants/dialogue-coffee/draft.json",
+      "aligned_fraction": 0.1667,
+      "longest_exact_run_words": 2
+    },
+    {
+      "reference": "holst-1520d811-1319-4ec0-b2e0-f112d696b47a",
+      "aligned_fraction": 0.1515,
+      "longest_exact_run_words": 2
+    },
+    {
+      "reference": "holst-8c005594-30b0-4c49-a00e-4d7d1b7d6c5d",
+      "aligned_fraction": 0.1515,
+      "longest_exact_run_words": 2
+    },
+    {
+      "reference": "holst-32af7bb1-268d-4346-b25d-99c589e51c2e",
+      "aligned_fraction": 0.1364,
+      "longest_exact_run_words": 2
+    },
+    {
+      "reference": "holst-d65d8822-82e3-48c3-8feb-e50d343e0039",
+      "aligned_fraction": 0.1364,
+      "longest_exact_run_words": 2
+    }
+  ],
+  "editorial_review": {
+    "greek_checked": true,
+    "within_studied_grammar": true,
+    "new_situation_checked": true,
+    "notes": "Редакторская проверка Codex: только настоящее время и знакомые типы A/B1; без будущего, прошедшего и придаточных с να. Проверены личные окончания, винительный после διαβάζω/ξεχνάω, безударные дополнения σε/με, στο τετράδιο/στο σπίτι и слияние σε с артиклем, με τον καθηγητή, притяжательные μου/σου. Дополнительное ударение τετράδιό перед μου/σου разобрано отдельно. Забывание тетради — привычное действие в настоящем; запись в тетради собеседницы логично решает задачу. Ситуация и роли отличаются от прежнего монолога семьи и всех диалогов. Материал не заявлен усвоенным."
+  },
+  "limits": "Similarity and word-form checks are heuristics; Greek grammar and meaning require the recorded Codex editorial review."
+}

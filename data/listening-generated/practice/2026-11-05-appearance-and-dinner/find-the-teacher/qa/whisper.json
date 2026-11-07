@@ -1,0 +1,175 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:01,480"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 1480
+			},
+			"text": " Ποιος είναι ο δάσκαλός σου?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,480",
+				"to": "00:00:05,260"
+			},
+			"offsets": {
+				"from": 1480,
+				"to": 5260
+			},
+			"text": " Είναι εκεί. Φοράει άσπρο πουκάμισο."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,260",
+				"to": "00:00:07,400"
+			},
+			"offsets": {
+				"from": 5260,
+				"to": 7400
+			},
+			"text": " Αυτός με τα κοντά μαλλιά."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,400",
+				"to": "00:00:10,200"
+			},
+			"offsets": {
+				"from": 7400,
+				"to": 10200
+			},
+			"text": " Όχι. Αυτός είναι μαθητής."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,200",
+				"to": "00:00:13,820"
+			},
+			"offsets": {
+				"from": 10200,
+				"to": 13820
+			},
+			"text": " Ο δάσκαλός μου είναι ψηλός και έχει γυαλιά."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,820",
+				"to": "00:00:15,740"
+			},
+			"offsets": {
+				"from": 13820,
+				"to": 15740
+			},
+			"text": " Έχει και μουστάκι."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,740",
+				"to": "00:00:19,300"
+			},
+			"offsets": {
+				"from": 15740,
+				"to": 19300
+			},
+			"text": " Όχι. Έχει γένια και σγουρά μαλλιά."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,300",
+				"to": "00:00:21,760"
+			},
+			"offsets": {
+				"from": 19300,
+				"to": 21760
+			},
+			"text": " Αυτός με τα πράσινα μάτια."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:21,760",
+				"to": "00:00:24,680"
+			},
+			"offsets": {
+				"from": 21760,
+				"to": 24680
+			},
+			"text": " Ναι. Διαβάζει ένα βιβλίο."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,680",
+				"to": "00:00:26,200"
+			},
+			"offsets": {
+				"from": 24680,
+				"to": 26200
+			},
+			"text": " Πώς τον λένε."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,200",
+				"to": "00:00:28,260"
+			},
+			"offsets": {
+				"from": 26200,
+				"to": 28260
+			},
+			"text": " Τον λένε Κώστα."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,940",
+				"to": "00:00:30,360"
+			},
+			"offsets": {
+				"from": 28940,
+				"to": 30360
+			},
+			"text": " Είναι καλός δάσκαλος."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,360",
+				"to": "00:00:33,440"
+			},
+			"offsets": {
+				"from": 30360,
+				"to": 33440
+			},
+			"text": " Ναι, είναι πολύ καλός και φιλικός."
+		}
+	]
+}

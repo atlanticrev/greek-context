@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "title": "Γεια! — знакомство вне класса",
+  "source_reference_id": "holst-7b06a46b-f9aa-4b02-8099-c787088d75fb",
+  "source_transcript": "data/listening-reference-library/transcripts/holst-7b06a46b-f9aa-4b02-8099-c787088d75fb.txt",
+  "source_sha256": "d356ce9c4ae5bb0d5b75d7ae56122d6177a5522722a1ec01acacdc3e278c63a2",
+  "source_images": [
+    "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/91d2ee12-18aa-4743-84ed-5530b7ddc25b.png"
+  ],
+  "omitted_headings": [
+    "Μάθημα 2",
+    "Γεια!"
+  ],
+  "role_assignment_status": "roles checked against the printed source; casting uses two LFM presets",
+  "casting_note": "Учебная читка двумя голосами LFM. Для каждой роли закреплён один пресет. ",
+  "roles": {
+    "flavian": {
+      "label": "Φλαβιάν",
+      "voice": "male-greek"
+    },
+    "anne": {
+      "label": "Άνε",
+      "voice": "female-greek"
+    }
+  },
+  "turns": [
+    {
+      "role": "flavian",
+      "text": "Γεια σου! Πώς σε λένε;",
+      "scene": 1
+    },
+    {
+      "role": "anne",
+      "text": "Γεια! Με λένε Άνε. Εσένα, πώς σε λένε;",
+      "scene": 1
+    },
+    {
+      "role": "flavian",
+      "text": "Είμαι ο Φλαβιάν. Χαίρω πολύ!",
+      "scene": 1
+    },
+    {
+      "role": "anne",
+      "text": "Κι εγώ!",
+      "scene": 1
+    },
+    {
+      "role": "flavian",
+      "text": "Από πού είσαι, Άνε;",
+      "scene": 1
+    },
+    {
+      "role": "anne",
+      "text": "Είμαι από την Ισπανία. Από τη Μαδρίτη. Εσύ;",
+      "scene": 1
+    },
+    {
+      "role": "flavian",
+      "text": "Εγώ είμαι από τη Γαλλία. Από το Παρίσι.",
+      "scene": 1
+    },
+    {
+      "role": "anne",
+      "text": "Ωραία! Τα λέμε στο μάθημα, ε!",
+      "scene": 1
+    },
+    {
+      "role": "flavian",
+      "text": "Ναι! Πώς λένε τον καθηγητή;",
+      "scene": 1
+    },
+    {
+      "role": "anne",
+      "text": "Πώς τον λένε... δεν ξέρω.",
+      "scene": 1
+    },
+    {
+      "role": "flavian",
+      "text": "Εντάξει, τα λέμε λοιπόν Χάρηκα πολύ",
+      "scene": 1
+    },
+    {
+      "role": "anne",
+      "text": "Κι εγώ, αντίο",
+      "scene": 1
+    },
+    {
+      "role": "flavian",
+      "text": "Γεια χαρά",
+      "scene": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "text_reviewed",
+  "title": "Числа до 20 — упражнение 3.24",
+  "content_type": "numbers",
+  "reference_ready": true,
+  "audio_sha256": "3f76c9126fc30eaf8b5b3c9580837120b9dd2237fb014f51da6702f90cb26891",
+  "primary_json_sha256": "11572e99434ef3503b08ab8b6cf8e44cb55a684595e90a5bcf4fdfc834b3c36a",
+  "reviewed_at": "2026-11-05T10:18:19.653571+00:00",
+  "audio_listened_in_full": false,
+  "text": "3.24.\n1. επτά\n2. έντεκα\n3. δεκαοκτώ\n4. δεκατρία\n5. δεκαεννέα\n6. οκτώ\n7. είκοσι\n8. έξι",
+  "notes": [
+    "Текст сопоставлен с локальными проходами large-v3 и large-v3-turbo; оформлены пунктуация и очевидные орфографические ошибки. Полная проверка по слуху не заявляется."
+  ],
+  "source_images": [],
+  "supplementary_asr_paths": []
+}

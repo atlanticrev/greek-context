@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "errors": [],
+  "draft_sha256": "dc962d5df467661ddb857b9afb4ba6d2c62bf732c1d4806ccdc2a6371f90cfc2",
+  "context_sha256": "51a1356427ddd3729f34d3e35cf04a132e3eca61baa5e2a1459fdd0a167be49c",
+  "word_count": 62,
+  "lexical_audit": {
+    "known_form_occurrences": 51,
+    "reviewed_inflection_occurrences": 11,
+    "unresolved_forms": [],
+    "inflection_relations_are_editorially_reviewed_not_automatically_proven": true
+  },
+  "novelty_closest": [
+    {
+      "reference": "holst-8c005594-30b0-4c49-a00e-4d7d1b7d6c5d",
+      "aligned_fraction": 0.1452,
+      "longest_exact_run_words": 2
+    },
+    {
+      "reference": "holst-9c48480a-4dd4-44a3-8def-2245b0c09665",
+      "aligned_fraction": 0.1452,
+      "longest_exact_run_words": 2
+    },
+    {
+      "reference": "holst-ef1e439e-69c0-4725-a61f-1910082f79f6",
+      "aligned_fraction": 0.1452,
+      "longest_exact_run_words": 1
+    },
+    {
+      "reference": "holst-d3db3b66-ad97-4ad1-9824-371a519a1dc6",
+      "aligned_fraction": 0.129,
+      "longest_exact_run_words": 2
+    },
+    {
+      "reference": "holst-1520d811-1319-4ec0-b2e0-f112d696b47a",
+      "aligned_fraction": 0.1129,
+      "longest_exact_run_words": 1
+    }
+  ],
+  "editorial_review": {
+    "greek_checked": true,
+    "within_studied_grammar": true,
+    "new_situation_checked": true,
+    "notes": "Редакторская проверка Codex: настоящее время, вопрос-подтверждение стоимости без нового вопросительного πόσο, винительный прямого дополнения после θέλω/αγοράζω и согласование прилагательных среднего рода с πουκάμισο. Το άσπρο/το μπλε — обычное опущение повторяющегося существительного, без новой указательной конструкции. Числительные δέκα/είκοσι из словаря, ευρώ из проверенного фонетического референса; специальных терминов размеров нет. Новая ситуация и смысл отличаются от всех четырёх прошлых drafts и референсов. Наличие материала в источнике не означает владения им. Главный агент также проверил сюжет и греческую связность; реплика выбора уточнена до Δεν θέλω μικρό πουκάμισο, а αγοράζω повторён в вопросе продавца и ответе покупателя. В последнем вопросе продавца опущено уже неоднократно названное πουκάμισο: Αγοράζεις το άσπρο; — естественная краткая реплика с тем же смыслом. Повторная генерация полной реплики сохраняла неоднозначное распознавание одного слова; окончательный вариант короче и яснее в контексте."
+  },
+  "limits": "Similarity and word-form checks are heuristics; Greek grammar and meaning require the recorded Codex editorial review."
+}

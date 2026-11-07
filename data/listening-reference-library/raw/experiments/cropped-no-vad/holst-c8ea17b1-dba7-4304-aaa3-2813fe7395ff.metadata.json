@@ -1,0 +1,27 @@
+{
+  "source_audio_start_seconds": 4.3,
+  "duration_seconds": 38.8072,
+  "command": [
+    "whisper-cli",
+    "-m",
+    "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+    "-l",
+    "el",
+    "-t",
+    "8",
+    "-bs",
+    "5",
+    "-bo",
+    "5",
+    "-mc",
+    "0",
+    "-sns",
+    "-f",
+    "data/listening-reference-library/raw/experiments/cropped-no-vad/holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff.wav",
+    "-of",
+    "data/listening-reference-library/raw/experiments/cropped-no-vad/holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff",
+    "-otxt",
+    "-oj",
+    "-osrt"
+  ]
+}

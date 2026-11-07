@@ -20,11 +20,12 @@ This repository extracts a Holst board into local, inspectable learning evidence
 
 Keep the workflows, schemas and detailed commands in those skills and their references. Prefer the connected authorized Chrome session plus `import-latest` for Holst; do not ask for a manual export when that workflow is available or inspect browser cookies/tokens.
 
-## Data safety
+## Shared learning base
 
-- Treat `data/` as private user data. Never commit it.
-- Do not upload raw board backups or images unless the user explicitly asks.
-- Only `output/chat-context.md` and `output/learner-profile.json` are intended for sharing with ChatGPT.
+- This project is a shared learning base for its two users. Commit the canonical vocabulary and Quizlet captures, normalized board, evidence and profiles, source images/audio, reviewed transcript library, and generated practice texts with final MP3 files under `data/`.
+- Keep account access separate from learning content: never commit browser profiles, cookies, tokens, passwords, `.env` files or other credentials.
+- Raw `.holst` archives, sync-history copies, model files, temporary conversions, per-turn audio caches and diagnostic experiments remain local working artifacts. The shared normalized board and source assets preserve the usable learning material without those duplicates.
+- Preserve evidence and source links when updating the common base. A shared profile records its source learner's evidence; it does not establish another user's proficiency.
 
 ## Learning evidence rules
 
@@ -39,7 +40,7 @@ Keep the workflows, schemas and detailed commands in those skills and their refe
 - Project default: use local LFM3-Audio for Greek synthesis (`lfm3-audio:2b-q8_0`). Do not select Qwen/Serena, system voices, or another model unless the user explicitly changes this preference. A compatible local service and installed models are prerequisites; the repository does not bundle them.
 - Dialogue audio uses two distinct Greek voice presets: `male-greek` and `female-greek`. Assign voices to roles explicitly and keep each role's voice fixed throughout the dialogue; never switch voices by sentence or blindly alternate transcript lines.
 - Synthesize spoken turns separately, preserve their order, and join them into one audio per dialogue with natural pauses and consistent loudness. Use clear articulation at a normal conversational pace.
-- Store role scripts, separate turns, assembled MP3/WAV and quality checks under private `data/listening-generated/`, apart from the source reference library.
+- Store role scripts, separate turns, assembled MP3/WAV and quality checks under `data/listening-generated/`, apart from the source reference library. Share scripts, texts, checks and final MP3 files; intermediate turns and duplicate WAV exports can be regenerated locally.
 - When delivering listening audio, show the full Greek transcript directly below each audio link or player in the message, with role labels for dialogues; a TXT/Markdown link alone is not enough. Also keep the matching TXT and Markdown files alongside the audio.
 
 ## New listening practice

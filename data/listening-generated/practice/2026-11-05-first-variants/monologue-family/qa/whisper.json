@@ -1,0 +1,65 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:08,940"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 8940
+			},
+			"text": " Με λένε Ελένη. Είμαι από την Ελλάδα και μένω στην Αθήνα. Είμαι δασκάλα και διδάσκω ελληνικά. Ο άντρας μου είναι μηχανικός."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,940",
+				"to": "00:00:18,840"
+			},
+			"offsets": {
+				"from": 8940,
+				"to": 18840
+			},
+			"text": " Έχουμε έναν γιο και μια κόρη. Ο γιος μας διαβάζει και γράφει ελληνικά. Η κόρη μας μαθαίνει τώρα. Στο σπίτι μιλάμε ελληνικά."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,840",
+				"to": "00:00:27,700"
+			},
+			"offsets": {
+				"from": 18840,
+				"to": 27700
+			},
+			"text": " Εγώ μαγειρεύω και ο άντρας μου φτιάχνει καφέ. Η μητέρα μου μένει εδώ. Είναι πολύ καλή και βοηθάει την οικογένειά μας."
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "errors": [],
+  "draft_sha256": "aa21b72ffa975aa227f7d6f8f8f7246c9608a5fb2c7b659fe43a961e18fac2bd",
+  "context_sha256": "fcce85e5198edfa242f7353a4bc79f71f24ff961abab2ebc6402e88b3520a703",
+  "word_count": 64,
+  "lexical_audit": {
+    "known_form_occurrences": 57,
+    "reviewed_inflection_occurrences": 7,
+    "unresolved_forms": [],
+    "inflection_relations_are_editorially_reviewed_not_automatically_proven": true
+  },
+  "novelty_closest": [
+    {
+      "reference": "holst-8db8d4b2-fa7b-4eca-bc3c-e0a2c0ee9ff5",
+      "aligned_fraction": 0.2031,
+      "longest_exact_run_words": 3
+    },
+    {
+      "reference": "holst-9c48480a-4dd4-44a3-8def-2245b0c09665",
+      "aligned_fraction": 0.1562,
+      "longest_exact_run_words": 2
+    },
+    {
+      "reference": "holst-5b0c9685-bb86-4a83-b640-d416e8b7a9d2",
+      "aligned_fraction": 0.1406,
+      "longest_exact_run_words": 3
+    },
+    {
+      "reference": "holst-65e88206-950c-447b-9159-280d54229bf1",
+      "aligned_fraction": 0.1406,
+      "longest_exact_run_words": 2
+    },
+    {
+      "reference": "holst-d65d8822-82e3-48c3-8feb-e50d343e0039",
+      "aligned_fraction": 0.1406,
+      "longest_exact_run_words": 2
+    }
+  ],
+  "editorial_review": {
+    "greek_checked": true,
+    "within_studied_grammar": true,
+    "new_situation_checked": true,
+    "notes": "Редакторская проверка Codex: простое настоящее время, согласование и управление; бытовая ситуация и факты вымышлены. Используется ранее представленный материал, владение ученика не утверждается."
+  },
+  "limits": "Similarity and word-form checks are heuristics; Greek grammar and meaning require the recorded Codex editorial review."
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "boardId": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+  "generatedAt": "2026-11-07T16:52:59.330Z",
+  "instructions": [
+    "Analyze text and educational images as evidence of Greek learning.",
+    "Inspect only textItems and assetItems: they contain new or changed content since the last completed analysis.",
+    "Do not reopen reusedTextItems or reusedAssetItems; they are reference-only records for content already analyzed.",
+    "Identify grammar, vocabulary, language functions, conversation topics, completed work, and corrections.",
+    "Ignore avatars, UI graphics, decorative images, and unrelated personal photos.",
+    "Board presence supports introduced; only attempted or completed work supports practiced.",
+    "Never infer confirmed mastery from board content alone."
+  ],
+  "summary": {
+    "currentTextItems": 904,
+    "currentUniqueTextContents": 704,
+    "newOrChangedTextItems": 0,
+    "reusedTextReferences": 0,
+    "unchangedTextItems": 904,
+    "currentUniqueAssets": 205,
+    "newAssets": 0,
+    "reusedAssetReferences": 0,
+    "unchangedAssets": 205,
+    "removedTextItems": 0,
+    "removedAssets": 0
+  },
+  "textItems": [],
+  "reusedTextItems": [],
+  "assetItems": [],
+  "reusedAssetItems": [],
+  "removedTextObjectIds": [],
+  "removedAssetContentKeys": []
+}

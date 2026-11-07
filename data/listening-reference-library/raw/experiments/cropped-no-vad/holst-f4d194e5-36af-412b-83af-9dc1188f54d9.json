@@ -1,0 +1,252 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:03,160"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 3160
+			},
+			"text": " Μάθημα"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,160",
+				"to": "00:00:07,120"
+			},
+			"offsets": {
+				"from": 3160,
+				"to": 7120
+			},
+			"text": " Μαθητής"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,120",
+				"to": "00:00:11,100"
+			},
+			"offsets": {
+				"from": 7120,
+				"to": 11100
+			},
+			"text": " Μαθήτρια"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:11,100",
+				"to": "00:00:14,880"
+			},
+			"offsets": {
+				"from": 11100,
+				"to": 14880
+			},
+			"text": " Ελένη"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,880",
+				"to": "00:00:18,960"
+			},
+			"offsets": {
+				"from": 14880,
+				"to": 18960
+			},
+			"text": " Βιβλίο"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,960",
+				"to": "00:00:23,020"
+			},
+			"offsets": {
+				"from": 18960,
+				"to": 23020
+			},
+			"text": " Τετράδιο"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,020",
+				"to": "00:00:27,020"
+			},
+			"offsets": {
+				"from": 23020,
+				"to": 27020
+			},
+			"text": " Πίνακας"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,000",
+				"to": "00:00:32,000"
+			},
+			"offsets": {
+				"from": 30000,
+				"to": 32000
+			},
+			"text": " Φως"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,000",
+				"to": "00:00:35,860"
+			},
+			"offsets": {
+				"from": 32000,
+				"to": 35860
+			},
+			"text": " Μολύβι"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:35,860",
+				"to": "00:00:40,000"
+			},
+			"offsets": {
+				"from": 35860,
+				"to": 40000
+			},
+			"text": " Πάτωμα"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:40,000",
+				"to": "00:00:43,200"
+			},
+			"offsets": {
+				"from": 40000,
+				"to": 43200
+			},
+			"text": " Παράθυρο"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:43,200",
+				"to": "00:00:47,120"
+			},
+			"offsets": {
+				"from": 43200,
+				"to": 47120
+			},
+			"text": " Σάκος"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:47,120",
+				"to": "00:00:50,740"
+			},
+			"offsets": {
+				"from": 47120,
+				"to": 50740
+			},
+			"text": " Στυλό"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:50,740",
+				"to": "00:00:55,040"
+			},
+			"offsets": {
+				"from": 50740,
+				"to": 55040
+			},
+			"text": " Νίκος"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:55,040",
+				"to": "00:00:59,000"
+			},
+			"offsets": {
+				"from": 55040,
+				"to": 59000
+			},
+			"text": " Τάξι"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:00,000",
+				"to": "00:01:01,940"
+			},
+			"offsets": {
+				"from": 60000,
+				"to": 61940
+			},
+			"text": " Κυμωλία"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:01,940",
+				"to": "00:01:06,280"
+			},
+			"offsets": {
+				"from": 61940,
+				"to": 66280
+			},
+			"text": " Μιλάω"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,280",
+				"to": "00:01:10,480"
+			},
+			"offsets": {
+				"from": 66280,
+				"to": 70480
+			},
+			"text": " Γράφω"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:10,480",
+				"to": "00:01:14,700"
+			},
+			"offsets": {
+				"from": 70480,
+				"to": 74700
+			},
+			"text": " Διαβάζω"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:14,700",
+				"to": "00:01:18,100"
+			},
+			"offsets": {
+				"from": 74700,
+				"to": 78100
+			},
+			"text": " Άννη"
+		}
+	]
+}

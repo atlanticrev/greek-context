@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "title": "Ποιος είναι αυτός; — разговор на вечеринке",
+  "source_reference_id": "holst-8c005594-30b0-4c49-a00e-4d7d1b7d6c5d",
+  "source_transcript": "data/listening-reference-library/transcripts/holst-8c005594-30b0-4c49-a00e-4d7d1b7d6c5d.txt",
+  "source_sha256": "d812135ced4676b47d92108b0be84430de486a8ed781ee8b61b6e5c1ac601aba",
+  "source_images": [
+    "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/f85b6512-a038-45b2-a29f-1df771e7ef80.png"
+  ],
+  "omitted_headings": [
+    "Μάθημα 8",
+    "Ποιος είναι αυτός;",
+    "Άσκηση 1"
+  ],
+  "role_assignment_status": "roles checked against the printed source; casting uses two LFM presets",
+  "casting_note": "Учебная читка двумя голосами LFM. Для каждой роли закреплён один пресет. Обе героини — женщины, но для различимости используются два разных голоса-чтеца: Пάολα — мужской, Ελένη — женский. Тембр чтеца не обозначает пол персонажа.",
+  "roles": {
+    "paola": {
+      "label": "Πάολα",
+      "voice": "male-greek"
+    },
+    "eleni": {
+      "label": "Ελένη",
+      "voice": "female-greek"
+    }
+  },
+  "turns": [
+    {
+      "role": "paola",
+      "text": "Τι ωραίο πάρτι!",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Ναι, πράγματι! Έχει φανταστική μουσική και πολύ κέφι!",
+      "scene": 1
+    },
+    {
+      "role": "paola",
+      "text": "Ελένη, θες κρασί ή μπύρα;",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Ένα ποτήρι κρασί, σε παρακαλώ!",
+      "scene": 1
+    },
+    {
+      "role": "paola",
+      "text": "Λευκό ή κόκκινο;",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Κόκκινο!",
+      "scene": 1
+    },
+    {
+      "role": "paola",
+      "text": "Έλα, στην υγειά σου!",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Στην υγειά μας! Ποιος είναι αυτός εκεί;",
+      "scene": 1
+    },
+    {
+      "role": "paola",
+      "text": "Ποιος; Αυτός δίπλα στη Μόνικα;",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Ναι. Πολύ όμορφος, ε.",
+      "scene": 1
+    },
+    {
+      "role": "paola",
+      "text": "Καλός είναι. Τον λένε Μπρους. Είναι καθηγητής μαθηματικών. Είναι Αυστραλός και είναι πολύ συμπαθητικός.",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Και αυτή η κοπέλα με τον Αλέκο, ποια είναι; Αυτή εκεί με το μαύρο φόρεμα.",
+      "scene": 1
+    },
+    {
+      "role": "paola",
+      "text": "Μια καινούρια μαθήτρια στην τάξη μου. Είναι Ολλανδέζα. Δεν ξέρω πώς τη λένε.",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Ψηλή κοπέλα, ε. Και με μοντέρνο στυλ. Είναι η κοπέλα του.",
+      "scene": 1
+    },
+    {
+      "role": "paola",
+      "text": "Λες. Δεν ξέρω. Μπορεί.",
+      "scene": 1
+    }
+  ]
+}

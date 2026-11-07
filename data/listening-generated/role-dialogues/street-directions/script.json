@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "title": "Συγγνώμη, δεν καταλαβαίνω — разговор на улице",
+  "source_reference_id": "holst-938bdbd6-b036-4c4f-89b7-a92e6875c417",
+  "source_transcript": "data/listening-reference-library/transcripts/holst-938bdbd6-b036-4c4f-89b7-a92e6875c417.txt",
+  "source_sha256": "bd806a2ae971985faffbc7a6dea3d60c2a75d90075e65f8059a1bda2da378838",
+  "source_images": [
+    "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/93fb73c8-8308-40c9-9417-3a3aa91e143d.png"
+  ],
+  "omitted_headings": [],
+  "role_assignment_status": "roles checked against the printed source; casting uses two LFM presets",
+  "casting_note": "Учебная читка двумя голосами LFM. Для каждой роли закреплён один пресет. Три персонажа и два чтеца: Πέδρο и Μάρκος используют один мужской пресет, Βέρα — женский.",
+  "roles": {
+    "vera": {
+      "label": "Βέρα",
+      "voice": "female-greek"
+    },
+    "pedro": {
+      "label": "Πέδρο",
+      "voice": "male-greek"
+    },
+    "markos": {
+      "label": "Μάρκος",
+      "voice": "male-greek"
+    }
+  },
+  "turns": [
+    {
+      "role": "vera",
+      "text": "Γεια σας. Ξέρετε το Πάρκο Ελευθερίας.",
+      "scene": 1
+    },
+    {
+      "role": "pedro",
+      "text": "Συγγνώμη, δεν καταλαβαίνω.",
+      "scene": 1
+    },
+    {
+      "role": "vera",
+      "text": "Α, δεν μιλάτε ελληνικά.",
+      "scene": 1
+    },
+    {
+      "role": "pedro",
+      "text": "Όχι ελληνικά. Ισπανικά.",
+      "scene": 1
+    },
+    {
+      "role": "vera",
+      "text": "Εγώ δεν μιλάω ισπανικά καθόλου. Αγγλικά.",
+      "scene": 1
+    },
+    {
+      "role": "pedro",
+      "text": "Ε, λίγο. Μάρκος μιλάει ελληνικά. Μάρκος.",
+      "scene": 1
+    },
+    {
+      "role": "markos",
+      "text": "Ναι, τι θέλετε.",
+      "scene": 1
+    },
+    {
+      "role": "vera",
+      "text": "Το Πάρκο Ελευθερίας.",
+      "scene": 1
+    },
+    {
+      "role": "markos",
+      "text": "Ναι, εδώ είναι. Τι ψάχνετε.",
+      "scene": 1
+    },
+    {
+      "role": "vera",
+      "text": "Ψάχνω τον κινηματογράφο Στούντιο.",
+      "scene": 1
+    },
+    {
+      "role": "markos",
+      "text": "Μάλιστα. Βλέπετε την Εθνική Τράπεζα. Εκεί είναι.",
+      "scene": 1
+    },
+    {
+      "role": "vera",
+      "text": "Ευχαριστώ.",
+      "scene": 1
+    }
+  ]
+}

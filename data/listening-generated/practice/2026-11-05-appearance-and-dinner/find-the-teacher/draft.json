@@ -1,0 +1,135 @@
+{
+  "schema_version": 2,
+  "artifact_type": "generated_practice",
+  "text_origin": "newly_authored",
+  "format": "dialogue",
+  "context_path": "data/listening-generated/practice/2026-11-05-appearance-and-dinner/context/context.json",
+  "inflection_reviews": [
+    {
+      "surface": "δάσκαλός",
+      "lemma": "δάσκαλος",
+      "reason": "То же существительное с дополнительным ударением перед безударным притяжательным μου/σου: ο δάσκαλός μου, ο δάσκαλός σου."
+    },
+    {
+      "surface": "διαβάζει",
+      "lemma": "διαβάζω",
+      "reason": "3-е лицо единственного числа настоящего времени, глагол типа A."
+    }
+  ],
+  "editorial_review": {
+    "greek_checked": true,
+    "within_studied_grammar": true,
+    "new_situation_checked": true,
+    "notes": "Редакторская проверка Codex: смысл, связность, согласование, артикли, падежи и настоящее время проверены. Два персонажа с постоянными голосами. Ситуация новая и отличается от предыдущих упражнений."
+  },
+  "id": "find-the-teacher-001",
+  "file_stem": "dialogue-find-the-teacher",
+  "title": "Найти учителя по внешности — новый диалог",
+  "topic_ids": [
+    "topic.appearance",
+    "topic.familiar_surroundings"
+  ],
+  "grammar_ids": [
+    "grammar.eimai_present",
+    "grammar.present_type_a",
+    "grammar.interrogative_poios",
+    "grammar.possessive_pronouns",
+    "grammar.definite_article_usage",
+    "grammar.adjective_agreement",
+    "grammar.prepositions_accusative",
+    "grammar.present_negation",
+    "grammar.direct_object_pronouns"
+  ],
+  "source_reference_ids": [
+    "holst-9c48480a-4dd4-44a3-8def-2245b0c09665",
+    "holst-65e88206-950c-447b-9159-280d54229bf1"
+  ],
+  "target_vocabulary": [
+    "Φοράω άσπρο πουκάμισο",
+    "ψηλός, ψηλή, ψηλό",
+    "κοντά μαλλιά",
+    "κατσαρά/σγουρά μαλλιά",
+    "Έχει μουστάκι",
+    "Έχει γένια",
+    "Πράσινα μάτια",
+    "διαβάζω",
+    "φιλικός, -ή, -ό"
+  ],
+  "novelty_changes": [
+    "Новая задача: среди людей найти нужного учителя по одежде и внешности, сначала исправив ошибочное предположение.",
+    "Короткие признаки раскрываются по очереди: рубашка, рост, очки, борода, волосы, глаза и книга. Это диалог поиска, а не перечень описаний из урока.",
+    "В отличие от предыдущего диалога, нет выбора кофе, ожидания сестры или обсуждения профессий родственников."
+  ],
+  "roles": {
+    "sofia": {
+      "label": "Σοφία",
+      "voice": "female-greek"
+    },
+    "nikos": {
+      "label": "Νίκος",
+      "voice": "male-greek"
+    }
+  },
+  "turns": [
+    {
+      "role": "sofia",
+      "text": "Ποιος είναι ο δάσκαλός σου;",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Είναι εκεί. Φοράει άσπρο πουκάμισο.",
+      "scene": 1
+    },
+    {
+      "role": "sofia",
+      "text": "Αυτός με τα κοντά μαλλιά;",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Όχι, αυτός είναι μαθητής. Ο δάσκαλός μου είναι ψηλός και έχει γυαλιά.",
+      "scene": 1
+    },
+    {
+      "role": "sofia",
+      "text": "Έχει και μουστάκι;",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Όχι. Έχει γένια και σγουρά μαλλιά.",
+      "scene": 1
+    },
+    {
+      "role": "sofia",
+      "text": "Α, αυτός με τα πράσινα μάτια;",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Ναι! Διαβάζει ένα βιβλίο.",
+      "scene": 1
+    },
+    {
+      "role": "sofia",
+      "text": "Πώς τον λένε;",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Τον λένε Κώστα.",
+      "scene": 1
+    },
+    {
+      "role": "sofia",
+      "text": "Είναι καλός δάσκαλος;",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Ναι, είναι πολύ καλός και φιλικός.",
+      "scene": 1
+    }
+  ]
+}

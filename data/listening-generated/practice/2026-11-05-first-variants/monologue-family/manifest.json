@@ -1,0 +1,124 @@
+{
+  "created_at": "2026-11-05T12:03:29.901245+00:00",
+  "model": "lfm3-audio:2b-q8_0",
+  "reference_type": "generated_practice",
+  "format": "monologue",
+  "model_digest": "d0ae0cb67fb98b065f04e5f3460ac3b3101fd3b346ece09e28232d2ccda13958",
+  "local_endpoint": "http://127.0.0.1:11435",
+  "profile": {
+    "name": "careful-reading-one-voice-v1",
+    "tempo": 0.9,
+    "pause_seconds": 0.6,
+    "scene_pause_seconds": 1.4,
+    "exterior_speech_padding_ms": 100,
+    "edge_fade_ms": 5,
+    "bounded_turn_rms_target": 0.1,
+    "loudnorm": "I=-18:TP=-1.5:LRA=11"
+  },
+  "script_sha256": "2cad3f76b0a4de18aa9788f23d09737e1ed0aec6201e5860f15ef681d63180b9",
+  "input_text_sha256": "540ffab28b350ce26313aa18f4c14e14bdfe46f1ca139789b77ac5745b782fb7",
+  "input_text_path": "data/listening-generated/practice/2026-11-05-first-variants/monologue-family/practice.txt",
+  "source_reference_id": null,
+  "source_reference_ids": [
+    "holst-ef30fbb1-accf-4bea-bc96-797439778801",
+    "holst-1520d811-1319-4ec0-b2e0-f112d696b47a"
+  ],
+  "roles": {
+    "narrator": {
+      "label": "Ελένη",
+      "voice": "female-greek"
+    }
+  },
+  "role_assignment_status": "newly authored; explicit fixed voices per role",
+  "turns": [
+    {
+      "cache_key": "efaeacf122a0ba7bf60d00ddd95356a14302a3f602d8821c49a1748bb9447ea3",
+      "sha256": "4d764f98eefa1a8d737aa9680d55595bb216b8fb555d47c3449d27bd18879265",
+      "voice": "female-greek",
+      "text": "Με λένε Ελένη. Είμαι από την Ελλάδα και μένω στην Αθήνα. Είμαι δασκάλα και διδάσκω ελληνικά. Ο άντρας μου είναι μηχανικός.",
+      "native_duration_seconds": 8.16,
+      "generation_seconds": 1.724,
+      "turn": 1,
+      "role": "narrator",
+      "scene": 1,
+      "file": "parts/001.wav",
+      "assembly_gain": 1.24653,
+      "pre_tempo_start_seconds": 0.0,
+      "pre_tempo_end_seconds": 8.16
+    },
+    {
+      "cache_key": "ec5636bd74a0461814d3c3998dfaf72f6bad601faca61f13038909fd7823f10c",
+      "sha256": "6e4926856704d67df672a26ac69c786cc112157e3ed5efbb42d035f0c968e182",
+      "voice": "female-greek",
+      "text": "Έχουμε έναν γιο και μία κόρη. Ο γιος μας διαβάζει και γράφει ελληνικά. Η κόρη μας μαθαίνει τώρα. Στο σπίτι μιλάμε ελληνικά.",
+      "native_duration_seconds": 8.32,
+      "generation_seconds": 1.69,
+      "turn": 2,
+      "role": "narrator",
+      "scene": 1,
+      "file": "parts/002.wav",
+      "assembly_gain": 1.33849,
+      "pre_tempo_start_seconds": 8.76,
+      "pre_tempo_end_seconds": 17.08
+    },
+    {
+      "cache_key": "c1af06a68ebf58814060ca751abb7d4ec2531b8f199c2b434571d3dc0b8b99f6",
+      "sha256": "3a8bc46ffe9a665840f5afb30471ebb9d26803d427f2ebf5b7f6d9138c273b91",
+      "voice": "female-greek",
+      "text": "Εγώ μαγειρεύω και ο άντρας μου φτιάχνει καφέ. Η μητέρα μου μένει εδώ. Είναι πολύ καλή και βοηθάει την οικογένειά μας.",
+      "native_duration_seconds": 7.36,
+      "generation_seconds": 1.513,
+      "turn": 3,
+      "role": "narrator",
+      "scene": 1,
+      "file": "parts/003.wav",
+      "assembly_gain": 1.38745,
+      "pre_tempo_start_seconds": 17.68,
+      "pre_tempo_end_seconds": 25.04
+    }
+  ],
+  "result": {
+    "mp3": "monologue-about-family.mp3",
+    "wav": "monologue-about-family.wav",
+    "mp3_sha256": "0c71c02598b81dd6e201bdf81574153789754b09fcf7b85817dd90b3c81c1730",
+    "wav_sha256": "54a1a93308a0699128574b840330f04f1db2ea520e624c16e0c7162d774dd52b",
+    "duration_seconds": 27.809,
+    "sample_rate": 24000,
+    "peak": 0.766204833984375,
+    "all_turns_present": true
+  },
+  "quality": {
+    "method": "local whisper.cpp large-v3 ASR proxy, not human listening",
+    "command": [
+      "/opt/homebrew/bin/whisper-cli",
+      "-m",
+      "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+      "-f",
+      "/Users/max_tarasyuk/Downloads/projects/greek-context/data/listening-generated/practice/2026-11-05-first-variants/monologue-family/qa/input-16k.wav",
+      "-l",
+      "el",
+      "-t",
+      "8",
+      "-bs",
+      "5",
+      "-bo",
+      "5",
+      "-mc",
+      "0",
+      "-sns",
+      "-otxt",
+      "-oj",
+      "-of",
+      "/Users/max_tarasyuk/Downloads/projects/greek-context/data/listening-generated/practice/2026-11-05-first-variants/monologue-family/qa/whisper"
+    ],
+    "asr_input_wav_sha256": "9e99335b92e4704b6daa00ad4f6089a7bd6091a406e7b5e4a4ef9dd7055ba66b",
+    "checked_audio_wav_sha256": "54a1a93308a0699128574b840330f04f1db2ea520e624c16e0c7162d774dd52b",
+    "reference_words": 64,
+    "recognized_words": 64,
+    "word_distance": 0,
+    "wer": 0.0,
+    "normalization": "alphabetic words; ignore case, punctuation and diacritics",
+    "full_human_listening_review": false
+  },
+  "file_stem": "monologue-about-family"
+}

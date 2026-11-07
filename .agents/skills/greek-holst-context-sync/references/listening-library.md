@@ -1,6 +1,6 @@
 # New source audio and the reviewed reference library
 
-The library is private `data/listening-reference-library/`. Original audio stays in the board's `assets/files/`; the library stores paths, checksums and every Holst occurrence rather than duplicating media. SHA-256 identifies identical audio across imports/boards.
+The shared library is `data/listening-reference-library/`. Original audio stays in the board's versioned `assets/files/`; the library stores repository-relative paths, checksums and every Holst occurrence rather than duplicating media. SHA-256 identifies identical audio across imports/boards. Commit reviewed transcripts, reviews, catalog and raw ASR JSON/TXT/SRT together; working WAV conversions, diagnostic experiments and logs remain local.
 
 ## Local prerequisites and commands
 
@@ -28,7 +28,7 @@ python3 scripts/transcribe-listening.py \
   --only NEW_REFERENCE_ID
 ```
 
-`--only` expects inventory IDs such as `holst-<audio-stem>`, not object IDs. Without it, the script selects the whole accumulated library and reuses passes only when audio/model hashes and options match. Avoid `--force` unless a specific redo is needed. A deliberately different diagnostic pass may use `--pass-name control --no-vad`. `--library` changes the private library directory; `--board-id` selects the imported board. The standard-library transcription driver needs no MLX/Qwen environment.
+`--only` expects inventory IDs such as `holst-<audio-stem>`, not object IDs. Without it, the script selects the whole accumulated library and reuses passes only when audio/model hashes and options match. Avoid `--force` unless a specific redo is needed. A deliberately different diagnostic pass may use `--pass-name control --no-vad`. `--library` changes the library directory; `--board-id` selects the imported board. The standard-library transcription driver needs no MLX/Qwen environment.
 
 Primary/control parameters are Greek transcription (`el`), beam/best-of 5, initial temperature 0 with normal fallback, no carried text context; VAD options and exact model/source hashes are recorded per pass. They provide repeatability, not guaranteed linguistic correctness.
 

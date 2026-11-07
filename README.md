@@ -11,7 +11,7 @@ npm install
 npm run build
 ```
 
-A clone contains application code and skills, not another person's board, vocabulary, audio, models or login. Import your own authorized material. Board metadata belongs in ignored `data/local-board.json`; [the example](examples/local-board.example.json) shows its format.
+A clone includes the shared learning base: the [Greek–Russian dictionary](data/vocabulary/greek-russian.json), normalized Holst material and source assets, evidence and learner context, reviewed audio transcripts, and completed practice texts with MP3 recordings. You can inspect the data and prepare new texts immediately after cloning; updating the online board requires your own authorized login. Models and account sessions are not included. The shared board metadata is in `data/local-board.json`; [the example](examples/local-board.example.json) shows its format for another board.
 
 ## Project skills
 
@@ -27,7 +27,7 @@ Invoke a skill by name, for example `$greek-holst-context-sync`, or make the cor
 
 Audio transcription requires local `whisper-cli`, `ffmpeg`, `ffprobe` and installed ggml models. Audio rendering additionally needs `numpy`, `soundfile` and an LFM-compatible local speech service with `lfm3-audio:2b-q8_0` and its Greek male/female presets. The repository provides clients, not a speech server or downloaded models. Binary/model paths and the service endpoint are configurable; see the listening skill for the exact contract and options. The legacy comparison/Russian utilities are outside the canonical Greek practice workflow.
 
-## Architecture and private data
+## Architecture and shared learning data
 
 The CLI decodes Holst's Yjs V1/V2 backups, normalizes frames/text/media, extracts assets and queues only new or changed content by text hash and asset SHA-256. Codex reviews that material and writes source-linked evidence. The profile builder produces a full profile, compact context and, when a baseline exists, a cumulative ChatGPT update. Board presence means introduced material; completed exercises can support practice, while confirmed proficiency requires a separate assessment.
 
@@ -47,9 +47,11 @@ data/
 └── listening-generated/
 ```
 
-Source audio and reviewed transcripts stay separate from newly generated practice. Every vocabulary card retains its source, even when identical pairs share a dictionary entry. Original backups, captures and ASR results remain available locally for inspection.
+Source audio and reviewed transcripts stay separate from newly generated practice. Every vocabulary card retains its source, even when identical pairs share a dictionary entry. Quizlet captures, source assets and reviewed ASR results are versioned alongside the common base. Existing generated texts remain labeled as generated, and historical render manifests record their original settings.
 
-Everything under `data/` is private and ignored by Git, as are `*.holst` backups, root `output/`, media, environment files and personal study plans. Only the application, tests, examples and reusable skills belong in this repository. Do not force-add personal files. Share generated `chat-context.md` and `learner-profile.json` separately when you intend to give someone access to your learning evidence.
+The `.gitignore` includes the canonical learning directories while excluding browser profiles and credentials, raw `.holst` archives, sync-history copies, model files, working conversions, per-turn audio caches, experiments and local reports. Source images and audio are included so evidence and transcript links work in a clone. Referenced rendered-frame PNGs are also retained under `sync-history/*/rendered-new-frames/`; backup copies under the same history tree stay excluded. Final generated MP3 files are shared; duplicate WAV exports and intermediate turns can be regenerated. Historical manifests may refer to those local render artifacts or record the original machine's executable/model paths; current source and runtime references use repository-relative paths.
+
+Pull the latest changes before updating the shared base, review the learning-data diff, and commit the resulting canonical files together. A shared learner profile records its source learner's evidence and must not be treated as proof of another user's proficiency.
 
 ## Development checks
 

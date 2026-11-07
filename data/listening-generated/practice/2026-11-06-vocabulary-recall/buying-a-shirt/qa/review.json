@@ -1,0 +1,51 @@
+{
+  "review_type": "Codex editorial comparison of local Whisper large-v3 transcript and authored script; no human listening review",
+  "checked_wav_sha256": "b99d9b5c07ac9098c90c170cd05b7fea46fc7d7dcf6b85d245a9262393a579dc",
+  "draft_sha256": "dc962d5df467661ddb857b9afb4ba6d2c62bf732c1d4806ccdc2a6371f90cfc2",
+  "strict_asr_quality": {
+    "method": "local whisper.cpp large-v3 ASR proxy, not human listening",
+    "command": [
+      "/opt/homebrew/bin/whisper-cli",
+      "-m",
+      "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+      "-f",
+      "/Users/max_tarasyuk/Downloads/projects/greek-context/data/listening-generated/practice/2026-11-06-vocabulary-recall/buying-a-shirt/qa/input-16k.wav",
+      "-l",
+      "el",
+      "-t",
+      "8",
+      "-bs",
+      "5",
+      "-bo",
+      "5",
+      "-mc",
+      "0",
+      "-sns",
+      "-otxt",
+      "-oj",
+      "-of",
+      "/Users/max_tarasyuk/Downloads/projects/greek-context/data/listening-generated/practice/2026-11-06-vocabulary-recall/buying-a-shirt/qa/whisper"
+    ],
+    "asr_input_wav_sha256": "95af35e25e2d90d45b70bb43b7ccd1bb64b7b784d285af62e23a9d60b2eb8b94",
+    "checked_audio_wav_sha256": "b99d9b5c07ac9098c90c170cd05b7fea46fc7d7dcf6b85d245a9262393a579dc",
+    "reference_words": 62,
+    "recognized_words": 59,
+    "word_distance": 4,
+    "wer": 0.0645,
+    "normalization": "alphabetic words; ignore case, punctuation and diacritics",
+    "full_human_listening_review": false
+  },
+  "explicit_equivalences": [
+    "Whisper записал три цены цифрами 10/20 вместо δέκα/είκοσι. Стандартный счётчик исключает цифры, поэтому считает их пропусками.",
+    "καινούργιο распознано как допустимый орфографический вариант καινούριο. После явного учёта чисел и этого варианта последовательность слов совпадает с текстом.",
+    "В предпоследней реплике прежнего полного варианта πουκάμισο неоднозначно распознавалось как два слова; повторная генерация не сняла неоднозначность. Окончательный вопрос сокращён до естественного Αγοράζεις το άσπρο; без изменения смысла."
+  ],
+  "tokens_after_documented_equivalences": {
+    "reference_words": 62,
+    "recognized_words": 62,
+    "exact_sequence_match": true,
+    "unresolved_differences": []
+  },
+  "full_human_listening_review": false,
+  "limits": "ASR text agreement does not establish pronunciation quality or a native-speaker listening review."
+}

@@ -1,0 +1,153 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4000
+			},
+			"text": " Καλησπέρα, Λη. Τι είναι αυτό, φωτογραφία?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,000",
+				"to": "00:00:08,220"
+			},
+			"offsets": {
+				"from": 4000,
+				"to": 8220
+			},
+			"text": " Ναι, από την Κίνα. Η οικογένειά μου."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,220",
+				"to": "00:00:11,240"
+			},
+			"offsets": {
+				"from": 8220,
+				"to": 11240
+			},
+			"text": " Α, α. Ποιος είναι αυτός?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:11,240",
+				"to": "00:00:14,640"
+			},
+			"offsets": {
+				"from": 11240,
+				"to": 14640
+			},
+			"text": " Ο πατέρας μου. Τον λένε Χουάγκ."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,640",
+				"to": "00:00:17,420"
+			},
+			"offsets": {
+				"from": 14640,
+				"to": 17420
+			},
+			"text": " Αυτή ποια είναι, η μητέρα σου?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,420",
+				"to": "00:00:18,560"
+			},
+			"offsets": {
+				"from": 17420,
+				"to": 18560
+			},
+			"text": " Ναι."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,560",
+				"to": "00:00:20,020"
+			},
+			"offsets": {
+				"from": 18560,
+				"to": 20020
+			},
+			"text": " Πώς τη λένε?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,020",
+				"to": "00:00:24,800"
+			},
+			"offsets": {
+				"from": 20020,
+				"to": 24800
+			},
+			"text": " Τη λένε Γκόγκ. Και εδώ είναι ο αδερφός μου, ο Τσού."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,800",
+				"to": "00:00:26,720"
+			},
+			"offsets": {
+				"from": 24800,
+				"to": 26720
+			},
+			"text": " Είναι παντρεμένος?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,080",
+				"to": "00:00:32,760"
+			},
+			"offsets": {
+				"from": 27080,
+				"to": 32760
+			},
+			"text": " Ναι, αυτή είμαι η γυναίκα του, Ηλιέν, και αυτός ο γιος τους, ο Ξιάο."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,760",
+				"to": "00:00:34,160"
+			},
+			"offsets": {
+				"from": 32760,
+				"to": 34160
+			},
+			"text": " Πολύ ωραία."
+		}
+	]
+}

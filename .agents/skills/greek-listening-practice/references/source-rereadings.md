@@ -4,7 +4,7 @@ Use this mode only when the user asks to re-record an existing lesson, rather th
 
 Prepare an explicit role-based `script.json` compatible with `scripts/synthesize-role-dialogues.py`: each role has a fixed `male-greek` or `female-greek` voice, and each ordered turn identifies its actual speaker and Greek text. Do not infer speakers solely from sentence/line boundaries. Mark uncertain role assignments. Source scenes with more than two speakers require an explicit plan rather than silently relabeling them as a newly generated two-person dialogue.
 
-Store derivative work in private `data/listening-generated/role-dialogues/<descriptive-name>/`. Keep source transcripts unchanged. The script fields are:
+Store derivative work in shared `data/listening-generated/role-dialogues/<descriptive-name>/`. Keep source transcripts unchanged. The script fields are:
 
 | Field | Meaning |
 | --- | --- |

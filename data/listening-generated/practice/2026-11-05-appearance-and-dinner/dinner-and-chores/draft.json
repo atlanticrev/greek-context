@@ -1,0 +1,148 @@
+{
+  "schema_version": 2,
+  "artifact_type": "generated_practice",
+  "text_origin": "newly_authored",
+  "format": "dialogue",
+  "context_path": "data/listening-generated/practice/2026-11-05-appearance-and-dinner/context/context.json",
+  "inflection_reviews": [
+    {
+      "surface": "μαγειρεύεις",
+      "lemma": "μαγειρεύω",
+      "reason": "2-е лицо единственного числа настоящего времени, глагол типа A."
+    },
+    {
+      "surface": "παραγγέλνουμε",
+      "lemma": "παραγγέλνω",
+      "reason": "1-е лицо множественного числа настоящего времени, тип A."
+    },
+    {
+      "surface": "πλένει",
+      "lemma": "πλένω",
+      "reason": "3-е лицо единственного числа настоящего времени; глагол из карточки πλένω τα πιάτα."
+    },
+    {
+      "surface": "πλένεις",
+      "lemma": "πλένω",
+      "reason": "2-е лицо единственного числа настоящего времени; глагол из карточки πλένω τα πιάτα."
+    },
+    {
+      "surface": "τρως",
+      "lemma": "τρώω",
+      "reason": "2-е лицо единственного числа настоящего времени знакомого глагола τρώω; значение и отрицание есть в карточке Δεν τρώω κρέας."
+    }
+  ],
+  "editorial_review": {
+    "greek_checked": true,
+    "within_studied_grammar": true,
+    "new_situation_checked": true,
+    "notes": "Редакторская проверка Codex: смысл, связность, согласование, артикли, падежи и настоящее время проверены. Два персонажа с постоянными голосами. Ситуация новая и отличается от предыдущих упражнений."
+  },
+  "id": "dinner-and-chores-001",
+  "file_stem": "dialogue-dinner-and-chores",
+  "title": "Что едим и кто моет посуду — новый диалог",
+  "topic_ids": [
+    "topic.habits",
+    "topic.familiar_surroundings"
+  ],
+  "grammar_ids": [
+    "grammar.present_type_a",
+    "grammar.present_type_b1",
+    "grammar.eimai_present",
+    "grammar.present_negation",
+    "grammar.accusative_nouns",
+    "grammar.interrogative_poios",
+    "grammar.adjective_agreement"
+  ],
+  "source_reference_ids": [
+    "holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff",
+    "holst-938bdbd6-b036-4c4f-89b7-a92e6875c417"
+  ],
+  "target_vocabulary": [
+    "πεινάω",
+    "μαγειρεύω",
+    "Δεν τρώω κρέας",
+    "προτιμάω",
+    "παραγγέλνω",
+    "Θέλω ψωμί",
+    "πλένω τα πιάτα",
+    "ανοιχτός, -ή, -ό",
+    "νόστιμος, νόστιμη, νόστιμο"
+  ],
+  "novelty_changes": [
+    "Новая домашняя задача: один человек готовит мясо, второй его не ест; они решают заказать рыбу.",
+    "Разговор заканчивается распределением обязанностей: один готовит и заказывает, другой моет посуду. Есть короткая шутливая реплика.",
+    "Нет знакомства, обсуждения семьи, языка или напитков. В отличие от второго нового диалога здесь выбирают действие и договариваются, а не узнают человека по описанию."
+  ],
+  "roles": {
+    "giorgos": {
+      "label": "Γιώργος",
+      "voice": "male-greek"
+    },
+    "anna": {
+      "label": "Άννα",
+      "voice": "female-greek"
+    }
+  },
+  "turns": [
+    {
+      "role": "giorgos",
+      "text": "Πεινάω. Τι μαγειρεύεις;",
+      "scene": 1
+    },
+    {
+      "role": "anna",
+      "text": "Κρέας. Εσύ τρως κρέας;",
+      "scene": 1
+    },
+    {
+      "role": "giorgos",
+      "text": "Όχι, δεν τρώω κρέας. Προτιμάω ψάρι.",
+      "scene": 1
+    },
+    {
+      "role": "anna",
+      "text": "Εντάξει. Παραγγέλνουμε ψάρι;",
+      "scene": 1
+    },
+    {
+      "role": "giorgos",
+      "text": "Ναι. Το εστιατόριο είναι ανοιχτό;",
+      "scene": 1
+    },
+    {
+      "role": "anna",
+      "text": "Ναι, είναι ανοιχτό. Το ψάρι είναι πολύ νόστιμο.",
+      "scene": 1
+    },
+    {
+      "role": "giorgos",
+      "text": "Ωραία. Εσύ τι τρως;",
+      "scene": 1
+    },
+    {
+      "role": "anna",
+      "text": "Εγώ τρώω κρέας και ψωμί.",
+      "scene": 1
+    },
+    {
+      "role": "giorgos",
+      "text": "Ποιος πλένει τα πιάτα;",
+      "scene": 1
+    },
+    {
+      "role": "anna",
+      "text": "Εσύ! Εγώ μαγειρεύω και παραγγέλνω.",
+      "scene": 1
+    },
+    {
+      "role": "giorgos",
+      "text": "Εντάξει. Πλένω τα πιάτα. Δεν μαγειρεύω πολύ καλά.",
+      "scene": 1
+    },
+    {
+      "role": "anna",
+      "text": "Αλλά πλένεις πολύ καλά τα πιάτα!",
+      "scene": 1
+    }
+  ]
+}

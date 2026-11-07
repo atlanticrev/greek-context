@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "title": "Η οικογένειά μου — знакомство с семьёй",
+  "source_reference_id": "holst-1520d811-1319-4ec0-b2e0-f112d696b47a",
+  "source_transcript": "data/listening-reference-library/transcripts/holst-1520d811-1319-4ec0-b2e0-f112d696b47a.txt",
+  "source_sha256": "9a4439ab8e3ae09266dd1a87a18c9a58f326866a21e6d5973d4219537f9a5a95",
+  "source_images": [
+    "data/boards/104854fd-07d7-4366-8f03-ac49c4bc6b2e/assets/files/e1b57965-0f99-424c-9ea4-1fda246691ad.png"
+  ],
+  "omitted_headings": [
+    "Μάθημα 4. Η οικογένειά μου."
+  ],
+  "role_assignment_status": "roles checked against the printed source; casting uses two LFM presets",
+  "casting_note": "Учебная читка двумя голосами LFM. Для каждой роли закреплён один пресет. В семейной сцене больше двух персонажей; сохранены все роли из печатного задания. Мужские и женские роли распределены между двумя чтецами. Совместные приветствия пар читает один чтец.",
+  "roles": {
+    "laura_flavian": {
+      "label": "Λάουρα και Φλαβιάν",
+      "voice": "female-greek"
+    },
+    "nikos": {
+      "label": "Νίκος",
+      "voice": "male-greek"
+    },
+    "flavian": {
+      "label": "Φλαβιάν",
+      "voice": "male-greek"
+    },
+    "sofia": {
+      "label": "Σοφία",
+      "voice": "female-greek"
+    },
+    "giannis": {
+      "label": "Γιάννης",
+      "voice": "male-greek"
+    },
+    "laura": {
+      "label": "Λάουρα",
+      "voice": "female-greek"
+    },
+    "vangelis": {
+      "label": "Βαγγέλης",
+      "voice": "male-greek"
+    },
+    "pavlos_loukia": {
+      "label": "Παύλος και Λουκία",
+      "voice": "female-greek"
+    }
+  },
+  "turns": [
+    {
+      "role": "laura_flavian",
+      "text": "Καλησπέρα!",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Καλησπέρα! Καλώς ήρθατε. Τι κάνετε;",
+      "scene": 1
+    },
+    {
+      "role": "flavian",
+      "text": "Μια χαρά.",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Παιδιά, από εδώ η μητέρα μου, η Σοφία.",
+      "scene": 1
+    },
+    {
+      "role": "flavian",
+      "text": "Χαίρω πολύ.",
+      "scene": 1
+    },
+    {
+      "role": "sofia",
+      "text": "Κι εγώ.",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Κι από εδώ ο πατέρας μου, ο Γιάννης.",
+      "scene": 1
+    },
+    {
+      "role": "giannis",
+      "text": "Γεια σας.",
+      "scene": 1
+    },
+    {
+      "role": "laura",
+      "text": "Χαίρω πολύ.",
+      "scene": 1
+    },
+    {
+      "role": "vangelis",
+      "text": "Παιδιά, γεια σας.",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Α, να και ο μικρός μου αδελφός, ο Βαγγέλης.",
+      "scene": 1
+    },
+    {
+      "role": "laura",
+      "text": "Γεια.",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Μαμά, πού είναι η Κατερίνα;",
+      "scene": 1
+    },
+    {
+      "role": "sofia",
+      "text": "Δεν είναι εδώ. Είναι ακόμα στη δουλειά.",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Α, ναι, σωστά.",
+      "scene": 1
+    },
+    {
+      "role": "laura",
+      "text": "Ποια είναι η Κατερίνα;",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Η μεγάλη μου αδελφή.",
+      "scene": 1
+    },
+    {
+      "role": "sofia",
+      "text": "Παιδιά, το φαγητό είναι έτοιμο.",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Α, το κουδούνι. Ανοίγω εγώ. Παύλο, Λουκία.",
+      "scene": 1
+    },
+    {
+      "role": "flavian",
+      "text": "Λάουρα, ποιος είναι αυτός;",
+      "scene": 1
+    },
+    {
+      "role": "laura",
+      "text": "Αυτός είναι ο ξάδερφός του. Είναι συμφοιτητής μας στη νομική.",
+      "scene": 1
+    },
+    {
+      "role": "flavian",
+      "text": "Και εκείνη εκεί;",
+      "scene": 1
+    },
+    {
+      "role": "laura",
+      "text": "Είναι η κοπέλα του.",
+      "scene": 1
+    },
+    {
+      "role": "sofia",
+      "text": "Παιδιά, καλώς ήρθατε.",
+      "scene": 1
+    },
+    {
+      "role": "pavlos_loukia",
+      "text": "Γεια σας.",
+      "scene": 1
+    },
+    {
+      "role": "nikos",
+      "text": "Πάνω στην ώρα, σε λίγο τρώμε. Ελάτε.",
+      "scene": 1
+    }
+  ]
+}

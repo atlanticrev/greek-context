@@ -1,0 +1,26 @@
+{
+  "source_audio_start_seconds": 61.4,
+  "duration_seconds": 10.2,
+  "command": [
+    "whisper-cli",
+    "-m",
+    "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3-turbo.bin",
+    "-f",
+    "data/listening-reference-library/raw/experiments/phone-number-check/holst-d3db3b66-ad97-4ad1-9824-371a519a1dc6.wav",
+    "-l",
+    "el",
+    "-t",
+    "8",
+    "-bs",
+    "5",
+    "-bo",
+    "5",
+    "-mc",
+    "0",
+    "-sns",
+    "-of",
+    "data/listening-reference-library/raw/experiments/phone-number-check/holst-d3db3b66-ad97-4ad1-9824-371a519a1dc6-large-v3-turbo",
+    "-otxt",
+    "-oj"
+  ]
+}

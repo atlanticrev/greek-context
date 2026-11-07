@@ -1,0 +1,142 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/max_tarasyuk/Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin",
+		"language": "el",
+		"translate": false
+	},
+	"result": {
+		"language": "el"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,300"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2300
+			},
+			"text": " Καλημέρα. Τι θέλεις?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,300",
+				"to": "00:00:06,580"
+			},
+			"offsets": {
+				"from": 2300,
+				"to": 6580
+			},
+			"text": " Ένα καινούριο πουκάμισο. Το άσπρο κοστίζει 10 ευρώ."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,580",
+				"to": "00:00:09,700"
+			},
+			"offsets": {
+				"from": 6580,
+				"to": 9700
+			},
+			"text": " Όχι, 20 ευρώ. Είναι πολύ ωραίο."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,700",
+				"to": "00:00:11,880"
+			},
+			"offsets": {
+				"from": 9700,
+				"to": 11880
+			},
+			"text": " Είναι ακριβό. Και το μπλε."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:11,880",
+				"to": "00:00:15,900"
+			},
+			"offsets": {
+				"from": 11880,
+				"to": 15900
+			},
+			"text": " Το μπλε κοστίζει 10 ευρώ. Είναι φτηνό, αλλά μικρό."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,900",
+				"to": "00:00:19,780"
+			},
+			"offsets": {
+				"from": 15900,
+				"to": 19780
+			},
+			"text": " Ναι, είναι πολύ μικρό. Το άσπρο είναι μεγάλο."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,780",
+				"to": "00:00:23,880"
+			},
+			"offsets": {
+				"from": 19780,
+				"to": 23880
+			},
+			"text": " Ναι, είναι μεγάλο. Θέλεις το άσπρο ή το μπλε."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,880",
+				"to": "00:00:26,440"
+			},
+			"offsets": {
+				"from": 23880,
+				"to": 26440
+			},
+			"text": " Το άσπρο. Δεν θέλω μικρό πουκάμισο."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,440",
+				"to": "00:00:28,880"
+			},
+			"offsets": {
+				"from": 26440,
+				"to": 28880
+			},
+			"text": " Εντάξει. Αγοράζεις το άσπρο."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,880",
+				"to": "00:00:30,880"
+			},
+			"offsets": {
+				"from": 28880,
+				"to": 30880
+			},
+			"text": " Ναι, αγοράζω το άσπρο."
+		}
+	]
+}

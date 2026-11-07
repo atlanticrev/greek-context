@@ -1,0 +1,139 @@
+{
+  "schema_version": 2,
+  "artifact_type": "generated_practice",
+  "text_origin": "newly_authored",
+  "context_path": "data/listening-generated/practice/2026-11-05-first-variants/context/context.json",
+  "inflection_reviews": [
+    {
+      "surface": "θέλεις",
+      "lemma": "θέλω",
+      "reason": "2-е лицо ед. числа настоящего времени глагола типа A; конструкция вопроса о предпочтении."
+    },
+    {
+      "surface": "μαθαίνει",
+      "lemma": "μαθαίνω",
+      "reason": "3-е лицо ед. числа настоящего времени, глагол типа A."
+    }
+  ],
+  "editorial_review": {
+    "greek_checked": true,
+    "within_studied_grammar": true,
+    "new_situation_checked": true,
+    "notes": "Редакторская проверка Codex: простое настоящее время, согласование и управление; бытовая ситуация и факты вымышлены. Используется ранее представленный материал, владение ученика не утверждается."
+  },
+  "id": "coffee-and-family-001",
+  "title": "Кофе, семья и работа — новый диалог",
+  "format": "dialogue",
+  "topic_ids": [
+    "topic.habits",
+    "topic.people_around_me",
+    "topic.language_learning"
+  ],
+  "grammar_ids": [
+    "grammar.eimai_present",
+    "grammar.present_type_a",
+    "grammar.present_type_b1",
+    "grammar.possessive_pronouns",
+    "grammar.prepositions_accusative",
+    "grammar.se_article_contractions",
+    "grammar.present_negation"
+  ],
+  "source_reference_ids": [
+    "holst-c8ea17b1-dba7-4304-aaa3-2813fe7395ff",
+    "holst-32af7bb1-268d-4346-b25d-99c589e51c2e"
+  ],
+  "target_vocabulary": [
+    "προτιμάω",
+    "περιμένω",
+    "αγοράζω",
+    "διψάω",
+    "διδάσκω",
+    "μαθαίνω",
+    "μιλάω",
+    "η αδελφή",
+    "η γυναίκα"
+  ],
+  "novelty_changes": [
+    "Новая задача разговора: выбрать напиток и дождаться сестры, а не знакомиться и спрашивать происхождение.",
+    "Новые факты: сестра работает в аптеке; собеседник преподаёт греческий, его жена — инженер и учит язык.",
+    "Разговор сопоставляет язык дома и на работе и заканчивается покупкой кофе и воды. Изменены последовательность вопросов и ответы."
+  ],
+  "roles": {
+    "kostas": {
+      "label": "Κώστας",
+      "voice": "male-greek"
+    },
+    "eleni": {
+      "label": "Ελένη",
+      "voice": "female-greek"
+    }
+  },
+  "turns": [
+    {
+      "role": "kostas",
+      "text": "Γεια σου, Ελένη! Θέλεις έναν καφέ;",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Ναι, ευχαριστώ. Προτιμάω κρύο καφέ. Εσύ;",
+      "scene": 1
+    },
+    {
+      "role": "kostas",
+      "text": "Εγώ προτιμάω ζεστό καφέ. Τι κάνεις τώρα;",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Περιμένω την αδελφή μου. Δουλεύει στο φαρμακείο.",
+      "scene": 1
+    },
+    {
+      "role": "kostas",
+      "text": "Είναι φαρμακοποιός;",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Ναι. Εσύ τι δουλειά κάνεις;",
+      "scene": 1
+    },
+    {
+      "role": "kostas",
+      "text": "Διδάσκω ελληνικά. Η γυναίκα μου είναι μηχανικός.",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Μιλάει ελληνικά;",
+      "scene": 1
+    },
+    {
+      "role": "kostas",
+      "text": "Όχι πολύ καλά. Μαθαίνει τώρα.",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Εμείς μιλάμε ελληνικά στο σπίτι. Η μητέρα μου είναι από την Ελλάδα.",
+      "scene": 1
+    },
+    {
+      "role": "kostas",
+      "text": "Ωραία! Εγώ μιλάω ελληνικά στη δουλειά.",
+      "scene": 1
+    },
+    {
+      "role": "eleni",
+      "text": "Τώρα αγοράζω έναν καφέ για την αδελφή μου. Εσύ;",
+      "scene": 1
+    },
+    {
+      "role": "kostas",
+      "text": "Εγώ αγοράζω και νερό. Διψάω!",
+      "scene": 1
+    }
+  ],
+  "file_stem": "dialogue-about-coffee"
+}

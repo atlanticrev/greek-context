@@ -1,0 +1,3616 @@
+{
+  "schema_version": 1,
+  "title": "Греческо-русский словарь: лексика, пройденная с учителем",
+  "created_at": "2026-11-04T16:40:05.816504+00:00",
+  "languages": {
+    "greek": "el",
+    "russian": "ru"
+  },
+  "learning_context": {
+    "studied_with_teacher": true,
+    "basis": "Для первых семи наборов пользователь ранее сообщил, что они пройдены с учителем. Наборы 889377441 и 805813890 добавлены по прямым ссылкам пользователя 2026-11-07 как introduced; выполнение упражнений или знание новых слов не проверялось.",
+    "evidence_level": "introduced",
+    "mastery_assessed": false,
+    "note": "Источники фиксируют введённую лексику, а не владение каждым словом. Метки прогресса Quizlet не использованы как подтверждение знания. Для новых добавлений смотрите learning_context у источника."
+  },
+  "editorial_policy": {
+    "extraction": "Все карточки из полного отображаемого списка каждого набора через официальный Chrome DevTools CLI; новые наборы — в постоянном выделенном профиле Chrome.",
+    "deduplication": "Объединены только полностью совпадающие пары после нормализации Unicode NFC и удаления внешних пробелов. Все исходные вхождения сохранены в sources.",
+    "forms": "Артикли, варианты рода, словосочетания и полные примеры из карточек сохранены.",
+    "corrections": "Явные опечатки и выявленные ошибки перевода исправлены с указанием оригинала и причины в corrections. Остальные переводы перенесены из Quizlet.",
+    "numbers": "В исходном наборе числительные переведены цифрами. Добавлен русский перевод словами; цифры сохранены в source_translation и numeric_value.",
+    "source_rows": "sources[].row — номер строки в локальном снимке соответствующего набора на момент извлечения, а не внутренний ID карточки Quizlet."
+  },
+  "summary": {
+    "source_sets": 9,
+    "source_cards": 329,
+    "entries": 325,
+    "duplicate_cards_merged": 4,
+    "corrected_entries": 16,
+    "number_translations_added": 22,
+    "complete": true
+  },
+  "sources": [
+    {
+      "id": "905103325",
+      "title": "Ρήματα/Глаголы τύπος Α",
+      "url": "https://quizlet.com/905103325/%CF%81%CE%AE%CE%BC%CE%B1%CF%84%CE%B1%D0%B3%D0%BB%D0%B0%D0%B3%D0%BE%D0%BB%D1%8B-%CF%84%CF%8D%CF%80%CE%BF%CF%82-%CE%B1-flash-cards/?i=41ygik&x=1jqY",
+      "extracted_at": "2026-11-04T16:31:17.587Z",
+      "card_count": 47,
+      "extracted_card_count": 47,
+      "unique_pair_count": 44,
+      "complete": true,
+      "snapshot_path": "quizlet/raw/905103325.json"
+    },
+    {
+      "id": "904285498",
+      "title": "Ρήματα Β1",
+      "url": "https://quizlet.com/904285498/%CF%81%CE%AE%CE%BC%CE%B1%CF%84%CE%B1-%CE%B21-flash-cards/?i=41ygik&x=1jqY",
+      "extracted_at": "2026-11-04T16:33:09.826Z",
+      "card_count": 33,
+      "extracted_card_count": 33,
+      "unique_pair_count": 33,
+      "complete": true,
+      "snapshot_path": "quizlet/raw/904285498.json"
+    },
+    {
+      "id": "899920264",
+      "title": "Выражения без артикля",
+      "url": "https://quizlet.com/899920264/%D0%B2%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B1%D0%B5%D0%B7-%D0%B0%D1%80%D1%82%D0%B8%D0%BA%D0%BB%D1%8F-flash-cards/?i=41ygik&x=1jqY",
+      "extracted_at": "2026-11-04T16:33:28.233Z",
+      "card_count": 19,
+      "extracted_card_count": 19,
+      "unique_pair_count": 19,
+      "complete": true,
+      "snapshot_path": "quizlet/raw/899920264.json"
+    },
+    {
+      "id": "889378526",
+      "title": "επίθετα (прилагательные)",
+      "url": "https://quizlet.com/889378526/%CE%B5%CF%80%CE%AF%CE%B8%CE%B5%CF%84%CE%B1-%D0%BF%D1%80%D0%B8%D0%BB%D0%B0%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-flash-cards/?i=41ygik&x=1jqt",
+      "extracted_at": "2026-11-04T16:33:46.061Z",
+      "card_count": 78,
+      "extracted_card_count": 78,
+      "unique_pair_count": 78,
+      "complete": true,
+      "snapshot_path": "quizlet/raw/889378526.json"
+    },
+    {
+      "id": "816123749",
+      "title": "Η οικογένεια",
+      "url": "https://quizlet.com/ru/816123749/%CE%B7-%CE%BF%CE%B9%CE%BA%CE%BF%CE%B3%CE%AD%CE%BD%CE%B5%CE%B9%CE%B1-flash-cards/?i=41ygik&x=1jqY",
+      "extracted_at": "2026-11-04T16:34:14.170Z",
+      "card_count": 30,
+      "extracted_card_count": 30,
+      "unique_pair_count": 30,
+      "complete": true,
+      "snapshot_path": "quizlet/raw/816123749.json"
+    },
+    {
+      "id": "803088534",
+      "title": "Αριθμητικά (απόλυτα)",
+      "url": "https://quizlet.com/ru/803088534/%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AC-%CE%B1%CF%80%CF%8C%CE%BB%CF%85%CF%84%CE%B1-flash-cards/?i=41ygik&x=1jqY",
+      "extracted_at": "2026-11-04T16:34:33.207Z",
+      "card_count": 22,
+      "extracted_card_count": 22,
+      "unique_pair_count": 22,
+      "complete": true,
+      "snapshot_path": "quizlet/raw/803088534.json"
+    },
+    {
+      "id": "920766939",
+      "title": "εξωτερική εμφάνιση",
+      "url": "https://quizlet.com/920766939/%CE%B5%CE%BE%CF%89%CF%84%CE%B5%CF%81%CE%B9%CE%BA%CE%AE-%CE%B5%CE%BC%CF%86%CE%AC%CE%BD%CE%B9%CF%83%CE%B7-flash-cards/?i=41ygik&x=1jqt",
+      "extracted_at": "2026-11-04T16:34:47.510Z",
+      "card_count": 33,
+      "extracted_card_count": 33,
+      "unique_pair_count": 33,
+      "complete": true,
+      "snapshot_path": "quizlet/raw/920766939.json"
+    },
+    {
+      "id": "889377441",
+      "title": "Η εθνικότητα \\ Национальность",
+      "url": "https://quizlet.com/889377441/%CE%B7-%CE%B5%CE%B8%CE%BD%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C-flash-cards/?i=41ygik&x=1jqt",
+      "extracted_at": "2026-11-07T16:40:37.208Z",
+      "card_count": 29,
+      "extracted_card_count": 29,
+      "complete": true,
+      "unique_pair_count": 29,
+      "snapshot_path": "quizlet/raw/889377441.json",
+      "learning_context": {
+        "evidence_level": "introduced",
+        "basis": "Пользователь передал ссылку на набор для пополнения словаря; карточки полностью прочитаны.",
+        "mastery_assessed": false
+      }
+    },
+    {
+      "id": "805813890",
+      "title": "Τα επαγγέλματα. Профессии",
+      "url": "https://quizlet.com/ru/805813890/%CF%84%CE%B1-%CE%B5%CF%80%CE%B1%CE%B3%CE%B3%CE%AD%CE%BB%CE%BC%CE%B1%CF%84%CE%B1-%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%B8-flash-cards/?i=41ygik&x=1jqY",
+      "extracted_at": "2026-11-07T16:49:09.759Z",
+      "card_count": 38,
+      "extracted_card_count": 38,
+      "complete": true,
+      "unique_pair_count": 38,
+      "snapshot_path": "quizlet/raw/805813890.json",
+      "learning_context": {
+        "evidence_level": "introduced",
+        "basis": "Пользователь передал ссылку на набор для пополнения словаря; все карточки прочитаны после выполненной пользователем human verification.",
+        "mastery_assessed": false
+      }
+    }
+  ],
+  "entries": [
+    {
+      "greek": "διδάσκω",
+      "russian": "преподавать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 1
+        }
+      ]
+    },
+    {
+      "greek": "κοστίζω",
+      "russian": "стоить",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 2
+        }
+      ]
+    },
+    {
+      "greek": "αρχίζω",
+      "russian": "начинать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 3
+        },
+        {
+          "set_id": "905103325",
+          "row": 20
+        }
+      ]
+    },
+    {
+      "greek": "τελειώνω",
+      "russian": "заканчивать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 4
+        }
+      ]
+    },
+    {
+      "greek": "επιστρέφω",
+      "russian": "возвращаться (2)",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 5
+        }
+      ]
+    },
+    {
+      "greek": "κλείνω",
+      "russian": "закрывать, выключать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 6
+        }
+      ]
+    },
+    {
+      "greek": "προσέχω",
+      "russian": "быть внимательным",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 7
+        }
+      ]
+    },
+    {
+      "greek": "ανοίγω",
+      "russian": "открывать, включать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 8
+        }
+      ]
+    },
+    {
+      "greek": "μεταφράζω",
+      "russian": "переводить",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 9
+        }
+      ]
+    },
+    {
+      "greek": "φεύγω",
+      "russian": "уходить",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 10
+        }
+      ]
+    },
+    {
+      "greek": "ταξιδεύω",
+      "russian": "путешествовать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 11
+        },
+        {
+          "set_id": "905103325",
+          "row": 21
+        }
+      ]
+    },
+    {
+      "greek": "μαγειρεύω",
+      "russian": "готовить",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 12
+        },
+        {
+          "set_id": "905103325",
+          "row": 28
+        }
+      ]
+    },
+    {
+      "greek": "παραγγέλνω",
+      "russian": "заказывать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 13
+        }
+      ]
+    },
+    {
+      "greek": "αλλάζω",
+      "russian": "менять",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 14
+        }
+      ]
+    },
+    {
+      "greek": "βγαίνω",
+      "russian": "выходить",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 15
+        }
+      ]
+    },
+    {
+      "greek": "μπαίνω",
+      "russian": "входить",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 16
+        }
+      ]
+    },
+    {
+      "greek": "γιορτάζω",
+      "russian": "праздновать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 17
+        }
+      ]
+    },
+    {
+      "greek": "στολίζω",
+      "russian": "украшать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 18
+        }
+      ]
+    },
+    {
+      "greek": "κρυώνω",
+      "russian": "замерзать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 19
+        }
+      ]
+    },
+    {
+      "greek": "πλέκω",
+      "russian": "вязать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 22
+        }
+      ]
+    },
+    {
+      "greek": "ράβω",
+      "russian": "шить",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 23
+        }
+      ]
+    },
+    {
+      "greek": "πλένω τα δόντια μου",
+      "russian": "чистить зубы",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 24
+        }
+      ]
+    },
+    {
+      "greek": "πλένω το πρόσωπό μου",
+      "russian": "умывать лицо",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 25
+        }
+      ]
+    },
+    {
+      "greek": "πλένω τα πιάτα",
+      "russian": "мыть посуду",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 26
+        }
+      ]
+    },
+    {
+      "greek": "βλέπω τηλεόραση",
+      "russian": "смотреть телевизор",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 27
+        }
+      ]
+    },
+    {
+      "greek": "γυρίζω",
+      "russian": "возвращаться",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 29
+        }
+      ]
+    },
+    {
+      "greek": "θέλω",
+      "russian": "хотеть",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 30
+        }
+      ]
+    },
+    {
+      "greek": "δουλεύω",
+      "russian": "работать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 31
+        }
+      ]
+    },
+    {
+      "greek": "μαθαίνω",
+      "russian": "учить",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 32
+        }
+      ]
+    },
+    {
+      "greek": "διαβάζω",
+      "russian": "читать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 33
+        }
+      ]
+    },
+    {
+      "greek": "γράφω",
+      "russian": "писать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 34
+        }
+      ]
+    },
+    {
+      "greek": "βλέπω",
+      "russian": "видеть",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 35
+        }
+      ]
+    },
+    {
+      "greek": "γνωρίζω",
+      "russian": "знать, быть знакомым",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 36
+        }
+      ]
+    },
+    {
+      "greek": "πίνω",
+      "russian": "пить",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 37
+        }
+      ]
+    },
+    {
+      "greek": "κάνω μακιγιάζ",
+      "russian": "делать макияж",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 38
+        }
+      ]
+    },
+    {
+      "greek": "φτιάχνω/ετοιμάζω καφέ",
+      "russian": "готовить кофе",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 39
+        }
+      ]
+    },
+    {
+      "greek": "μένω",
+      "russian": "жить, оставаться",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 40
+        }
+      ]
+    },
+    {
+      "greek": "κάνω",
+      "russian": "делать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 41
+        }
+      ]
+    },
+    {
+      "greek": "έχω",
+      "russian": "иметь",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 42
+        }
+      ]
+    },
+    {
+      "greek": "ξέρω",
+      "russian": "знать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 43
+        }
+      ]
+    },
+    {
+      "greek": "καταλαβαίνω",
+      "russian": "понимать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 44
+        }
+      ]
+    },
+    {
+      "greek": "πηγαίνω",
+      "russian": "идти, ехать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 45
+        }
+      ]
+    },
+    {
+      "greek": "περιμένω",
+      "russian": "ждать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 46
+        }
+      ]
+    },
+    {
+      "greek": "αγοράζω",
+      "russian": "покупать",
+      "sources": [
+        {
+          "set_id": "905103325",
+          "row": 47
+        }
+      ]
+    },
+    {
+      "greek": "συναντάω",
+      "russian": "встречать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 1
+        }
+      ]
+    },
+    {
+      "greek": "περνάω",
+      "russian": "проходить, проводить (время)",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 2
+        }
+      ]
+    },
+    {
+      "greek": "ρωτάω",
+      "russian": "спрашивать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 3
+        }
+      ]
+    },
+    {
+      "greek": "απαντάω",
+      "russian": "отвечать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 4
+        }
+      ]
+    },
+    {
+      "greek": "ξεχνάω",
+      "russian": "забывать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 5
+        }
+      ]
+    },
+    {
+      "greek": "βοηθάω",
+      "russian": "помогать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 6
+        }
+      ]
+    },
+    {
+      "greek": "πεινάω",
+      "russian": "быть голодным",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 7
+        }
+      ]
+    },
+    {
+      "greek": "διψάω",
+      "russian": "хотеть пить",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 8
+        }
+      ]
+    },
+    {
+      "greek": "χαμογελάω",
+      "russian": "улыбаться",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 9
+        }
+      ]
+    },
+    {
+      "greek": "κρατάω",
+      "russian": "держать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 10
+        }
+      ]
+    },
+    {
+      "greek": "χαλάω",
+      "russian": "портить",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 11
+        }
+      ]
+    },
+    {
+      "greek": "πονάω",
+      "russian": "болеть",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 12
+        }
+      ]
+    },
+    {
+      "greek": "μελετάω",
+      "russian": "изучать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 13
+        }
+      ]
+    },
+    {
+      "greek": "χτυπάω",
+      "russian": "бить",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 14
+        }
+      ]
+    },
+    {
+      "greek": "τραγουδάω",
+      "russian": "петь",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 15
+        }
+      ]
+    },
+    {
+      "greek": "κολυμπάω",
+      "russian": "плавать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 16
+        }
+      ]
+    },
+    {
+      "greek": "συζητάω",
+      "russian": "обсуждать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 17
+        }
+      ]
+    },
+    {
+      "greek": "περπατάω",
+      "russian": "идти пешком",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 18
+        }
+      ]
+    },
+    {
+      "greek": "γεννάω",
+      "russian": "рожать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 19
+        }
+      ]
+    },
+    {
+      "greek": "νικάω",
+      "russian": "побеждать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 20
+        }
+      ]
+    },
+    {
+      "greek": "χαιρετάω",
+      "russian": "приветствовать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 21
+        }
+      ]
+    },
+    {
+      "greek": "χρωστάω",
+      "russian": "быть должным",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 22
+        }
+      ]
+    },
+    {
+      "greek": "φιλάω",
+      "russian": "целовать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 23
+        }
+      ]
+    },
+    {
+      "greek": "μετράω",
+      "russian": "считать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 24
+        }
+      ]
+    },
+    {
+      "greek": "ξυπνάω",
+      "russian": "просыпаться",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 25
+        }
+      ]
+    },
+    {
+      "greek": "φυσάω",
+      "russian": "дуть",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 26
+        }
+      ]
+    },
+    {
+      "greek": "πουλάω",
+      "russian": "продавать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 27
+        }
+      ]
+    },
+    {
+      "greek": "προτιμάω",
+      "russian": "предпочитать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 28
+        }
+      ]
+    },
+    {
+      "greek": "φοράω",
+      "russian": "носить, надевать",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 29
+        }
+      ]
+    },
+    {
+      "greek": "μιλάω",
+      "russian": "разговаривать, говорить",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 30
+        }
+      ]
+    },
+    {
+      "greek": "αγαπάω",
+      "russian": "любить",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 31
+        }
+      ]
+    },
+    {
+      "greek": "γελάω",
+      "russian": "смеяться",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 32
+        }
+      ]
+    },
+    {
+      "greek": "σταματάω",
+      "russian": "останавливаться",
+      "sources": [
+        {
+          "set_id": "904285498",
+          "row": 33
+        }
+      ]
+    },
+    {
+      "greek": "Δεν τρώω κρέας",
+      "russian": "Я не ем мясо",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 1
+        }
+      ]
+    },
+    {
+      "greek": "Φοράω άσπρο πουκάμισο",
+      "russian": "Ношу белую рубашку",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 2
+        }
+      ]
+    },
+    {
+      "greek": "Οδηγώ αυτοκίνητο",
+      "russian": "Вожу машину",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 3
+        }
+      ]
+    },
+    {
+      "greek": "Έχω κέφι",
+      "russian": "У меня хорошее настроение",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 4
+        }
+      ]
+    },
+    {
+      "greek": "Έχω δίκιο",
+      "russian": "Я прав",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 5
+        }
+      ]
+    },
+    {
+      "greek": "Παίζω πιάνο",
+      "russian": "Играть на пианино (и др.инструментах)",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 6
+        }
+      ]
+    },
+    {
+      "greek": "Παίζω μπάλα",
+      "russian": "Играть в мяч, в футбол",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 7
+        }
+      ]
+    },
+    {
+      "greek": "Παίρνω τηλέφωνο",
+      "russian": "Звоню",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 8
+        }
+      ]
+    },
+    {
+      "greek": "Τον λένε Κώστα",
+      "russian": "Его зовут Костас",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 9
+        }
+      ]
+    },
+    {
+      "greek": "Γεια σου, Κώστα",
+      "russian": "Привет, Костас",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 10
+        }
+      ]
+    },
+    {
+      "greek": "Ακούω μουσική",
+      "russian": "Слушаю музыку",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 11
+        }
+      ]
+    },
+    {
+      "greek": "Θέλω ψωμί",
+      "russian": "Хочу хлеб",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 12
+        }
+      ]
+    },
+    {
+      "greek": "Βλέπω τηλεόραση",
+      "russian": "Смотрю телевизор",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 13
+        }
+      ]
+    },
+    {
+      "greek": "Έχω μάθημα",
+      "russian": "У меня урок",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 14
+        }
+      ]
+    },
+    {
+      "greek": "Κάνει ζέστη",
+      "russian": "Жарко",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 15
+        }
+      ]
+    },
+    {
+      "greek": "Κάνω βόλτα",
+      "russian": "Гуляю",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 16
+        }
+      ]
+    },
+    {
+      "greek": "Κάνω μπάνιο",
+      "russian": "Принимать ванну, душ",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 17
+        }
+      ]
+    },
+    {
+      "greek": "Είμαι Άγγλος",
+      "russian": "Я англичанин",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 18
+        }
+      ]
+    },
+    {
+      "greek": "Είμαι δάσκαλος",
+      "russian": "Я учитель",
+      "sources": [
+        {
+          "set_id": "899920264",
+          "row": 19
+        }
+      ]
+    },
+    {
+      "greek": "όμορφος, -η, -ο",
+      "russian": "красивый",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 1
+        }
+      ]
+    },
+    {
+      "greek": "Ένας όμορφος γάτος",
+      "russian": "Красивый кот",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 2
+        }
+      ]
+    },
+    {
+      "greek": "καλός, -ή, -ό",
+      "russian": "хороший",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 3
+        }
+      ]
+    },
+    {
+      "greek": "Μια καλή φίλη",
+      "russian": "Хорошая подруга",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 4
+        }
+      ]
+    },
+    {
+      "greek": "ωραίος, -α, -ο",
+      "russian": "красивый, хороший",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 5
+        }
+      ]
+    },
+    {
+      "greek": "Μια ωραία κοπέλα",
+      "russian": "Красивая девушка",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 6
+        }
+      ]
+    },
+    {
+      "greek": "άσχημος, -η, -ο",
+      "russian": "некрасивый, ужасный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 7
+        }
+      ]
+    },
+    {
+      "greek": "Ένας άσχημος χαρακτήρας",
+      "russian": "Ужасный характер",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 8
+        }
+      ]
+    },
+    {
+      "greek": "μεγάλος, -η, -ο",
+      "russian": "большой, взрослый",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 9
+        }
+      ]
+    },
+    {
+      "greek": "Ο μεγάλος μου αδερφός",
+      "russian": "Мой старший брат",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 10
+        }
+      ]
+    },
+    {
+      "greek": "μικρός, -ή, -ό",
+      "russian": "маленький",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 11
+        }
+      ],
+      "corrections": [
+        {
+          "field": "greek",
+          "original": "μικρός, -η, -ο",
+          "corrected": "μικρός, -ή, -ό",
+          "reason": "Исправлены ударения в окончаниях женского и среднего рода по словарю.",
+          "reference_url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BC%CE%B9%CE%BA%CF%81%CF%8C%CF%82&dq="
+        }
+      ]
+    },
+    {
+      "greek": "Η μικρή μου αδερφή",
+      "russian": "Моя младшая сестра",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 12
+        }
+      ]
+    },
+    {
+      "greek": "έτοιμος, -η, -ο",
+      "russian": "готовый",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 13
+        }
+      ]
+    },
+    {
+      "greek": "Είμαι πάντα έτοιμος",
+      "russian": "Я всегда готов",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 14
+        }
+      ]
+    },
+    {
+      "greek": "παντρεμένος, -η,-ο",
+      "russian": "женатый",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 15
+        }
+      ]
+    },
+    {
+      "greek": "Είσαι παντρεμένος;",
+      "russian": "Ты женат?",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 16
+        }
+      ]
+    },
+    {
+      "greek": "ελεύθερος, -η, -ο",
+      "russian": "свободный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 17
+        }
+      ]
+    },
+    {
+      "greek": "Είμαι ελεύθερος",
+      "russian": "Я свободный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 18
+        }
+      ]
+    },
+    {
+      "greek": "χωρισμένος, -η, -ο",
+      "russian": "разведённый",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 19
+        }
+      ]
+    },
+    {
+      "greek": "Είναι χωρισμένη;",
+      "russian": "Она разведена?",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 20
+        }
+      ]
+    },
+    {
+      "greek": "ξένος, -η, -ο",
+      "russian": "иностранный, чужой",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 21
+        }
+      ]
+    },
+    {
+      "greek": "Ο Γιώργος είναι ξένος",
+      "russian": "Йоргос - иностранец",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 22
+        }
+      ]
+    },
+    {
+      "greek": "γνωστός, -η, -ο",
+      "russian": "знакомый, известный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 23
+        }
+      ]
+    },
+    {
+      "greek": "Ένας γνωστός ηθοποιός",
+      "russian": "Известный актер",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 24
+        }
+      ]
+    },
+    {
+      "greek": "ακριβός, -ή, -ό",
+      "russian": "дорогой",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 25
+        }
+      ]
+    },
+    {
+      "greek": "Ένα ακριβό αυτοκίνητο",
+      "russian": "Дорогая машина",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 26
+        }
+      ]
+    },
+    {
+      "greek": "φτηνός, -ή, -ό",
+      "russian": "дешёвый",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 27
+        }
+      ]
+    },
+    {
+      "greek": "Ένα φτηνό αυτοκίνητο",
+      "russian": "Дешевая машина",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 28
+        }
+      ]
+    },
+    {
+      "greek": "πλούσιος, -α, -ο",
+      "russian": "богатый",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 29
+        }
+      ]
+    },
+    {
+      "greek": "Μια πλούσια οικογένεια",
+      "russian": "Богатая семья",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 30
+        }
+      ]
+    },
+    {
+      "greek": "φτωχός, -ή, -ό",
+      "russian": "бедный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 31
+        }
+      ]
+    },
+    {
+      "greek": "Μια φτωχή οικογένεια",
+      "russian": "Бедная семья",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 32
+        }
+      ]
+    },
+    {
+      "greek": "ελληνικός, -ή, -ό",
+      "russian": "греческий",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 33
+        }
+      ],
+      "corrections": [
+        {
+          "field": "greek",
+          "original": "ελληνικός, -η, -ο",
+          "corrected": "ελληνικός, -ή, -ό",
+          "reason": "Исправлены ударения в окончаниях женского и среднего рода по словарю.",
+          "reference_url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CF%8C%CF%82&dq="
+        }
+      ]
+    },
+    {
+      "greek": "Μου αρέσει η ελληνική μουσική",
+      "russian": "Мне нравится греческая музыка",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 34
+        }
+      ]
+    },
+    {
+      "greek": "ρωσικός, -ή, -ό",
+      "russian": "русский",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 35
+        }
+      ]
+    },
+    {
+      "greek": "Δεν μου αρέσει η ρωσική μουσική",
+      "russian": "Мне не нравится русская музыка",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 36
+        }
+      ],
+      "corrections": [
+        {
+          "field": "russian",
+          "original": "Мне не ноавится русская музыка",
+          "corrected": "Мне не нравится русская музыка",
+          "reason": "Исправлена явная опечатка в русском переводе."
+        }
+      ]
+    },
+    {
+      "greek": "ανοιχτός, -ή, -ό",
+      "russian": "открытый",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 37
+        }
+      ],
+      "corrections": [
+        {
+          "field": "greek",
+          "original": "ανοιχτός, -η, -ο",
+          "corrected": "ανοιχτός, -ή, -ό",
+          "reason": "Исправлены ударения в окончаниях женского и среднего рода по словарю.",
+          "reference_url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B1%CE%BD%CE%BF%CE%B9%CF%87%CF%84%CF%8C%CF%82&dq="
+        }
+      ]
+    },
+    {
+      "greek": "Το φαρμακείο είναι ανοιχτό",
+      "russian": "Аптека открыта",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 38
+        }
+      ]
+    },
+    {
+      "greek": "κλειστός, -ή, -ό",
+      "russian": "закрытый",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 39
+        }
+      ],
+      "corrections": [
+        {
+          "field": "greek",
+          "original": "κλειστός, -η, -ο",
+          "corrected": "κλειστός, -ή, -ό",
+          "reason": "Исправлены ударения в окончаниях женского и среднего рода по словарю.",
+          "reference_url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%BA%CE%BB%CE%B5%CE%B9%CF%83%CF%84%CF%8C%CF%82&dq="
+        }
+      ]
+    },
+    {
+      "greek": "Το φαρμακείο είναι κλειστό",
+      "russian": "Аптека закрыта",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 40
+        }
+      ]
+    },
+    {
+      "greek": "ζεστός, -ή, -ό",
+      "russian": "тёплый, горячий",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 41
+        }
+      ]
+    },
+    {
+      "greek": "Έναν ζεστό καφέ, παρακαλώ",
+      "russian": "Один горячий кофе, пожалуйста",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 42
+        }
+      ]
+    },
+    {
+      "greek": "κρύος, -α, -ο",
+      "russian": "холодный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 43
+        }
+      ]
+    },
+    {
+      "greek": "Ένα κρύο νερό, παρακαλώ",
+      "russian": "Одну (бутылку) холодной воды, пожалуйста",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 44
+        }
+      ]
+    },
+    {
+      "greek": "παγωμένος, -η, -ο",
+      "russian": "ледяной",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 45
+        }
+      ],
+      "corrections": [
+        {
+          "field": "greek",
+          "original": "παγωμένος, -η, -α",
+          "corrected": "παγωμένος, -η, -ο",
+          "reason": "Исправлено окончание среднего рода: παγωμένο.",
+          "reference_url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CE%B1%CE%B3%CF%8E%CE%BD%CF%89&dq="
+        }
+      ]
+    },
+    {
+      "greek": "Ένα παγωμένο νερό, παρακαλώ",
+      "russian": "Одну очень холодную (ледяную) воду, пожалуйста",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 46
+        }
+      ]
+    },
+    {
+      "greek": "νέος, -α, -ο",
+      "russian": "новый, молодой",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 47
+        }
+      ]
+    },
+    {
+      "greek": "Ποιος είναι αυτός ο νέος;",
+      "russian": "Кто этот молодой человек?",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 48
+        }
+      ]
+    },
+    {
+      "greek": "καινούργιος, -α, -ο",
+      "russian": "новый",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 49
+        }
+      ]
+    },
+    {
+      "greek": "Είναι ο καινούργιος μας γείτονας",
+      "russian": "Это наш новый сосед",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 50
+        }
+      ]
+    },
+    {
+      "greek": "παλιός, παλιά, παλιό",
+      "russian": "старый",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 51
+        }
+      ]
+    },
+    {
+      "greek": "Ένα παλιό σπίτι",
+      "russian": "Старый дом",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 52
+        }
+      ]
+    },
+    {
+      "greek": "αρχαίος, αρχαία, αρχαίο",
+      "russian": "древний",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 53
+        }
+      ]
+    },
+    {
+      "greek": "Ένα αρχαίο θέατρο",
+      "russian": "Древний театр",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 54
+        }
+      ]
+    },
+    {
+      "greek": "αστείος, αστεία, αστείο",
+      "russian": "смешной",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 55
+        }
+      ]
+    },
+    {
+      "greek": "Μια αστεία συμπεριφορά",
+      "russian": "Смешное поведение",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 56
+        }
+      ]
+    },
+    {
+      "greek": "βαρετός, βαρετή, βαρετό",
+      "russian": "скучный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 57
+        }
+      ]
+    },
+    {
+      "greek": "Ένα πολύ βαρετό μάθημα",
+      "russian": "Очень скучный урок",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 58
+        }
+      ]
+    },
+    {
+      "greek": "ψηλός, ψηλή, ψηλό",
+      "russian": "высокий",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 59
+        },
+        {
+          "set_id": "920766939",
+          "row": 12
+        }
+      ]
+    },
+    {
+      "greek": "Ο άντρας μου είναι ψηλός",
+      "russian": "Мой муж - высокий",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 60
+        }
+      ]
+    },
+    {
+      "greek": "κοντός, κοντή, κοντό",
+      "russian": "низкий",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 61
+        }
+      ]
+    },
+    {
+      "greek": "μέτριος, μέτρια, μέτριο",
+      "russian": "средний",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 62
+        }
+      ]
+    },
+    {
+      "greek": "γλυκός, γλυκιά, γλυκό",
+      "russian": "сладкий",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 63
+        }
+      ]
+    },
+    {
+      "greek": "νόστιμος, νόστιμη, νόστιμο",
+      "russian": "вкусный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 64
+        }
+      ]
+    },
+    {
+      "greek": "άνοστος, -η, -ο",
+      "russian": "безвкусный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 65
+        }
+      ]
+    },
+    {
+      "greek": "έξυπνος, έξυπνη, έξυπνο",
+      "russian": "умный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 66
+        }
+      ]
+    },
+    {
+      "greek": "χαζός, χαζή, χαζό",
+      "russian": "глупый",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 67
+        }
+      ]
+    },
+    {
+      "greek": "τρελός, τρελή, τρελό",
+      "russian": "сумасшедший",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 68
+        }
+      ]
+    },
+    {
+      "greek": "δυνατός, δυνατή, δυνατό",
+      "russian": "сильный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 69
+        }
+      ]
+    },
+    {
+      "greek": "μοντέρνος, μοντέρνα, μοντέρνο",
+      "russian": "модный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 70
+        }
+      ]
+    },
+    {
+      "greek": "βραστός, -ή, -ό",
+      "russian": "вареный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 71
+        }
+      ]
+    },
+    {
+      "greek": "τηγανητός, -ή, -ό",
+      "russian": "жареный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 72
+        }
+      ],
+      "corrections": [
+        {
+          "field": "greek",
+          "original": "τηγανιτός, -η, -ο",
+          "corrected": "τηγανητός, -ή, -ό",
+          "reason": "Написание приведено к словарной форме τηγανητός; восстановлены ударения в окончаниях.",
+          "reference_url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%84%CE%B7%CE%B3%CE%B1%CE%BD%CE%B7%CF%84%CF%8C%CF%82&dq="
+        }
+      ]
+    },
+    {
+      "greek": "ψητός, -ή, -ό",
+      "russian": "запечённый, приготовленный на гриле",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 73
+        }
+      ],
+      "corrections": [
+        {
+          "field": "russian",
+          "original": "тушеный, запеченный",
+          "corrected": "запечённый, приготовленный на гриле",
+          "reason": "Уточнён перевод кулинарного прилагательного ψητός; значение «тушёный» исключено.",
+          "reference_url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%88%CE%B7%CF%84%CF%8C%CF%82&dq="
+        }
+      ]
+    },
+    {
+      "greek": "καθαρός, καθαρή, καθαρό",
+      "russian": "чистый",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 74
+        }
+      ]
+    },
+    {
+      "greek": "βρώμικος, βρώμικη, βρώμικο",
+      "russian": "грязный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 75
+        }
+      ]
+    },
+    {
+      "greek": "τυχερός, -ή, -ό",
+      "russian": "везучий",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 76
+        }
+      ]
+    },
+    {
+      "greek": "παιδικός, -ή, -ό",
+      "russian": "детский",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 77
+        }
+      ],
+      "corrections": [
+        {
+          "field": "greek",
+          "original": "παιδικός, -η, -ο",
+          "corrected": "παιδικός, -ή, -ό",
+          "reason": "Исправлены ударения в окончаниях женского и среднего рода по словарю.",
+          "reference_url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CE%B1%CE%B9%CE%B4%CE%B9%CE%BA%CF%8C%CF%82&dq="
+        }
+      ]
+    },
+    {
+      "greek": "φιλικός, -ή, -ό",
+      "russian": "дружественный, дружелюбный",
+      "sources": [
+        {
+          "set_id": "889378526",
+          "row": 78
+        }
+      ]
+    },
+    {
+      "greek": "η οικογένεια",
+      "russian": "семья",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 1
+        }
+      ]
+    },
+    {
+      "greek": "παντρεμένος, παντρεμένη",
+      "russian": "женат/замужем",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 2
+        }
+      ]
+    },
+    {
+      "greek": "ελεύθερος, ελεύθερη",
+      "russian": "свободный, холостой",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 3
+        }
+      ]
+    },
+    {
+      "greek": "χωρισμένος, χωρισμένη",
+      "russian": "разведенный",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 4
+        }
+      ]
+    },
+    {
+      "greek": "ο άντρας",
+      "russian": "мужчина, муж",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 5
+        }
+      ]
+    },
+    {
+      "greek": "η γυναίκα",
+      "russian": "женщина, жена",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 6
+        }
+      ]
+    },
+    {
+      "greek": "ο πατέρας",
+      "russian": "отец",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 7
+        }
+      ]
+    },
+    {
+      "greek": "ο μπαμπάς",
+      "russian": "папа",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 8
+        }
+      ]
+    },
+    {
+      "greek": "η μητέρα",
+      "russian": "мать",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 9
+        }
+      ]
+    },
+    {
+      "greek": "η μαμά",
+      "russian": "мама",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 10
+        }
+      ]
+    },
+    {
+      "greek": "οι γονείς",
+      "russian": "родители",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 11
+        }
+      ]
+    },
+    {
+      "greek": "ο παππούς",
+      "russian": "дедушка",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 12
+        }
+      ]
+    },
+    {
+      "greek": "η γιαγιά",
+      "russian": "бабушка",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 13
+        }
+      ]
+    },
+    {
+      "greek": "το αγόρι",
+      "russian": "мальчик",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 14
+        }
+      ]
+    },
+    {
+      "greek": "το κορίτσι",
+      "russian": "девочка",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 15
+        }
+      ]
+    },
+    {
+      "greek": "ο γιος",
+      "russian": "сын",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 16
+        }
+      ]
+    },
+    {
+      "greek": "η κόρη",
+      "russian": "дочь",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 17
+        }
+      ]
+    },
+    {
+      "greek": "ο αδελφός",
+      "russian": "брат",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 18
+        }
+      ]
+    },
+    {
+      "greek": "η αδελφή",
+      "russian": "сестра",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 19
+        }
+      ]
+    },
+    {
+      "greek": "τα αδέλφια",
+      "russian": "братья и сестры",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 20
+        }
+      ]
+    },
+    {
+      "greek": "Τα ξαδέρφια",
+      "russian": "Двоюродные братья, сестры",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 21
+        }
+      ]
+    },
+    {
+      "greek": "Τα εγγόνια",
+      "russian": "Внуки, внучки",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 22
+        }
+      ]
+    },
+    {
+      "greek": "Η εγγονή",
+      "russian": "Внучка",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 23
+        }
+      ]
+    },
+    {
+      "greek": "Ο εγγονός",
+      "russian": "Внук",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 24
+        }
+      ]
+    },
+    {
+      "greek": "Η ξαδέλφη",
+      "russian": "Двоюродная сестра",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 25
+        }
+      ]
+    },
+    {
+      "greek": "Ο ξάδερφος",
+      "russian": "Двоюродный брат",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 26
+        }
+      ]
+    },
+    {
+      "greek": "Ο σύζυγος",
+      "russian": "Супруг",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 27
+        }
+      ]
+    },
+    {
+      "greek": "Η σύζυγος",
+      "russian": "Супруга",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 28
+        }
+      ],
+      "corrections": [
+        {
+          "field": "greek",
+          "original": "Η συζυγος",
+          "corrected": "Η σύζυγος",
+          "reason": "Восстановлено ударение в слове σύζυγος.",
+          "reference_url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%83%CF%8D%CE%B6%CF%85%CE%B3%CE%BF%CF%82&dq="
+        }
+      ]
+    },
+    {
+      "greek": "Ο θείος",
+      "russian": "Дядя",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 29
+        }
+      ]
+    },
+    {
+      "greek": "Η θεία",
+      "russian": "Тетя",
+      "sources": [
+        {
+          "set_id": "816123749",
+          "row": 30
+        }
+      ]
+    },
+    {
+      "greek": "Ένα",
+      "russian": "одно (один, средний род)",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 1
+        }
+      ],
+      "numeric_value": 1,
+      "source_translation": "1"
+    },
+    {
+      "greek": "Δύο",
+      "russian": "два",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 2
+        }
+      ],
+      "numeric_value": 2,
+      "source_translation": "2"
+    },
+    {
+      "greek": "Τρία",
+      "russian": "три",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 3
+        }
+      ],
+      "numeric_value": 3,
+      "source_translation": "3"
+    },
+    {
+      "greek": "Τέσσερα",
+      "russian": "четыре",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 4
+        }
+      ],
+      "numeric_value": 4,
+      "source_translation": "4"
+    },
+    {
+      "greek": "Πέντε",
+      "russian": "пять",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 5
+        }
+      ],
+      "numeric_value": 5,
+      "source_translation": "5"
+    },
+    {
+      "greek": "Έξι",
+      "russian": "шесть",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 6
+        }
+      ],
+      "numeric_value": 6,
+      "source_translation": "6"
+    },
+    {
+      "greek": "Εφτά",
+      "russian": "семь",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 7
+        }
+      ],
+      "numeric_value": 7,
+      "source_translation": "7"
+    },
+    {
+      "greek": "Οχτώ",
+      "russian": "восемь",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 8
+        }
+      ],
+      "numeric_value": 8,
+      "source_translation": "8"
+    },
+    {
+      "greek": "Εννέα",
+      "russian": "девять",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 9
+        }
+      ],
+      "numeric_value": 9,
+      "source_translation": "9"
+    },
+    {
+      "greek": "Δέκα",
+      "russian": "десять",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 10
+        }
+      ],
+      "numeric_value": 10,
+      "source_translation": "10"
+    },
+    {
+      "greek": "Έντεκα",
+      "russian": "одиннадцать",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 11
+        }
+      ],
+      "numeric_value": 11,
+      "source_translation": "11"
+    },
+    {
+      "greek": "Δώδεκα",
+      "russian": "двенадцать",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 12
+        }
+      ],
+      "numeric_value": 12,
+      "source_translation": "12"
+    },
+    {
+      "greek": "Είκοσι",
+      "russian": "двадцать",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 13
+        }
+      ],
+      "numeric_value": 20,
+      "source_translation": "20"
+    },
+    {
+      "greek": "Τριάντα",
+      "russian": "тридцать",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 14
+        }
+      ],
+      "numeric_value": 30,
+      "source_translation": "30"
+    },
+    {
+      "greek": "Σαράντα",
+      "russian": "сорок",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 15
+        }
+      ],
+      "numeric_value": 40,
+      "source_translation": "40"
+    },
+    {
+      "greek": "Πενήντα",
+      "russian": "пятьдесят",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 16
+        }
+      ],
+      "numeric_value": 50,
+      "source_translation": "50"
+    },
+    {
+      "greek": "Εξήντα",
+      "russian": "шестьдесят",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 17
+        }
+      ],
+      "numeric_value": 60,
+      "source_translation": "60"
+    },
+    {
+      "greek": "Εβδομήντα",
+      "russian": "семьдесят",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 18
+        }
+      ],
+      "numeric_value": 70,
+      "source_translation": "70"
+    },
+    {
+      "greek": "Ογδόντα",
+      "russian": "восемьдесят",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 19
+        }
+      ],
+      "numeric_value": 80,
+      "source_translation": "80"
+    },
+    {
+      "greek": "Ενενήντα",
+      "russian": "девяносто",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 20
+        }
+      ],
+      "numeric_value": 90,
+      "source_translation": "90"
+    },
+    {
+      "greek": "Εκατό",
+      "russian": "сто",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 21
+        }
+      ],
+      "numeric_value": 100,
+      "source_translation": "100"
+    },
+    {
+      "greek": "Μηδέν",
+      "russian": "ноль",
+      "sources": [
+        {
+          "set_id": "803088534",
+          "row": 22
+        }
+      ],
+      "numeric_value": 0,
+      "source_translation": "0"
+    },
+    {
+      "greek": "κοντός, κοντή, κοντό",
+      "russian": "невысокий, короткий",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 1
+        }
+      ]
+    },
+    {
+      "greek": "γεμάτος, γεμάτη, γεμάτο",
+      "russian": "полный",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 2
+        }
+      ]
+    },
+    {
+      "greek": "παχουλός, παχουλή, παχουλό",
+      "russian": "пухлый",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 3
+        }
+      ]
+    },
+    {
+      "greek": "λεπτός, λεπτή, λεπτό",
+      "russian": "стройный",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 4
+        }
+      ]
+    },
+    {
+      "greek": "αδύνατος, αδύνατη, αδύνατο",
+      "russian": "худой",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 5
+        }
+      ]
+    },
+    {
+      "greek": "κοκαλιάρης, κοκαλιάρα, κοκαλιάρικο",
+      "russian": "костлявый",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 6
+        }
+      ]
+    },
+    {
+      "greek": "φαλακρός, φαλακρή, φαλακρό",
+      "russian": "лысый",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 7
+        }
+      ]
+    },
+    {
+      "greek": "Ξυρισμένος",
+      "russian": "Побритый (о лице)",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 8
+        }
+      ]
+    },
+    {
+      "greek": "Έχει μούσι",
+      "russian": "Есть бородка",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 9
+        }
+      ]
+    },
+    {
+      "greek": "Έχει γένια",
+      "russian": "Есть борода",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 10
+        }
+      ],
+      "corrections": [
+        {
+          "field": "greek",
+          "original": "Έχει γενιά",
+          "corrected": "Έχει γένια",
+          "reason": "Для значения «борода» нужно γένια; γενιά означает «поколение».",
+          "reference_url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%B3%CE%AD%CE%BD%CE%B9&dq="
+        }
+      ]
+    },
+    {
+      "greek": "ίσια μαλλιά",
+      "russian": "Прямые волосы",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 11
+        }
+      ]
+    },
+    {
+      "greek": "χοντρός, χοντρή, χοντρό",
+      "russian": "толстый",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 13
+        }
+      ]
+    },
+    {
+      "greek": "Έχει περιττά κιλά",
+      "russian": "Имеет лишние килограммы",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 14
+        }
+      ]
+    },
+    {
+      "greek": "Έχει μουστάκι",
+      "russian": "Есть усы",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 15
+        }
+      ]
+    },
+    {
+      "greek": "κατσαρά/σγουρά μαλλιά",
+      "russian": "кудрявые",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 16
+        }
+      ]
+    },
+    {
+      "greek": "μακριά μαλλιά",
+      "russian": "длинные волосы",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 17
+        }
+      ]
+    },
+    {
+      "greek": "κοντά μαλλιά",
+      "russian": "короткие волосы",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 18
+        }
+      ]
+    },
+    {
+      "greek": "Σπαστά μαλλιά",
+      "russian": "Волнистые волосы",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 19
+        }
+      ],
+      "corrections": [
+        {
+          "field": "russian",
+          "original": "Распущенные волосы",
+          "corrected": "Волнистые волосы",
+          "reason": "Исправлен перевод сочетания σπαστά μαλλιά: речь о форме волос.",
+          "reference_url": "https://el.wiktionary.org/wiki/σπαστός"
+        }
+      ]
+    },
+    {
+      "greek": "κόκκινα μαλλιά",
+      "russian": "рыжие волосы",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 20
+        }
+      ]
+    },
+    {
+      "greek": "καστανά μάτια",
+      "russian": "карие глаза",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 21
+        }
+      ]
+    },
+    {
+      "greek": "Γαλανά μάτια",
+      "russian": "Голубые глаза",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 22
+        }
+      ]
+    },
+    {
+      "greek": "Γαλάζια μάτια",
+      "russian": "Голубые глаза",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 23
+        }
+      ]
+    },
+    {
+      "greek": "Μαύρα μάτια",
+      "russian": "Черные глаза",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 24
+        }
+      ]
+    },
+    {
+      "greek": "Πράσινα μάτια",
+      "russian": "Зеленые глаза",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 25
+        }
+      ]
+    },
+    {
+      "greek": "Έχει μεγάλη μύτη",
+      "russian": "У него большой нос",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 26
+        }
+      ]
+    },
+    {
+      "greek": "Έχει μικρή μύτη",
+      "russian": "У него маленький нос",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 27
+        }
+      ]
+    },
+    {
+      "greek": "Η σωματική διάπλαση",
+      "russian": "Телосложение",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 28
+        }
+      ]
+    },
+    {
+      "greek": "Κανονικός, κανονική, κανονικό",
+      "russian": "Нормальное (телосложение)",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 29
+        }
+      ]
+    },
+    {
+      "greek": "Τι ύψος έχεις;",
+      "russian": "Какой у тебя рост?",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 30
+        }
+      ]
+    },
+    {
+      "greek": "Είμαι 1,70",
+      "russian": "Мой рост 1,70",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 31
+        }
+      ]
+    },
+    {
+      "greek": "Πόσα κιλά είσαι;",
+      "russian": "Сколько ты весишь?",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 32
+        }
+      ],
+      "corrections": [
+        {
+          "field": "greek",
+          "original": "Ποσά κιλά είσαι;",
+          "corrected": "Πόσα κιλά είσαι;",
+          "reason": "Исправлено ударение в вопросительном слове πόσα.",
+          "reference_url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%80%CF%8C%CF%83%CE%BF%CF%82&dq="
+        }
+      ]
+    },
+    {
+      "greek": "Είμαι 60 κιλά",
+      "russian": "Мой вес 60 кг",
+      "sources": [
+        {
+          "set_id": "920766939",
+          "row": 33
+        }
+      ]
+    },
+    {
+      "greek": "Έλληνας",
+      "russian": "грек",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 1
+        }
+      ]
+    },
+    {
+      "greek": "Ποια είναι η εθνικότητα σου/σας;",
+      "russian": "Кто вы/ты по национальности?",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 2
+        }
+      ]
+    },
+    {
+      "greek": "Ελληνίδα",
+      "russian": "гречанка",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 3
+        }
+      ]
+    },
+    {
+      "greek": "Ρώσος",
+      "russian": "русский",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 4
+        }
+      ]
+    },
+    {
+      "greek": "Ρωσίδα",
+      "russian": "русская",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 5
+        }
+      ]
+    },
+    {
+      "greek": "Ελβετός",
+      "russian": "швейцарец",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 6
+        }
+      ]
+    },
+    {
+      "greek": "Ελβετίδα",
+      "russian": "швейцарка",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 7
+        }
+      ]
+    },
+    {
+      "greek": "Κινέζος",
+      "russian": "китаец",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 8
+        }
+      ]
+    },
+    {
+      "greek": "Κινέζα",
+      "russian": "китаянка",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 9
+        }
+      ]
+    },
+    {
+      "greek": "Γιαπωνέζος",
+      "russian": "японец",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 10
+        }
+      ]
+    },
+    {
+      "greek": "Γιαπωνέζα",
+      "russian": "японка",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 11
+        }
+      ]
+    },
+    {
+      "greek": "Πολωνή, Πολωνέζα",
+      "russian": "полячка",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 12
+        }
+      ]
+    },
+    {
+      "greek": "Πολωνός",
+      "russian": "поляк",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 13
+        }
+      ]
+    },
+    {
+      "greek": "Τούρκος",
+      "russian": "турок",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 14
+        }
+      ]
+    },
+    {
+      "greek": "Τουρκάλα",
+      "russian": "турчанка",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 15
+        }
+      ]
+    },
+    {
+      "greek": "Αιγύπτιος",
+      "russian": "египтянин",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 16
+        }
+      ]
+    },
+    {
+      "greek": "Αιγύπτια",
+      "russian": "египтянка",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 17
+        }
+      ]
+    },
+    {
+      "greek": "Ουκρανός",
+      "russian": "украинец",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 18
+        }
+      ]
+    },
+    {
+      "greek": "Ουκρανή",
+      "russian": "украинка",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 19
+        }
+      ]
+    },
+    {
+      "greek": "Ισπανός",
+      "russian": "испанец",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 20
+        }
+      ]
+    },
+    {
+      "greek": "Ισπανίδα",
+      "russian": "испанка",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 21
+        }
+      ]
+    },
+    {
+      "greek": "Αυστραλός",
+      "russian": "австралиец",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 22
+        }
+      ]
+    },
+    {
+      "greek": "Αυστραλέζα",
+      "russian": "австралийка",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 23
+        }
+      ]
+    },
+    {
+      "greek": "Αλβανός",
+      "russian": "албанец",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 24
+        }
+      ]
+    },
+    {
+      "greek": "Αλβανή , Αλβανίδα",
+      "russian": "албанка",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 25
+        }
+      ]
+    },
+    {
+      "greek": "Γάλλος",
+      "russian": "француз",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 26
+        }
+      ]
+    },
+    {
+      "greek": "Γαλλίδα",
+      "russian": "француженка",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 27
+        }
+      ]
+    },
+    {
+      "greek": "Γερμανός",
+      "russian": "немец",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 28
+        }
+      ]
+    },
+    {
+      "greek": "Γερμανίδα",
+      "russian": "немка",
+      "sources": [
+        {
+          "set_id": "889377441",
+          "row": 29
+        }
+      ]
+    },
+    {
+      "greek": "Ο καθηγητής/η καθηγήτρια",
+      "russian": "Профессор",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 1
+        }
+      ],
+      "editorial_note": "В карточке дан перевод «Профессор». В учебных контекстах καθηγητής/καθηγήτρια также означает преподаватель/учитель; исходный перевод сохранён."
+    },
+    {
+      "greek": "Ο πωλητής/η πωλήτρια",
+      "russian": "Продавец",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 2
+        }
+      ]
+    },
+    {
+      "greek": "Ο κομμωτής/η κομμώτρια",
+      "russian": "Парикмахер",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 3
+        }
+      ]
+    },
+    {
+      "greek": "Ο γυμναστής/η γυμνάστρια",
+      "russian": "Гимнаст,тренер",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 4
+        }
+      ]
+    },
+    {
+      "greek": "Ο τραγουδιστής/η τραγουδίστρια",
+      "russian": "Певец",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 5
+        }
+      ]
+    },
+    {
+      "greek": "Ο δάσκαλος/η δασκάλα",
+      "russian": "Учитель",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 6
+        }
+      ]
+    },
+    {
+      "greek": "Ο νοσοκόμος/η νοσοκόμα",
+      "russian": "Медбрат,медсестра",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 7
+        }
+      ]
+    },
+    {
+      "greek": "Ο σερβιτόρος/η σερβιτόρα",
+      "russian": "Официант",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 8
+        }
+      ]
+    },
+    {
+      "greek": "Ο μάγειρας/η μαγείρισσα",
+      "russian": "Повар",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 9
+        }
+      ],
+      "corrections": [
+        {
+          "field": "greek",
+          "original": "Ο μάγειρας/η μαγειρισσα",
+          "corrected": "Ο μάγειρας/η μαγείρισσα",
+          "reason": "Восстановлен пропущенный знак ударения; нормативная форма явно напечатана в учебном материале на текущем Holst board. Исходная карточка сохранена в raw snapshot.",
+          "source_url": "https://quizlet.com/ru/805813890/%CF%84%CE%B1-%CE%B5%CF%80%CE%B1%CE%B3%CE%B3%CE%AD%CE%BB%CE%BC%CE%B1%CF%84%CE%B1-%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%B8-flash-cards/?i=41ygik&x=1jqY",
+          "source_row": 9,
+          "reference": {
+            "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+            "assetPath": "assets/files/4ced5e8c-9e8f-4bbb-a3d0-89376f1b6200.png"
+          }
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η δικηγόρος",
+      "russian": "Юрист",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 10
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η γιατρός",
+      "russian": "Врач",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 11
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η μηχανικός",
+      "russian": "Механик,инженер",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 12
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η δημοσιογράφος",
+      "russian": "Журналист",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 13
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η φαρμακοποιός",
+      "russian": "Фармацевт",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 14
+        }
+      ],
+      "corrections": [
+        {
+          "field": "greek",
+          "original": "Ο/η φαρμακοποιος",
+          "corrected": "Ο/η φαρμακοποιός",
+          "reason": "Восстановлен пропущенный знак ударения; нормативная форма явно напечатана в учебном материале на текущем Holst board. Исходная карточка сохранена в raw snapshot.",
+          "source_url": "https://quizlet.com/ru/805813890/%CF%84%CE%B1-%CE%B5%CF%80%CE%B1%CE%B3%CE%B3%CE%AD%CE%BB%CE%BC%CE%B1%CF%84%CE%B1-%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%B8-flash-cards/?i=41ygik&x=1jqY",
+          "source_row": 14,
+          "reference": {
+            "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+            "assetPath": "assets/files/4ced5e8c-9e8f-4bbb-a3d0-89376f1b6200.png"
+          }
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η ηθοποιός",
+      "russian": "Актер",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 15
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η αρχαιολόγος",
+      "russian": "Археолог",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 16
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η υπάλληλος",
+      "russian": "Сотрудник",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 17
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η φωτογράφος",
+      "russian": "Фотограф",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 18
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η αρχιτέκτονας",
+      "russian": "Архитектор",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 19
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η γραμματέας",
+      "russian": "Секретарь",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 20
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η οικονομολόγος",
+      "russian": "Экономист",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 21
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η επιχειρηματίας",
+      "russian": "Предприниматель",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 22
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η φιλόλογος",
+      "russian": "Филолог",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 23
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η ταμίας",
+      "russian": "Кассир",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 24
+        }
+      ]
+    },
+    {
+      "greek": "Ο ηλεκτρολόγος",
+      "russian": "Электрик",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 25
+        }
+      ]
+    },
+    {
+      "greek": "Ο αθλητής/η αθλήτρια",
+      "russian": "Спортсмен,спортсменка",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 26
+        }
+      ]
+    },
+    {
+      "greek": "Ο/η οδηγός",
+      "russian": "Водитель",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 27
+        }
+      ]
+    },
+    {
+      "greek": "Ο φοιτητής/η φοιτήτρια",
+      "russian": "Студент,студентка",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 28
+        }
+      ]
+    },
+    {
+      "greek": "Ο μαθητής/η μαθήτρια",
+      "russian": "Ученик,ученица",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 29
+        }
+      ],
+      "corrections": [
+        {
+          "field": "greek",
+          "original": "Ο μαθητής/η μαθητρια",
+          "corrected": "Ο μαθητής/η μαθήτρια",
+          "reason": "Восстановлен пропущенный знак ударения; нормативная форма явно напечатана в учебном материале на текущем Holst board. Исходная карточка сохранена в raw snapshot.",
+          "source_url": "https://quizlet.com/ru/805813890/%CF%84%CE%B1-%CE%B5%CF%80%CE%B1%CE%B3%CE%B3%CE%AD%CE%BB%CE%BC%CE%B1%CF%84%CE%B1-%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%B8-flash-cards/?i=41ygik&x=1jqY",
+          "source_row": 29,
+          "reference": {
+            "board_id": "104854fd-07d7-4366-8f03-ac49c4bc6b2e",
+            "assetPath": "assets/files/1cf2132c-ee7f-4684-a701-fb67e4ca082c.png"
+          }
+        }
+      ]
+    },
+    {
+      "greek": "Ο άνεργος/η άνεργη",
+      "russian": "Безработный,безработная",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 30
+        }
+      ]
+    },
+    {
+      "greek": "Ο αυτοαπασχολούμενος/η αυτοαπασχολούμενη",
+      "russian": "Самозанятый,самозанятая",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 31
+        }
+      ]
+    },
+    {
+      "greek": "Ο φοιτητής",
+      "russian": "Студент",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 32
+        }
+      ]
+    },
+    {
+      "greek": "Η φοιτήτρια",
+      "russian": "Студентка",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 33
+        }
+      ]
+    },
+    {
+      "greek": "Τι δουλειά κάνεις;",
+      "russian": "Кем ты работаешь?",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 34
+        }
+      ]
+    },
+    {
+      "greek": "Τι δουλειά κάνετε;",
+      "russian": "Кем вы работаете?",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 35
+        }
+      ]
+    },
+    {
+      "greek": "Τι είσαι;",
+      "russian": "Кто ты по профессии?",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 36
+        }
+      ]
+    },
+    {
+      "greek": "Τι είστε;",
+      "russian": "Кто вы по профессии?",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 37
+        }
+      ]
+    },
+    {
+      "greek": "Τι σπουδάζεις;",
+      "russian": "На кого учишься?",
+      "sources": [
+        {
+          "set_id": "805813890",
+          "row": 38
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-11-07T16:50:17.655859+00:00"
+}
