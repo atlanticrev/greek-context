@@ -1,0 +1,42 @@
+# Dependencies and builds
+node_modules/
+dist/
+.venv/
+venv/
+
+# Private board data, profiles, generated learning material and downloads
+data/
+output/
+*.holst
+downloads/
+browser-profile/
+browser-snapshots/
+storage-state*.json
+auth-state*.json
+*.mp3
+*.wav
+*.mp4
+*.mov
+
+# Personal plans are kept locally, apart from the reusable application
+docs/language-learning/
+
+# Environment and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+client_secret*.json
+*.local.json
+
+# Tool caches and local reports
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.mypy_cache/
+coverage/
+*.log
+.DS_Store
