@@ -12,9 +12,13 @@ This repository extracts a Holst board into local, inspectable learning evidence
 - Build: `npm run build`
 - CLI during development: `npm run dev -- <command>`
 
-## Personal Holst board sync
+## Repository skills
 
-When asked to sync the user's Greek Holst board, follow `docs/codex-browser-sync.md`. Prefer the connected authenticated Chrome session plus `import-latest`; do not ask the user to export a file manually and do not inspect browser cookies or tokens.
+- Board/context updates and new source-audio transcription: `.agents/skills/greek-holst-context-sync/SKILL.md`.
+- Greek–Russian Quizlet imports: `.agents/skills/greek-quizlet-vocabulary/SKILL.md`.
+- Newly authored listening texts and local audio: `.agents/skills/greek-listening-practice/SKILL.md`.
+
+Keep the workflows, schemas and detailed commands in those skills and their references. Prefer the connected authorized Chrome session plus `import-latest` for Holst; do not ask for a manual export when that workflow is available or inspect browser cookies/tokens.
 
 ## Data safety
 
@@ -32,7 +36,7 @@ When asked to sync the user's Greek Holst board, follow `docs/codex-browser-sync
 
 ## Greek audio preferences
 
-- User preference: always use local LFM3-Audio for Greek synthesis (`lfm3-audio:2b-q8_0` on this machine). Do not select Qwen/Serena, macOS voices, or another model unless the user explicitly changes this preference.
+- Project default: use local LFM3-Audio for Greek synthesis (`lfm3-audio:2b-q8_0`). Do not select Qwen/Serena, system voices, or another model unless the user explicitly changes this preference. A compatible local service and installed models are prerequisites; the repository does not bundle them.
 - Dialogue audio uses two distinct Greek voice presets: `male-greek` and `female-greek`. Assign voices to roles explicitly and keep each role's voice fixed throughout the dialogue; never switch voices by sentence or blindly alternate transcript lines.
 - Synthesize spoken turns separately, preserve their order, and join them into one audio per dialogue with natural pauses and consistent loudness. Use clear articulation at a normal conversational pace.
 - Store role scripts, separate turns, assembled MP3/WAV and quality checks under private `data/listening-generated/`, apart from the source reference library.
@@ -40,7 +44,7 @@ When asked to sync the user's Greek Holst board, follow `docs/codex-browser-sync
 
 ## New listening practice
 
-- For recurring generation requests, use the installed `greek-listening-practice` skill at `~/.codex/skills/greek-listening-practice/SKILL.md` and `scripts/greek-listening-practice.py`.
+- For recurring generation requests, use the repository's `.agents/skills/greek-listening-practice/SKILL.md` and `scripts/greek-listening-practice.py`.
 - Create genuinely new texts by default. Source lessons are references for the studied topics, grammar and vocabulary, not scripts to re-record. Re-record a source text only when the user explicitly asks for it.
 - A newly generated monologue has exactly one speaking role and one LFM Greek voice. A newly generated dialogue has exactly two speaking roles and two distinct LFM Greek voices, permanently assigned. Do not introduce extra characters with speaking turns or share one voice between the two roles.
 - Use the current board learner profile, `data/vocabulary/greek-russian.json`, and the reviewed listening-reference library. Prefer practiced material and revision; do not expand grammar or add new lexical items unless the user asks. Ordinary inflected forms of studied words are allowed after editorial review and must be documented when not attested in the source corpus.

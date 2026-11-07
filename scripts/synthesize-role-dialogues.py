@@ -8,25 +8,70 @@ from datetime import datetime, timezone
 import hashlib
 import io
 import json
+import os
 from pathlib import Path
 import re
+import shutil
 import subprocess
+import sys
 import time
 import unicodedata
 import urllib.request
 
-import numpy as np
-import soundfile as sf
-
 ROOT = Path(__file__).resolve().parents[1]
 MODEL = "lfm3-audio:2b-q8_0"
-FFMPEG = "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg"
-WHISPER = "/opt/homebrew/bin/whisper-cli"
-ASR_MODEL = Path.home() / "Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin"
+LEGACY_FFMPEG = "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg"
+LEGACY_WHISPER = "/opt/homebrew/bin/whisper-cli"
+DEFAULT_ASR_MODEL = Path.home() / "Library/Caches/greek-context/whisper.cpp/ggml-large-v3.bin"
+np = None
+sf = None
 PROFILE = {"name": "natural-conversation-two-voices-v2", "tempo": 1.0,
            "pause_seconds": 0.35, "scene_pause_seconds": 1.4,
            "exterior_speech_padding_ms": 100, "edge_fade_ms": 5,
            "bounded_turn_rms_target": 0.1, "loudnorm": "I=-18:TP=-1.5:LRA=11"}
+
+
+def load_audio_dependencies():
+    global np, sf
+    if np is None or sf is None:
+        try:
+            import numpy as numpy_module
+            import soundfile as soundfile_module
+        except ImportError as error:
+            raise RuntimeError(
+                "Missing Python audio dependencies. In your Python environment run: "
+                f"{sys.executable} -m pip install numpy soundfile"
+            ) from error
+        np, sf = numpy_module, soundfile_module
+
+
+def resolve_executable(value, environment, command, legacy):
+    configured = value or os.environ.get(environment)
+    if configured:
+        expanded = os.path.expanduser(str(configured))
+        path = shutil.which(expanded)
+        if path:
+            return path
+        raise ValueError(f"Executable not found: {configured}. Set --{command} or {environment} to an executable path.")
+    path = shutil.which(command)
+    if path:
+        return path
+    if Path(legacy).is_file() and os.access(legacy, os.X_OK):
+        return legacy
+    raise ValueError(f"Missing {command}. Install it on PATH or set --{command} /path/to/{command} ({environment}).")
+
+
+def resolve_tools(ffmpeg=None, whisper_cli=None, asr_model=None, check_asr=False):
+    tools = {"ffmpeg": resolve_executable(ffmpeg, "GREEK_CONTEXT_FFMPEG", "ffmpeg", LEGACY_FFMPEG)}
+    if check_asr:
+        tools["whisper_cli"] = resolve_executable(
+            whisper_cli, "GREEK_CONTEXT_WHISPER_CLI", "whisper-cli", LEGACY_WHISPER)
+        model = Path(asr_model or os.environ.get("GREEK_CONTEXT_ASR_MODEL") or DEFAULT_ASR_MODEL).expanduser()
+        if not model.is_file():
+            raise ValueError("Missing Whisper ggml model. Pass --asr-model /path/to/ggml-large-v3.bin "
+                             "or set GREEK_CONTEXT_ASR_MODEL to your installed model.")
+        tools["asr_model"] = str(model.resolve())
+    return tools
 
 
 def read(path):
@@ -68,6 +113,7 @@ def word_distance(a, b):
 
 
 def prepare_turn(audio, rate):
+    load_audio_dependencies()
     audio = np.asarray(audio, dtype=np.float32)
     if audio.ndim == 2:
         audio = audio.mean(axis=1)
@@ -88,7 +134,8 @@ def prepare_turn(audio, rate):
     return audio, gain
 
 
-def render(script_path, endpoint, model_digest, check_asr):
+def render(script_path, endpoint, model_digest, check_asr, tools):
+    load_audio_dependencies()
     script = read(script_path)
     directory = script_path.parent
     parts = directory / "parts"
@@ -193,10 +240,10 @@ def render(script_path, endpoint, model_digest, check_asr):
     native = directory / "native-assembled.wav"
     sf.write(native, np.concatenate(sequence), sample_rate, subtype="PCM_16")
     final = directory / f"{stem}.wav"
-    subprocess.run([FFMPEG, "-nostdin", "-v", "error", "-y", "-i", str(native),
+    subprocess.run([tools["ffmpeg"], "-nostdin", "-v", "error", "-y", "-i", str(native),
                     "-af", "loudnorm=" + PROFILE["loudnorm"], "-ar", "24000", "-ac", "1",
                     "-c:a", "pcm_s16le", str(final)], check=True)
-    subprocess.run([FFMPEG, "-nostdin", "-v", "error", "-y", "-i", str(final),
+    subprocess.run([tools["ffmpeg"], "-nostdin", "-v", "error", "-y", "-i", str(final),
                     "-c:a", "libmp3lame", "-q:a", "2", str(final.with_suffix(".mp3"))], check=True)
     audio, rate = sf.read(final, dtype="float32")
     manifest["result"] = {"mp3": final.with_suffix(".mp3").name, "wav": final.name,
@@ -208,9 +255,9 @@ def render(script_path, endpoint, model_digest, check_asr):
         qa = directory / "qa"
         qa.mkdir(exist_ok=True)
         qa_audio = qa / "input-16k.wav"
-        subprocess.run([FFMPEG, "-nostdin", "-v", "error", "-y", "-i", str(final),
+        subprocess.run([tools["ffmpeg"], "-nostdin", "-v", "error", "-y", "-i", str(final),
                         "-ar", "16000", "-ac", "1", "-c:a", "pcm_s16le", str(qa_audio)], check=True)
-        command = [WHISPER, "-m", str(ASR_MODEL), "-f", str(qa_audio), "-l", "el", "-t", "8",
+        command = [tools["whisper_cli"], "-m", tools["asr_model"], "-f", str(qa_audio), "-l", "el", "-t", "8",
                    "-bs", "5", "-bo", "5", "-mc", "0", "-sns", "-otxt", "-oj", "-of", str(qa / "whisper")]
         with (qa / "whisper.log").open("w") as log:
             subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, check=True)
@@ -233,14 +280,28 @@ def main():
     parser.add_argument("scripts", type=Path, nargs="+")
     parser.add_argument("--ollama-url", default="http://127.0.0.1:11435")
     parser.add_argument("--check-asr", action="store_true")
+    parser.add_argument("--ffmpeg", help="Executable path/name; otherwise GREEK_CONTEXT_FFMPEG or PATH")
+    parser.add_argument("--whisper-cli", help="Executable path/name; otherwise GREEK_CONTEXT_WHISPER_CLI or PATH")
+    parser.add_argument("--asr-model", type=Path, help="Installed Whisper ggml model; otherwise GREEK_CONTEXT_ASR_MODEL")
     args = parser.parse_args()
-    info = request_json(args.ollama_url + "/api/show", {"model": MODEL})
-    if not {"male-greek", "female-greek"}.issubset(info.get("voices", [])):
-        raise RuntimeError("The installed LFM model does not expose both Greek voices")
-    models = request_json(args.ollama_url + "/api/tags")["models"]
-    model_digest = next(item["digest"] for item in models if item["name"] == MODEL)
+    try:
+        tools = resolve_tools(args.ffmpeg, args.whisper_cli, args.asr_model, args.check_asr)
+        load_audio_dependencies()
+    except (ValueError, RuntimeError) as error:
+        parser.error(str(error))
+    endpoint = args.ollama_url.rstrip("/")
+    try:
+        info = request_json(endpoint + "/api/show", {"model": MODEL})
+        if not {"male-greek", "female-greek"}.issubset(info.get("voices", [])):
+            raise ValueError(f"Model {MODEL} must expose male-greek and female-greek voices")
+        models = request_json(endpoint + "/api/tags")["models"]
+        model_digest = next(item["digest"] for item in models if item["name"] == MODEL)
+    except (OSError, ValueError, KeyError, TypeError, StopIteration) as error:
+        parser.error(f"LFM speech service at {endpoint} is unavailable or incompatible: {error}. "
+                     "Configure --ollama-url with a local service exposing /api/show, /api/tags "
+                     "and /v1/audio/speech for the required LFM model and Greek voices.")
     for path in args.scripts:
-        render(path.resolve(), args.ollama_url.rstrip("/"), model_digest, args.check_asr)
+        render(path.resolve(), endpoint, model_digest, args.check_asr, tools)
 
 
 if __name__ == "__main__":

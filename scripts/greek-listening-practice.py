@@ -190,7 +190,7 @@ def validate(draft_path):
     return draft, report
 
 
-def render(draft_path, endpoint):
+def render(draft_path, endpoint, ffmpeg=None, whisper_cli=None, asr_model=None):
     draft, report = validate(draft_path)
     if not report["ok"]:
         return report
@@ -204,8 +204,12 @@ def render(draft_path, endpoint):
             ("Диалог двух персонажей: каждому назначен свой постоянный голос LFM." if draft["format"] == "dialogue" else "Монолог: один постоянный голос LFM."),
         "validation_sha256": sha(directory / "validation.json")}
     save(directory / "script.json", script)
-    subprocess.run([sys.executable, str(ROOT / "scripts/synthesize-role-dialogues.py"),
-                    str(directory / "script.json"), "--ollama-url", endpoint, "--check-asr"], check=True)
+    command = [sys.executable, str(ROOT / "scripts/synthesize-role-dialogues.py"),
+               str(directory / "script.json"), "--ollama-url", endpoint, "--check-asr"]
+    for option, value in [("--ffmpeg", ffmpeg), ("--whisper-cli", whisper_cli), ("--asr-model", asr_model)]:
+        if value is not None:
+            command.extend([option, str(value)])
+    subprocess.run(command, check=True)
     manifest = read(directory / "manifest.json")
     context = read(ROOT / draft["context_path"])
     skills = {s["skillId"]: s for s in context["skills"]}
@@ -238,13 +242,16 @@ def main():
         item.add_argument("draft", type=Path)
         if command == "render":
             item.add_argument("--ollama-url", default="http://127.0.0.1:11435")
+            item.add_argument("--ffmpeg", help="ffmpeg executable path/name; or GREEK_CONTEXT_FFMPEG")
+            item.add_argument("--whisper-cli", help="whisper.cpp executable path/name; or GREEK_CONTEXT_WHISPER_CLI")
+            item.add_argument("--asr-model", type=Path, help="Whisper ggml model; or GREEK_CONTEXT_ASR_MODEL")
     args = parser.parse_args()
     if args.command == "context":
         result = build_context(args.output.resolve())
     elif args.command == "validate":
         _, result = validate(args.draft.resolve())
     else:
-        result = render(args.draft.resolve(), args.ollama_url)
+        result = render(args.draft.resolve(), args.ollama_url, args.ffmpeg, args.whisper_cli, args.asr_model)
     print(json.dumps(result, ensure_ascii=False, indent=2), flush=True)
     if result.get("ok") is False:
         raise SystemExit(1)
